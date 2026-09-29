@@ -23,7 +23,8 @@ jobs:
       - name: Install
         run: |
           python -m pip install -U pip
-          python -m pip install -e ".[dev]" 2>/dev/null || python -m pip install -e . pytest
+          python -m pip install -e ".[dev]"
+          python -m pip install pillow pytest
       - name: L0 schemas + L1 unit tests
         run: python -m pytest -q
       - name: Registry presence
