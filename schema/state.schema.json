@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/state.schema.json",
+  "title": "IconServiceState",
+  "type": "object",
+  "required": ["service_id", "updated_at"],
+  "additionalProperties": false,
+  "properties": {
+    "service_id": { "type": "string" },
+    "source_fingerprint": { "type": ["string", "null"] },
+    "object_hash": { "type": ["string", "null"] },
+    "variant_hashes": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "source_class": { "type": ["string", "null"] },
+    "lifecycle": {
+      "type": "string",
+      "enum": ["active", "deprecated", "replaced", "withdrawn", "orphaned"],
+      "default": "active"
+    },
+    "last_checked": { "type": ["string", "null"] },
+    "last_failure_code": { "type": ["string", "null"] },
+    "updated_at": { "type": "string" }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/logical-manifest.schema.json",
+  "title": "LogicalManifest",
+  "type": "object",
+  "required": ["schema_version", "services"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "demand_ref": { "type": "string" },
+    "services": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["service_id", "required_variants"],
+        "properties": {
+          "service_id": { "type": "string" },
+          "required_variants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["style", "size", "format"],
+              "properties": {
+                "style": { "type": "string" },
+                "size": { "type": "integer" },
+                "format": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+score_rules_version: "1"
+source_priority:
+  manual_review: 1000
+  curated_seed: 900
+  official_svg: 800
+  official_page: 700
+  third_party_allowlist: 500
+  low_res_favicon: 100
+  placeholder: 0
+quality:
+  vector: 200
+  native_256: 100
+  native_512: 150
+  upscaled: -300
+  unknown: -500
+max_upscale: 1.0
+min_source_px: 96

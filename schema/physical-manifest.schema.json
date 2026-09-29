@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/physical-manifest.schema.json",
+  "title": "PhysicalManifest",
+  "type": "object",
+  "required": ["schema_version", "release_id", "content_hash", "entries"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "release_id": { "type": "string" },
+    "content_hash": { "type": "string" },
+    "policy_snapshot": { "type": "string" },
+    "renderer_version": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "coverage_real": { "type": "number" },
+    "coverage_placeholder": { "type": "number" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["service_id", "status"],
+        "properties": {
+          "service_id": { "type": "string" },
+          "object_hash": { "type": ["string", "null"] },
+          "variants": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "variant_hash": { "type": "string" },
+                "path": { "type": "string" },
+                "style": { "type": "string" },
+                "size": { "type": "integer" }
+              }
+            }
+          },
+          "status": { "type": "string", "enum": ["active", "placeholder", "gone", "orphaned"] },
+          "source_class": { "type": ["string", "null"] },
+          "distribution_policy": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/demand.schema.json",
+  "title": "IconDemand",
+  "type": "object",
+  "required": ["schema_version", "defaults"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "defaults": {
+      "type": "object",
+      "required": ["styles", "sizes", "format"],
+      "properties": {
+        "styles": { "type": "array", "items": { "type": "string" } },
+        "sizes": { "type": "array", "items": { "type": "integer" } },
+        "format": { "type": "string", "enum": ["png", "svg"] }
+      }
+    },
+    "services": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "styles": { "type": "array", "items": { "type": "string" } },
+          "sizes": { "type": "array", "items": { "type": "integer" } }
+        }
+      }
+    }
+  }
+}

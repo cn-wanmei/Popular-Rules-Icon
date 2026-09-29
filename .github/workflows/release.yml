@@ -1,0 +1,22 @@
+name: Release (placeholder)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type release to enable (future)"
+        required: true
+        default: "no"
+
+jobs:
+  gate:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Freeze reminder
+        run: |
+          echo "Release job will publish physical manifest + dist in R3."
+          echo "ADR-Freeze-Rev.3.1: no mass Release assets; URL=/v/{variant_hash}"
+          test -f docs/ADR-Freeze-Rev.3.1.md

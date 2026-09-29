@@ -1,0 +1,23 @@
+name: Incremental (placeholder)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+concurrency:
+  group: icon-state
+  cancel-in-progress: false
+
+jobs:
+  note:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Placeholder
+        run: |
+          echo "R1+ incremental acquire not fully wired to network yet."
+          echo "L1 fixture path is covered by pr-ci.yml"
+          python -m pytest -q || (python -m pip install pytest && PYTHONPATH=src python -m pytest -q)

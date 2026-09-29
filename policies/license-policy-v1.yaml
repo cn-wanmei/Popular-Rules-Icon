@@ -1,0 +1,5 @@
+policy_id: license-policy-v1
+default_distribution: mirror_conditional
+blocked_usage_basis: [unknown]
+require_notice: true
+takedown_enabled: true

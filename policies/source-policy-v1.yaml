@@ -1,0 +1,5 @@
+policy_id: source-policy-v1
+allow_private_ip: false
+max_redirects: 3
+max_bytes: 5242880
+allowed_schemes: [https]

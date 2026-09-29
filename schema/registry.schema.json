@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/registry.schema.json",
+  "title": "IconRegistryService",
+  "type": "object",
+  "required": ["service_id", "name", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "service_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "domains": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "aliases": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "renamed_from": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "category": { "type": "string" },
+    "asset_class": { "type": "string", "enum": ["brand", "generic", "region"], "default": "brand" },
+    "tier": { "type": "integer", "minimum": 0, "maximum": 2, "default": 1 },
+    "status": { "type": "string", "enum": ["active", "deprecated", "withdrawn"] },
+    "composition_hint": { "type": "string", "enum": ["glyph", "app_icon"] },
+    "lock": { "type": "string", "enum": ["none", "service", "binding", "variant"], "default": "none" },
+    "store_ids": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "notes": { "type": "string" }
+  }
+}

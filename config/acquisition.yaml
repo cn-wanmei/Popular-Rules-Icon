@@ -1,0 +1,4 @@
+stop_download_on_acceptable: true
+reprobe_higher_authority_ttl_hours: 168
+manual_review_immutable_without_approval: true
+app_store_mode: curated_seed_only

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://popular-rules.local/schema/failure-codes.schema.json",
+  "title": "FailureCodes",
+  "type": "string",
+  "enum": [
+    "SOURCE_404",
+    "SOURCE_TIMEOUT",
+    "SVG_UNSAFE",
+    "HASH_MISMATCH",
+    "LICENSE_BLOCK",
+    "QUALITY_FAIL",
+    "RENDER_FAIL",
+    "SSRF_BLOCKED",
+    "UNKNOWN"
+  ]
+}

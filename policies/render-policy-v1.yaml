@@ -1,0 +1,7 @@
+policy_id: render-policy-v1
+renderer_version: "0.1.0"
+max_upscale: 1.0
+styles:
+  source_original:
+    applies_to: [glyph, app_icon]
+  # decorative styles only for glyph — reserved for later
