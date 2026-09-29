@@ -1,8 +1,8 @@
 {
-  "service_id": "jingdong",
-  "name": "京东",
+  "service_id": "tmall",
+  "name": "天猫",
   "domains": [
-    "jd.com"
+    "tmall.com"
   ],
   "aliases": [],
   "renamed_from": [],
@@ -11,5 +11,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Curated App Store/brand hires; reviewer may replace"
+  "notes": "Interim App Store icon (天猫 - 好品牌，好价格，上天猫); reviewer may replace"
 }

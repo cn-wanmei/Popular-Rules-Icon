@@ -108,3 +108,64 @@ sources:
   paypal:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/04/3c/a8043c56-a7b6-f98b-ccf8-85768c9cef4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  huawei:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/e0/82/ece082f4-9550-5f36-0682-322b08b5b8be/healthlogo_app_release-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  xiaomi:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/28/c4/e328c4ce-6fb1-2cf9-39b9-3e93b61997b3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  meituan:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/7c/56/f97c56ea-ddcb-7fe0-66aa-97d5f481ef62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  pinduoduo:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/8d/11/2b8d11cc-2553-fbb7-0b84-458132f00c5a/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  iqiyi:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/05/b8/6f05b8c1-3f9f-325f-9433-300e3c77287f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  tencentvideo:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/95/24/e395244a-10a0-09bb-30df-54434911eb69/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  qq:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/ad/b6/04adb647-777c-85e3-83ed-979ea46484bf/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  tmall:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/9c/f7/7f9cf771-5b6c-8096-4ca1-3297d74840f6/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  eleme:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/1a/8a/bf1a8ade-77a0-d667-d7d8-c590343de98a/AppIcon_new-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  ctrip:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/05/98/ce05983d-b80e-1d98-803c-d14c386aa6f2/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  netease_music:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/fc/91/31fc91b8-c30b-e00f-2add-0aa3f12322b3/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  kuaishou:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/45/88/524588cc-ba64-a9ec-393a-b6718a85ab03/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  linkedin:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/11/39/c61139de-74e6-2017-cf6c-f8b2faada08a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  pinterest:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/76/28/a3762853-1519-fb46-e927-ef783025ba61/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  ebay:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/85/27/868527c7-b63f-3413-d60c-706e6f5080e1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  airbnb:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/3e/b4/c03eb4d2-6051-2bdc-ee63-a76449fe05c5/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  uber:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/4b/39/744b39ab-c800-cd5d-cc6e-b4c8b6de5717/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  shopify:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/25/27/0525271e-c537-8f4c-8359-8f8a8254722a/AppIcon-com.jadedpixel.shopify-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  adobe:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/2a/0f/062a0f0c-0ea3-0a73-0f18-6a47af526475/ReleaseAppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  samsung:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/f1/35/49f135d4-db99-4f98-1f24-413d40389f87/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+

@@ -1,0 +1,15 @@
+{
+  "service_id": "tencentvideo",
+  "name": "腾讯视频",
+  "domains": [
+    "v.qq.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Interim App Store icon (腾讯视频-沈腾携《现在就出发4》爆笑回归); reviewer may replace"
+}

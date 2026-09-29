@@ -1,6 +1,6 @@
 {
   "service_id": "weibo",
-  "name": "\u5fae\u535a",
+  "name": "微博",
   "domains": [
     "weibo.com"
   ],
