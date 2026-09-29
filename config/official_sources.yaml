@@ -1,42 +1,65 @@
-# High-res curated sources (App Store 400px JPG/WEBP + official brand assets)
-# Priority: app_store / official_hires over favicon
+# Curated high-res sources. Reviewers may replace any URL.
+# Prefer App Store 512 artwork (curated_seed) over favicon.
 schema_version: "1"
 sources:
   github:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/b6/42/f5b6428d-341e-f35d-9b18-adc4ca362510/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/b6/42/f5b6428d-341e-f35d-9b18-adc4ca362510/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   google:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/10/53/ca105375-b161-cf23-acb9-aa3cbf4b0a29/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/10/53/ca105375-b161-cf23-acb9-aa3cbf4b0a29/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   apple:
     candidates:
       - { url: "https://www.apple.com.cn/homepage/built/images/wechat/open_graph_logo.png", source_class: official_hires }
   microsoft:
     candidates:
-      - { url: "https://msftstories.thesourcemediaassets.com/2022/05/Microsoft-logo_rgb_c-wht-1536x688.png", source_class: official_hires }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/08/a5/3808a55e-0441-0d74-4172-8118e7a275ca/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   openai:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f6/83/7ff6832a-72ec-d628-282d-e9510fe85377/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f6/83/7ff6832a-72ec-d628-282d-e9510fe85377/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   cloudflare:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/80/f7/c5/80f7c5d2-a597-de2d-83b1-99a2c434f438/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.JPG", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/80/f7/c5/80f7c5d2-a597-de2d-83b1-99a2c434f438/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.webp", source_class: curated_seed }
   telegram:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   discord:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/43/6f/3f436fa5-0358-07c1-e7b0-ba796f1f906a/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/43/6f/3f436fa5-0358-07c1-e7b0-ba796f1f906a/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   wechat:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/6a/85/cf6a857e-2d4b-5015-d398-17009fc9c4ef/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/6a/85/cf6a857e-2d4b-5015-d398-17009fc9c4ef/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
   alipay:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/04/0d/e9040dff-777f-ea95-93f6-accc2d860790/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/04/0d/e9040dff-777f-ea95-93f6-accc2d860790/Placeholder.mill/400x400bb-75.webp", source_class: curated_seed }
+  netflix:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/76/f9/cd76f98c-0811-0a8c-7587-715d38832dc9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  spotify:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/b0/e6/fdb0e66d-165c-aa66-ac6b-1ee1e01911e8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  youtube:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/86/1c/77861cb6-0f87-5220-d6a5-5f11c8fcad7f/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  twitter:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/ad/3b/acad3b41-25dd-c82d-39e9-e39ddf0b9877/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  instagram:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  amazon:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f8/aa/fcf8aa9c-d478-3a42-ca8c-1c5b9d3896af/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  meta:
+    candidates:
+      # Facebook iOS app icon as interim Meta group mark (reviewer may replace)
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/d2/9f/4ad29fa6-ac86-66b9-3c9e-2c9950173431/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  nvidia:
+    candidates:
+      - { url: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-p@2x.png", source_class: official_hires }
+  tiktok:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/7c/88/b07c88d8-0314-7b8b-7ab0-788e7059074b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  reddit:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/ea/a5/d4eaa5bf-752c-c993-d8a3-e8c7e66a9f34/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }

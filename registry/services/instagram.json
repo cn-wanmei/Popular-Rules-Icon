@@ -9,6 +9,7 @@
   "asset_class": "brand",
   "tier": 0,
   "status": "active",
-  "lock": "none",
-  "composition_hint": "glyph"
+  "lock": "binding",
+  "composition_hint": "glyph",
+  "notes": "Auto-curated App Store/brand hires; reviewer may replace"
 }

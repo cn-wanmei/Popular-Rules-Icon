@@ -1,4 +1,4 @@
-production: icon-2026.09.29.3
-rollback: icon-2026.09.29.2
-updated_at: "2026-09-29T11:38:04Z"
-note: "PNG delivery variants 128/256 + hires App Store sources; registry expanded to 20"
+production: icon-2026.09.29.4
+rollback: icon-2026.09.29.3
+updated_at: "2026-09-29T11:46:01Z"
+note: "20-service hires canary; App Store 512/400 + brand assets; PNG 128/256 delivery"
