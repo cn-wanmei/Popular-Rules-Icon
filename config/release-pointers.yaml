@@ -1,2 +1,4 @@
-production: null
+production: icon-2026.09.29.1
 rollback: null
+updated_at: "2026-09-29T10:56:25Z"
+note: "R3 canary release after R1 10-service acquire"

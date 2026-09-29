@@ -1,0 +1,33 @@
+schema_version: "1"
+sources:
+  github:
+    candidates:
+      - { url: "https://github.githubassets.com/favicons/favicon.svg", source_class: official_svg }
+  google:
+    candidates:
+      - { url: "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png", source_class: official_hires }
+  apple:
+    candidates:
+      - { url: "https://www.apple.com/favicon.ico", source_class: official_page }
+  microsoft:
+    candidates:
+      - { url: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31", source_class: official_hires }
+  openai:
+    candidates:
+      - { url: "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico", source_class: official_page }
+  cloudflare:
+    candidates:
+      - { url: "https://www.cloudflare.com/favicon.ico", source_class: official_page }
+  telegram:
+    candidates:
+      - { url: "https://telegram.org/img/t_logo.svg", source_class: official_svg }
+  discord:
+    candidates:
+      - { url: "https://discord.com/assets/favicon.ico", source_class: official_page }
+  wechat:
+    candidates:
+      - { url: "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico", source_class: official_page }
+  alipay:
+    candidates:
+      - { url: "https://t.alipayobjects.com/images/T1HHFgXXVeXXXXXXXX.png", source_class: official_hires }
+      - { url: "https://www.alipay.com/favicon.ico", source_class: official_page }
