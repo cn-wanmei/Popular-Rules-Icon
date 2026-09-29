@@ -10,7 +10,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/10/53/ca105375-b161-cf23-acb9-aa3cbf4b0a29/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
   apple:
     candidates:
-      - { url: "https://www.apple.com.cn/homepage/built/images/wechat/open_graph_logo.png", source_class: official_hires }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
   microsoft:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/08/a5/3808a55e-0441-0d74-4172-8118e7a275ca/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -110,10 +110,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/04/3c/a8043c56-a7b6-f98b-ccf8-85768c9cef4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   huawei:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/e0/82/ece082f4-9550-5f36-0682-322b08b5b8be/healthlogo_app_release-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/37/43/ec37432d-7419-c809-3f52-d08b2715b204/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   xiaomi:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/28/c4/e328c4ce-6fb1-2cf9-39b9-3e93b61997b3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/aa/e5/52aae52c-a0f6-2762-1bcf-8e3ec4da3e7b/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
   meituan:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/7c/56/f97c56ea-ddcb-7fe0-66aa-97d5f481ef62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -164,10 +164,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/25/27/0525271e-c537-8f4c-8359-8f8a8254722a/AppIcon-com.jadedpixel.shopify-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   adobe:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/2a/0f/062a0f0c-0ea3-0a73-0f18-6a47af526475/ReleaseAppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/44/2b/c4442bdc-3955-4337-e423-b89edcd8322e/AppIconSpark-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   samsung:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/f1/35/49f135d4-db99-4f98-1f24-413d40389f87/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/4d/47/774d47a6-cea1-f677-0ff6-348e97583648/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   dianping:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/27/f0/7227f0d5-e50d-d756-8508-1b112cd8ab7c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -254,7 +254,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/1f/c9/de1fc9f1-2ce1-2c7c-e89c-8e033feefb6f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   icloud:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/bc/f9/44bcf963-33b5-d21b-8913-088c4eabdf69/mailCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://raw.githubusercontent.com/simple-icons/simple-icons/11.4.0/icons/icloud.svg", source_class: third_party_allowlist }
   office:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/94/ed/6994ed6d-80ae-35ff-3451-b9d8b81412b4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }

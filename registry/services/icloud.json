@@ -11,5 +11,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "VERIFY: lookup may have mismatched app; replace if wrong"
+  "notes": "Simple Icons iCloud glyph (no dedicated consumer App Store icon; reviewer may replace)"
 }

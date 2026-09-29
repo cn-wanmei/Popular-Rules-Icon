@@ -1,21 +1,22 @@
-# Canary review — 113 services (`icon-2026.09.29.7`)
+# Canary review — 113 services (icon6-fix)
 
-## 命名变更
-
-- **eleme → taobao_flash（淘宝闪购）**：饿了么业务已并入淘宝闪购；`eleme` 保留为 alias / renamed_from。
-
-## 审阅说明
-
-不合适请提供 `service_id` + 新图片 URL。下列可能需重点看：`icloud`（可能误匹配 Mail）、`office`/`skype`/`huawei`/`xiaomi`/`adobe`/`samsung` 等。
+## Recent fixes
+- xiaomi → 小米商城
+- adobe → Adobe Express
+- amazon → Amazon Shopping
+- apple → Apple Store
+- huawei → 华为商城
+- samsung → Shop Samsung
+- icloud → official-style cloud glyph PNG (manual seed)
 
 | service | native_px | class | preview |
 |---|---:|---|---|
 | 12306 | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/da6c454044df181e44b85c90e7e3d3290a1ed4acd5582a2f0d81090aaa76e3f5.png) |
-| adobe | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/d537672593407146e16077b3e98db8e0a2e1e097e47e34daaaea66986ec8813e.png) |
+| adobe | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/7982eacc18dd9e00dae240d7a56fd7219cabeccc748228798a742a4cd08862eb.png) |
 | airbnb | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/87b35a1a5165219e19fd1c8f215bd685bb6f5753a637ab1dfe5a5958d24acd88.png) |
 | alipay | 400 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/5bf586f30c2de9f00e01992e48bfcae48b1156cd5b4c989f123030f0afc282cf.png) |
 | amazon | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/9770b9904012d2a425f6115fb78b544607b998ba7d66acfa1bf68b76a574047e.png) |
-| apple | 400 | official_hires | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/27209d452924c1b11e6fc8297cbbd9d11914053bdc725461d022194685b1d8a0.png) |
+| apple | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/6a4a9732a1b737b46003738c366efa9faa69e3a8d59bab7316a453de6f0f62f4.png) |
 | baidu | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/c193fc15acd2d7d96c11500290c1903bec338abcdbabf280a7b663b450ef63b6.png) |
 | baidumap | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/74f835c5d71a1a928b783e1bb311978e54cf6eadf67cb699a696bf12314d7e1f.png) |
 | bilibili | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/82210f70de6eb329a103c52103f25393f22b22dba14c7624fbe03d81b6633987.png) |
@@ -53,10 +54,10 @@
 | gmail | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/6b09a6185825d37d32b69c1cdca219e4100c38ef719249c0f4f59017636aa6d2.png) |
 | google | 400 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/e45e0485f5ec3a2b7b9667169710099b4a70a84aa17630b18e242bdff89169c9.png) |
 | hellobike | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/66825ad9e4e9e06f4d39c2712d66e88fae9344ae7ebebe54b08279f7773a15a4.png) |
-| huawei | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/b0141767000bb7ce3ba8ffe200290690123ad1bf860c477b105c8627c849457c.png) |
+| huawei | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/17b9fed0508e088a1db9ca4e5e78ac6f572cf1e601822900ce844889989165d9.png) |
 | hulu | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/18af85fbdbedaf1f44e78ac756952d36505898d111b9de4d82e3e21a14b1c965.png) |
 | icbc | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/421a390d8628c5cbbf2144627a70a622df321bc8098089913cda1af09a220fa4.png) |
-| icloud | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/5cdacfd7f1f355f1c2db9eab4961866ac531beab331dba70380f4c66157f0154.png) |
+| icloud | 512 | manual_review | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/1e245cbd5e9c09668f4548285da4bbdf41ab231ecc57f78f1d7b01f35043aeec.png) |
 | instagram | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/9e783566d3c62913bd4e87f101b4d4d92853c7d5934fad78ecc7dbc4c755199a.png) |
 | iqiyi | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/798ba0cb40f23dd3ca3f999777f5e7beddd89a64d90de6884718f085ab54ad94.png) |
 | jingdong | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/aa89dd3438ceb366ba6db4d410305a46de18d22def7532b1526bca37832ced89.png) |
@@ -87,7 +88,7 @@
 | primevideo | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/ae6e84831846d75b0560440166575dae3bc215fdd8a5ec6bb418b8f22c06f142.png) |
 | qq | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/d03ebd3433c5e2208c3631b3e320fa052440592ddd13367ab7b1e5451ac8b277.png) |
 | reddit | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/b6c7f0b2862c770b54a00052fb508df90bb69edf545c882d68de62f9fe005008.png) |
-| samsung | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/905d6902d26c9c29f2e6d011e30f1e8f4145a3d8e6dbf0c6ea5705140b8e1a8b.png) |
+| samsung | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/4094cab74c004a5f4dd7b6dae7c84514fdff6c701f0fbf2500a295b89e093f91.png) |
 | sfexpress | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/975c906e445b8b861e7802bfc618ac6d77c9a5e3ffc4e75127714d5abb802b8f.png) |
 | shopify | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/977d977bc8718cf03d0ff2134bb85707a9326080608ac18d7cde0614dca94d5d.png) |
 | skype | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/bdc5eea8c4d73a1333f739a33cae850121f81699d1650d1210b1820e460a1d33.png) |
@@ -116,7 +117,7 @@
 | whatsapp | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/46b636debcf7135bd511d2ee7af5ed3978bb88c2ce79fe122c1f96a884483905.png) |
 | wps | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/a710428d7450aea8d510f4d54205f38f27dc072c9adba2a277f70ab823ffb04a.png) |
 | xianyu | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/629a561d8dcd64da3f3d94d3f4db12b55405a5deb931be813eb4f34e791afb01.png) |
-| xiaomi | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/2e3848b0389a2921e288808e6a52bf5c1884e863c81db892f49290bd7d040619.png) |
+| xiaomi | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/71107d2cd61feb0ac976846c456652b25329fc0df5cc044dd9b430e4e9cff502.png) |
 | ximalaya | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/6627756540442f6f1efde17966b00c5a634032dbdc71e6a1ad703d20b5442e8c.png) |
 | yelp | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/e6c9367f89c07e42374d3756ad37183062c487e693dea5fbe990a975f45e9bc5.png) |
 | youku | 512 | curated_seed | [256](https://cdn.jsdelivr.net/gh/cn-wanmei/Popular-Rules-Icon@dist/v/40a718b1195fe18d50d2c4dcfe5ab62b4706f5fd1fac8806464b8052f17c4e47.png) |
