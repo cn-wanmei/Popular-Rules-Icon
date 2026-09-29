@@ -1,0 +1,13 @@
+{
+  "service_id": "youdao",
+  "name": "网易有道词典-专业查词翻译学习助手",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: 网易有道词典-专业查词翻译学习助手; REVIEW REQUIRED"
+}

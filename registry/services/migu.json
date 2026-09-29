@@ -1,0 +1,13 @@
+{
+  "service_id": "migu",
+  "name": "咪咕视频-上咪咕看WTT",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: 咪咕视频-上咪咕看WTT; REVIEW REQUIRED"
+}

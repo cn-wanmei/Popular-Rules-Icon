@@ -1,0 +1,13 @@
+{
+  "service_id": "ulysses",
+  "name": "Ulysses: Writing App",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: Ulysses: Writing App; REVIEW REQUIRED"
+}

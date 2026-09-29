@@ -1,0 +1,13 @@
+{
+  "service_id": "baiduwenku",
+  "name": "百度文库-全能AI内容获取及创作",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: 百度文库-全能AI内容获取及创作; REVIEW REQUIRED"
+}

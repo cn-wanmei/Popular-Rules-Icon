@@ -1,0 +1,13 @@
+{
+  "service_id": "pptv",
+  "name": "PP视频-海量电视剧电影综艺视频高清播放",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: PP视频-海量电视剧电影综艺视频高清播放; REVIEW REQUIRED"
+}

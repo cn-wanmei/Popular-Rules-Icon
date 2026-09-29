@@ -1,0 +1,13 @@
+{
+  "service_id": "bitwarden",
+  "name": "Bitwarden Password Manager",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: Bitwarden Password Manager; REVIEW REQUIRED"
+}

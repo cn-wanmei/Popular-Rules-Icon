@@ -1,0 +1,13 @@
+{
+  "service_id": "walmart",
+  "name": "Walmart: Shopping & Savings",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: Walmart: Shopping & Savings; REVIEW REQUIRED"
+}

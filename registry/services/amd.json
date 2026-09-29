@@ -1,0 +1,13 @@
+{
+  "service_id": "amd",
+  "name": "AMD Link | Radeon™ RX 7000 GPU",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: AMD Link | Radeon™ RX 7000 GPU; REVIEW REQUIRED"
+}

@@ -1,4 +1,4 @@
-production: icon-2026.09.29.8
-rollback: icon-2026.09.29.7
-updated_at: "2026-09-29T12:17:34Z"
-note: "Fix xiaomi/adobe/amazon/apple/huawei/icloud/samsung icons"
+production: icon-2026.09.29.9
+rollback: icon-2026.09.29.8
+updated_at: "2026-09-29T12:29:22Z"
+note: "247 services expansion; RISK_REVIEW for human pass before freeze"

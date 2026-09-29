@@ -1,0 +1,13 @@
+{
+  "service_id": "autohome",
+  "name": "汽车之家-5亿人都在用的汽车App",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: 汽车之家-5亿人都在用的汽车App; REVIEW REQUIRED"
+}

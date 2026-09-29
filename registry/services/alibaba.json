@@ -1,0 +1,13 @@
+{
+  "service_id": "alibaba",
+  "name": "阿里巴巴(1688)-货源批发采购进货市场",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: 阿里巴巴(1688)-货源批发采购进货市场; REVIEW REQUIRED"
+}

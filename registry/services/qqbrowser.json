@@ -1,0 +1,13 @@
+{
+  "service_id": "qqbrowser",
+  "name": "QQ浏览器-腾讯AI浏览器",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "Auto App Store: QQ浏览器-腾讯AI浏览器; REVIEW REQUIRED"
+}
