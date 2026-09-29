@@ -31,6 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--services", required=True, help="comma-separated service ids")
     s.add_argument("--out-state", required=True)
     s.add_argument("--out-objects", default="")
+    s.add_argument("--out-variants", default="")
     s.set_defaults(func=cmd_acquire_canary)
 
     s = sub.add_parser("build-manifest", help="R3: physical manifest from state dir")
@@ -82,6 +83,7 @@ def cmd_acquire_canary(args: argparse.Namespace) -> int:
         service_ids=ids,
         out_state=Path(args.out_state),
         out_objects=Path(args.out_objects) if args.out_objects else None,
+        out_variants=Path(args.out_variants) if args.out_variants else None,
     )
     print(json.dumps(summary, indent=2, ensure_ascii=False))
     return 0 if not summary.get("failed") else 1

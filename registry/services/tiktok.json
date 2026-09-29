@@ -1,0 +1,14 @@
+{
+  "service_id": "tiktok",
+  "name": "TikTok",
+  "domains": [
+    "tiktok.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "none",
+  "composition_hint": "glyph"
+}

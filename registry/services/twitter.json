@@ -1,0 +1,17 @@
+{
+  "service_id": "twitter",
+  "name": "X (Twitter)",
+  "domains": [
+    "twitter.com",
+    "x.com"
+  ],
+  "aliases": [],
+  "renamed_from": [
+    "twitter"
+  ],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "none",
+  "composition_hint": "glyph"
+}
