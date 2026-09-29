@@ -1,4 +1,4 @@
-production: icon-2026.09.29.1
-rollback: null
-updated_at: "2026-09-29T10:56:25Z"
-note: "R3 canary release after R1 10-service acquire"
+production: icon-2026.09.29.2
+rollback: icon-2026.09.29.1
+updated_at: "2026-09-29T11:30:05Z"
+note: "R1 hires refresh: App Store 400px JPG/WEBP + official brand assets"

@@ -1,0 +1,23 @@
+# Source and delivery formats (Icon 6.0)
+allowed_source_mime:
+  - image/svg+xml
+  - image/png
+  - image/jpeg
+  - image/webp
+  - image/x-icon
+  - image/vnd.microsoft.icon
+preferred_source_order:
+  - image/png
+  - image/jpeg
+  - image/webp
+  - image/svg+xml
+default_delivery:
+  format: png   # clients; source_original may keep native jpg/png/webp/svg on dist
+  sizes: [128, 256]
+min_source_px: 96
+preferred_source_px: 400
+max_upscale: 1.0
+notes: |
+  JPG/WEBP are first-class acquisition formats (e.g. App Store 400x400).
+  Delivery to proxy clients should still prefer PNG when embedding is required.
+  Do not upscale below-native sources beyond max_upscale.

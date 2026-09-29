@@ -33,7 +33,7 @@ def fetch_url(
     except SSRFError as exc:
         return FetchResult(ok=False, failure_code=exc.code, error=str(exc))
 
-    req = urllib.request.Request(url, method="GET", headers={"User-Agent": "Popular-Rules-Icon/0.1"})
+    req = urllib.request.Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0 (compatible; Popular-Rules-Icon/0.1)"})
     if etag:
         req.add_header("If-None-Match", etag)
     if last_modified:

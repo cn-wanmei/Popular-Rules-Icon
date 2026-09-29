@@ -84,7 +84,17 @@ def acquire_canary(
                 policy_version=POLICY_VERSION,
             )
             if out_objects:
-                ext = "svg" if is_svg else "bin"
+                ct = (fr.content_type or "").lower()
+                if is_svg:
+                    ext = "svg"
+                elif "jpeg" in ct or "jpg" in ct or data[:3] == b"\xff\xd8\xff":
+                    ext = "jpg"
+                elif "png" in ct or data[:8] == b"\x89PNG\r\n\x1a\n":
+                    ext = "png"
+                elif "webp" in ct or data[:4] == b"RIFF":
+                    ext = "webp"
+                else:
+                    ext = "bin"
                 (out_objects / f"{oh}.{ext}").write_bytes(data)
             state = {
                 "service_id": sid,
