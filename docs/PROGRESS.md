@@ -1,10 +1,9 @@
 # Progress
 
-| Phase | Status |
-|-------|--------|
-| R0–R4 | done |
-| 20-service hires canary | **done** (icon-2026.09.29.4) |
-| PNG 128/256 delivery | done |
-| R5 default cutover | pending reviewer acceptance |
+| Item | Status |
+|------|--------|
+| CI L0–L1 | fixed (Pillow dependency) |
+| Services with icons | **35** (icon-2026.09.29.5) |
+| R5 cutover | pending review |
 
-See `docs/CANARY_REVIEW.md` for previews and source URLs.
+See docs/CANARY_REVIEW.md

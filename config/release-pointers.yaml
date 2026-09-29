@@ -1,4 +1,4 @@
-production: icon-2026.09.29.4
-rollback: icon-2026.09.29.3
-updated_at: "2026-09-29T11:46:01Z"
-note: "20-service hires canary; App Store 512/400 + brand assets; PNG 128/256 delivery"
+production: icon-2026.09.29.5
+rollback: icon-2026.09.29.4
+updated_at: "2026-09-29T11:50:39Z"
+note: "35-service hires canary; CI pillow fix; PNG delivery"

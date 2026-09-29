@@ -63,3 +63,48 @@ sources:
   reddit:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/ea/a5/d4eaa5bf-752c-c993-d8a3-e8c7e66a9f34/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  bilibili:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/a3/40/9fa34060-e9fa-feec-41c5-007b09c4ae83/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  taobao:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/f9/04/01f90491-bd6c-1458-da24-aa644bb83154/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  jingdong:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/37/e7/e637e7c9-bea1-b9fc-2b80-04edb021083d/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  baidu:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/19/62/0f196241-b161-cdd1-81a2-b67f986d9d67/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  douyin:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/b7/f2/4db7f24d-f39c-b291-c880-8afd5d93a1a4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  weibo:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/4d/6f/154d6f05-868c-942c-78a7-8f07026fa49c/WeiboAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  zhihu:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/8d/64/b48d64a1-e72e-9cae-8b20-2721bcb059a9/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  steam:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/e1/8d/1de18df0-9f13-4bdb-728a-ddc7ecaf9849/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  whatsapp:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/08/2d/54082dca-2973-b8b7-5481-a6299244b8c6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  zoom:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/db/26/6edb2659-ba47-1968-f869-19cb59cb11f3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  dropbox:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/8f/bd/e98fbd4d-f432-bfab-c1a9-f727008290ff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  notion:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/5b/34/c05b3493-4ffd-dff4-547c-d37f7d421e40/AppIconProd-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  slack:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/87/63/c387636e-03de-eedc-cdee-38d1b2106073/slack_icon_prod-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  twitch:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/93/59/d79359be-7e13-44ac-547b-09a443bf5f8c/TwitchAppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  paypal:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/04/3c/a8043c56-a7b6-f98b-ccf8-85768c9cef4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
