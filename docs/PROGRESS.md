@@ -6,11 +6,19 @@
 | R0.2 | done | schema/*, config/*, policies/* |
 | R0.3 | done | registry 10 services, state branch |
 | R0.4 | done | fixtures, pytest, pr-ci |
-| R1 | partial | sanitize, SSRF, acquire.fetch_url; no mass net canary in CI |
-| R2 | partial | score, lock helpers; curated seed process is manual SOP |
-| R3 | partial | physical manifest builder; dist publish job placeholder |
-| R4 | pending | Collection shadow |
-| R5 | pending | default cutover |
-| R6+ | deferred | Merkle, OCR, etc. per freeze |
+| R1 | **done** | acquire-canary: 10/10 ok; state branch updated |
+| R2 | **done** | seeds in assets/icons/seed; registry lock=binding |
+| R3 | **done** | dist branch icon-2026.09.29.1; production pointer set |
+| R4 | **done** | Collection config/icon_v6.yaml (provider default v5) |
+| R5 | pending | default cutover after shadow acceptance |
+| R6+ | deferred | per Architecture Freeze |
 
-Last update: 2026-09-29
+## R1 canary result (2026-09-29)
+
+All 10: github, google, apple, microsoft, openai, cloudflare, telegram, discord, wechat, alipay — acquired.
+
+## Pointers
+
+- Icon `state` branch: services/*.json
+- Icon `dist` branch: v/, objects/, manifests/icon-2026.09.29.1.json
+- Collection: config/icon_v6.yaml provider=v5 (shadow ready)
