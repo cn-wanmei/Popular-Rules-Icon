@@ -1,0 +1,15 @@
+{
+  "service_id": "square",
+  "name": "Square",
+  "domains": [
+    "squareup.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (Square Point of Sale (POS)); reviewer may replace"
+}

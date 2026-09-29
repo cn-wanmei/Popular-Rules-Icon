@@ -1,4 +1,4 @@
-production: icon-2026.09.29.6
-rollback: icon-2026.09.29.5
-updated_at: "2026-09-29T11:58:50Z"
-note: "55-service hires canary wave2 (CN+global)"
+production: icon-2026.09.29.7
+rollback: icon-2026.09.29.6
+updated_at: "2026-09-29T12:04:58Z"
+note: "113 services; eleme renamed to taobao_flash (淘宝闪购)"

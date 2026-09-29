@@ -1,0 +1,15 @@
+{
+  "service_id": "icloud",
+  "name": "iCloud",
+  "domains": [
+    "icloud.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "VERIFY: lookup may have mismatched app; replace if wrong"
+}

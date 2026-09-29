@@ -1,0 +1,15 @@
+{
+  "service_id": "canva",
+  "name": "Canva",
+  "domains": [
+    "canva.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (Canva AI Photo & Video Editor); reviewer may replace"
+}

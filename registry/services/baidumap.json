@@ -1,8 +1,8 @@
 {
-  "service_id": "eleme",
-  "name": "饿了么",
+  "service_id": "baidumap",
+  "name": "百度地图",
   "domains": [
-    "ele.me"
+    "map.baidu.com"
   ],
   "aliases": [],
   "renamed_from": [],
@@ -11,5 +11,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Interim App Store icon (淘宝闪购-点外卖更优惠); reviewer may replace"
+  "notes": "App Store interim (百度地图-想出门，先问百度地图); reviewer may replace"
 }

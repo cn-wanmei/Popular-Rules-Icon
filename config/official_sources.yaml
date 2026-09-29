@@ -132,7 +132,7 @@ sources:
   tmall:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/9c/f7/7f9cf771-5b6c-8096-4ca1-3297d74840f6/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
-  eleme:
+  taobao_flash:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/1a/8a/bf1a8ade-77a0-d667-d7d8-c590343de98a/AppIcon_new-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
   ctrip:
@@ -168,4 +168,178 @@ sources:
   samsung:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/f1/35/49f135d4-db99-4f98-1f24-413d40389f87/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  dianping:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/27/f0/7227f0d5-e50d-d756-8508-1b112cd8ab7c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  keep:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/12/09/0d1209da-4d07-e1bb-02c6-d82001f10e36/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  boss:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/99/42/ab99422a-8afa-86e4-deb8-f8e7996a890f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  lianjia:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/70/69/4e7069e5-d576-cabb-a874-038ca0bec299/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  xianyu:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/94/6c/10946c03-0307-c6ec-d7dc-c3ee6c7dbbaf/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  ximalaya:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/e1/68/bfe1687f-0b36-efcf-6427-d4e174d13c84/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  youku:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/e5/93/dfe5939f-bb8d-f358-0627-4bd32dcda759/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  mgtv:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/e2/cc/40e2cc8e-a1d0-84f2-0d07-4dad9eb1a07c/AppIcon-0-0-1x_U007ephone-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  bilibili_manga:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/a8/7b/01a87b70-f719-a312-86eb-b4217c66b314/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  gaode:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/0d/b7/3d0db700-cb0f-62e2-aa78-6e7a7341cba2/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  baidumap:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c6/35/14c6352b-031f-c43b-9105-f3d543e6875d/appIconLiquid-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  didi:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/cf/ff/20cfff66-44b7-73d4-696e-d95fe9f611c7/AppIcon_default-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  hellobike:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/4a/76/6f4a762d-940f-0ed8-ee7c-65cc64d63588/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  sfexpress:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/c3/5b/d4c35beb-fb9c-f55d-db60-8487701cd35a/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  cainiao:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/7f/81/7a7f817e-184b-3ec6-b8d0-492a15419dd2/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  wps:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/37/c9/a537c9b1-7b08-609e-4de2-dc7d4112da7b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  feishu:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/f8/ca/94f8cad1-6fe1-9258-adc2-d01d31ad92fa/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  dingtalk:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/70/18/017018c5-7aec-5a4d-4c1a-8ccb51a84bd0/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  wework:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/82/4b/37824b8d-b335-c13b-fe78-84496ea917b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  netease_mail:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/2d/4f/ac2d4ffc-f481-f3aa-cbff-65a7ebc9c04c/AppIconStore-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  12306:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/05/62/ad056221-9f87-c034-ce27-00c21a921bf3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  unionpay:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/12/18/9b121847-ff76-5ebf-62fd-1b8a6a346222/AppIcon-0-1x_U007ephone-0-1-0-sRGB-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  cmb:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/de/de/06dedefb-0618-e2ad-b262-35a0a6ede3f4/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  icbc:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/6e/49/c96e4981-d3a9-f9d0-cff5-4d36135fdc3b/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  gmail:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/e2/23/91e223e2-0de8-367b-ae90-5bb895662760/gmail_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  drive:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/7e/b2/b77eb26a-5d8c-fefa-82b1-da8c49b19f8d/drive_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  maps:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/3d/88/673d887a-0001-c7d0-0ca2-fc8cd73a9ded/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  chrome:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/1f/c9/de1fc9f1-2ce1-2c7c-e89c-8e033feefb6f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  icloud:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/bc/f9/44bcf963-33b5-d21b-8913-088c4eabdf69/mailCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  office:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/94/ed/6994ed6d-80ae-35ff-3451-b9d8b81412b4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  outlook:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ec/c6/81ecc693-62f5-2bbd-b8ff-efd5bb322ddd/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  onedrive:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/49/8e/17498e22-559b-1dbc-089d-6203026abc38/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  teams:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/ff/e0/ecffe051-af85-edee-02da-88b89319ad81/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  skype:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/27/ee/b327ee1f-d14c-6650-21cf-71294902677e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  github_mobile:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/a9/bd/1ea9bd40-50de-3b12-4c9e-e5a32fe7886f/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  gitlab:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/04/fb/1204fb19-f444-a711-6317-b5f4619513fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg", source_class: curated_seed }
+  bitbucket:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/52/81/c4/5281c49f-9271-d37c-c711-40a6c4a0559e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  jira:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/23/bd/0e23bdbc-a026-20dc-5814-bb4fa4357ff2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  confluence:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1d/34/2b1d3454-8e2d-6141-a822-9ea35090cf02/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  figma:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/ba/eb/a4baeb71-2781-550a-7e4a-b28281212ddf/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+  canva:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/ea/e2/99eae2c4-6d6f-43cf-28e0-59a3cb625ede/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  openai_chat:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/97/93/ca9793c1-b8fe-eb04-9933-c8796a9f1578/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  claude:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/89/a5/1c89a53e-032b-cb5a-b1e5-e3227c749811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  gemini:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/b1/22/7bb122bd-3f0a-2663-88ec-c3c6d32ee880/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  deepseek:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/2f/a3/442fa386-e9bc-da3c-4d0c-7f5ad8186b7e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  binance:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/16/6a/2e166a61-3c21-19a1-0e0b-433d7ce3ce2e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  coinbase:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/2a/93/6f2a9371-7da6-5d87-48a6-189319ce460c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  stripe:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/78/92/e9789280-94ec-e743-8e7e-e7312f543784/Icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  square:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/11/85/c7118565-f7cc-8a73-0208-7eec1f2f50d4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  booking:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/06/be/9806bed9-20ce-a87f-d7cb-dddd399f32e1/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/512x512bb.jpg", source_class: curated_seed }
+  tripadvisor:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/bc/89/acbc899c-731b-0e71-1743-a72bbed17341/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  yelp:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/d5/d9/fad5d93e-ea60-ccee-42cc-799f0304cf8a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  soundcloud:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/68/d0/8768d031-540a-c635-525b-b19ddec4a972/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  tidal:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/86/f2/8286f20a-c3d4-9251-474e-63e26a9e3b94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  hulu:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/56/7a/04567ab3-2c25-7fd2-8bf7-8ba83cce3a76/HuluAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  disneyplus:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/a3/33/5aa333ba-cc14-bead-a8e5-4345b87cc887/AppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  primevideo:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/ae/4c/36ae4c07-4a4d-8870-d7bc-e4329b9fe281/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+  max:
+    candidates:
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/a6/10/54a61045-95b0-4368-3aa0-77ecad9f5dd5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
 

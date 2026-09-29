@@ -1,0 +1,15 @@
+{
+  "service_id": "cmb",
+  "name": "招商银行",
+  "domains": [
+    "cmbchina.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (招商银行); reviewer may replace"
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "icbc",
+  "name": "工商银行",
+  "domains": [
+    "icbc.com.cn"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (中国工商银行); reviewer may replace"
+}

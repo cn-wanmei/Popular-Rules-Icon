@@ -1,0 +1,16 @@
+{
+  "service_id": "xianyu",
+  "name": "闲鱼",
+  "domains": [
+    "goofish.com",
+    "2.taobao.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (闲鱼 - 上闲鱼，赚一笔 !); reviewer may replace"
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "primevideo",
+  "name": "Prime Video",
+  "domains": [
+    "primevideo.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (Amazon Prime Video); reviewer may replace"
+}

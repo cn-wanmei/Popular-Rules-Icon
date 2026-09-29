@@ -1,0 +1,16 @@
+{
+  "service_id": "feishu",
+  "name": "飞书",
+  "domains": [
+    "feishu.cn",
+    "larksuite.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (飞书 - 字节跳动旗下 AI 工作平台); reviewer may replace"
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "keep",
+  "name": "Keep",
+  "domains": [
+    "gotokeep.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (Keep - AI 运动教练); reviewer may replace"
+}

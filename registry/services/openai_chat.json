@@ -1,0 +1,16 @@
+{
+  "service_id": "openai_chat",
+  "name": "ChatGPT",
+  "domains": [
+    "chatgpt.com",
+    "chat.openai.com"
+  ],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 0,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "app_icon",
+  "notes": "App Store interim (ChatGPT); reviewer may replace"
+}
