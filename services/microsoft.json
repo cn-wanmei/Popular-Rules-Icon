@@ -1,0 +1,15 @@
+{
+  "service_id": "microsoft",
+  "source_fingerprint": "82fbda931e05c4578a2864cfc3345e95655b9bec1188fb71aecfad25bc243ea9",
+  "object_hash": "112fec798b78aa02e102a724b5cb1990c0f909bc1d8b7b1fa256eab41bbc0960",
+  "variant_hashes": {
+    "source_original:256:png": "ff7fe3316445f75f334f65530cfde13acc34b93f477c254f1c6eb15b3705ef35"
+  },
+  "source_class": "official_hires",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+  "status": 200
+}

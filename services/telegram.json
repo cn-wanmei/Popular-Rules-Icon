@@ -1,0 +1,15 @@
+{
+  "service_id": "telegram",
+  "source_fingerprint": "2d95528344b42adce197861104336ff9d3ca2bb01644cccc1d544d7d21c53f9b",
+  "object_hash": "f31925d2ff36f3db80f45a50f794a5e371883333689eb09dcfac2171fb08c1a6",
+  "variant_hashes": {
+    "source_original:256:svg": "0cd64a887547d72b48b06d14a72601bd710311a80caac6a7299a17208d13396d"
+  },
+  "source_class": "official_svg",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://telegram.org/img/t_logo.svg",
+  "status": 200
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "apple",
+  "source_fingerprint": "fc1f9dd44873faf418a183c2f240817c91288cae686f6f09f1413d678006f6b7",
+  "object_hash": "5493c61cf725cf3a1d63cd9d07de75b0d6faa5564e772f7d0a6074f341442938",
+  "variant_hashes": {
+    "source_original:256:png": "1227262f8bc69486bd7533fc58770ee9297ac3aa12b9c33097d24994ab9ed37d"
+  },
+  "source_class": "official_page",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://www.apple.com/favicon.ico",
+  "status": 200
+}

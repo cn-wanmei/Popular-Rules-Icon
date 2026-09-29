@@ -1,0 +1,15 @@
+{
+  "service_id": "openai",
+  "source_fingerprint": "d41ff15530ab00a90dc9b26ee43ae85e6d6d8cc58feaf367c28b7cdba5e6668d",
+  "object_hash": "b3cc4a8e4c1d4890d93c549f8349b0abca4732535d8e465a65499d302f28e63f",
+  "variant_hashes": {
+    "source_original:256:png": "7192bc6b12bc94cb5491b06001ecaa8d08cb4baa37af1cad65bd94b9e9a0171b"
+  },
+  "source_class": "official_page",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://cdn.oaistatic.com/assets/favicon-miwirzcw.ico",
+  "status": 200
+}

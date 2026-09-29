@@ -1,0 +1,15 @@
+{
+  "service_id": "discord",
+  "source_fingerprint": "d13954b78987a8b6080f98442dac9d47c335634679c809aee9d4825261592dff",
+  "object_hash": "128e20b3b15c65dd470cb9d0dc8fe10e2ff9f72fac99ee621b01a391ef6b81c7",
+  "variant_hashes": {
+    "source_original:256:png": "0158c3613f7f5f5629f0cbb4ba940721482930a4608638edbb4535446e8b10b7"
+  },
+  "source_class": "official_page",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://discord.com/assets/favicon.ico",
+  "status": 200
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "alipay",
+  "source_fingerprint": "37d1c034ccc5def7e41c42f6ab575f7993327c7e5a68e76a1a970488d8d3147e",
+  "object_hash": "54e52be074b43ac52e9a4e53e88629785ad1d21f8ea110a8f0e2347e5f7ba6eb",
+  "variant_hashes": {
+    "source_original:256:png": "24b99000c6183675acc77895393f6c8a48df7bb90c85946740640a01c8c064e9"
+  },
+  "source_class": "official_hires",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://t.alipayobjects.com/images/T1HHFgXXVeXXXXXXXX.png",
+  "status": 200
+}

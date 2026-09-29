@@ -1,0 +1,15 @@
+{
+  "service_id": "wechat",
+  "source_fingerprint": "4fb72618a95c1259fc4d783bb9207340b05916ba786fac26a8bbd05ee1ad2a7f",
+  "object_hash": "a62d7d84bd02b1718106d294d1f2c8387f9967239696c1e8b446201b63f34dc7",
+  "variant_hashes": {
+    "source_original:256:png": "1270a5d69b87c3a03118e8cca96c6400b4084c72ed0dc4eb56087bd1be75b5ad"
+  },
+  "source_class": "official_page",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico",
+  "status": 200
+}

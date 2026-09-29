@@ -1,0 +1,15 @@
+{
+  "service_id": "github",
+  "source_fingerprint": "eb547eea9164440af98a7f321ffcb1ae5340bb1932cbd2405c1de91311f71780",
+  "object_hash": "e5ea46b488b6193d3c43810337f6603d99baf11dc376637d688599c234482f72",
+  "variant_hashes": {
+    "source_original:256:svg": "e9ffeb09cd60cf7899678602f7a96c8132e6491a67b830ee427315dd91ed0cff"
+  },
+  "source_class": "official_svg",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://github.githubassets.com/favicons/favicon.svg",
+  "status": 200
+}

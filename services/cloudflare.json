@@ -1,0 +1,15 @@
+{
+  "service_id": "cloudflare",
+  "source_fingerprint": "6c92c3ca701391eb507f88399528c309817542e559d1323a2110be86bf24f877",
+  "object_hash": "5414bc6e4b3f6e10f99b5d37abf4420da4dcaece66f8f2c08e090e87267adbc5",
+  "variant_hashes": {
+    "source_original:256:png": "7a12c85aa0da7a9b984872cbd56418d2c48fccca2cb7220c930e0e884e555262"
+  },
+  "source_class": "official_page",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://www.cloudflare.com/favicon.ico",
+  "status": 200
+}

@@ -1,0 +1,15 @@
+{
+  "service_id": "google",
+  "source_fingerprint": "3cc5754455dd1c0d86cd9a0a093b0c33c3a7680c543061346e4050af5971a154",
+  "object_hash": "5b95eed86b7603081f22edd5da01de4c028b118b20885793b9b3ad5f6cbe1e71",
+  "variant_hashes": {
+    "source_original:256:png": "bfed5b05cf4c6c8ae2750852e4b85fb1d761a6c9fa7f6f10b74364b93e7c0cb1"
+  },
+  "source_class": "official_hires",
+  "lifecycle": "active",
+  "last_checked": "2026-09-29T10:55:55.845960+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-29T10:55:55.845960+00:00",
+  "source_url": "https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+  "status": 200
+}
