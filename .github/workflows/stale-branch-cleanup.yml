@@ -1,0 +1,54 @@
+name: One-time stale branch cleanup
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  cleanup:
+    if: github.event.head_commit.message == 'chore(repo): cleanup stale icon branches'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - name: Delete stale branches
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
+        with:
+          script: |
+            const stale = [
+              'automation/identity-normalize-20260930',
+              'docs/final-icon-status-20260930',
+              'docs/icon-current-status-20260930',
+              'feat/clean-canonical-v6-20260930-v2',
+              'feat/clean-canonical-v6-20260930',
+              'feat/identity-boundary-v2-20260930',
+              'feat/identity-boundary-v3-20260930',
+              'feat/promote-clean-v6-20260930',
+              'feat/release-writer-v1-20260930',
+              'feat/release-writer-v2-20260930',
+              'feat/unify-service-icon-identity-20260930',
+              'fix/ci-production-chain-20260930',
+              'fix/identity-boundary-pin-20260930',
+              'fix/identity-normalization-workflow-20260930',
+              'release-candidate-clean-v1-20260930',
+              'release-clean-v1',
+              'state-backup-pre-canonical-clean-20260930',
+              'state-clean-canonical-v1-20260930'
+            ];
+            for (const branch of stale) {
+              if (branch === 'main' || branch === 'dist' || branch === 'state') continue;
+              try {
+                await github.rest.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: 'heads/' + branch,
+                });
+                core.info('Deleted ' + branch);
+              } catch (error) {
+                if ([404, 422].includes(error.status)) {
+                  core.info('Already absent ' + branch);
+                } else {
+                  throw error;
+                }
+              }
+            }
