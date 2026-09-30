@@ -1,31 +1,20 @@
 {
   "service_id": "paloalto",
   "source_fingerprint": "240501da0b693ba33d7f34c6d5e304730889b230de05bdd4ad37179b41a4db1e",
-  "object_hash": "9daa8f51edccf5bb8caa98c6000145643bfd38623cfc2bd79ed7d403ebc738d4",
-  "variant_hashes": {
-    "source_original:128:png": "5edd843900be071f08c9f92f8d748feca9a1f45b6e88596c0ed2ed2498d9c2d3",
-    "source_original:256:png": "0080661c8118d6a1f7df072cfbac7b726faef178365bac4211a84fcc5ffb2e27",
-    "glassmorphism:128:png": "7e6f5572b62b05fd7d5ca47fa70d59847e1bd3313e30a14a2ad9a6647ec1bc05",
-    "glassmorphism:256:png": "e81b07e938dd2e9b4dff278755d6271fb7489d4aae8b3cc312d8d5f83e610a4d",
-    "soft_3d:128:png": "8ed29be5e22afb0e196d828bd705a175226091e6964f8f4e49523ac0a6f55396",
-    "soft_3d:256:png": "ea05864fc2c88c8227d31db8142552a1c6ee61888bb0fa460c731ce4fc03fed1",
-    "neo_skeuomorphism:128:png": "5cdb1cedfb3a9c06e0138517aef6b32303a18b67eb07a568a32023219459e953",
-    "neo_skeuomorphism:256:png": "506fd422d0ea623843635d20edb21583fd1d3fa6569f79fafa279cea0f565023",
-    "minimalist:128:png": "8f0b39e409a0352724f49c25c73f2d5be7a3aab529e71c64b01e5611e5675398",
-    "minimalist:256:png": "e8154f77a67bcfa75deec5026679c0a65e69d81a180bce0306cf05820b2a012b",
-    "duotone_line:128:png": "af1c744475380bb728cf0bf87f627e49a7454f711024241626a50af9ece1e832",
-    "duotone_line:256:png": "c8e6ecf924f48101d40ac525af16d8acad3986cedc3562f1b126118e80990ecb",
-    "mbe:128:png": "168e0d3b2acb6ef2c0ad5f44236df2d3c17ac7ce37e003cf35fe5cd4ff1d4a07",
-    "mbe:256:png": "6d563f40e4cbe2893268dc86fe5e5650ad55a5d5dd3a02ad8e856a7dacedaf5b",
-    "y2k:128:png": "bce6bbc551eebda9c92122095c6410445d75e9b0dee82f842af977232ba284c4",
-    "y2k:256:png": "17449032aaf638d190b2c7a6fae7238dd25fdb5500ad0e9636ecee0748e27e0e"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:11.616544+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:11.616544+00:00",
-  "source_url": "seed://paloalto.png",
+  "source_url": "seed://paloalto.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
