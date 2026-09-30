@@ -107,6 +107,7 @@ These remain placeholder-only in the current audit record because an exact repos
 - sensetime
 - shiji
 - shimo
+- speedtest (speedtest)
 - skhynix
 - supermicro
 - synopsys
