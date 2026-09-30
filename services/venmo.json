@@ -1,31 +1,20 @@
 {
   "service_id": "venmo",
-  "source_fingerprint": "8e915de07b265907b6adb5b0b22150d96b25ced30df8889e5a04456bc6985f2f",
-  "object_hash": "18a68c6213567343f799a784bb851d3a2ea8863981bd49dc96fa40d7f0f663a7",
-  "variant_hashes": {
-    "source_original:128:png": "051e8f16d13606482ba3e296c1692ec88aa015fa36e2ee44453edc8a305efecb",
-    "source_original:256:png": "b523a1a8e6cd27edd880727e2d7f2b243fb78122c832c49e4a16f9eb3e123a0b",
-    "glassmorphism:128:png": "213c12b7111844f4fd30a754e33c5e8fab02b233a233abaaf9a82d91089b28f6",
-    "glassmorphism:256:png": "d654e972a48e204fa1e4d631e772a57538bd7b937b477f3bd6cd227ffca8bd35",
-    "soft_3d:128:png": "7118b63a256db60b6d291d8f357722e445c1cb096dc737c4b2ddf28056a23671",
-    "soft_3d:256:png": "69e5985d622f2f6b456d53737f0e104dcf2d1b0dc06c2297e945e3035fecd0d4",
-    "neo_skeuomorphism:128:png": "44b656f62e4c4586bd98dc5e0a6fc55925deaf99cf5e68b1facbfbdcbfc62071",
-    "neo_skeuomorphism:256:png": "cede7d6ec7dd3ca211a083a1ffd499401b595732bafb34780ebe663bbd0b464b",
-    "minimalist:128:png": "57672b03525e048fcdcd9f1bee0fbbf9af7ff08e57a61581adb9ec6b3bbaa7be",
-    "minimalist:256:png": "9c5bbe9cbf5f5d91a525d197a07ef6bbf8782b35354a0b85f86416fe1aa9b762",
-    "duotone_line:128:png": "ac2db21580c790e9a63b765bac5d5f6b627c61f91ceb5d82900f3d00f1b9c787",
-    "duotone_line:256:png": "61630eac8d1629bc577ad2f45e0c79284ba041682253dcfa801667788d6d8a5e",
-    "mbe:128:png": "caa5acd28c0cc6f007fe413aba8547eb4ae722771483eca82931b9daab28e6db",
-    "mbe:256:png": "1049c1cfeae8c018d83e4aaa69dd23b6db0560089c625cd2cfc1dcf7ca52c6f1",
-    "y2k:128:png": "ec918d491c57d012ff9ed58e14414ab3f348155c1aa6bc9bf4d7a8142d72f7d1",
-    "y2k:256:png": "eb5b697640b352bc7f90b586fb1a66ece5a7efb1547446ca6e786f465df31266"
-  },
-  "source_class": "frozen_seed",
+  "source_fingerprint": null,
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:26.122840+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:26.122840+00:00",
-  "source_url": "seed://venmo.png",
+  "source_url": "seed://venmo.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
