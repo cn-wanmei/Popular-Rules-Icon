@@ -1,31 +1,20 @@
 {
   "service_id": "elevenlabs",
   "source_fingerprint": "2fe509f2e280f20ae9d5014d7f2e964585b993bb5c90736c6fa589fa3a3fefd5",
-  "object_hash": "334fca8fb3c80b77112b58ac8830cff5582c1a08b557ff9a2582252f63c466d0",
-  "variant_hashes": {
-    "source_original:128:png": "47fec0a4f08baf19418244e8cd76bb359f04d35ac14360c309a2bca3d28f18c7",
-    "source_original:256:png": "f731507fb6d6d6252249f2106faac13c674fede7b578c795bd5da16e25d41544",
-    "glassmorphism:128:png": "dbc5439c7d01698f7891e40c9f69f53f1849b72022b6e575924a6e9a8cfcf587",
-    "glassmorphism:256:png": "d6af07e82a51dfa7d317646dbcc7e16ddb58adfaf26ad1328c3c6b833d6f8df9",
-    "soft_3d:128:png": "286bb4ccf9968acdaa8ce1c9d1bfe797da2bbeab94a979ee137a158e69a4bf45",
-    "soft_3d:256:png": "01855de2605d3b72cd5ed6b21b329531d3742fc49e18df1fb9728bfa7dce8099",
-    "neo_skeuomorphism:128:png": "190a2fe078e6a2c077a8311febe0337089907709e177248a417094d1dc0d9bee",
-    "neo_skeuomorphism:256:png": "82bacaa1dba01c944d6773ba96544fa96705e547ea42aebbd4b6fb5f7b8ca795",
-    "minimalist:128:png": "b37a87f0169afa5d02e54ab8772d444a1af80a4552f5c75a8627f8a42fca912c",
-    "minimalist:256:png": "b5ed2ce4b8be17179a39af20789a64029b0d521ea92ee7caf0ac85f6d328bc57",
-    "duotone_line:128:png": "7ce15e0940c815f3bcca04c4b8f42b077a480fb4028090ddfe20fdcd7117b68f",
-    "duotone_line:256:png": "627716dd78a723f1fe3d93a63587ab3682851d09ec29ced9be6a83b6dd1701a9",
-    "mbe:128:png": "aed220b70c6c712bd01c1c4d8f5a697f60d52209ab8f9642bb4a7ce839aa526a",
-    "mbe:256:png": "de92800ef97cc15ca4adbdff6583541b88ac46ce4403ff1ff8b7cfeca1ca5448",
-    "y2k:128:png": "2bca255f6c160610fa5a2662f3f8c3c34e2e08e34b7c5fbb7eb53dfec52753ff",
-    "y2k:256:png": "b2f2b56c12e6734b7a10affbdf25b9cc5c23eec7a936280acd33f4fdd2a07e6e"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://elevenlabs.jpg",
+  "source_url": "seed://elevenlabs.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
