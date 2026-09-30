@@ -1,0 +1,31 @@
+{
+  "service_id": "ebay",
+  "source_fingerprint": "7365932e765a4541351ef410d96c5a3bf014b363f454e586e28626c816e281e8",
+  "object_hash": "7c2a430ad96976159c87495e2aec6ca131d6ffb88703378f76845420b2098f45",
+  "variant_hashes": {
+    "source_original:128:png": "3c9229b4c1d28d23e6f038fa4e8a48d160b327230593520d1b80ca7fa71c6749",
+    "source_original:256:png": "0b9e4b8b2199dabaa26a395344e398883681f6a7c5d0eb0f44528f9cf5a4a28d",
+    "glassmorphism:128:png": "0886f8dc643eef8aefc8a793fb1baba19adb4f160f6affafabcb27ec7c227e4a",
+    "glassmorphism:256:png": "08cfa64b4ebca666de5081205042ae295b137fc36c0ad4c5b7fbfa1d6ec69fbd",
+    "soft_3d:128:png": "6968075d00f8bf0a756bf15b66f1d2d151d0efdeeb39c8e7312ffa886cc48e1c",
+    "soft_3d:256:png": "723a288ce64e6d88f11873a412e753b52def96ca95c2df336dea35d5bb4532fd",
+    "neo_skeuomorphism:128:png": "52d385b1088e78272dcd43812daa25f8128313003be63675a32bcf09955de558",
+    "neo_skeuomorphism:256:png": "6c56876a1e2741fed91cf764533820bdaf9285a4eece24a4fc7f842264d28104",
+    "minimalist:128:png": "000f39d65529ab30ba55dcc0fbf81b8de0e8a0deec6a4e9cf0e5a24eb37f004e",
+    "minimalist:256:png": "ce2a9c7f490205baa5d2da3aeeda60cd5143bfaed6aef8f4437b7a74985713b3",
+    "duotone_line:128:png": "84e03b1deb4fe78e36813ea82e7bf480d055adbc211200142cf1e212e0cda177",
+    "duotone_line:256:png": "e965db811d4bb121e69e2fe30cdbd1d3b9f42241d40718136297f5c03daa5874",
+    "mbe:128:png": "b5bfd3735aa4244a306b25d9b125888f9ad5399fb8003c8115153cce6e56d66a",
+    "mbe:256:png": "2d25e25ae201489c7a7ff2d585ae5d1062d26396ffcc6660381194ff3482776b",
+    "y2k:128:png": "83b690eb725353600ce1f7301d8ffe0d04a9b63fcc67c23b676243a19c7555fb",
+    "y2k:256:png": "60f4f47b818eaddba7749dfecaca68778f340454a412cbdc4145232ec72ed67b"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:51.028397+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:51.028397+00:00",
+  "source_url": "seed://ebay.jpg",
+  "native_px": 512,
+  "status": 200
+}

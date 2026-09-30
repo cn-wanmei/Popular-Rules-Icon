@@ -1,0 +1,31 @@
+{
+  "service_id": "tuya",
+  "source_fingerprint": "877104462ad78edcd9c86d3518c4dd4b34368c11e0df1bebcad7bc73b346180a",
+  "object_hash": "708670eb02d47e9d95348d3b337c1d3ee47bf0c4286dd533db24edf1d597b8ae",
+  "variant_hashes": {
+    "source_original:128:png": "74ce1e5ab5a9b60b92e6582ebe2e78229de1b5a4e5ffa12e7fe932b5e922e421",
+    "source_original:256:png": "02c8138ac047905f675f85e0512651ad20c278082e1f0de206a3a3de24db1ead",
+    "glassmorphism:128:png": "d22726d1efa94a71d149152dce79b15aef5a639e0e4617b915cf653387270887",
+    "glassmorphism:256:png": "75908bc1dfd3cb53be3c031c5f804be5057413fa7afb5cefe9db2cf6f77ce15a",
+    "soft_3d:128:png": "3c76a1497b04593c2a8313aabd1eae825d0517fe4470aea4827cfa7d7d46b30d",
+    "soft_3d:256:png": "5211490f9616da6f844857eda436d15e8d950e557a5c451b25ff6b86efed2f60",
+    "neo_skeuomorphism:128:png": "2d7929f5159d8760c00f3c9a68bf7517079c9a384031ec216582f638b2239cf0",
+    "neo_skeuomorphism:256:png": "6438a29683bbaa1641ba4fd41feefb736437a94f11618c1b33a69b084a36bd0e",
+    "minimalist:128:png": "f216fd4b41c0c7b0c4b3b77006942c0fa5c38940ded2fda61f81528e920ac5ba",
+    "minimalist:256:png": "cd5b9562a3c4abf5d9ca95c605772f071834ba65c5dc765e8f59fe516356ae57",
+    "duotone_line:128:png": "00cf9c0e2aeb0dd7a3cf18744156bb4b4e9a4ed55d352e0e0594acdcbb7de73f",
+    "duotone_line:256:png": "fdc157e893bd5331388ed46e7e6faa2024ac09a267bebd0ee99e28a8067adc39",
+    "mbe:128:png": "723530676bc5c9be59a3b1b5ec3ed7f2a7a682f9fc969f98234594f064a28025",
+    "mbe:256:png": "491dd4686a484e9b9b3e8fd272507703b2098afd8f90309f2792595eaf0e0c4c",
+    "y2k:128:png": "bbc7274a110dcd97be1cf5024da287884742e632f4d3a8097cc72969c32cfee3",
+    "y2k:256:png": "f852a30ee1e670953461ae0fedc6c223e83f59969b94e028df2a876d6f073c9f"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:17.808769+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:17.808769+00:00",
+  "source_url": "seed://tuya.jpg",
+  "native_px": 512,
+  "status": 200
+}

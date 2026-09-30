@@ -1,0 +1,31 @@
+{
+  "service_id": "wechat",
+  "source_fingerprint": "2ba8e928f97571272929714a98efa6ddc97712e83c83baf3f020318d1e826bb8",
+  "object_hash": "650342cdc2b7318b9acde7384d006a9399ee9e9dde96dc778b018d717a9cbf9b",
+  "variant_hashes": {
+    "source_original:128:png": "7296a0a72ae8e8d00a1d09a8127918fb6088175d0d4c4f49af07672e220c7c64",
+    "source_original:256:png": "4b0165afb02e38f4eded09eaf033d84b3484b9d82c75d1c473254e6cc94feb83",
+    "glassmorphism:128:png": "81182b05e98dcc2e58f01cdd3fe77a63b21c1f1f0db29a844c135a3346b94c69",
+    "glassmorphism:256:png": "40d78e1be8a2e2963a644b742286721951a087509c1d05e4fb8a8c3ee235d83f",
+    "soft_3d:128:png": "ee2531406b652ceae06888f2e94d55b72ccbce232a03c7e1de0fec06e33b2677",
+    "soft_3d:256:png": "a66f6a1afd0ab3fff0d6dc59f126ed21a2fbb8c248210996838ea51831effcc1",
+    "neo_skeuomorphism:128:png": "3940f1868bf53a054958aaff4300cf630e3e90684ddc53448f0d8d752bbc1009",
+    "neo_skeuomorphism:256:png": "00fb56f9931c6feb7796e6023431b7cea04d5ea772750f993873379d9f3df9e8",
+    "minimalist:128:png": "b6186a2c947e56fa4bfe65fd1f156b2e0fd5366f22a0b2a7214132605c25f5ff",
+    "minimalist:256:png": "e0e4bf22d6069e16ea2f8164d59fd2eab8303ef63331e0fa6d2988e0ab93d5cb",
+    "duotone_line:128:png": "0f83fd7bd593f0a95cf43704560433599d124545572f010ed668052090b1f00f",
+    "duotone_line:256:png": "c835f41fad8dca8f2e98424dbf8707e4d922499a511ab437a3a0cffac6a3cab5",
+    "mbe:128:png": "47816ecf999e2964165eeae2da63c94527a9fc7917a37ef7b8a33c23101b1c61",
+    "mbe:256:png": "e387d9dd7d89f48cd1d97e0ce3329ccb815c3b77775d15d9c3ddad57f0186e9e",
+    "y2k:128:png": "cdc50e67cba52b62110e8e3690c0cd21e57c1cbff1898cece84ccbfa7ee45f49",
+    "y2k:256:png": "147f1e7fec4f384014973cd453a8d7b769f81888ae772b39c7a3fb1a7f38dbaa"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:25.040082+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:25.040082+00:00",
+  "source_url": "seed://wechat.jpg",
+  "native_px": 400,
+  "status": 200
+}

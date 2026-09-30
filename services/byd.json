@@ -1,0 +1,31 @@
+{
+  "service_id": "byd",
+  "source_fingerprint": "208c99b2a184155a02edb2b6768f0482c95c2cc306411ca948f0a00370b1db41",
+  "object_hash": "f3642f2615b42170dd600239135cecc6854244cdb3a6f3ba81a5c4b70692669d",
+  "variant_hashes": {
+    "source_original:128:png": "d6646db2be06aabf100dccdac2c9807dc394d6cf2eaa0f2f149c30ef45242e9e",
+    "source_original:256:png": "c4a847e7d58cfd72f7c62e363f6ced0582172f1c39d530acb6a62558a9522bf6",
+    "glassmorphism:128:png": "fbb9bdd7e3a0419d80eaaac9759c0463535f8395d4f58730bff4e25160ab41e5",
+    "glassmorphism:256:png": "28d05a90d24057770067f61b79df5d1ad46fd73ddf3222520154c73f45160dc8",
+    "soft_3d:128:png": "d6477ccf8425dedfb816d751cbebc811df064c616ecc0ac9e363716ef577e042",
+    "soft_3d:256:png": "bcdeeab557213812755dbb1befac2a487d2bd88fa35e9e5921c700d9b15266ff",
+    "neo_skeuomorphism:128:png": "3075b8cd1825c6cb86fde99a1b0d6c63480df57f3f16abf2da516bf57a389a82",
+    "neo_skeuomorphism:256:png": "f429ff3da1ec7dee07ce2086428dab3c9769c107af36683824e84004d3e38525",
+    "minimalist:128:png": "42a524f650acbc390720ceae2e46d78fbe3d8262a1f949e4fbf2f78dfdf7b07e",
+    "minimalist:256:png": "c84ca45a2d286a288ca627f923b4ab4f515d068c7f76b7642d4b98b913f3ce84",
+    "duotone_line:128:png": "e71399345842d14cc866cb6820df068f7b0e22a60381ae47a8762f5aa70be754",
+    "duotone_line:256:png": "105b2f1b58f98ea7521ae9a0e95a57a438750e3093e887f74654e4fc7cc3430f",
+    "mbe:128:png": "c820ac262ceaf6f8d169eee82d0e8997ce02279cd93527fc60ec52ac81499ba2",
+    "mbe:256:png": "4e1b7263416e3455337f3f9555066c6f7f89e7901c3e7eebb5511e82b33f3468",
+    "y2k:128:png": "bbd5dbc1d87bc12fcf97535df522386f536ae9e8879f7f28876d90333110f14c",
+    "y2k:256:png": "2ee836fc216b0ebbe4dfa140a842e9092bc685740c2412250598878aab83a58e"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:03.264242+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:03.264242+00:00",
+  "source_url": "seed://byd.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "tesla",
+  "source_fingerprint": "e081cc980d0537e0e7f0cbde6abb3f33415c92c1170d5f4f1436cbc5a0969353",
+  "object_hash": "8b09caf9ab87ae5c0b11bc8a7dd3ec35d251daccaeec89415d8084a0561402ef",
+  "variant_hashes": {
+    "source_original:128:png": "144b34bf7f5f9d9be6b7529afe4c1af13023a4f6798bf5c37e2b5553fae378de",
+    "source_original:256:png": "7bfc3ea5e787090d07d29c052b140441a91a41ed850d062a2da2cd700b4fcded",
+    "glassmorphism:128:png": "341e71fe5c4e40489d93737358b6043e6903510b795718934ab795416d354214",
+    "glassmorphism:256:png": "e03e963801ac9bee0b3bfc0c7ea9ee4577053fb05222fa1f228f6dbfdfde5b2d",
+    "soft_3d:128:png": "eebaa26ed870d0d9b8e85feaacda838febd704a630627318fbbe4c6bb91e4888",
+    "soft_3d:256:png": "d449dfc250edd1f16dabac9677e3dcdaa4c218f7fafe36ee534ae61085d1f85c",
+    "neo_skeuomorphism:128:png": "156ac0519a3493975aa036fa392e4e953245c98fee3a01d89a17a75db46076a0",
+    "neo_skeuomorphism:256:png": "f237efd68069b4a471a3d636076331aa2e3f9daa6461dea9926f2bd9feca07ae",
+    "minimalist:128:png": "1d26cb0f0ef03b5bd9cc80dccd24293429bca5145a984eae6bf362f13b0022cd",
+    "minimalist:256:png": "81f67b0fe2071b1040f801396487bc30524d4f9089b9862c924cd30c6c8b023e",
+    "duotone_line:128:png": "d17ca4e0715ac99a066f04f4ea5d5c7d8637761639755999a489d7c6771de4c9",
+    "duotone_line:256:png": "45490f6d631d3490c74f484105388bd4ff783316fff5c5e0664e382e725495a5",
+    "mbe:128:png": "340224ade3b3fdcfbb61691c14ea383e1e02b363c6690eba7b5e80a0a9c92cd5",
+    "mbe:256:png": "43f51d38e970d22d12960ad18c6a447a4dee14cadda80305ac2db79b4a77031f",
+    "y2k:128:png": "6a88d8aec34a94b93fa3bdd895636af4194cb0dd48617c085e9185ee29e74284",
+    "y2k:256:png": "d14a6bd132ea2ec9892a054bce8bc45bf8a2cbb1e9696c107688aafae6477475"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:17.808769+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:17.808769+00:00",
+  "source_url": "seed://tesla.jpg",
+  "native_px": 512,
+  "status": 200
+}

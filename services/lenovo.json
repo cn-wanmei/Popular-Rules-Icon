@@ -1,0 +1,31 @@
+{
+  "service_id": "lenovo",
+  "source_fingerprint": "c8fafc1d88416324a717045345f8e10b45589779c008a21050887050e4ebd17b",
+  "object_hash": "a854366af8af49c9c0e87ccc8d8eedee8ad9f170dc0735be393512d4442d9cb1",
+  "variant_hashes": {
+    "source_original:128:png": "d12fee37b447a1f07fb7f7473e806e7cf3b35f9ff2e10fdaa842b0c4aff2f536",
+    "source_original:256:png": "32215c37884701b38c03ee3059f7cb2ba2b7f61483d337a3361b4dd5a3b63eaa",
+    "glassmorphism:128:png": "7f9f1d381562d84b93e52038a9f4b3bcce84a1e999b103d395bb7c77f1a6e0b1",
+    "glassmorphism:256:png": "9548d3fe5d485d8991ad65383aca9decf4b00a9b5cff701a93c86617eccb3579",
+    "soft_3d:128:png": "ec0222ee7e1f7e0f991732fc630316ffacfd842d2595495c20e8d5928dc43887",
+    "soft_3d:256:png": "c1beee2ccfd57b5e5cb8fb69b7c5b315492e4b552a56402b18d60f0bbee39313",
+    "neo_skeuomorphism:128:png": "1415ac661a4f374727704487a1aaedb35d10549e4d6b27cab250f0803e7ea607",
+    "neo_skeuomorphism:256:png": "4230b02f11d125b077b6ea566fae60076a72b6cfbb9be67e1917dd857812fbc2",
+    "minimalist:128:png": "f22b799f17280f91daf06d863ce65c0690a64d1aca8a1421da823d95d463086d",
+    "minimalist:256:png": "f5fd4b11b7b46922f639ba0197c4355aaaa1c789486998ec24e4d7351a72be31",
+    "duotone_line:128:png": "8c3a906bf2feb18f98c88abd2ab2980aae740cdc87ebcbb10fb70ff400887351",
+    "duotone_line:256:png": "0be478dfcddd1b5c9267048c6cd27db591a63d1a2dac0e97637d37f9878fcd9c",
+    "mbe:128:png": "f7b393bf0d8bf4187b2c116fc611b3c700ea0c3fba64e178a887673f96443899",
+    "mbe:256:png": "2286e9dafcdb49e487a16ae3da9a0f8e993475db12256141eb9a7d1216fe98b6",
+    "y2k:128:png": "d1c6f46f9d692b8874daf0aabdd61b3cb3ec98415b655ab1b4fcfb5bfff07447",
+    "y2k:256:png": "7b0e9b181d62361e50813ecb38f342323a3c18c7b9e0249351a801b2c105e965"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:09.277852+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:09.277852+00:00",
+  "source_url": "seed://lenovo.jpg",
+  "native_px": 512,
+  "status": 200
+}

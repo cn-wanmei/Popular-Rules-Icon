@@ -1,0 +1,31 @@
+{
+  "service_id": "hikvision",
+  "source_fingerprint": "6cc7b9e8f671a0eb93bad55cc4e6362e78473372220b137a5086b7100f526c84",
+  "object_hash": "7b9f938dcd0d7daf62ff47ac9e843045f39b301e2b44aabb2d64fe839addacce",
+  "variant_hashes": {
+    "source_original:128:png": "32b504dabc3a2cef8455e2381575083aaaf8321547859eb0c7006513c8a2648f",
+    "source_original:256:png": "887ea2636ef0cc01e5a2295fb33d210cb01432ef580816de40cbab47db3fed45",
+    "glassmorphism:128:png": "f7ce058a8283057839ebcd8babd6a49dc34cff4f58de592acb643b24a787b464",
+    "glassmorphism:256:png": "0906ba2b4f4a9ddb7a88dfa3066168c5ccf789fe65d00d8ceffc3e5f754ecd9a",
+    "soft_3d:128:png": "39e45e240cf29ae3a4e0aab675bdc65fad1c1319a9a1543ace5c2461c2947edb",
+    "soft_3d:256:png": "8c167ef0d67423724a49b7279f94b07bd97d9e088e99b15b572b71aab2754ec1",
+    "neo_skeuomorphism:128:png": "334e6eb3ba91fe0b147c4f7978c5b83edb40963df5ce9ca47490a55691759a15",
+    "neo_skeuomorphism:256:png": "d06bf83a2515793ea70929e7536d10932388f3b7088985ea42def72c75cead7a",
+    "minimalist:128:png": "f17a9c8d7e4da0a9b707174b70e81ff2754696415a3ae44e793c9c3d91ee58ab",
+    "minimalist:256:png": "84664b06bee4cedaf4934614437557337a5abd51736b3eef9faa0221fbd8f2cf",
+    "duotone_line:128:png": "e701194fd29f7e13c03070c0f576ac0a3a387ee2e7b8ec2412e746ff177be43f",
+    "duotone_line:256:png": "6e9ad88018091ce637c2a4ea9da507f717d3d89ac3233ff4fc6c69d577750aa0",
+    "mbe:128:png": "74d9057517ad06e1d50e384a51f7dd73de9d2449e93ade806cad0dc6811de07f",
+    "mbe:256:png": "fb4e29e5f9c7c6108afd7ba3f0e2f0ebcedddf3eb5d8b97e673edddd22f83aec",
+    "y2k:128:png": "8008c8de8cf93299628fa4aebd85e4e8a3585628c4b502aa3f8a123769ec9100",
+    "y2k:256:png": "f6ebe165e80ab2416a4ad12bb8e28b8a2fbfbab88fcabb85913696ecf2798c52"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:59.968609+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:59.968609+00:00",
+  "source_url": "seed://hikvision.jpg",
+  "native_px": 512,
+  "status": 200
+}

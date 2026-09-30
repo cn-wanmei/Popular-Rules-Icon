@@ -1,0 +1,31 @@
+{
+  "service_id": "tsmc",
+  "source_fingerprint": "89d4f341411a667cb27597c3cdfbf28ddc7933745233f5a35ad6a0deb6008a80",
+  "object_hash": "5e59fd787aa1985c328e401fed57f487a6886ad37583a74d07155d038fb14974",
+  "variant_hashes": {
+    "source_original:128:png": "fddf1280bb411ca9846b7b7b8c5df4e00b029600f08783617ac23c52343b6fa4",
+    "source_original:256:png": "6f69fb28b2c515d24f62790fcb381fc2754a5edead77a3867d0d9072315377fd",
+    "glassmorphism:128:png": "98cda3cc63dbb44167e69fd47ccff461579fd6e6c4c9eb1e96fcf368e1279da5",
+    "glassmorphism:256:png": "76ce371db26b104ad40aa1d69557d9a12141860153464c898758c2166a7d16af",
+    "soft_3d:128:png": "0bf69d7cba31d08cc4b12c9adaacedb6a5803f285f8be76be6dcd5b98d9d0c9d",
+    "soft_3d:256:png": "630aa2cdb441ab5e206b3ed7c4275feb597e4c0a2b02587aeb3d8cc42a9aeca6",
+    "neo_skeuomorphism:128:png": "7d49f86a6a1aaac94ee7229119f3a1810bcd22ed6dc8d5697e476ff25d016a3d",
+    "neo_skeuomorphism:256:png": "17df0feaff1cfa681e323e3baa47617f25731e15f9b4f253f64a4e236d85830d",
+    "minimalist:128:png": "bb663c040d640e62ebd7dde4378163963e9c1fcafed2ebd8f03f99bb8d410c43",
+    "minimalist:256:png": "d8f662e75e52e60102ae5c24abd69b37d15058fe5dcc4470e3c8936439cfe9d5",
+    "duotone_line:128:png": "0401c6f3e72af190d88cb8087ad604814e14f7997416debb7678b3741512ff5f",
+    "duotone_line:256:png": "163370c9a98534158a02083d1b4d22b834c23d2cb0553e73ed8c1f835d4daa52",
+    "mbe:128:png": "a7c666de677cc440b07f43a348780d61f3ac00b977917c01e9b5de695672232b",
+    "mbe:256:png": "39a2f9309e8c54d0c875f07a4d1e8b3a168c0bb37115eb02060e96d278fceeec",
+    "y2k:128:png": "c349ce20ab2f44ba1a897426e3bf300830e724123a4b38536b31588e01f46b79",
+    "y2k:256:png": "e8d5fda0e2baa4c84259df436c1eeeff3e1d848862282cbd11244f2559729a69"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:17.808769+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:17.808769+00:00",
+  "source_url": "seed://tsmc.jpg",
+  "native_px": 512,
+  "status": 200
+}

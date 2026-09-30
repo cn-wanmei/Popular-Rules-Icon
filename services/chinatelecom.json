@@ -1,0 +1,31 @@
+{
+  "service_id": "chinatelecom",
+  "source_fingerprint": "5cccd844cb15fc4a865391953d1d320a9e7daec285b4de564b86d43725b0c2ed",
+  "object_hash": "d64f8e7795f96e19a268c6b1f290efc5028109e3b7d978f0df12d6956ce9144e",
+  "variant_hashes": {
+    "source_original:128:png": "ea6078df4bc3d11a1989fcf0b3e327a4e5620d0d5526971a3b576bf588e88201",
+    "source_original:256:png": "f72d2a5f07990a3469121ee46407a2a96269813c184e9251d221feff13ca55ef",
+    "glassmorphism:128:png": "7435639916d19b6e095e582b42946d7afe812d01760046984093608b1ddfeeb9",
+    "glassmorphism:256:png": "de2b09fdc7e1cb1a3488ba5c1502b9ec245f196f2d3abda76460a08661c4bed6",
+    "soft_3d:128:png": "003f6398a506adf571fa730a39fccb75b416ae03625168c75ca6898d20463fb1",
+    "soft_3d:256:png": "2e7da0380e6d36f3c4edbedac6f6c8460adb61bc6d7104e0ed37a50721ecfaee",
+    "neo_skeuomorphism:128:png": "d593fe0db95bd9e7221b93b03f677dd31f3c95006df70e79832fe42b34d15428",
+    "neo_skeuomorphism:256:png": "b60502a1ab2a88767807acaff45d2f7657d1c2ab91b0229f6a98ff4ef86e9641",
+    "minimalist:128:png": "47d5826707d3c80036d9eb97d72a5f50fc9897c7cba0c2781f9ba3df965992c3",
+    "minimalist:256:png": "acf10202786ebc06b01653d05f212ddab307e8968ae1ac16efe3d1890b3b553c",
+    "duotone_line:128:png": "73ceb749af1e80538f6e183fdac668d932e4a30bcd8b4e71e69896f24dbfe0c3",
+    "duotone_line:256:png": "f6cd926177a31731b7eb89422e4ea9ae9f7a9a5ae9f85b06307f2e46c5d2f4b8",
+    "mbe:128:png": "56b23b7f7468d93cbcfcb7c9b77d8cf590821dcbc62880bb04cfe06fd6ad4b4c",
+    "mbe:256:png": "595f4e002d5c9c71a3802d567cee5bb6e5edf5d8b1f17208ca6131e261a53adb",
+    "y2k:128:png": "035bf2cea9163bf16447216594facbac8f4426785e1fc74ceb9b35da8ad61c5a",
+    "y2k:256:png": "0bc26e400db31ee9496ce06bc9b6c0005eef403423af3e872f5a21e83b3d3010"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:03.264242+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:03.264242+00:00",
+  "source_url": "seed://chinatelecom.jpg",
+  "native_px": 512,
+  "status": 200
+}

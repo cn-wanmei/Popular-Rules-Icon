@@ -1,0 +1,31 @@
+{
+  "service_id": "citi",
+  "source_fingerprint": "df5dafce49c056e8855ef7ba8e57ec86e73d76f983984507b4e009f4d8eaced3",
+  "object_hash": "45f834b00ca8af14744d09262186fb9ea7d89b2a61aa0b46348b0d1991680255",
+  "variant_hashes": {
+    "source_original:128:png": "371ad4c07421273ae39a9d3243a8b7c11420e889103714c2e504f98e2ba0cce6",
+    "source_original:256:png": "7e62706438a64235c65c097628e477c553cc62c830f1926c0bfe3b224ea5f27c",
+    "glassmorphism:128:png": "0e4a6396c40cbfb473605c24810081d036b5de9534238fa2f56441552e53ae34",
+    "glassmorphism:256:png": "40bab8f62850e3da4f5aefab78ca6b9fd883d484ba6a7545a19bab02f86ae679",
+    "soft_3d:128:png": "7f9788f7edf2438ee53d4ec05d431595d4463e1fc01b437d22de392d60e3f9fd",
+    "soft_3d:256:png": "1cbade480f6f8439470c895962467280de62786d2c069f66fa7b46bf57657159",
+    "neo_skeuomorphism:128:png": "d2cbd4950b1140cb84c4cb85f6b770763b572c5172499709b52faca83cd1d52e",
+    "neo_skeuomorphism:256:png": "2faf0a0aca2845a9bbc4f4df88b55cd554699d3e1865ddb575da88cec46a0182",
+    "minimalist:128:png": "ae583d24dfe4f5f0d49c5ce8f2ff38d28a12fc0b79dc9f6778d3982bdeed8d60",
+    "minimalist:256:png": "e2d2d9713850fbbb748c4c9be2746f29ecc9689a03eb09d4c4307caba52cda5b",
+    "duotone_line:128:png": "55fa6a597175622c52c5533b5e93130fe9f45163248413f1682cecb1c4542ccc",
+    "duotone_line:256:png": "e1f02e390f2978525ddb7fe38ad211dfd53af8db3112d75f37b34f1f04e45c2a",
+    "mbe:128:png": "4fedcd65cb9de5b2f69dbc98c30cdcc5a7f52fc1fcf1dea83e47fba2e03a3bec",
+    "mbe:256:png": "883e47624ff4eef2c2047f7d22eaa501d63139fc7e8ad9462417286b74b778ce",
+    "y2k:128:png": "234714c6b4e17a008cb99be04be2a471a3138d191e1c2065552de7b9373a628f",
+    "y2k:256:png": "008dc71a2ff433d27dfb766972e6e66a52d5bf61827507e2363c5a27b324e9aa"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:39.281204+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:39.281204+00:00",
+  "source_url": "seed://citi.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "sony",
+  "source_fingerprint": "19ee7a649662e73ffb6aeced39bf66fd3679eeb4fc3cadfd634befed6f1994e9",
+  "object_hash": "77853049a3d4e0d387bec749b49dfbb4e3e638ff531928eb7a3155e0da0b771f",
+  "variant_hashes": {
+    "source_original:128:png": "d97b227770a47412b6671eb861c0c2d6cff8435fc0b3224132fc893bc50688a4",
+    "source_original:256:png": "2c12a1ae12b368f47da5168f6fcb49ff1915ac704c671012f156b9bb1ca642ad",
+    "glassmorphism:128:png": "cdd1abf9638390999256e58d108491848c678577d429b5aeeac359c963738689",
+    "glassmorphism:256:png": "9b693e6de90e76c9c1f1f346d229f40cd57f7c8f7cac0af76e5db0cfc2666766",
+    "soft_3d:128:png": "7b8c93bcde238d65c2e8d930d2cdb022642466948cdf8b4494c0529e52076a1e",
+    "soft_3d:256:png": "dc1974b5c7bef565fa52f845f1e4722e1199d41aa59c497a7cc0dc6d720c4252",
+    "neo_skeuomorphism:128:png": "e44aeaa494962f981e2c99d0351996558664e510453c0c800eaf5c9e4dc0312a",
+    "neo_skeuomorphism:256:png": "769fb0bc54fed2e30f1d8fd0e37e0c144ea5193b5ea66cc5c6177ecba4a47c0e",
+    "minimalist:128:png": "7cbe6d359dcdfbf84d3e128ec6f94730f92fcfef63c1fcf7ee7fad029e47921e",
+    "minimalist:256:png": "82c4dda547f052a003fa1ee8865b0273602d653dca589b2483f3ed4d38fb5f6d",
+    "duotone_line:128:png": "77ce501c3b000a435277169e6cfd03cd1ca11963468fdd50946833129e0c5693",
+    "duotone_line:256:png": "daa570d6b1e0a08ba8ac9831f6b58f10f66ea52f1a31b546ea55bce78bfa2694",
+    "mbe:128:png": "3a2126ed9d4863c679604a838790392ba952fa9a7e63456a85bd3329f5a2eecb",
+    "mbe:256:png": "7481caebe9db5f91fdf205e3a80f3233adef651ae6d037dbaa5ca0eeb9bc6eaa",
+    "y2k:128:png": "2331465d6c447b413b570941703e643f5ad0695e4d181250cc8ce05b4d14c44e",
+    "y2k:256:png": "7bd51ae5d8362b04a34fb8e452da442ee38e0a52e99468a22cbb596624e53670"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:53.768580+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:53.768580+00:00",
+  "source_url": "seed://sony.jpg",
+  "native_px": 512,
+  "status": 200
+}

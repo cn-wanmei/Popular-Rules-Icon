@@ -1,0 +1,31 @@
+{
+  "service_id": "hulu",
+  "source_fingerprint": "8a59dc4eee5781cee43d42f4e5fb14fca9ef494fac377b1910e4f51ea48c3db2",
+  "object_hash": "12e0ecd3b9338859e58d686108524ddf7731ce64ad376b47ce5cd27a4658d589",
+  "variant_hashes": {
+    "source_original:128:png": "b6349e3b8207e96e216fa1ab1f0a6c6a819f59e3130e59ec521702e4c687b1aa",
+    "source_original:256:png": "8b46333fb04b14c3ea320e588030ee8472d2c2303c5e5c3db434a26b1a4ee91a",
+    "glassmorphism:128:png": "db0f92f73ee7c172375aa79aca5ee7da3566902108ec641d715e61a0be252fef",
+    "glassmorphism:256:png": "bb658751d00223d6709430e2acc0c232781380a40cd0b459062b17e354240d0a",
+    "soft_3d:128:png": "dec1bd91c2df62553886aaac12b7c2b22d7bff9038c274746f3768c580ae5083",
+    "soft_3d:256:png": "c1765d33348b77126074f2c95407a6486df995a7b2d9e9165becc47c147972c8",
+    "neo_skeuomorphism:128:png": "ccca1fd84fd0e2d2c589f232f0d3d92976f6c25f19b2e03139132c8a0b33b86c",
+    "neo_skeuomorphism:256:png": "5c4226f9736768e09066bb5298a9cff5b2ed3c9392619e40217f0a1fccc45082",
+    "minimalist:128:png": "6475b2473c98d0e2c3c03a41eb0f1200d12007184182d15a998715ad4e259fad",
+    "minimalist:256:png": "81e422f4c206768d64697020e10c0cb329a04ee08950be6b78ad8bdaf9264cdb",
+    "duotone_line:128:png": "b74d4458a06b131b93d3e0d9052503edbcb259100ead7a4db9e0ce9599f99d79",
+    "duotone_line:256:png": "6171685a530a0a53ab0dfb3b4413dee298706afacda7b1faf386d166a3014677",
+    "mbe:128:png": "8fbea7453df2ce25e31f97ad379daa18796249047cd4509ce84dfaf138a575a6",
+    "mbe:256:png": "835aac55d89aaaaced812f2d019af6294401f41fefd083e4d85f29addc2f47c0",
+    "y2k:128:png": "2dd54ab949cc6b6e01c467bf5414dec7c87132618d24dad1bc3ce5a152dae916",
+    "y2k:256:png": "290811951d21246d613cf5a25ccbd57c5fc916f9be5cf7fd05ca9577ea12bafb"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:09.277852+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:09.277852+00:00",
+  "source_url": "seed://hulu.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "adobe-fonts",
+  "source_fingerprint": "f4a3e5b9d6d52fdacdad16428b028765e56912fcd0e2b4eed6e855d78ee2e04a",
+  "object_hash": "1d5446f15f3e49378cd7eb8d64341019ac134aba91f43f4040e78c6ec8aeb880",
+  "variant_hashes": {
+    "source_original:128:png": "2fb640b90ae6dbd971ab54571c405f93ae155cbac008df3d162df0cc76edb3e6",
+    "source_original:256:png": "d6f7efcfb83bfcbf92cfba3c1e86411e80a77b070cf4cd5ecbd602c334a6e3a1",
+    "glassmorphism:128:png": "93522c8400ab64db67cc9c78ed1554eb47a893c421a90eae730c4ec3ae908152",
+    "glassmorphism:256:png": "7b2f78e31f311aa0cc54801eb7a0f0caa3d7baeb36537cc44f596ef637694834",
+    "soft_3d:128:png": "5c1821be241db36ebfefdd2fbf91f7857ba16c133812cffc65079e6fe067eb15",
+    "soft_3d:256:png": "b12065db5a6be56b0964052a0e892c5de81309031955fe3abc3ba399bc48b5c7",
+    "neo_skeuomorphism:128:png": "de29db64c0abe7fba33af7270cc3353e4d1f4f0727b0ae1d40367da920df3c92",
+    "neo_skeuomorphism:256:png": "63c93f6e666f87aa18d8a8e92b939eaf0f4099b29c1040006ef08b310a451c51",
+    "minimalist:128:png": "fbda9159d607784139219b4c1ddeb814c7b85e6f26ae68ee66d8f325ad37558e",
+    "minimalist:256:png": "2bb309b69bdf27ef681b32a180a45e445ad87778781ae1700b8fb9bd61abe309",
+    "duotone_line:128:png": "6a00c1f1a3fff6b256cc619d91b102e60379c29388762497724f3e28bc2fdab6",
+    "duotone_line:256:png": "df80c794b75ac7f6572c6bc773bc336c409315acba2169af5cc2b778e5bb786d",
+    "mbe:128:png": "dee6684b4e46521aa71bfb91c1f25cdb11efafeb75f14ba61b6fcd804ab543ef",
+    "mbe:256:png": "973d35f609aec51c995842dd7612d653956710a69dcb927e4b50ce3077139bbf",
+    "y2k:128:png": "6f7b60d96c5f2f274bd56f92f46927d6a8787cd2eb9f9dc1a54956fd514b62e1",
+    "y2k:256:png": "847f180bd759c14549e6fcc5a32afc8c9c196cb6d6f59fd67fe196eb94b2d072"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:41:49.874807+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:41:49.874807+00:00",
+  "source_url": "seed://adobe-fonts.jpg",
+  "native_px": 512,
+  "status": 200
+}

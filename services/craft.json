@@ -1,0 +1,31 @@
+{
+  "service_id": "craft",
+  "source_fingerprint": "5822d27122c5c3ed54a420727d1af81b644c5dfccaf0d177ac2e94730f90fbae",
+  "object_hash": "00220d754d0cefa1e3083bb00c39685e88adb4cce755178f4fe07c90e16d6da2",
+  "variant_hashes": {
+    "source_original:128:png": "483059376cb6983f29c1d93826ad4a1ec8f2c48d257f0f5239a00e1d8096c7b8",
+    "source_original:256:png": "5d84605fdfdf63a753c823939ac1865ea9b11982df798185f25e81b97f4b94e0",
+    "glassmorphism:128:png": "69f0083a5b3cbc98e9227f875fefe98d3fdc37f0106f38cb4dd98f433a07f63d",
+    "glassmorphism:256:png": "32b0a4708960203f84c0eee0c4795e16b0d08994a8e91a74e7185dc5f57cdb54",
+    "soft_3d:128:png": "b1fa93ea3c7524745d2278d3b0922d150506cf5f99a38e414d1a694f6c970240",
+    "soft_3d:256:png": "93570ff32f1f95173d3e3707d2d206611fac3beb09d2327a48a1cf2a83553c53",
+    "neo_skeuomorphism:128:png": "df3dac83b71ed8e3243da173a072158f7e837caecd29ffc237522724de4419c5",
+    "neo_skeuomorphism:256:png": "195072e498f358f1c89424d5b35439bca0dc5245e37dd71ca0990fccacac1803",
+    "minimalist:128:png": "4e4fed3b3ad9b03018a669df1fde9932248cd58385b30711db1b2042a5ce5bd2",
+    "minimalist:256:png": "49b614119562c238de06bc67e103c749eb36324e3185ffcb86ee31ba76b0ef47",
+    "duotone_line:128:png": "113f16b4c85d66c42f6ba4bb33f29dfe3d65a238aaf15bca5c4384edf9bf98bc",
+    "duotone_line:256:png": "bf8caff2c37dad5d16d674ec2dd36ad51871ca3450bb0c58bda4d00eb8d1ca74",
+    "mbe:128:png": "881f70f210569791c262d2a9fa06a8018c77dac52ad621d14ef534350c8b6f9f",
+    "mbe:256:png": "15ba451d825b8125bc852c3a26d571eebd70fbf3e5d85c43a49c818a36f20cd8",
+    "y2k:128:png": "b8ffbe49ca0bed3660bbf9a75c557e5ec20eb399100623c49293e9d36de4a2d9",
+    "y2k:256:png": "e8dddf0abdb1203a961a064fbce840cae5d7ba331285a667556a2b6e998db6bc"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:39.281204+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:39.281204+00:00",
+  "source_url": "seed://craft.jpg",
+  "native_px": 512,
+  "status": 200
+}

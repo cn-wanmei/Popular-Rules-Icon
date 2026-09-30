@@ -1,0 +1,31 @@
+{
+  "service_id": "dell",
+  "source_fingerprint": "b5e0fafbd67ada87af7a5007a481ecc735b08fe68d26b5533653b144114a889b",
+  "object_hash": "1d554d43d5bcec7c019e8f50ed54dd0c59ef1c194244fa139c2b2b52204dbf23",
+  "variant_hashes": {
+    "source_original:128:png": "39d7e5241fcc7ff28e8beff9f65907d8c5d1b0e486029205ec05c57bb89ea90c",
+    "source_original:256:png": "59eec6c759e337ea3562b5615063004b601e1102fc7179bba374585990f36c9c",
+    "glassmorphism:128:png": "55a7119734fe3fff9da42060b9cfb6f49c50aab8e29f8d05aa0f2375aa477f80",
+    "glassmorphism:256:png": "163de23e95a0f70202dee71a9470800d3c64a4f4eebb3623265d00c039219841",
+    "soft_3d:128:png": "1a73ae5ca2230bb564c7f1b6a1d3dda8940f5feb316a3a44cca016408ad50f5d",
+    "soft_3d:256:png": "9e661a6c64ba3b1952dc2b312e6b0e49244370e379842566128820956ed03f1e",
+    "neo_skeuomorphism:128:png": "240f85e5672067ab5316dedebb9c8d377396dca95a45e70be5f0903fff618b08",
+    "neo_skeuomorphism:256:png": "4cdca71ca4ed0d38ddc7825b3be50b0cd884fbce384c51ded95ae167150190e9",
+    "minimalist:128:png": "f05d87908768e8ee122992c96bd8b7e13f37c1a59bb4ddf19461c5ed00e20e36",
+    "minimalist:256:png": "a4df47c3a1b24e14a6fd4b9d268f46a4ca88ae32ff8fb4c484ea050b85de055f",
+    "duotone_line:128:png": "9513208166e30cb3c08f22719b73895e6142c6133ce79beb50820ec20d6752c6",
+    "duotone_line:256:png": "ff2b98ef7cff128c1c423d7756244e39d3929333678eeab60a9131d297559632",
+    "mbe:128:png": "7972e2e5b5487fac6e843e7eed8fef40bf8ee08c1ffdd0ff7dbe700689661c21",
+    "mbe:256:png": "a46524f005806cd2cba55e4de385a8e8e910ad02148547b8a731cb4c0f710489",
+    "y2k:128:png": "848b32d943f93b9c0741917abca626ce4c6242cb8194c53aef94ea4746f09bb7",
+    "y2k:256:png": "ed168b2a6294321c770e92c0c9eacbce0799d1811ff0310d0c5e9f3b5c829118"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:39.281204+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:39.281204+00:00",
+  "source_url": "seed://dell.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "honorofkings_global",
+  "source_fingerprint": "c19555ef5401508a775bace65a1fecee18a98279a10773b4a409d7bbbd5c3e7e",
+  "object_hash": "cd64f50d73eebb6a61dc3dc18dc956abd8c1dfb39178b41876a47cdfdbead1ce",
+  "variant_hashes": {
+    "source_original:128:png": "d5da920070c83089e44601300f3d07db3a89396403fd3bc5f10838a187454e9b",
+    "source_original:256:png": "8ee839432059635e1f1ee7b9f16ec9535f83a98c602e61b5b0cd95eca50cf50d",
+    "glassmorphism:128:png": "961aca3f7ab43ab86e67ee576c39543ae7388c830ee41958d56d5cc29b9f941a",
+    "glassmorphism:256:png": "cea20ff9ffa19dd2702ab3b674bee80a678160ad020b026531ffa955e0763a06",
+    "soft_3d:128:png": "25a3310b390526456ac1c11a6722fc89e490ce79a2a7f15bcdc4b00722df4350",
+    "soft_3d:256:png": "44cf5b6291816e6ad55a8060a38ff07e3e6f823a34d088bc101cca9182bdbf84",
+    "neo_skeuomorphism:128:png": "0a9c39392c8b47b0c0866b942aad88e81ae4823129b05071a690ee4847e8ece1",
+    "neo_skeuomorphism:256:png": "c8ee6e66343a455819751b64de02ab7f94330b592fcf6cefa0b7e0591f883c1c",
+    "minimalist:128:png": "c61dd3713cdfcbba33031f1fea39eab463ef32e28d79672f11b49339e84bb7ed",
+    "minimalist:256:png": "da6cba5fd415a7184bd519045fc312c9450e68019e72a1565cc4fd6be5c58ad1",
+    "duotone_line:128:png": "81f953316520c161d6b35d34b8ba4cbaebe1833cde854d2255fae51a9943ceb5",
+    "duotone_line:256:png": "d4febfc99cc867459ada085795982e44c7380029375b9e92517ca485c66e8681",
+    "mbe:128:png": "ff0da30f315ebe4eee326ba710455496fb6fdbb241773d531e804098023849c1",
+    "mbe:256:png": "84e73084b8de846d116fc8d2bc1bd3ed44adcbfcc9d8e8c1b047634471b473b5",
+    "y2k:128:png": "dcc02ac04c3f7727294240f3fa5a7721efc0aa6a286a7d1e15e2fcadcfcfdb0d",
+    "y2k:256:png": "3cb23666441c2fe2d5c520e3359e74006acf0cf2f95c3bc80df47886f885cc53"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:41.652011+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:41.652011+00:00",
+  "source_url": "seed://honorofkings_global.jpg",
+  "native_px": 512,
+  "status": 200
+}

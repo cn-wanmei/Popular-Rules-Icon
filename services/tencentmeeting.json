@@ -1,0 +1,31 @@
+{
+  "service_id": "tencentmeeting",
+  "source_fingerprint": "a55278fa761626581c68ac9c9cd0ee8c3ba0da708cb33d119766107c47d9a936",
+  "object_hash": "6b83c1c656c79ad335083427ffea8c3b3624423291a86eaa28bdd9eaf60734cc",
+  "variant_hashes": {
+    "source_original:128:png": "92656dd72a1d8ef417d68fd114f8131a6afbdc911df3a7e1796fbcc665866d3c",
+    "source_original:256:png": "595595377bda1a51b49af1e7083aa2f11a3a100fba5cad22a3572b70b4771642",
+    "glassmorphism:128:png": "9552bfdfc5f19833161595233117dbadd01a244961271619e782a8f66828fdc1",
+    "glassmorphism:256:png": "7d1daf62e27d5e1fbbdb60d5aeff3b05d37af80215d5bd105ef1f81b4d446226",
+    "soft_3d:128:png": "bf14a4ed7122efc20e058b386f497c3be993532b6c7180058be07ac4b5f91d8b",
+    "soft_3d:256:png": "3beb6b960e7028975540c36ca363763ac33ea1a11612223f3b65ce5486360d97",
+    "neo_skeuomorphism:128:png": "760800456efc4f0b284e379ee76fc761bd67c89adf1bfd459d845a536d87ff83",
+    "neo_skeuomorphism:256:png": "8dc11314da1863da617ecc71ab203a466cebf0a45d87962c1443ddad71d78c51",
+    "minimalist:128:png": "42c72af3e6a5f3b1c15eea463bbe0a48b419dca2601b6bb4adabe39255a3cfa1",
+    "minimalist:256:png": "372e40c1cd7858e22012afbe154623dd48382cdd79a2826fcb722491b85e3e9d",
+    "duotone_line:128:png": "85c2a409dd9da4f9a8634fe34d298c41e71173303cc4aa9c461f9089641bc196",
+    "duotone_line:256:png": "b20871bc1d220d6f831e1b0fff9a41e37a300ffd3e57e87f44028ffee67deee9",
+    "mbe:128:png": "c272dc5e58f667fd2153f3ee9b6197fa488dd06294b2103f415514c6ab7f70b7",
+    "mbe:256:png": "0966abce514fed362a73ce2e5b9268862bd2f4c0476f024b9e286fdb98810298",
+    "y2k:128:png": "c1e5eebca572d7ffd89ee0232d8e193490a87f21b7b613dc2f932a11d37ec934",
+    "y2k:256:png": "a0911c12fc2385650f78db903533436dbc0deca0840c621cc0c16d65a1f95cb0"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:09.251454+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:09.251454+00:00",
+  "source_url": "seed://tencentmeeting.jpg",
+  "native_px": 512,
+  "status": 200
+}

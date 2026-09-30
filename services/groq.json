@@ -1,0 +1,31 @@
+{
+  "service_id": "groq",
+  "source_fingerprint": "0d96da7965b7e48895947e9ed3ec13cb99a32009c2fcaccfcc90d0cc4f535fb5",
+  "object_hash": "f07e551f729bdaa7e66ece4f19aca5fabfb153c64916df6a02eb34b120daed96",
+  "variant_hashes": {
+    "source_original:128:png": "c7f87011dbfcf0de5238f3ada7fa9b729f06dcc9ab2f0e6899e9bf0a2f9eab85",
+    "source_original:256:png": "2344d6ea94b194ae7294691be8a134f02c976c896ab7d28b3d106a0cad941ef4",
+    "glassmorphism:128:png": "fdcf2f684af38c3a339830556ef4f1d9f11aab54b74bacdb44ab2dbe7de9b585",
+    "glassmorphism:256:png": "ec0af6f7c5dd2b36d1ebdfe3608b24693097e589aec0ffddcac29cf02e47b6f1",
+    "soft_3d:128:png": "e063bcace76f573414d38c8699664c4759dbf1d756d9ff303a98a121d9f135d7",
+    "soft_3d:256:png": "23c0a703193efc209e31ee2e3aa0f579709c5e87e6a33b3e1e5738107cbd20e0",
+    "neo_skeuomorphism:128:png": "77173d13e063deff9fa61d5036ba5fcaa5da30102c53c974764d64c73ce4b324",
+    "neo_skeuomorphism:256:png": "db2c5290b13a22b62be196c329b6e12d979c798762686c5e2a5ed667cdc697f8",
+    "minimalist:128:png": "f993617dc4e0571fde6434c3f181c48f25de4911251a29f8481b1b52bc418b91",
+    "minimalist:256:png": "c0515a0a94c5d9b6d94b89de15404a3e70ae02f4eb00712568b49736137f2bba",
+    "duotone_line:128:png": "d82093d5f6401b98c1d7d1ffb46ad12029c8b75c718bf52127e742560a3d8bc2",
+    "duotone_line:256:png": "cae6a6eecb784237476f7319c1a0813841c28c0968edd859ba4249ba31bc44a4",
+    "mbe:128:png": "189a180dd4edf3f894af943ecb9735c3502b57990e66199d9dbc36a522349111",
+    "mbe:256:png": "a491aabb60db0843055eee9fef9bedca692ed5cff583658a16233463dac7efac",
+    "y2k:128:png": "5a9acbfc2138d1728b3e39eaf0b3deab14857c580893f01847ff14cad9125d47",
+    "y2k:256:png": "0f077f1cbab5d8fa26ca25612b9c5e17456355cbc42cea806f199e3379a0fd55"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:41.652011+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:41.652011+00:00",
+  "source_url": "seed://groq.png",
+  "native_px": 512,
+  "status": 200
+}

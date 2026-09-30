@@ -1,0 +1,31 @@
+{
+  "service_id": "stripe-dashboard",
+  "source_fingerprint": "0657b184adbb77703a90bc6d9a50e499a3a4339019de22e64bb5efc922505a21",
+  "object_hash": "2797c51b6fca9654c4d616c8c48693262608eaab5004757278d25a72483cf936",
+  "variant_hashes": {
+    "source_original:128:png": "ebc52487b49176c79ceb57e54cb02aac36b51915b0b2e92d2319859b80e971ac",
+    "source_original:256:png": "2cf11d9837f0f2f67fdeb8105ed941679cad41a6fbf23ce855148d784b74a7ab",
+    "glassmorphism:128:png": "cc6279b3268f906deaa9117b3f9db2c8dc7a651224d95afee4c7788273513b96",
+    "glassmorphism:256:png": "00530e7c6904ac0f4c89457b9615b1d1d335e760074194e7312a52b224dc57fb",
+    "soft_3d:128:png": "0a1e271dedaac448d54101ed7e0628dd0f1632daac02632657e2907d21d7210a",
+    "soft_3d:256:png": "58e3a20e4ead9bda4e4eb1325576548501305396d5590b0bd78ae8825fbe2503",
+    "neo_skeuomorphism:128:png": "753c6f28b8b2ce4e447156fee351bf0e5bc8119dbd3b59138c5f7429cc702cad",
+    "neo_skeuomorphism:256:png": "5383203a11b8327a28709c0f8199ca553ab4326ab97a6380b4a266d344635f00",
+    "minimalist:128:png": "376bfef7ca8e5c55b7bcc401001d286edc372a05e55a54341af94e35c12d1209",
+    "minimalist:256:png": "5f95b34ce09c15e8662da966de5fb9400a2e87e94de56e69bd9608bb195f0c3a",
+    "duotone_line:128:png": "bddac12783ca696ea7a1466c8cdb389ce37e7142f9318d0689a36412a73fa6b3",
+    "duotone_line:256:png": "f21238d0c3892e793990829334a2eba273cd721cca758dc3a2c906f28ca7b37b",
+    "mbe:128:png": "616f2d504cbf9cd1dbe516f7382e1929cd57de90c3ec941a9d73fdc02c4b69ea",
+    "mbe:256:png": "41f6435e14c276d46618e9d6ff7b3ba7ef22ae4fbfef5525c0a3332a908b4528",
+    "y2k:128:png": "802b6810008ebb5693c5c2b4963a52415a278e0371f39ab32094fff05d0461ad",
+    "y2k:256:png": "8098f9992038827844f29738c1b70a384edf0b9e08c9c7572f5962903b345ab6"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:43:18.806865+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:43:18.806865+00:00",
+  "source_url": "seed://stripe-dashboard.jpg",
+  "native_px": 512,
+  "status": 200
+}

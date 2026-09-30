@@ -1,0 +1,31 @@
+{
+  "service_id": "applemaps",
+  "source_fingerprint": "3765fd3ba5b09a06304099257890d35473d684899792a061ef1e58ef30ceddcd",
+  "object_hash": "c586bf9490a2ee0c28c82ddf0977f5c4306346f06b79a98663d946325d0ecbea",
+  "variant_hashes": {
+    "source_original:128:png": "84d5b761c58b01b4f33c095294692955b94f44cb33ce6e1fa7e1ddf381b24ff3",
+    "source_original:256:png": "1b2916149f22284aed5eac5ce3795c49bfb558e39fc17685d1ae642f8f6f4ce4",
+    "glassmorphism:128:png": "36f1ebd41fce8d24b1d22ac63fc71b7b873bafa7eddd85ca62b9e4fb270bde0d",
+    "glassmorphism:256:png": "3d482d6731357843df6d2d6211072a07ccd956bae5d14c865315be6dfc3a30ae",
+    "soft_3d:128:png": "db6ab9907f389796aaa1aa690a49b6c8a47c24024cc2cb15d7fd575b1726e764",
+    "soft_3d:256:png": "3082ca46c8687a4053fed7b546dd186a4df6a7b97c1d50c5c05ad8a120b544a4",
+    "neo_skeuomorphism:128:png": "1df6ac00973758fea6092992b6744882c446d41d23db0a47dd135209c2ce544e",
+    "neo_skeuomorphism:256:png": "086068a89aa1600222237f5fa890406d9ebdbba764c83eedc9482ef4011b8fb1",
+    "minimalist:128:png": "1b062e948481de5012761cd0052c6480f6552b287003bd4ab6a9170df798913b",
+    "minimalist:256:png": "117d254f2ad18f9662919f2a685b7f95e3fd2ea3d9597ac5eccb404edc7c03d3",
+    "duotone_line:128:png": "a8fba2bc76da7a24cfb566bf3c8718004fcf4614eca8ce5c4178b9d745e143c9",
+    "duotone_line:256:png": "a788af93bef5b2d659572d9784ba8b1f2adf0da3c63642831b15f2c99dca0e05",
+    "mbe:128:png": "3e3ccffe669eb305cec5769939293cf1e893a67a12fd970a84f4268139e6a688",
+    "mbe:256:png": "378c0510390a2c47a43dfbf359be133ff0eff6d488ed057231448c8735cc0569",
+    "y2k:128:png": "2ab29cc480508ba2f43ad7b9e53c245823dd909955ba1fbb49de93934724c86b",
+    "y2k:256:png": "4cc4db0539e8ae82eb03ce7a4314d8104082ae0a730e5c65021e979a71c0771e"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:13.036231+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:13.036231+00:00",
+  "source_url": "seed://applemaps.jpg",
+  "native_px": 512,
+  "status": 200
+}

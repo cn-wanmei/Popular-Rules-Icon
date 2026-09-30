@@ -1,0 +1,31 @@
+{
+  "service_id": "autodesk",
+  "source_fingerprint": "8dcb71bbd4bb272c99bf78b22d055d412fe10ec5b2c5a937d0c99461770a2382",
+  "object_hash": "d35da7285dae3c8e5b7b464c1145f873770567aee3bb5fc84897e2f343a49bc5",
+  "variant_hashes": {
+    "source_original:128:png": "7e88b94632e176a3a8281daa37d62810d6344236f52a7a3de82b0ef13d786fd6",
+    "source_original:256:png": "e4e20bf982c0149665170a8906edb3817e8fbf6be0c5c687689f57ce48b444da",
+    "glassmorphism:128:png": "753c1c5040d413b1b24130e435d780aa22a369e8e38fafaf0b3a3c3a58b24b1a",
+    "glassmorphism:256:png": "c9b187287db5c8b9771fecd05f39f1941d79bb8c80736a500adbc33daa9f401c",
+    "soft_3d:128:png": "d36c03312095de3e94f43f45f1580d91555d7f75755dc59c5ee70348fc53081f",
+    "soft_3d:256:png": "8a1b1a1563573f1407b552adba5790f6a40c2ea171ee770edc19d3e4f63859ca",
+    "neo_skeuomorphism:128:png": "b60168ab1507b98079303a949b2bdb26517ef0d119b6672939a897441ddfb1de",
+    "neo_skeuomorphism:256:png": "cb50b37b4515a2a18ad1117f85bed6bbf633c765a6cd9ed4f66a62b25479f38e",
+    "minimalist:128:png": "fa85926dcd32e8802108441f0bde8089800f9070c3c2e30b76754ffd9ea65efe",
+    "minimalist:256:png": "3038a7280db5f3bb1b175ad70503fa63f3034c25480f1b18624be72ccde0a554",
+    "duotone_line:128:png": "942b0810b8e0f2b54be142960c898f46039bc4384ce5201f450d963b3e603a75",
+    "duotone_line:256:png": "803cf08a93348740901db2d95d794f0047f7897a470a6ee56c8c18cd9bcaab1b",
+    "mbe:128:png": "153e2585267aa4bd3b9eb4eed3ec21608165bb07bb2279d5dc7b00e55734edba",
+    "mbe:256:png": "6b7c89da3f72d3794e42cdb5a6b050ce99862503ec681e1ae4a849cec8df30f9",
+    "y2k:128:png": "4faf6da78f8fde4f5b783d03e3f5b5d4e1bdc95866d88b834ff3cd5cfe55f849",
+    "y2k:256:png": "5cde8b3d37dce270e22af0d45c6382b0d09df04733236ffce06d1cbdd37e3ce0"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:13.036231+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:13.036231+00:00",
+  "source_url": "seed://autodesk.jpg",
+  "native_px": 512,
+  "status": 200
+}

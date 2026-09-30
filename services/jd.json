@@ -1,0 +1,31 @@
+{
+  "service_id": "jd",
+  "source_fingerprint": "7c052c9b57f4ea9fa23793a7a231f70f75b6eeec7afc54e38d14cf67a679ef4a",
+  "object_hash": "42e830aecf55ffd0872d8e28d365ff48e1ba1b6da210cb63d9a3ea1c344e1a24",
+  "variant_hashes": {
+    "source_original:128:png": "415a32be8cd1ada83d1d39f9b222e6297d06654357111482bc8e23029a167b37",
+    "source_original:256:png": "4f52f87f2787bd4127c4d7b2d55ca621a425b150d3857b37096712160628dba8",
+    "glassmorphism:128:png": "d1f56b74ab06c9a2de2ab0ca2d16a06316dd8e6a4d2ebba3d67eff0233f8cb3c",
+    "glassmorphism:256:png": "03fc8307365e9ad1cefb74b3ead1e976edab176f9c973699ecad0a9c88e0dc3e",
+    "soft_3d:128:png": "c6c96532ed70d8eb42856fb0db2c591dba941174c2e2360cb287901e1b200efc",
+    "soft_3d:256:png": "1c619aadade2ac59c4cc4d9cef30cc80262b556e708839dfe6624a4e2d50c16c",
+    "neo_skeuomorphism:128:png": "c02261e3bea8360a506d4f5beb691aa9b9aa32cdc40bf03aac3e91cafd9fbc14",
+    "neo_skeuomorphism:256:png": "7b68a147f851c022e297ceda292fa3a4dfc974b455fa58d85871ce0b865fe2e1",
+    "minimalist:128:png": "013eaa49033a3ed622c01f54be1a4935177c0b5279060cc07c0502c7e7967b66",
+    "minimalist:256:png": "1841df22b868c40fed4d781fdee1a7ce6fb39cb9377d675037c1acc96c8340f9",
+    "duotone_line:128:png": "675f9df8656cce8928aa1abb7117419f92a750234b81cd91742de9cf9e2d5230",
+    "duotone_line:256:png": "87ba74f5f1b51eb11ba35ae26a131867b5e1d02436b804ede46f68af417d81db",
+    "mbe:128:png": "7e514c0f6c9c31777c88ad179c5c9a4276e6a4c8e1ba9c0d13c4169094e8c102",
+    "mbe:256:png": "b6cc5e6596179c42d65f0491eb751df06754d29c1c30d2c5480b6557303483ed",
+    "y2k:128:png": "427130c267a2c87c3a2ae8176b6f611ef285d16d2df3906f2f7380930865f5e3",
+    "y2k:256:png": "e6337951e38ca6630cc53deb85770e33a749edf751196e44b55e3b515a61bb30"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:59.375173+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:59.375173+00:00",
+  "source_url": "seed://jd.jpg",
+  "native_px": 512,
+  "status": 200
+}

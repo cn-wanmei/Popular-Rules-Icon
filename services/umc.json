@@ -1,0 +1,31 @@
+{
+  "service_id": "umc",
+  "source_fingerprint": "e653d37be758949240cfc86189bcb844cad922c8d8e580014ec67cb77401eda1",
+  "object_hash": "ffd720d6adaf9ddf42c55eefeb085bc52ec4336f7da60683831a45f8fdb7582e",
+  "variant_hashes": {
+    "source_original:128:png": "600f239ae43e4db19544c82aa9254468dc90f15f6e2d22787832de89b4c8337a",
+    "source_original:256:png": "e0e0b6bc7b40c74a470948de95679423600121466c4f851f5864d6fe9fab89fa",
+    "glassmorphism:128:png": "12fed2f073d7c240a7c24e7706b75ec83c15052ce6bc24d95f8679ce5072edd5",
+    "glassmorphism:256:png": "accfdca8ac45ab12eda304fd9ab87ced14255bce55d1402850dc9d39554f8b6f",
+    "soft_3d:128:png": "ea9d10862f91293084f326c210651ed5482301fd14181325ae3b418af07db35b",
+    "soft_3d:256:png": "727c480c8a94876c1f2e0e55ebeb8835f4a31866e653952786900d4bbc1a674a",
+    "neo_skeuomorphism:128:png": "5ced99ed65bc35da2e4d970ac925436eef36bb191df6437f535ff42b95537b3f",
+    "neo_skeuomorphism:256:png": "aa65efe65cbd3bd6476bd94f204c6a0a521d14cb6eaf00684f96b3948c749cb1",
+    "minimalist:128:png": "9b1289bd2df63e7e7f2d4e92417f1bf943ec9ee34e787d418faa5bcd3bf64423",
+    "minimalist:256:png": "f95cb518f11a6f948ad9c79019a0fe7d682c8afd88eacbeb168db421398160da",
+    "duotone_line:128:png": "4fe933c36e24408218ac20849466833ff2f044fbb9befe641ff96090f20dc83c",
+    "duotone_line:256:png": "ce7da0f702d856f6cfb94ff53bf0dba6c0607d430b67840ca8aaa26a97865844",
+    "mbe:128:png": "f565b81edc8645baa71c23d992b6bd6cc895b6a6745d7d7cb2a1940d81a3c24c",
+    "mbe:256:png": "01dcf0b3067041ab1672721ee2c95b55154b2c8c85d39fa716f9aabb4e6e3180",
+    "y2k:128:png": "f91305bc1895f0c0b032f8602ea6e19fc0de053e822d897788bf0236a76ff308",
+    "y2k:256:png": "f76e12dbbec6cc89491e9033650972a52566dd4806bf65082ed06b89e1859051"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:43:26.122840+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:43:26.122840+00:00",
+  "source_url": "seed://umc.png",
+  "native_px": 512,
+  "status": 200
+}

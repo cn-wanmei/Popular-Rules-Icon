@@ -1,0 +1,31 @@
+{
+  "service_id": "didi",
+  "source_fingerprint": "70368cc36480ddcfcff292bea961c845832c40f3270f9d74682d16b13c8a93fa",
+  "object_hash": "a8fbb72f354f63150db257d6cb576d263e97a4014aace3eded227db7c1bc7e95",
+  "variant_hashes": {
+    "source_original:128:png": "d2b7237ad95273361fb7f65e30d91f4e4917ba229e38d9e1662aec9dfe5bfa9c",
+    "source_original:256:png": "77df9118670c9a8118b8e0519a597d52b222d64af06b2bd85cbc3e2f98e66c25",
+    "glassmorphism:128:png": "167e94a0fb5e2cdb0097bc790107c4cad4b474c40dff8c1846690c0963be5340",
+    "glassmorphism:256:png": "b39732e66e16996efc26467ff05c57c754ae5244a86d898cbf275cdcc8264971",
+    "soft_3d:128:png": "db756f5f4eeb38bbeffc326223fdbedbb5451924cd5e8e74639d89c2ab5ead61",
+    "soft_3d:256:png": "53a20a961d2df53fcdc7d8e3bf139e0525f63383b3230c2cd850cce16fcab333",
+    "neo_skeuomorphism:128:png": "8ee4fe1f53027989db96e7292fdeacafa1bb54d10eac26f2bdc1ae486a9dbb88",
+    "neo_skeuomorphism:256:png": "b54fa2052cf1dd6789971ad0fe9e4549aaa3c46fe6e6f2f59993b53711cfe842",
+    "minimalist:128:png": "afeae6d9d873efbb705e1e0fe2a0daae790531c6030979f7af2848d136e4bcb5",
+    "minimalist:256:png": "0e45f967c0368944db9236f025810b4ecd35fca37c87e762c18874314483a803",
+    "duotone_line:128:png": "ef46f84cb86b46dce816a5a9d07a23e6a55c7cf046e9bacb8d756e8e5831e3d6",
+    "duotone_line:256:png": "137068ecae7b8fab4777da1dfb895a326446f31a8384e328ba546b66b605467c",
+    "mbe:128:png": "1f32f1a40d7c9b391f21f06e2cc0676b1b6fe6e77ca98ba59ea0771af040e63d",
+    "mbe:256:png": "94aed546a9a941c97daa8e1b211255c97e09ed00da70b076283a191595fbe063",
+    "y2k:128:png": "51da9e389eda7b97bb67fbf56032eccf8a5cffd3470279f13e8dec23bbb8c080",
+    "y2k:256:png": "58a96c2d48dcca84a51c9068fcd5312d602d2d43a07f841748a5811e1a63256d"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:39.281204+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:39.281204+00:00",
+  "source_url": "seed://didi.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "sap",
+  "source_fingerprint": "019969f5fcdefe9bc91e14d0e61245577744d01bd4d25cd730b9c76e40de2fac",
+  "object_hash": "a724c9735362854cbc8b6c13630f94baa4847d1fb35bbca592c703ba4159568e",
+  "variant_hashes": {
+    "source_original:128:png": "02001ac5a1e4e81fafaa00091e640df3a3f6ff1c4924d8ddf22a5b5d677699b6",
+    "source_original:256:png": "20a246773807219f75446fcbd1883262e67198dda0927d7c2794a7a608674632",
+    "glassmorphism:128:png": "385421b059445013eccb229bdd0d810c29cd3f9006863e827ec4f96eef6164ae",
+    "glassmorphism:256:png": "b43ebd90982bf34c6ea6dfcaffde48ab3ccac6897d4b41b0eb834b582ba1a433",
+    "soft_3d:128:png": "5cf0d4d11a9774640022362a10c0b285183f5f479f4cb353e882d8f924270b39",
+    "soft_3d:256:png": "786167391ceb7718b476637587e0aefcd224f39016574109b58e52b7573584e5",
+    "neo_skeuomorphism:128:png": "631c1eace4d4a62495c3a9125559323354ad1e23cbf304ca327c77602f401cc7",
+    "neo_skeuomorphism:256:png": "76a6bb6cae8ff73a593f62295d49c4c4eec3b17f59241ec0a999f73fa37e504d",
+    "minimalist:128:png": "0a5655291d9be2e46c8b8d05169b530b8537980165661d604f1ee9d644c00b19",
+    "minimalist:256:png": "33090c3df1382fc5e9bcbe18d9de142e8892497cbd7ee2604d517e4dbf815fbd",
+    "duotone_line:128:png": "a8bdd1f15ab8441db67da3217164626df288bb63e8d7d0a5579ef1e0e1d915c4",
+    "duotone_line:256:png": "6f4937591f750d3c102fb1c5feb8ba5451041f0a12fd8f3499e700bd3aeafa0d",
+    "mbe:128:png": "aa993a2159d3de3c9f2b0cf539558d7fe716d916cbf14109695b36062e72c7b9",
+    "mbe:256:png": "9a7b4431985a49c4b16201dea17ea12fe1f81b8eefc325b4ce2c84c2c83677e0",
+    "y2k:128:png": "d38f9a4f70d6436f9a529d6064917073ba743d9270d10a65ad2b0c9e3acc2e7f",
+    "y2k:256:png": "2c88af25d7bc26f16578cb3e0b48c9c93471ca4b82a81d47c54d761f7dccc77d"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:42.683070+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:42.683070+00:00",
+  "source_url": "seed://sap.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "hbo",
+  "source_fingerprint": "4a9847f65ec1cf5eec29042c4f9aff3be16a4dffe0cc338096c3d7adf40350f5",
+  "object_hash": "c068ff2ed6011534c0b9516fcf73a5efdb9986b4d88d5e2430d6e3a343ce385c",
+  "variant_hashes": {
+    "source_original:128:png": "4fd978f024d8772f8f062c8b7b6ae14a6b830880633cc4edf474c2e106a063bf",
+    "source_original:256:png": "24af9ad216f8dc3c21686bc588225dc95ea2946c8e4c87aad3152968119c884e",
+    "glassmorphism:128:png": "3e22e18b7060835c63dfeb6de2c41b19de28e0e9e0d756508c66c20b8c44b28c",
+    "glassmorphism:256:png": "5e6fd4271b5e5c33dbe1b66f4096738ef3218274cf1caa64e4d04eed0a61f0ae",
+    "soft_3d:128:png": "d8b3f6d5ce74c3c0fabca51ca1761de7aa15049c290534b48dd5ca6ff43c5296",
+    "soft_3d:256:png": "657bb2ff77ae926f5dd9299d5f975fb58cac31b860dfb78d4dc6fa7dfe6ccc61",
+    "neo_skeuomorphism:128:png": "08139804bf38a6d27a629d44686cf6a578b432f65bc1cd3819a0a7978b60202e",
+    "neo_skeuomorphism:256:png": "a48ebeb8fdca6f17c92e1ed96f893cc7c5c4492d97a4792b3cc34aaa153a1702",
+    "minimalist:128:png": "1a151c5801e1be6477c1abb7665bbae7244863e107c53d885c62b6c56e96e9f2",
+    "minimalist:256:png": "e4f88869c85579c951dc9e15f57a4d59f224a1a23c5d9393fb4f227f2f74e194",
+    "duotone_line:128:png": "1c67704917720706b38ee60f3bf0374455d83fa2b378dd9edea3fcecab374bfc",
+    "duotone_line:256:png": "1aade4a4470a9456ce32c767e163c74282c03bd1fa9dc913305d4495873ecb86",
+    "mbe:128:png": "ebfb8941c9c1a3a84202646beed60dbd811ed2e1254d9ac36bad7a402b789f22",
+    "mbe:256:png": "c67ccb1b8be1f793b2660014294e9a919e53bb3f19c455e20a76ff316086d718",
+    "y2k:128:png": "8ff739eb5f43f0d26511651fd0ff4bfb6070c3411fb2714c4ce572f45a10426a",
+    "y2k:256:png": "7f9e85a8b7b1d02f34c4bce634e71fea303688163d5e8f0b73f38306ea47fb1e"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:59.968609+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:59.968609+00:00",
+  "source_url": "seed://hbo.jpg",
+  "native_px": 512,
+  "status": 200
+}

@@ -1,0 +1,31 @@
+{
+  "service_id": "ibm",
+  "source_fingerprint": "aeabeb7416008c6ee9ff5e1f169d473c57c9af335e44bcf94078d2c50dd9daae",
+  "object_hash": "dedeb796556fc92f09730ec09dc9d72a5b9af43836a7a07d3e64f925a2cf39da",
+  "variant_hashes": {
+    "source_original:128:png": "13abcea44aeb5007c15f2ceaa391b04ce2d287367a79887f99c9243a55159337",
+    "source_original:256:png": "17e4fa5a042269390f0c206c55e99cbdde1a650eee51cad99af2edb344b33e16",
+    "glassmorphism:128:png": "d81064d98ca04df433d803cabcacdd578c26a59bd5b7110362023debaa38b9e3",
+    "glassmorphism:256:png": "bf486218f8c23e00407977cf203f305f66897f79b69c0e0044ecf64104790145",
+    "soft_3d:128:png": "fbeb5afee1725526c63f55e19394522ad5cd2b8ae3457858011dee5a08cbbc0b",
+    "soft_3d:256:png": "c90b4ecb13223b452389479da596ae715b7f8d9ff27bace2f63806947cff99de",
+    "neo_skeuomorphism:128:png": "a02cc3f1415e06d5d7e6d0cd72b4f2d96ce8401ac39e33aef83431d1ba323b70",
+    "neo_skeuomorphism:256:png": "8ac208b6dc843a274aad57729eeda395ee4cac5cb169df668cf37b7d1459b771",
+    "minimalist:128:png": "196917c1ba08e86ddf40322f3b15d08ef5db30783fb6f8616206c6922b3af6ab",
+    "minimalist:256:png": "cdda45bc69d6138a301b65c03c2ac468246674a3a920e312b9953e3db0b99725",
+    "duotone_line:128:png": "6b906fee2809aa9d9fe6f1f48150213353d74f507beba65df69a32535ef8cfb4",
+    "duotone_line:256:png": "f45927992d2b1307d1518b2cd4840035f09c2ac989ddcbf79dc6348fdfb90752",
+    "mbe:128:png": "aae3dba9be5d4bdbbf95ba3eacc6f39d4d7ef35dd7f554ac683ba17942b2010c",
+    "mbe:256:png": "52d2e2138e2811e445409b46bfc8d6b1624b6d0df34c893e0205a8db18f15c3d",
+    "y2k:128:png": "c4d975b018ee1a5767d0dd9018c2e75b72b8c2d0888958d3786e27ff0f70c748",
+    "y2k:256:png": "0b6831000756dd34a58ff9f69ccb35e5a45312779f9e3935f1a394a32bab271a"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:09.277852+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:09.277852+00:00",
+  "source_url": "seed://ibm.jpg",
+  "native_px": 512,
+  "status": 200
+}

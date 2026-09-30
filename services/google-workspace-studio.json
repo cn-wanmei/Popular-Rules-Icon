@@ -1,0 +1,31 @@
+{
+  "service_id": "google-workspace-studio",
+  "source_fingerprint": "6f7d06311388f432cbbc701e077112cae993c68449ad643af7032efd2167cc69",
+  "object_hash": "2875a9304a7dd0945f58ddfe67b8561fd04b07c5e4d9296235beba0cbd774a8f",
+  "variant_hashes": {
+    "source_original:128:png": "8fa78aad07a5c056293524ccc691e7eb3790b8f3e2d3a84a4311fdebb0e769a7",
+    "source_original:256:png": "ba416daa42ad9c46d582068bc25a4675eb141efdfc99be76c01cdfa9ce10e94c",
+    "glassmorphism:128:png": "12e42c6e10ee18b1d4b2b47e7b1ec0e2774dfda2d9fa451ec5f305ac7e55c272",
+    "glassmorphism:256:png": "d9528cd1c0a6d0fcd269bff385f19cb17f0ddce7091e6f5be2a3095587823d19",
+    "soft_3d:128:png": "891cb1e52e06269c977eb6e8a001fcf9bebf340e75269555ecf690c5d747aae9",
+    "soft_3d:256:png": "e371ff405a4b1dc4cb1336921e91f99036afc7543c088b74fce5a591c94a0a66",
+    "neo_skeuomorphism:128:png": "aa6a3ee7df403f84b75407ada6237cc0c4674a68c8f82da45cd372a35c119328",
+    "neo_skeuomorphism:256:png": "0e6624e9b147853f9f90f808c583f96d7bc22814c508fabed446692d33bfb18e",
+    "minimalist:128:png": "2c6df07c339ac23f7a73b0d1fc3d938c2d295e059381cacd5e2259975d4158e0",
+    "minimalist:256:png": "5a88c930743d7ac477677fa38fadbbbd03c8239ae8eab78a8ca2c6bd3a566c24",
+    "duotone_line:128:png": "3210ce172f7425560211f11e50abb1e4997cd6564ab03cadb72524bdf5b9ca12",
+    "duotone_line:256:png": "281c55bd0831ab335dbcd47c1080012a3d6ed4ff31f1e4b592135efc9d795bda",
+    "mbe:128:png": "6630cbc5f25fc37795f2f844b7b3cc8e3f0e485039c979140a670f7f709735a9",
+    "mbe:256:png": "1cedc8f924b8a13cf0de370eefa1a695706f2e16e92b47eb8a50227e2c637a2d",
+    "y2k:128:png": "2c6269560fc5656dc260af411917f359184d7bb1e4441d8bb3a8b995ac597cbd",
+    "y2k:256:png": "52e2cee21204695862ef08866e4ceedb0238d9a93851aa82819dd9edd8849786"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:28.404598+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:28.404598+00:00",
+  "source_url": "seed://google-workspace-studio.jpg",
+  "native_px": 400,
+  "status": 200
+}

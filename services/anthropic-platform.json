@@ -1,0 +1,31 @@
+{
+  "service_id": "anthropic-platform",
+  "source_fingerprint": "da79d1fb2288fc6b9e984de0c862dfbc96996a9df71248018f6a2997ef2e9ace",
+  "object_hash": "6dedebba99511bdceaeaaccee993a9dcd9d088267371d311e58f81d357dd70eb",
+  "variant_hashes": {
+    "source_original:128:png": "5319b7f1020e10b23c668c3cca72c8dc8c5da54fc6509a5ddfc4c85f85ddf30d",
+    "source_original:256:png": "fbf08aa4be76879b39ecc0d8bae6961267280359c10b22a196c5ef3d2ead3815",
+    "glassmorphism:128:png": "5906a12e3d549add7eeeb5e3aee4489860d30eb29a79c666d7af2447d3acfe18",
+    "glassmorphism:256:png": "c4531c3632cada550dab48ce42918915facccdf5eaba7272ff8422ef1e0e5d30",
+    "soft_3d:128:png": "690223f12ec681c7f50428d3c750dccdb5d58c1e88c9d688602c18c4fd3cb7e7",
+    "soft_3d:256:png": "29e8ea2c212d93e3b8877a3526aef5a98fbdc43ba67b41463c0047c9405c2660",
+    "neo_skeuomorphism:128:png": "5de1e65779530eb062691453292567bf19e7492c384b32fda11c18e2806fd33f",
+    "neo_skeuomorphism:256:png": "c17ba4b78c6a50889eb9ee4d7dbe95246afef54514dba09c9b3485a588e78341",
+    "minimalist:128:png": "bc26609300351984f2d535328aeb43e617066525bed36bf0766da6342b579a00",
+    "minimalist:256:png": "38c14d52487d333b1334443b007c8ba2d827bd66a0ce78faca43dfb6acf43a10",
+    "duotone_line:128:png": "82e1ed0e9f7873428ed1290c52fccdff3a54912149b02609afff0016fae46e3b",
+    "duotone_line:256:png": "817d2910973f72356ab07479f0b4cea0d8cc6b4c79335d674658a6ec247d2e6a",
+    "mbe:128:png": "e7b267a608b867837d234094f10a4f391e293adfc97e26137e985c66c08018c2",
+    "mbe:256:png": "42c5fb37a5b433fce6a8030222ed89770dd0a9219477716c649392d133577292",
+    "y2k:128:png": "c0101f091c5668911447e4112c16618da059fa967551eb919fc3f2f1632231c4",
+    "y2k:256:png": "1c669d39f3a2228c2f8f85d8c4662c2cbfedb58e6edb312f71e51747d421f30a"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:41:49.874807+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:41:49.874807+00:00",
+  "source_url": "seed://anthropic-platform.jpg",
+  "native_px": 512,
+  "status": 200
+}

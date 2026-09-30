@@ -1,0 +1,31 @@
+{
+  "service_id": "letv",
+  "source_fingerprint": "69f26d1c9eaeef55c1ea842cbf44cd1536df53da854da097ae19f672a1b18beb",
+  "object_hash": "25e6f31fb11ed12713f1baaefc5fe71b039492ed5e6ef0ba75cd54589aad513a",
+  "variant_hashes": {
+    "source_original:128:png": "7a691a9b8765a21f650ea66f9ebe98e1a8f9ec81f1011815832d8f6358bb1dfb",
+    "source_original:256:png": "d1c56eaf014dba8f5416de5aa337b5c468861f1110d712f255bf22640ed5ae52",
+    "glassmorphism:128:png": "daf18127f09272fc914e195857c6a19a9a81571df91af56a95052cb3c1a57cc1",
+    "glassmorphism:256:png": "434536ed0e032027ba4720b5db95673744e4cd9e97968ba38ced7d48eaf11131",
+    "soft_3d:128:png": "743dfeef689a22ee286153ecff00d7b48a98b7f126b9c6ad88f5b0cc7eb0aed9",
+    "soft_3d:256:png": "35f895ce48427cc14fbf5f3600e93da9f6119851f5db50e83353e20d279feefc",
+    "neo_skeuomorphism:128:png": "830f97e3b0339868a59659d0bea40298ef3c9fc273d4e9c7943e733d0f012069",
+    "neo_skeuomorphism:256:png": "7cff1b73151f8c7b81d06b7e1694807bba41f15b3d28e31e02f6fa5c9352e47c",
+    "minimalist:128:png": "70daeabdb979a654b89be261f2c174787f9d05653ad22f22c5bf68d35e82f5a1",
+    "minimalist:256:png": "b9fb2f6202ffa224bfb38aa1a0756f31a76ddd1458554da68f0d66ae9880f921",
+    "duotone_line:128:png": "63ac38c6c77666a42feb287912c99db147751a48112e9fc05b182512ef86c381",
+    "duotone_line:256:png": "e971a5dc7f957a928b823483991c538bb20f5ba3e498482a49de471058551fac",
+    "mbe:128:png": "28ca6080666387b8c74428aa2338f3844be49cfea57e8e7262e5b1ec5ceb9f9e",
+    "mbe:256:png": "fd50e2f53985646a3145fbb797fc114eec85d86ea2902ac1a3cabef558664aad",
+    "y2k:128:png": "7c4e84c7d6e9fd744dbe253c0d6f12f20ef1cb42d827eaabf2a84d99862dfd6f",
+    "y2k:256:png": "7b280060f79f7952f24b021b3bd2a90cb693f2f3350b2f07d8bf2f75d04e37ad"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:51.349432+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:51.349432+00:00",
+  "source_url": "seed://letv.png",
+  "native_px": 512,
+  "status": 200
+}

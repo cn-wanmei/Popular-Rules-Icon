@@ -1,0 +1,31 @@
+{
+  "service_id": "cisco",
+  "source_fingerprint": "c105042dff386f6c32048dc0d276404f7cf67bc11620993d58491a45b7f1abf4",
+  "object_hash": "d2d20408284934a007cd0f515acc9c13325dbd13373ec5191846115c681bd01c",
+  "variant_hashes": {
+    "source_original:128:png": "1334df1d94c45786e0b4964f290d3ad49b1e0af496a5d7c05257313427678595",
+    "source_original:256:png": "8bda765c4131b1042f73b079b22b1fafe67f792fd80387466d53fda07fa5dafd",
+    "glassmorphism:128:png": "a5a37cd65d37a7ac256801ec0afd1107bc34e33e11a5c8f7d030db6099282b25",
+    "glassmorphism:256:png": "b54659576defaf18c8484bdb62e95490ce1cb601109a70189282661d8f9078b3",
+    "soft_3d:128:png": "b4278ca8708c5bf6b062de89caf118f91073859ee78144ee6c98b3fede36818f",
+    "soft_3d:256:png": "6678022d0d018f3003a1bd99cf165525b7801e7492ffda0a742e212e46cbc04c",
+    "neo_skeuomorphism:128:png": "781d7aaa47de6fdf2215cdcbc89d6fe900a7424e31d4f083485becd5b0071073",
+    "neo_skeuomorphism:256:png": "24b0bd610670055e5388d9d271c46c27386e78c9814ffbb4c3d55aedb960e87c",
+    "minimalist:128:png": "567137b83378456fbfadc8376c11594a08760a4294512fe9f11d41bea3cfb8ec",
+    "minimalist:256:png": "0e7f330d3524726e2389986e50a545acfb0ba01b63483934beb2d29b51fde726",
+    "duotone_line:128:png": "4c81781486722c4bdb49402b2f38eb57ffb375ca509e11cb072a00174ffe36ec",
+    "duotone_line:256:png": "f78907a1e75a16b552c412923b71e1f2abe2bc809265f2875c4b41be8a66061c",
+    "mbe:128:png": "6c7935cc6184caaf9180ec61a02ac9bb471868d8d0eb6439270435799316f09c",
+    "mbe:256:png": "502ffafbd2bb699e843112070ad71fc7e8bdced1d3897f4831efe24f6966f1f2",
+    "y2k:128:png": "d72f7bbc810b3ab6a778f9548850dfd61a2103c67da601df5cb95c856378fa06",
+    "y2k:256:png": "781931f55aa9b81d69cc7c5533bef33aae7d551396bd214333d4ad6237497f59"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:39.281204+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:39.281204+00:00",
+  "source_url": "seed://cisco.jpg",
+  "native_px": 512,
+  "status": 200
+}

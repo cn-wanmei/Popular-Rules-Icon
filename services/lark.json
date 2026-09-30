@@ -1,0 +1,31 @@
+{
+  "service_id": "lark",
+  "source_fingerprint": "152357bf153d02b6b23b53db56a580653b6c02249c26fd6b3424420cf33c3c91",
+  "object_hash": "e17869303b23cdb2963f652303cc36f18fabc3afd545393f0764c5e9c0b72b9a",
+  "variant_hashes": {
+    "source_original:128:png": "f69ddb406a0c9d1916f1b523efeb1b1594a5c97812f44e106d6729fe1abcaf83",
+    "source_original:256:png": "742d92a1465112d75901f226185a5f616655d7798df5c6dc8a3994b8bf9b7fa0",
+    "glassmorphism:128:png": "0266434a61f00a96716743699a13fa3994ee40005248156c6c5aabeb700ba61c",
+    "glassmorphism:256:png": "4a8d761ee087e9b579a94ce6bf1b99d5cddc2920702af7dc6b224e34b98f24b1",
+    "soft_3d:128:png": "369d82d32641953a4a56c5dab59236e1e3151c60bc03bc6995c8d3abc8ed3b65",
+    "soft_3d:256:png": "c8c0c16426800281008826c5e36270826d357b349850ab7e57ff7f42c7bfb63d",
+    "neo_skeuomorphism:128:png": "cc44ffc7057d5fee36e43700be967702a88d7f2967b1c09b236a4809f5e72ac4",
+    "neo_skeuomorphism:256:png": "5944ab5ee77c0b617aced1117cee061409ac68bc41e26b86f117645a65c492a7",
+    "minimalist:128:png": "2051d34820f6c0ead9520662a96f2f044b877797eb7ce0415028bc0cd70bbfbf",
+    "minimalist:256:png": "1ca9aacd2d9993304c0c52c4200a8d7d8f4d97cf5a8d6a74ec9e7097289c66c9",
+    "duotone_line:128:png": "046d34920b95fe85d2b59a89443a8b099d70ab6b7e1828d23d7b7a8a3fe826b9",
+    "duotone_line:256:png": "ff4253b3a667d26746e0b54f60ecf96355ae25533f5cddb405fe175b493d99ab",
+    "mbe:128:png": "24d374504ef48ef0ac9d73cf2c73ae431cdaf8274e774eaf3722f3e55653a0a2",
+    "mbe:256:png": "0e5c10cbf054297dba2b4de76070daa71d29f25b60cb7af537224824340478a6",
+    "y2k:128:png": "2c9d12c68ad02da616c8cb7a7e8ea62f4f2baf755cec3751ef9093fef1315db7",
+    "y2k:256:png": "869a70238d9aa7454b6cc5bf45808cec02e617344df8c9a00be5de94dd6080f6"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:09.277852+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:09.277852+00:00",
+  "source_url": "seed://lark.jpg",
+  "native_px": 512,
+  "status": 200
+}

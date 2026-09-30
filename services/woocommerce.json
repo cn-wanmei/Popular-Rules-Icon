@@ -1,0 +1,31 @@
+{
+  "service_id": "woocommerce",
+  "source_fingerprint": "df9a7f4ee4adca2e5cff551741b6c28cc7ea5d48153f961039423fab8fc0746d",
+  "object_hash": "d89ca7c056b527a859cbe7bf9872d3b1ba9633cce346da475f0653b4f26f826f",
+  "variant_hashes": {
+    "source_original:128:png": "9c7998defca9c9d3ef6c4927b07789eb234d96a006e4de2c22ae962454cc3ebb",
+    "source_original:256:png": "693d99f9c1a4e5af7c5745e3a52947cf33cf029dbe8cb62d6f30cdd4eb168be9",
+    "glassmorphism:128:png": "0a7df065eb5c056add4ddd6eea1d1222699a6e381926f71760a4dd7f0725d838",
+    "glassmorphism:256:png": "ec6ef78d1dae7c4a98d084502bc9733f07dceb626f4ea2de474b4e16767ee1ec",
+    "soft_3d:128:png": "b78b8cfc7db0cf0213eac2efbe08039577c567b324f31b9d41b1d4d007b05764",
+    "soft_3d:256:png": "bcfa2f87ddb5245cae7215937ee216a811b3ccce44564a2c6834e1df4b905cac",
+    "neo_skeuomorphism:128:png": "8f60707e36d9b1de4a8d8706494e4e98aa7f4ff897408777b9151a7c1c4aa4c7",
+    "neo_skeuomorphism:256:png": "bc7692dc6b9f2163e9e1ae8954bb8659f80631c7eff927f458f653adbf6ab636",
+    "minimalist:128:png": "a9d23262ffec7be3e94593cbf287b8700bcad3eb3297b9827204b1d6a4fdac09",
+    "minimalist:256:png": "10c63af398039ab70c97256a221f6a47c1574834bc68e91596b6818a1cdd5cd0",
+    "duotone_line:128:png": "ceb5cb668cf78a4b8bb29d221557cdb68557c67444d686391cc0c69e5cabba60",
+    "duotone_line:256:png": "95514f266c03a67e5656d9e39227f49447738c9bfc8a4297cd8c788dbf96b164",
+    "mbe:128:png": "4a510dff76c985712ad21908a6cca47175ded4bf1adfe18bbf263b87970bc5b9",
+    "mbe:256:png": "40e7b0a7c4020450523a5aa839d5d9aa5cdb1ef5fa60c36bf13b78b23b45de34",
+    "y2k:128:png": "f307819344a954cec6866ae4abc77fb00fa41de0ffaaf4ade0fb3a56611b0310",
+    "y2k:256:png": "10149120eca780fe6a41985a2745ef8144bfa60a988359f2353f681706a56684"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:34.992575+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:34.992575+00:00",
+  "source_url": "seed://woocommerce.jpg",
+  "native_px": 512,
+  "status": 200
+}

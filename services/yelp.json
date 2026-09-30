@@ -1,0 +1,31 @@
+{
+  "service_id": "yelp",
+  "source_fingerprint": "8bc42ed3297854cc0eab3f99bbfb456245b7e2e0b40389969df4d287909aac0e",
+  "object_hash": "2127132ca78437adb12cd48ab87ca60ba1db30d94136fd7c92399e47a5d2c676",
+  "variant_hashes": {
+    "source_original:128:png": "cc91dc9d01a072d7c3e0050de46161f59e86aaa596cec07723cccefc767106a8",
+    "source_original:256:png": "e267ef3a3506050ce55d7671e6487193dbba2a503af616f7675968f239c4c759",
+    "glassmorphism:128:png": "3682da72b323b9cb446fe5991e98e1ec4f0edfb148e4c3d90f822f1b8c50d199",
+    "glassmorphism:256:png": "0be5502a8b3ff97a76d65fca07328d355c64a3a47feff47c5a1b8165cf3a325b",
+    "soft_3d:128:png": "e72eb7abe98b6d91c14bc25f641c4915ceb9a89df4fff2196633d21d0511e373",
+    "soft_3d:256:png": "e396bf48719bfe77af546922086e42b1e1deed348403781f38364774a5ccac90",
+    "neo_skeuomorphism:128:png": "fa3d33acae20160e24afcbc0f7cb3bbbca2093468e4d4759e263c61d8953860b",
+    "neo_skeuomorphism:256:png": "1e3c0c82304517f9e8b949b478edbca788b93fc7713695e017348cb751327db0",
+    "minimalist:128:png": "0d0d967d878ce0566bfa5be1d3f039d80dbadaa6bb0581fd62bd26eba90ce428",
+    "minimalist:256:png": "145063cd8be2cf11fa713d06c59bc67230a4cc5727c29bbbacb37031c9cc9027",
+    "duotone_line:128:png": "ecc21373a37d36a5dcf7f130f0b00ae631981eb2304745aa40bf06de2b645c95",
+    "duotone_line:256:png": "4e5e3f2c9d8253d915e35d6952acf575980c9c327882ee3fda762e2fcda5f413",
+    "mbe:128:png": "95df51037201cbf3f2219f5dcdb1721abd6d0457560bf7e8dd166a4d8d56f7dc",
+    "mbe:256:png": "725f7fdf24732c56a794ece52b74f46be49f9732ec6e68d9a9b72c538f091a4c",
+    "y2k:128:png": "6f5e92e4370a131c5c2f4504d81ec738b4deaaac505fd4304ef421865a0385a8",
+    "y2k:256:png": "bcc4cbb8d52eafee3fd99e7ba02daca858d2037bee28f2a45585aa248fbe2105"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:34.992575+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:34.992575+00:00",
+  "source_url": "seed://yelp.jpg",
+  "native_px": 512,
+  "status": 200
+}

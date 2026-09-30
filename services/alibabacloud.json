@@ -1,0 +1,31 @@
+{
+  "service_id": "alibabacloud",
+  "source_fingerprint": "af9d5bd21cbced3d8aedbf486c086199f2054f5d7484523130a876adf22d2d63",
+  "object_hash": "8efd6b4527939bed58c551aa5c3944518112c0dca063a0ea33c6a06cb437475a",
+  "variant_hashes": {
+    "source_original:128:png": "6d410a09c863d6e87cc96a8a25b0aac65ba4ed84fd47f603909d496eadac6985",
+    "source_original:256:png": "603cc6c1583285fe4436c8eab3a3d3986f56317a7054c9fc9603955a3068d93b",
+    "glassmorphism:128:png": "4069eb77526fed4af761d2e8c89de68c8721878883c8397762f1fa887a0472da",
+    "glassmorphism:256:png": "6665650b3f38ff6570744725c1b1f69c9b323a078e74c1e8e83072681f5c905a",
+    "soft_3d:128:png": "bd5a742b24d19e5e4c902bf6ca3a6a5fe2cd9a8b8bd87b51bf40127917a2b7c9",
+    "soft_3d:256:png": "9312318eb447db153c368125c9fc13eff327a7032dbe149ff7437107da0ce0a3",
+    "neo_skeuomorphism:128:png": "53257feb4bb99c967e8c6df9a92d96d49e8a1f8d7be6251dec1a3a352d9033e1",
+    "neo_skeuomorphism:256:png": "4f8e15f23832949c560608bc8ba9f8c76bd0037a0b77d03fde8aaf70be0a095e",
+    "minimalist:128:png": "ab3e7dee59766db839510851cdedeccdc0e48ddd0f68aa1dc6fdd4fbd7d14517",
+    "minimalist:256:png": "a6d0da409d41ec948547057d00f1f51ba7965a849262567daf7263e6637bc238",
+    "duotone_line:128:png": "aa62ddb13f048b9f4e3d3e946fff41564b6c99964d39df8ab6487c848831dd95",
+    "duotone_line:256:png": "7d8cff4d36bbbea8c68da06a20e2fb353c2cfb979fe1f576d3a78f30bb4b69b9",
+    "mbe:128:png": "0303a209dade0fb60300dd9719af5276c4b31916da966f0a00878e49f192d749",
+    "mbe:256:png": "ef287b009de0f88cabd3c8aa67bae123d47eeb8c781db94752bb8101611e2267",
+    "y2k:128:png": "3fd77b964218f84b5aa7bd97d733121702ef1141a39808f04288978503ef0e19",
+    "y2k:256:png": "daee2c80ccf12cfbff009ea39684d816223b198640126ebde75fd59302714e8b"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:01:59.965954+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:01:59.965954+00:00",
+  "source_url": "seed://alibabacloud.jpg",
+  "native_px": 512,
+  "status": 200
+}

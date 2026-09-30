@@ -1,0 +1,31 @@
+{
+  "service_id": "playstation",
+  "source_fingerprint": "6fa79e124085ccdc9fbf3e701235984a2f88bcd989fc2bf24bb6089f7b5d04d1",
+  "object_hash": "5887a639dd9c37fb2eb0e693bb3f5d4795d485e10f5c8e8d047454d3959663ad",
+  "variant_hashes": {
+    "source_original:128:png": "1d617c5656a6bb5d4e6ba41a76c2059f4e839842e634911bc12d396ae8ab9a83",
+    "source_original:256:png": "8b530b167e7bee2068c202ab7fd6a408997533387810c77dbfa0d9a7303f61a1",
+    "glassmorphism:128:png": "7284dc687d5e2840b1cc33f47205d8b8fa9394b298b983a626b1b8e9ccf94adf",
+    "glassmorphism:256:png": "bbd175ca99476e96e9284fd2f746c12905f7c07abc9da67b87a4fa044bda518d",
+    "soft_3d:128:png": "50a822ee22de41899e5d1630ca980d50a7ebb0865b3e948d69ec4b1a02bc0705",
+    "soft_3d:256:png": "9b331b5c3773b548bfc31586ec473ad111910faa86f1c2746e81f74f3c4b8649",
+    "neo_skeuomorphism:128:png": "09b6c36e8047d8a3c1b3a87d9edc34ec29059ce92b7c0a4b564717fd0b15a202",
+    "neo_skeuomorphism:256:png": "4099eca64b3f82afa43693fbf56dfc7d09aba4074fc95524b3f216679c2c9166",
+    "minimalist:128:png": "728de8f368faa2ec5092ee3bf9721584465697cdc99d48a2c51efd56f21a43b8",
+    "minimalist:256:png": "07beb43c107cfd31e7c9391ae2dc2e5c0079b58ba98fd215c1826983f6e9a1b2",
+    "duotone_line:128:png": "24382795e0927e7300e93c25d0f78f3d670b3cbff6e797cca4c7ce6827e13f41",
+    "duotone_line:256:png": "b56a3296799aa2dba7b986411b5eaad1a892c218c9ed7c76eeab32020b7eafd0",
+    "mbe:128:png": "21e01d505cf7507b3361928db7d9dbc15901ea4845d34e60fbe6b60d9d18ddff",
+    "mbe:256:png": "c0c571a99db76dc38560b4bf34670ce0c4452aa6f56cd7ade474c0141b760cfa",
+    "y2k:128:png": "b1677f7440a08ba1cc8875bf5496d7fe4bd18daeb03df8d39f82aec094b5ca29",
+    "y2k:256:png": "b59eba1f6994d63c9b08a3f7a66c14ab63850e1dcc71d9693055259ed54a3319"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:42.683070+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:42.683070+00:00",
+  "source_url": "seed://playstation.jpg",
+  "native_px": 512,
+  "status": 200
+}

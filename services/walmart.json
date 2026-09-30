@@ -1,0 +1,31 @@
+{
+  "service_id": "walmart",
+  "source_fingerprint": "2c03e2a27f7d7a466e0d2fada00a72341551a7102780257886c03d278a7be25e",
+  "object_hash": "2cb95029885e8bb9011a4a33c1d7b0ea9508e66c7b39696c789296cdffc451aa",
+  "variant_hashes": {
+    "source_original:128:png": "5d293f20d7d1f632e2b64aa7f0c27b65357f2cc80fe33841b35bbef0e6930896",
+    "source_original:256:png": "d90e949bc4222c932411dc0b8944c1202d53c47dbdff4a3f29475e2bcb214702",
+    "glassmorphism:128:png": "a56d1582da24d0d10726ec7b0e5d196e5405389f4712422106b37b0fc522ef05",
+    "glassmorphism:256:png": "672b885374c9cad5ebaa54e26f9b78c5f20e866aec195c86ae9424b3337cd264",
+    "soft_3d:128:png": "4e284e1da5d6bc64975809796068bdcb4df71c322f693d01be44ef7fda77f299",
+    "soft_3d:256:png": "9f4cb1e1a4265aab13e5c99fadb6c1faaec131b6d1c07d54bbeaae3bf9f50fcf",
+    "neo_skeuomorphism:128:png": "78738c1422638aead0c6de70c2dfc256ccc8d7e44f2ac8bb891508f6f447d453",
+    "neo_skeuomorphism:256:png": "e8aaf69bac6ab735381ccdbb467678f002e96c76af5b096fcbbd6a4c99ea8876",
+    "minimalist:128:png": "6d230fa0172f23aa2bfb9854b781b6142ec22bac87a41a450808f1f23ac1a06c",
+    "minimalist:256:png": "2f4cb21e46522795fb82c66162019ad2c439f8642e783b2f6e32c0708675a061",
+    "duotone_line:128:png": "0f29448ac7d64c91b27b98cae59e5c2d3a4f6159cf1c27c1142f197358eb2681",
+    "duotone_line:256:png": "23f36adb7253ecd9582092bcdedbe86a17af40506ae9be499ffec8aa32b4f77a",
+    "mbe:128:png": "bb7b2fd268f21fe09e40adb1ddb93e0371297350dc724e259e72ff3ba4608753",
+    "mbe:256:png": "c02dd9291ccaced7c2cb2bca43bcbab2795363b3d4ab0d26263966c400f30d29",
+    "y2k:128:png": "1ae99e4a455ce2dacc50a95cebf33be84525609bc9c2a2f53582f27842530be3",
+    "y2k:256:png": "7ecab2465991b70fb62b476ee0bc167d9bb268864b8124d435721771bff05322"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:25.040082+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:25.040082+00:00",
+  "source_url": "seed://walmart.jpg",
+  "native_px": 512,
+  "status": 200
+}

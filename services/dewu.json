@@ -1,0 +1,31 @@
+{
+  "service_id": "dewu",
+  "source_fingerprint": "5fe60ed44837009ec9ebb7788fe431942ca251cd4065a25b773a2a0dcf147ce1",
+  "object_hash": "8987c93174e7497afadda02145b4f189e2b2d42679b60478c4a8d8d46eb70135",
+  "variant_hashes": {
+    "source_original:128:png": "6aa93875048ced54c70ab2ea08e7eddd8dffd15ecb3b1655dbdff813f168016a",
+    "source_original:256:png": "ebd6dc36af85ee5806849cafa86e24f494269d25022a2b96c62e9c2b75a9726f",
+    "glassmorphism:128:png": "40fed791d30b03c84393a2d480cc4c94570dfa60f7313bc8ac043fede5f642e0",
+    "glassmorphism:256:png": "d2ecf21dd8a3f8e6b65d79622cbaf7cde40e3b12a0ad510ebcd513281c2579b6",
+    "soft_3d:128:png": "156c832718321026768fd323ec14bee0eaf9a84c3c3b4c7b2977f2187ef02361",
+    "soft_3d:256:png": "5464ec3d3a1c2adb27747ba3bd4edbce38df15dc79af700435d6acf8a2b2b019",
+    "neo_skeuomorphism:128:png": "b1ac18b82dc31806a7a4581be6184f785af14cbb541d8af141bb735e18ac1c4b",
+    "neo_skeuomorphism:256:png": "58ae72401308dc2c6239cdbc948df5cb50169d0ca6eab4c29e5803e3b1e2a9ff",
+    "minimalist:128:png": "961eb19549a128345963e6f0a17fce04b51545675df4fb1eddcf234ccdc0777f",
+    "minimalist:256:png": "f06f9cd6aa6f7d24245327d357f763b193e54cfe2dcbe71101f9dced86685bcf",
+    "duotone_line:128:png": "d0b7c7de1e552fca72ef11292e0f03f77c52d880bb00acd1814f5fbf6e0ca0ce",
+    "duotone_line:256:png": "11b50ce5986c63dd6e1e9c70d3c6152ddc83fc3977bc2ebde60cc9f517128981",
+    "mbe:128:png": "c1bcbb6d43cddb83a47c4a5f961a93cb92f107dd09e07e1ece88ac317c8bfa7e",
+    "mbe:256:png": "a40ae32b3888b84924af8fca8c64c459687c02308116e5721351280468623c2f",
+    "y2k:128:png": "7a3cc5787c44f543fcd140d047beed5ac5256af9f31c3160811ae6115af2c619",
+    "y2k:256:png": "d468312ef0f7ff7d1a9d4260b49663ded08170a409c978a13704d0901be5a9de"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:16.396517+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:16.396517+00:00",
+  "source_url": "seed://dewu.jpg",
+  "native_px": 512,
+  "status": 200
+}

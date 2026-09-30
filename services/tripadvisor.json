@@ -1,0 +1,31 @@
+{
+  "service_id": "tripadvisor",
+  "source_fingerprint": "d34a3d340fc7e1b30aeafa3a1c1bcf9f762773d8af2c78cc80cf67d42f42412f",
+  "object_hash": "124680d9eabd3cb13a70643e30f148a2615ced4497aa581fa36ca3880d7393ad",
+  "variant_hashes": {
+    "source_original:128:png": "408f681f486b8eb73ce50d005c6368aa882419eadc0808779d533479f75b4a1f",
+    "source_original:256:png": "6e957c0578cc068e5090acbcaec7f5c09365ab2df8e9d3dbf78c88b696c1d998",
+    "glassmorphism:128:png": "9b8567a3b5d395310f2887939cf162747da4a03c4b18a0710fbc87a63e3e8f62",
+    "glassmorphism:256:png": "834726b4977c76f6fce5468e6d7a979b53b9a73db6290fd3f7986c5d4cbcb8a0",
+    "soft_3d:128:png": "616a8a654a53dffe9703925eb2dc99c6a2f4f8abb397f4242023c09856001919",
+    "soft_3d:256:png": "8e46550f53fde30bdb2e0a1bcb197e3400c98fc06729caff62d01e268af0a8a0",
+    "neo_skeuomorphism:128:png": "878563fec520aeab82209054a8755d9f17e273eb21581b1db22e17eee17bdef1",
+    "neo_skeuomorphism:256:png": "d98253d93a9d44bdffc7878475cd9c2abbe0b9e14edb20819fa21b5e8ce74d1d",
+    "minimalist:128:png": "c64d740939ac9b72aa76439a44415efbf6daabd7723e746a529de40e946fd3a7",
+    "minimalist:256:png": "183e411bb3851f5e2dba017ff4e43174b465d6b34db78366d0c683e372f4b682",
+    "duotone_line:128:png": "35259bb0530d5de529e98531a5f72c442a20bb80610605a1180939599d453527",
+    "duotone_line:256:png": "f753e84fd193f91cd46ae329a650bc4ed12e1374d232fab46c4ac25e91a54fec",
+    "mbe:128:png": "c53330ecee954438f4ef8330db3e5bb8fbacabafd41c53d393dd723d6a47bdbc",
+    "mbe:256:png": "2e791226195dbb7d84dbf781ea73968ed282e3830773690c2134380478ee4384",
+    "y2k:128:png": "fd47aa55fac407453de1a7b2733604bf3457f55067a30a724c9d0c306172c682",
+    "y2k:256:png": "d07a88d457387d31d41b638f4ef33637b4b550c94541a08111c267de6f3b8cf0"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:04:17.808769+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:04:17.808769+00:00",
+  "source_url": "seed://tripadvisor.jpg",
+  "native_px": 512,
+  "status": 200
+}

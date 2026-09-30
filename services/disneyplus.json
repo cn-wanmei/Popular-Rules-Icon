@@ -1,0 +1,31 @@
+{
+  "service_id": "disneyplus",
+  "source_fingerprint": "1b953194171a51d3c97436ec02e2760fd18c5efc03e37f02eae7749461a59736",
+  "object_hash": "9dcbc19b5aa0407266e6fd503b4d3032fe47a13b8022366710a8bb960f6be8bf",
+  "variant_hashes": {
+    "source_original:128:png": "a5fcdafbc13a9b595a1cfa87cc56dee1fd6accfacee897bf6f79d52a5cd2695a",
+    "source_original:256:png": "586a9bd4a06d10b5f4dcecfae092d0211af8195fba14e1ed5d61eb2a1558fa28",
+    "glassmorphism:128:png": "223320902d238f5e87d19fdfd108b988d3e8f778bd61aeba3c6bc13172cc823e",
+    "glassmorphism:256:png": "160bef5dd1eb83db36f094fc82c420a7bbe1bd6a204ae1fa1731f76db59bb330",
+    "soft_3d:128:png": "f53c3b84e9e9ae5d9502a2fd1e6f8e5d2295e5d8ebf2c4e4b19badb8b4cffd5d",
+    "soft_3d:256:png": "d4f5dfa006d1e3131810f96a358a0f7299cafb0642daef4a4a1f63491a5fd94a",
+    "neo_skeuomorphism:128:png": "8559d0f3f77d2edffb662c804d110e9efd5f8cacb02a809386541fd64dbd03d1",
+    "neo_skeuomorphism:256:png": "54cc4490f2a9175a02529958ed3ef4feb7f182f7fe3e6ecc519d4fb6f6f01ad8",
+    "minimalist:128:png": "4e2d0263c01515bf5356756c5a195da397dc13139375f9835a5c402b9bed19c2",
+    "minimalist:256:png": "3537489f463339db705a80bba8206ac8d2e8c431633e8e5a41cb019b8e01ba7f",
+    "duotone_line:128:png": "212857251dc33d7af7678fc966d91c3e3730e4de294d7fafa2bdbf39c232bb06",
+    "duotone_line:256:png": "2ee077a975b9ea752b1098bf5fa7cfb054ea92e6b29822f187b2b5c7bf187f98",
+    "mbe:128:png": "5f8250c4743adb58691249fff823b59c5f365c0256c996a0f5cd2c20388e77d6",
+    "mbe:256:png": "8c06c4ea7adc6689f0fc647b59f47502918a9d8d126c0df8b46caec8475cd0ee",
+    "y2k:128:png": "288000e50244f612dc349f3374f2e37b5f90777d0d86352138ffe9c4315b65e5",
+    "y2k:256:png": "d260c618f0527289c9f7f27ec71b4d3308f0a375b5b8eec818281e3dbfff5e40"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:02:51.028397+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:02:51.028397+00:00",
+  "source_url": "seed://disneyplus.jpg",
+  "native_px": 512,
+  "status": 200
+}

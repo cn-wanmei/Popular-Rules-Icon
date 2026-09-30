@@ -1,0 +1,31 @@
+{
+  "service_id": "migu",
+  "source_fingerprint": "48d47ee556fceb3794533900c232f7d44da910627a6d552e483fd06d1bf8aa85",
+  "object_hash": "136bc2900346b509d63571b46f425d9fab0bda4632dc2b217f93eb21086c8897",
+  "variant_hashes": {
+    "source_original:128:png": "564c077eeca974f2f99a62acd22c067e64af0970f3f8e7bf1671aa680ada9395",
+    "source_original:256:png": "214ad83c27d3e019aa7f6f019dc64bd85d9f405b974de98c7e5ccf8b6677edb8",
+    "glassmorphism:128:png": "7a7808d297bde743c5c470ba05e905caeca98ac1d677d2b296132cd7887b7d9d",
+    "glassmorphism:256:png": "9cb630ff87da5c18a02b12d30986bce5a54f58766bef63a6402cd6f432a2c7c5",
+    "soft_3d:128:png": "15abec2bee17c05bb65449cfa4873cc05b8054903e8eb78c2e1edb6f3cbdffe6",
+    "soft_3d:256:png": "355f62ce42e0fa3dd733d60ea536846632300a57fa76743d942e490d858b56e2",
+    "neo_skeuomorphism:128:png": "53497e3d048a959297c8ed9a0671805559d0c5ac0b523e4a280d63314a1afe8c",
+    "neo_skeuomorphism:256:png": "4096e8657a197bbb7be46f5fdee6fc5965897e51096fea809c0b0ac678aba3b1",
+    "minimalist:128:png": "592bc34f05892392f6c6d8f215376df317bacd8435d0fe51e0b2ba7dd5637c88",
+    "minimalist:256:png": "b2719b1f84c1614fa41c47a0623c9c08ae63b86b2369a1fb5bd3d5be3e695426",
+    "duotone_line:128:png": "a41493c26d70a39d2b41bea5aafb527685538970647c25ceb0383f10936b4ba7",
+    "duotone_line:256:png": "0feeeb2b1726eea9e672cb62b11f81eaa27f111dea1406a2ff413853a4bdfe81",
+    "mbe:128:png": "56882081c2ee61ee7521bc177badb48735cbf39cd35dc5866c16c154e9799dba",
+    "mbe:256:png": "b5b58ab3d7c4168990331e652bf0a38153cc5b0fd7692bb9c3704cc5271281b4",
+    "y2k:128:png": "a0643929db823baedc81f28e1941e4738056e60c7f5ea46e11327bbf2a4b6083",
+    "y2k:256:png": "be4d68c2c2d9f9212e29b92a1734957aa9109738751be98a64f7841c2f2a1ebe"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T06:03:22.052354+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T06:03:22.052354+00:00",
+  "source_url": "seed://migu.jpg",
+  "native_px": 512,
+  "status": 200
+}

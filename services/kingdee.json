@@ -1,0 +1,31 @@
+{
+  "service_id": "kingdee",
+  "source_fingerprint": "1db2d81091af82ad41e5c1307dfc81a3a5cd2bda976cbe7c5c6215025e8c0dd1",
+  "object_hash": "2548ee9d5b143af579a399332f9e91851d03f6cc0ee375b84f1bc0b7d3726d32",
+  "variant_hashes": {
+    "source_original:128:png": "51adfac251904e9ac1282d57a0f88e701104593fb50f4ce72b3d9f67a3b51d10",
+    "source_original:256:png": "898da388d75e465f2d5d11b7f9ed4c775def6deb3e787e63cc1a9533d6d4e531",
+    "glassmorphism:128:png": "d9e8e1ea9d4c7bce7e6b1fee4eca5c77103205667a19dc0ec6fac399320e1fbe",
+    "glassmorphism:256:png": "9a415c3cdccc79ab2c0fc71d2cfa109890129fec0cab16ec6902b26733003ebf",
+    "soft_3d:128:png": "ee9da205b4e51b86205502207b0806c40f1ad792c8ec96dd2665cc99c55dcf37",
+    "soft_3d:256:png": "16fdcfe93acb25164661e72721b29b275ba4ccd0ae3f94d3b254a879240562be",
+    "neo_skeuomorphism:128:png": "d40e42bddaa28203c8810c90794ec354154a9f194bb3a6bd7c209c6a7aefe2e4",
+    "neo_skeuomorphism:256:png": "d99b13686259f1f1e79ea89d1139813d6eca27e59ccff6bf7f00cf363299ba28",
+    "minimalist:128:png": "a38670765df19b2fbf25bc3fc6160f27f625ab98e930985f6d67afeb737012e6",
+    "minimalist:256:png": "e31426b5ba2d879c38e5965f50fd91e2bd4b57892732c9b7bf7c70b10c624c31",
+    "duotone_line:128:png": "cdf539d2f16cfe9cb49502094e24dcdc8823f60fb420b78a4300235e19479d3b",
+    "duotone_line:256:png": "6edb819e999b23c19058a2ce2d4d5d1d705ba53b8d2209f128ce15e89c5d9d01",
+    "mbe:128:png": "1380cb64399261c23a4b78f855f1a3678935c8f04b2ec10302499c5ebbe8ec30",
+    "mbe:256:png": "a7f96367e4df6a4ba68e04d9d723b1b52ea511536fdcb9e09597c412d63ee1ab",
+    "y2k:128:png": "6b42d1c13d214a0efc96ce1ff78b8c1682d07d5614f4764838ef28bd57a6ae03",
+    "y2k:256:png": "eae2ddc7c6120880c9198db2d4d7ca0a27fe8312f660aef4ea29e99ff782b728"
+  },
+  "source_class": "frozen_seed",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T07:42:51.349432+00:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T07:42:51.349432+00:00",
+  "source_url": "seed://kingdee.png",
+  "native_px": 512,
+  "status": 200
+}
