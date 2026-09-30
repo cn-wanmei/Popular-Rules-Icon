@@ -6,7 +6,7 @@ on:
 
 jobs:
   cleanup:
-    if: github.event.head_commit.message == 'chore(repo): cleanup stale icon branches'
+    if: ${{ github.event.head_commit.message == 'chore(repo): cleanup stale icon branches' }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write
