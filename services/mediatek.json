@@ -1,31 +1,20 @@
 {
   "service_id": "mediatek",
   "source_fingerprint": "e445a012d12103419793be0b38e9130d74a07007ee437a47e365d9e3de6ffa73",
-  "object_hash": "98732708d5ae89b01b90d4a59a939251aacbe0e5969f1186f7a7e24f08673b0b",
-  "variant_hashes": {
-    "source_original:128:png": "db93e75bb406a8ca7242bbba7de3a71bbbfc283e37f15475eefc1dc062dcc92d",
-    "source_original:256:png": "20574748ebd7ccd62955db92c220e80b0bedfacfa8e95e9048cf5e058ead65e4",
-    "glassmorphism:128:png": "acc58d39874a5abde367332c1cac420af79db197b89917814dbc481048b0c555",
-    "glassmorphism:256:png": "8e927e7258eed917cc920c12961e4e61b61243f9bda892277ba0ff71293e0bd1",
-    "soft_3d:128:png": "c8baa7c7ee2118b34906eaa4b45f22f6eee787b2e4678c700618f20a955348ec",
-    "soft_3d:256:png": "f234e3476a5cfa4f48c7e3a29bbd024eec45d617fc4fa723dffbdc728b79cda0",
-    "neo_skeuomorphism:128:png": "8966d82bfc1430ed11b8d4c90d85b014a6c4e2d750d6b3822feac23853a4c66f",
-    "neo_skeuomorphism:256:png": "ab3c073b0077ad9cadbfca468fb9f9122c5f28f91ee6bd9460cdefe79724fa02",
-    "minimalist:128:png": "d780a7f010555e456570667ed5c96514dd0f167fb8055ad93c65c79eeaf10ac8",
-    "minimalist:256:png": "41061b1c78fdfca3dffa9612926e33c5d9663c6ff14dcd03ad2b83fe91f6e162",
-    "duotone_line:128:png": "c16bc3e535cfc7f897da7e3cc082b221d4589e23054baa4ce784a5b19e38d69a",
-    "duotone_line:256:png": "7d48315cd77a9928be9c2d62b27e9f3305739f9ca28c595c4eeefbbce5cfec93",
-    "mbe:128:png": "ec7f735d4256a481de83df3a74bd9199b0cb029d9d0facd8c9d52db5a5eaf84c",
-    "mbe:256:png": "bdd14de467ed11145a1eb8b5ea296d0fd964be6f5ae9ddb0ab7220c3d022c1ef",
-    "y2k:128:png": "772fd10b2d0ff1678575134da398eb8059904ebaed5a18dd0c59228880719be4",
-    "y2k:256:png": "d27e010d02314cd2cdb56165c7710d6774b25139916e13993dacc589e6e0481e"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:51.349432+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:51.349432+00:00",
-  "source_url": "seed://mediatek.png",
+  "source_url": "seed://mediatek.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
