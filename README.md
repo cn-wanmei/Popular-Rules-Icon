@@ -11,7 +11,7 @@
 | Canonical service coverage | **blocked** | 393/394 current Collection services present; `ai` missing |
 | Production orphan entries | **blocked** | 89 dist/registry IDs are not current Collection services |
 | Variant matrix | **present** | 8 styles × 128/256 = 16 variants per manifest entry |
-| Release writer | **not proven** | main `release.yml` is still a placeholder/scaffold |
+| Release writer | **implemented / fail-closed** | main `release.yml` now builds from exact state snapshot and blocks on identity/variant/object gaps |
 | V5 removal | **blocked** | V5 remains Collection fallback/rollback safety net |
 | R20 yearly freeze | **pending** | requires identity + release gates |
 

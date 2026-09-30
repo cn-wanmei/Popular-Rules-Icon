@@ -44,9 +44,9 @@ Verified:
 - repository PR CI has passed its current tests and freeze/metrics checks.
 
 Unverified/blocking:
-- reproducible release writer in mainline CI is absent; `release.yml` is currently a placeholder;
-- current release publication is not proven reproducible from source + workflow;
-- resolver end-to-end against the corrected immutable manifest is not yet gated;
+- reproducible release writer is now implemented in main `release.yml` as a fail-closed state→manifest writer; no clean production run has been published yet because current state is missing `ai`.
+- a clean end-to-end publication run remains pending; the current state would intentionally be blocked by the canonical identity gate.
+- resolver end-to-end against the corrected immutable manifest still needs a dedicated publication gate/run.
 - canonical service identity is 393/394, with 89 orphans;
 - V5 fallback remains enabled.
 
@@ -70,6 +70,6 @@ Until then, V5 is frozen as a safety net and must not receive new automatic writ
 
 Phase A — contract: complete.
 Phase B — pinned Collection snapshot + gate: complete.
-Phase C — Icon Registry normalization: in progress.
+Phase C — Icon Registry normalization: canonical fields normalized for existing 393 records; one canonical service (`ai`) is still missing and historical/orphan cleanup remains in progress.
 Phase D — seed/asset identity review: pending.
 Phase E — strict CI: blocked until C and D are clean.
