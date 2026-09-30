@@ -1,31 +1,20 @@
 {
   "service_id": "nokia",
   "source_fingerprint": "253935599431d358c272395fc793f2d5e93577e34973b03f643fbf644b8a3979",
-  "object_hash": "63569d231903b9e1a0f734e11f850e9798236899b8024a069b2e585040c441fd",
-  "variant_hashes": {
-    "source_original:128:png": "e85499a3d04697757c48bc8418dbfd34a59f9b0c50c4d7790c034e71766741d4",
-    "source_original:256:png": "27571c8dd3add6febcac6ca191ea7b1ce6de810f95ceb10cbfd86f96ad9be246",
-    "glassmorphism:128:png": "f8e77487c8cd546944cdb8bf00acb7640c057e3df4279b9d9c77758273645ebb",
-    "glassmorphism:256:png": "ba6773633aa8cbcd6e7514cc95e67cc483ce9ded48fd8082397dfffc43688df9",
-    "soft_3d:128:png": "6d439c299cc10549174552359169c4a54af134f5327560d5417a43425f1e26e9",
-    "soft_3d:256:png": "a48b3f9bc5d7a32e6ec735de2f54956a35fd148ee27871d2de68061826865001",
-    "neo_skeuomorphism:128:png": "8b599c6a15c3a283964fb6be324c55025267380768c88057e6a0896eb1675366",
-    "neo_skeuomorphism:256:png": "87c6610e9b9f967003b3fbb31131f6a4bedd5c8f5a205b6beb255bc2a00f378b",
-    "minimalist:128:png": "7a9f1064489f8aa51340a828132479ab215906ffa38765fd26ed7a6a0c4236bf",
-    "minimalist:256:png": "a69adfa9bbc86dd39a83b309a5bb5dce80313df921f1452f3afe6bfad7330205",
-    "duotone_line:128:png": "229f0e158163e5cf46bf01e7ed559226d2e4df8d1788b81432db02044854e0fb",
-    "duotone_line:256:png": "3a9f014069aca8a91c48e02b6203cf5b6460dec56462d3c45aae511f27a0e60a",
-    "mbe:128:png": "84e822eb3200fa9ce8fd418d3322e3a98553ca635ddd6ae11a6af36c39b2ff97",
-    "mbe:256:png": "43218bf7eca4e6cd29bde1377e7cac024bb8879257bfae075b4e1904b6dd9b30",
-    "y2k:128:png": "eb1606e840b23cac06dbbfbd11b7cbb9a19c7b22284f6225ccc08b7af089f894",
-    "y2k:256:png": "006bd6748d3a2a9b7267b60e82f569093e5df825c14a5067026039512695c3c6"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:00.258731+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:00.258731+00:00",
-  "source_url": "seed://nokia.png",
+  "source_url": "seed://nokia.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
