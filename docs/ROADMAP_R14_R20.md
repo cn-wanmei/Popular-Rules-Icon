@@ -1,15 +1,15 @@
 # R14–R20 Plan
 
-| Phase | Scope | Goal |
-|-------|-------|------|
-| R14 | Collection gap fill wave-2 | Raise Icon coverage vs Collection non-aggregate IDs toward ≥70% |
-| R15 | Style QA gate | CI: each service must have 8×2 PNG variants |
-| R16 | Demand-driven style subset | Clients may request subset of 8 styles |
-| R17 | Evidence packs bulk | Auto-fill evidence/ from seed + provenance |
-| R18 | Collection materialize icons | Build path writes icon URLs into client artifacts |
-| R19 | CDN cache warm + mirror health | Periodic HEAD checks on jsDelivr/fastly |
-| R20 | Immutable yearly freeze | Annual freeze tag + GC + coverage report |
+| Phase | Scope | Current state |
+|-------|-------|---------------|
+| R14 | Collection gap fill / identity boundary | **Reopened for audit** — canonical Collection service universe is 394; current dist has 393 canonical matches + 89 orphans. |
+| R15 | Style QA gate | **Implemented** — 8 styles × 128/256 PNG variants. |
+| R16 | Demand-driven subset | **Implemented**. |
+| R17 | Evidence packs | **Implemented**, subject to identity normalization. |
+| R18 | URL map | **Implemented**, subject to manifest/physical consistency. |
+| R19 | Mirror health | **Implemented tooling**, release health not yet proven end-to-end. |
+| R20 | Immutable freeze | **Pending**. Requires strict identity + release gates. |
 
-## Status after styles8 release
-- R14: in progress (266 icons; aliases for common gaps)
-- R15–R20: scaffolding next commits
+## Required sequence from here
+
+Collection canonical identity → Icon snapshot → registry normalization → asset identity review → manifest/physical validation → reproducible release writer → strict CI → V5 retirement gate.

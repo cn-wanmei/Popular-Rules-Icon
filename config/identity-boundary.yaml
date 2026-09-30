@@ -1,0 +1,24 @@
+schema: icon_identity_boundary_consumer_v1
+version: 1
+authority:
+  repository: cn-wanmei/Popular-Rules-Collection
+  path: rule/_index.yaml
+  pinned_commit: afa94e0c993555f70038ccf1951584d8ab0bb435
+  selection:
+    include_entity: service
+  imported_fields:
+    - service_id
+    - display_name
+    - provider
+consumer_rules:
+  icon_registry_is_not_identity_authority: true
+  registry_service_id_must_exist_in_snapshot: true
+  registry_name_must_equal_canonical_display_name: true
+  registry_provider_must_equal_canonical_provider: true
+  aggregate_or_category_ids_do_not_count_as_services: true
+  shared_visual_asset_does_not_merge_service_ids: true
+  seed_must_exist_for_production_registry: true
+migration:
+  current_mode: report_only
+  target_mode: strict
+  normalize_registry_before_strict: true

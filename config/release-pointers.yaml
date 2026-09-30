@@ -1,9 +1,15 @@
-production: icon-2026.09.30.r14
-rollback: icon-2026.09.30.styles8
-updated_at: "2026-09-30T07:44:20Z"
+production: icon-2026.09.30.r14.1
+rollback: icon-2026.09.30.r14
+rollback_note: "r14 is retained as immutable rollback; R14.1 corrects only manifest path metadata, not object hashes."
+updated_at: "2026-09-30T10:50:00Z"
 frozen: true
-freeze_id: icon-2026.09.30.r14
+freeze_id: icon-2026.09.30.r14.1
 styles: 8
-services: 482
-collection_coverage: 100%
-note: "R14 100% Collection id coverage; see docs/R14_UNCERTAIN_REVIEW.md"
+registry_entries: 482
+canonical_collection_services: 394
+canonical_services_present: 393
+canonical_services_missing: 1
+orphan_entries: 89
+collection_coverage: "99.746% (393/394)"
+production_status: blocked_identity_drift
+note: "R14.1 corrected immutable manifest exists, but coverage must be evaluated against Collection canonical service IDs rather than total registry entries."

@@ -28,7 +28,7 @@ def build_physical_manifest(
                 "service_id": r.service_id,
                 "object_hash": r.object_hash,
                 "variants": {
-                    k: {"variant_hash": v, "path": f"/v/{v}.bin", "key": k}
+                    k: {"variant_hash": v, "path": f"/v/{v}.png", "key": k}
                     for k, v in sorted(r.variant_hashes.items())
                 },
                 "status": r.status,
