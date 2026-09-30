@@ -1,31 +1,20 @@
 {
   "service_id": "roblox",
-  "source_fingerprint": "dfe6ec6abc17cf19392a6237585f6dd6cdd31db641c3663c1095f6d36ca3a21f",
-  "object_hash": "25ca567a8231f94f4bc5caf24c9c5aeb921169ec0c400abea9560403df719459",
-  "variant_hashes": {
-    "source_original:128:png": "ea39cf3840d411ace2496ea3fd87bb8da73694486303f7b830ad1d8f6b79c0d0",
-    "source_original:256:png": "ac009e2ebdebc50159d8a0f47177d92a8302f7ff8dd35d732a6f317f835a267c",
-    "glassmorphism:128:png": "350403fdab556d4b3cf14efb22a62f8c19910d88837979c75dd6ee3621085722",
-    "glassmorphism:256:png": "5b96d220bc446f52def95758091f9be579d02657d23b6293293e7166bf033a44",
-    "soft_3d:128:png": "9070adf44d1f0133497f4f0000dd2c5858b6ad8150ff81bcb7021ed9315d9d7b",
-    "soft_3d:256:png": "31f3db51d806971c52da68b078645ce43823ba23ebadd35ec8dc4dce3005f5cf",
-    "neo_skeuomorphism:128:png": "e6534b03fc761c5d417b1ec73b4e983632c6c938b79b61ced402b13b9c106532",
-    "neo_skeuomorphism:256:png": "55a9f1280a997c579e70d778a7a82a0b7510faad6f84520d0436ec6720890bbe",
-    "minimalist:128:png": "d4b94e83144dea81bf7c431b3ab13ddeda76c16dec1cde3988400844292d0fc5",
-    "minimalist:256:png": "b9bc8e5b725e75ab19a732751d52dec2032c0a9379bd4ffce3b49a4c04c15ca4",
-    "duotone_line:128:png": "440b3612c9462ab8a1c631cbf12c0ca0f61bbe3b8883bf6b84ac0a239200a8db",
-    "duotone_line:256:png": "b1fbc2c8704bb9e76dee4f88c25920cfcab608786ea3b1538fb91e86ca707c25",
-    "mbe:128:png": "67ac2ae652bb9c9a52af28f2ec90faa7bc312488f3f55a468dd2645490ad5b29",
-    "mbe:256:png": "dfd9aa33579f21cc2632cff891f1f85aa293af87f35a57b697501b99fbfbc515",
-    "y2k:128:png": "42ef541b66d06878caf03d05281292153b0f7dd7c644c510a2213b7a06eb8499",
-    "y2k:256:png": "013870bd79f443bd45bcb5ce30f44d6af326791c520fcde0c5a55a0ac1ff67dc"
-  },
-  "source_class": "frozen_seed",
+  "source_fingerprint": null,
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:11.616544+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:11.616544+00:00",
-  "source_url": "seed://roblox.png",
+  "source_url": "seed://roblox.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
