@@ -1,43 +1,48 @@
 # Popular-Rules-Icon
 
-> Icon System 6.0 — independent, incremental, content-addressed, immutable-manifest icon infrastructure for the Popular-Rules ecosystem.
+> Icon System 6.0 — independent, content-addressed, immutable-manifest icon infrastructure for the Popular-Rules ecosystem.
 
-## Current status — 2026-09-30
+## 当前状态 — 2026-09-30
 
-| Area | Status | Verified state |
-|---|---|---|
-| Collection identity authority | **in migration** | Collection `rule/_index.yaml` is canonical |
-| V6 dist | **exists** | `icon-2026.09.30.r14.1` corrected manifest is published on `dist` |
-| Canonical service coverage | **blocked** | 393/394 current Collection services present; `ai` missing |
-| Production orphan entries | **blocked** | 89 dist/registry IDs are not current Collection services |
-| Variant matrix | **present** | 8 styles × 128/256 = 16 variants per manifest entry |
-| Release writer | **implemented / fail-closed** | main `release.yml` now builds from exact state snapshot and blocks on identity/variant/object gaps |
-| V5 removal | **blocked** | V5 remains Collection fallback/rollback safety net |
-| R20 yearly freeze | **pending** | requires identity + release gates |
+| 项目 | 状态 |
+|---|---|
+| Collection identity authority | `cn-wanmei/Popular-Rules-Collection/rule/_index.yaml` |
+| Canonical services | **394** |
+| Active V6 release | `icon-2026.09.30.clean1` |
+| Canonical coverage | **394/394 (100%)** |
+| Production orphan identities | **0** |
+| Variant matrix | **6304 = 394 × 16** |
+| Manifest physical closure | **6304/6304** |
+| Clean release-writer build-and-gate | **PASS** |
+| Clean release-writer publish | **PASS** |
+| V6 fallback | **Collection side pending final cutover; Icon side has independent rollback** |
+| Independent rollback | `icon-2026.09.30.r14.1` |
+| V5 production registry | **retired from Icon production state** |
 
-## Authority boundary
+## 身份边界
 
 Popular-Rules-Collection owns canonical `service_id`, `display_name`, and `provider`.
-Icon Registry only binds icon assets to those identities. It must not invent, rename, merge, or reinterpret services.
+Icon Registry consumes those identities and only binds icon assets.
 
-See `docs/IDENTITY_BOUNDARY_V1.md` and `docs/PRODUCTION_IDENTITY_AUDIT_2026-09-30.md`.
+The current clean production Registry contains exactly the 394 canonical Collection service IDs.
+Historical/orphan production identities were removed from production and retained in audit history.
 
-## Surfaces
+## 生产链
 
-| Surface | Role |
-|---|---|
-| `main` | code, schema, registry, policies |
-| `state` | bot fingerprints and cursors |
-| `dist` | immutable content-addressed icon artifacts |
-
-## Quick start
-
-```bash
-python -m pip install -e ".[dev]"
-python -m pytest -q
-python -m popular_rules_icon.cli fixture-run --svg tests/fixtures/geom_blue.svg
+```text
+Collection canonical identity
+        ↓
+Icon pinned identity snapshot
+        ↓
+state
+        ↓
+V6 release writer
+        ↓
+strict gates
+        ↓
+immutable dist release
+        ↓
+Collection V6 resolver
 ```
 
-## License
-
-Code: MIT (`LICENSE`). Brand icons: see `NOTICE` — not granted under MIT.
+See `docs/PRODUCTION_IDENTITY_AUDIT_2026-09-30.md` and `docs/IDENTITY_BOUNDARY_V1.md`.
