@@ -1,6 +1,6 @@
 {
   "service_id": "sohu",
-  "name": "搜狐视频关注流-南诏王 全网热播",
+  "name": "搜狐",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: 搜狐视频关注流-南诏王 全网热播; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

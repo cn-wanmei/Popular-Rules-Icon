@@ -1,6 +1,6 @@
 {
   "service_id": "vmware",
-  "name": "vSphere Mobile Client",
+  "name": "VMware",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: vSphere Mobile Client; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

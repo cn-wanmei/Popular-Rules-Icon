@@ -1,6 +1,6 @@
 {
   "service_id": "ubisoft",
-  "name": "XBOX",
+  "name": "Ubisoft",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: XBOX; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

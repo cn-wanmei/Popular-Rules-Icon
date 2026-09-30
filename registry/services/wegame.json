@@ -1,6 +1,6 @@
 {
   "service_id": "wegame",
-  "name": "掌上英雄联盟",
+  "name": "WeGame",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: 掌上英雄联盟; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

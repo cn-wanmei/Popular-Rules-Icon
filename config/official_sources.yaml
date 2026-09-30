@@ -10,10 +10,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/10/53/ca105375-b161-cf23-acb9-aa3cbf4b0a29/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
   apple:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/1ad5ad6eddc451da81cbe9b559a64566d01609249463?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080", source_class: manual_review }
   microsoft:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/08/a5/3808a55e-0441-0d74-4172-8118e7a275ca/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a19d828f64f6924fa828ba71ee98c?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080", source_class: manual_review }
   openai:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f6/83/7ff6832a-72ec-d628-282d-e9510fe85377/Placeholder.mill/400x400bb-75.jpg", source_class: curated_seed }
@@ -49,7 +49,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   amazon:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/f8/aa/fcf8aa9c-d478-3a42-ca8c-1c5b9d3896af/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/38dbb6fd5266d01609247e7d7870c30735fae6cd9f68?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   meta:
     candidates:
       # Facebook iOS app icon as interim Meta group mark (reviewer may replace)
@@ -110,7 +110,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/04/3c/a8043c56-a7b6-f98b-ccf8-85768c9cef4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   huawei:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/37/43/ec37432d-7419-c809-3f52-d08b2715b204/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://thumb.wikimedia.org/wikipedia/zh/thumb/0/04/Huawei_Standard_logo.svg/3840px-Huawei_Standard_logo.svg.png", source_class: manual_review }
   xiaomi:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/aa/e5/52aae52c-a0f6-2762-1bcf-8e3ec4da3e7b/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
@@ -167,7 +167,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/44/2b/c4442bdc-3955-4337-e423-b89edcd8322e/AppIconSpark-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   samsung:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/4d/47/774d47a6-cea1-f677-0ff6-348e97583648/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/48540923dd54564e92585710b7858b82d158ccbfe1dd?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   dianping:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/27/f0/7227f0d5-e50d-d756-8508-1b112cd8ab7c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -254,10 +254,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/1f/c9/de1fc9f1-2ce1-2c7c-e89c-8e033feefb6f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   icloud:
     candidates:
-      - { url: "https://raw.githubusercontent.com/simple-icons/simple-icons/11.4.0/icons/icloud.svg", source_class: third_party_allowlist }
+      - { url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/ICloud_logo.svg/3840px-ICloud_logo.svg.png", source_class: manual_review }
   office:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/94/ed/6994ed6d-80ae-35ff-3451-b9d8b81412b4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://thumb.wikimedia.org/wikipedia/en/thumb/3/35/Microsoft_Office_Logo_%282019-present%29.svg/3840px-Microsoft_Office_Logo_%282019-present%29.svg.png", source_class: manual_review }
   outlook:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ec/c6/81ecc693-62f5-2bbd-b8ff-efd5bb322ddd/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -350,7 +350,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/cd/77/dccd7722-b756-ebfe-d11e-bb2d8030e1cc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   alibaba:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/97/73/569773c2-3a17-e678-195f-4520248dd990/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d3fd1f41f80e53274e251f94caf28c?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   alibabacloud:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/eb/1b/16eb1be9-ae70-ad51-19c7-c3405a6216ad/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
@@ -362,7 +362,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/17/a7/6b17a7bd-98c5-a875-196b-14f9abedd231/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   amd:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f6/e9/7d/f6e97d73-45bd-f88f-be08-67d6cf88d4ed/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/4ec2d5628535e5dde71166840f9bb0efce1b9d16c460?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   anjuke:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/11/c4/f911c4fd-80b4-2cf1-3489-abfbb0e9789d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -392,7 +392,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
   atlassian:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/23/bd/0e23bdbc-a026-20dc-5814-bb4fa4357ff2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*XBjByL76rrguN7qEqd1KzA.jpeg", source_class: manual_review }
   audible:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/19/ac/6f19acce-c839-523d-a9d5-ca37c94ebe91/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -407,7 +407,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/89/86/f78986af-8835-46f3-7d51-1e2acf92f62d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   azure:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/26/6b/33266b19-abbb-c0fe-5ff2-9e998dce1f86/AppIcons-0-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/40/17/02401779-c44b-9658-a1b8-9a2cd9bb7ee1/Placeholder.mill/400x400bb-75.webp", source_class: manual_review }
   baidunetdisk:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/1b/70/5b1b7063-e121-b536-dd0e-651f4a88081b/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -431,7 +431,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/97/fe/b097feb6-276a-e77c-dcb5-97fa054c5bda/AppIconGlass-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   bytedance:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/f8/ca/94f8cad1-6fe1-9258-adc2-d01d31ad92fa/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/21a4462309f79052982293b04fa4c0ca7bcb0b467fbf?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   capcut:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/7d/61/a97d6162-c9cb-8fa3-d671-dae8538cb974/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -440,7 +440,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/e5/52/18e5529c-6803-a631-cdc0-b5f8afd1131e/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   cisco:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/cf/18/1acf182c-d4e4-bb87-858b-155e405bf137/SCIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/5243fbf2b2119313b07ec3be266f1bd7912397dd273c?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   copilot:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/94/ed/6994ed6d-80ae-35ff-3451-b9d8b81412b4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -452,7 +452,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/93/9c/35939c9d-e998-8af4-3ccf-f4658f508675/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   dell:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/07/b1/7607b18b-be18-2060-95ba-7e3411ab5c59/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/3840px-Dell_logo_2016.svg.png", source_class: manual_review }
   digitalocean:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/07/d9/5507d932-05aa-858d-fd01-3eb99e402793/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -479,16 +479,16 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/a6/10/54a61045-95b0-4368-3aa0-77ecad9f5dd5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   hikvision:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/0d/18/5b0d18a7-41cd-5eb5-fcec-4f0a46f3c9b2/AppIcon-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/14ce36d3d539b6003af3f0cc9106222ac65c1038190b?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   honor:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/d0/9c/1fd09cd8-5bf0-b3b8-f3d6-cce3cd47481b/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/42a98226cffc1e178a82231504cde103738da97743db?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   hoyoverse:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a5/71/23a57134-128b-37e5-4bbf-68cbb17a0e9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
   ibm:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/58/61/1458611a-c0c7-1cc2-17f0-829f1a9170bb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/3840px-IBM_logo.svg.png", source_class: manual_review }
   jianying:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/dc/1d/e0dc1d35-22cd-587a-a08a-bcb390e2f1af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -503,7 +503,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ac/a8/81aca8e5-2764-f907-0f12-651850e72d67/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   lenovo:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/24/af/1b/24af1bdb-58a2-8c50-d6d8-fa2ef5e0a17b/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/a8014c086e061d950a7b38c8b6a31dd162d9f3d35cb1?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   line:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/94/41/029441a9-1b22-89ae-b80f-ffac0749eba0/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -512,13 +512,13 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/72/ce/c272ce10-0c51-9df3-ebea-c9e2fb8b0f71/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   minimax:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/8f/30/078f308f-ef59-ca95-7723-5d4a7f6a72da/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://upload.wikimedia.org/wikipedia/commons/3/3c/MiniMax.png", source_class: manual_review }
   mongodb:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/7a/60/1a7a604c-a30b-a156-6bc1-55180250d263/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   moonshot:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/c5/1d/afc51d35-0ed3-ba63-6b8c-45a7428fa3fd/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROAwRrv17reaWoq2-XsRxWUItt934Vq7_-IP__tXbfw&s", source_class: manual_review }
   netlify:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/06/fa/bc06fa5a-530e-bdec-7e6a-a2c8860d8e71/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -527,16 +527,16 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/59/33/b55933e1-949c-4a34-a00c-a02f35df610b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   okta:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/2c/0a/cf2c0a98-978f-46a5-cef5-976b5d0ad408/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/91/d3/4391d3d9-282f-37a5-24b4-f88aef7d36e5/Placeholder.mill/400x400bb-75.webp", source_class: manual_review }
   okx:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/94/ae/7094ae67-3216-b114-7396-6928fad2ede6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   oppo:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/fa/84/38fa84ca-3f2f-729e-9768-aab244d78354/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/ac6eddc451da81cb39db2f9d753bc7160924ab189b14?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   oracle:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/48/ea/3848ead0-79bd-cce1-d99d-a556e5ae9b75/AppIcon-AppStore-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/9a504fc2d5628535e5ddedd7f4b861c6a7efcf1bc5b4?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   perplexity:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/b5/f3/5eb5f32e-7d46-58e8-07d9-5f5a95f5500a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -551,7 +551,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/88/c1/1188c17d-cabc-f65a-9eae-0d9e8f594e07/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   qualcomm:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/75/14/d8751472-363c-4d4a-23a7-62f05afae35a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/562c11dfa9ec8a136327c3e3875a868fa0ec08fa6a24?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   rakuten:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/aa/2b/23aa2b7f-3385-1789-4aee-94fbb845778c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -560,7 +560,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/ea/41/a5ea41aa-5f0e-bb8d-7943-f39e06c0d84a/SalesforceAppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   sap:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/21/58/372158fe-98a6-5e2f-2a43-feb2ca74619a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/314e251f95cad1c8a7868cd724677009c93d71cffbb0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   servicenow:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/80/35/d1803554-2bb7-ffea-3e1f-ceb9856dcc4c/SNAppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -572,13 +572,13 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/21/58/372158fe-98a6-5e2f-2a43-feb2ca74619a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   sohu:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/2f/2e/902f2e8f-8ff6-4bb3-41f4-e87f1712ffc2/AppIcon-0-0-1x_U007emarketing-0-9-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/6609c93d70cf3bc79f3da6429859ada1cd11728bfc5e?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   sony:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/aa/ed/2eaaeda4-1c7a-0501-ed68-874a7ae58f5e/AppIcon-0-0-1x_U007emarketing-0-3-0-GLES2_U002c0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://www.sony.com.cn/aboutsony/images/Genryu01.jpg", source_class: manual_review }
   tencent:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/95/24/e395244a-10a0-09bb-30df-54434911eb69/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-6/461580641_2235185163504107_1325590738975729581_n.png?stp=dst-png&cstp=mx667x667&ctp=s667x667&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=DTwy_aNifacQ7kNvwE7MobK&_nc_oc=AdqnfRid9HwJPzoSxlUwjbzGZPLL8g74YBCoGfYelWxjvVreMYhwtk-GWCSBfKLUe60&_nc_zt=23&_nc_ht=scontent-lax7-1.xx&_nc_gid=Dcwt30uBkaAVKpsYMS6BHQ&_nc_ss=79289&oh=00_AQOrVVDTA4_6KphIBf2vyF0RHyE--Qv0PRA7MGnEkskcBw&oe=6AC2821A", source_class: manual_review }
   tencentmeeting:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/c0/12/1cc01246-7352-8597-01a4-a74242448930/AppIcon-Release-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -596,10 +596,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/ba/ab/96baabf0-8df2-7962-287c-a8540941d545/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   twilio:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/12/15/161215ec-1b9a-2c14-bf54-466644d1c1a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDOyu-Zmon4waSy-pUmUtR7D9a7jb3yxWepz-mBJhYw&s=10", source_class: manual_review }
   ubisoft:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/cf/e8/e2cfe83d-7774-b19d-9c71-4420b46b9944/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxp1DQexD1Wu6.mxrLUJN7dHGHWXUTfJex5lGmAKBkyu2Qw_4nrD4v9n1ddmw2MV1pVCHaC7.VGY.MjHhVqZMFS0-&format=source&h=170", source_class: manual_review }
   vercel:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/07/12/1d071270-cb40-f54c-f1a0-0ed58e7bdfa5/icon-ios-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -611,7 +611,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/a5/97/0ea59795-56e1-25b0-4914-e1fa707b26bc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   wegame:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/0d/5e/300d5e29-ad7a-589f-b22e-996513f7346a/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4PZTr8ivgGhwScZWaS_gpXjHS8R6RPBLCiPHrr6uIjmuo5giO7mPr7wC&s=10", source_class: manual_review }
   wise:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/65/77/a66577bb-aded-e9c6-b7e5-dec1cc551bd6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -635,7 +635,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/31/1c/e2311c4e-23e1-55a7-8995-576b5153fe87/Photos-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   googleplay:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/d3/5b/4fd35b53-e6d3-ee49-342a-8a7ace6fe960/SuperG_ios26-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/c9fcc3cec3fdfc039245062a37659094a4c27d1e8854?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   mihoyo:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a5/71/23a57134-128b-37e5-4bbf-68cbb17a0e9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -644,7 +644,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/57/c0/6557c0cb-8239-1e94-5db8-7672caaba44a/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   vmware:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ea/71/47/ea71478e-4376-20a9-0cbc-767a69d0fa69/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/3840px-Vmware_workstation_16_icon.svg.png", source_class: manual_review }
   yahoo:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/3d/ad/773dadf9-0aa0-0643-33ff-ce8b9f3a38b3/MailAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -683,10 +683,10 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/82/4b/37824b8d-b335-c13b-fe78-84496ea917b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   oneplus:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/d5/ad/aed5ad74-d75b-61be-049a-2584bcfcab0b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/8435e5dde71190ef76c6e29ee2568a16fdfaaf51ca17?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   asus:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/f5/bb/b9f5bb02-3de8-811a-3ab9-04574ab44eb2/AppIconRouter-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://bkimg.cdn.bcebos.com/pic/10dfa9ec8a13632762d0d61d60c5b7ec08fa513d69c0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }
   hp:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/91/0b/e9910bdd-e8fd-ef1e-b29b-d9d83d88dbb9/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -704,13 +704,13 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/2f/48/762f48eb-b69b-6f76-655a-86b48ee2c9fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
   wechatpay:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/61/70/2e/61702e05-0531-165f-5cd3-012c8b5b3b20/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://www.ecommercestrategychina.com/storage/uploads/images/WeChat%20pay-20190524.png", source_class: manual_review }
   citi:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/3e/37/bb3e37c7-111d-d51c-7f00-af24dcc22bb5/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   monday:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/d2/60/94d2607d-7afa-1187-359d-855a23ce81fe/AppIcon-Monday-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/34/b7/de34b7bc-e9d1-e542-ff87-6dffc1a65a7d/Placeholder.mill/400x400bb-75.webp", source_class: manual_review }
   clickup:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/fc/2f/3cfc2f5b-d619-9a3b-2e10-cf3df1b5e95b/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -722,7 +722,7 @@ sources:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/62/42/f0624205-3393-7b79-6464-a9a7b9920ed9/Linear-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
   airtable:
     candidates:
-      - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/c0/9b/cdc09b04-9e55-08c5-dc6b-9622d5b85d6b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg", source_class: curated_seed }
+      - { url: "https://www.podfeet.com/blog/wp-content/uploads/2018/05/airtable-logo-1.png", source_class: manual_review }
   roam:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/52/aa/9752aaa4-c31a-315d-2d80-2cbe9a6eeb0a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
@@ -744,4 +744,6 @@ sources:
   things:
     candidates:
       - { url: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/13/4e/d6134ee3-d173-099a-cc89-df935aa5d2e1/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg", source_class: curated_seed }
-
+  meta:
+    candidates:
+      - { url: "https://bkimg.cdn.bcebos.com/pic/5fdf8db1cb1349540923cbb927128558d109b2dedce0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536", source_class: manual_review }

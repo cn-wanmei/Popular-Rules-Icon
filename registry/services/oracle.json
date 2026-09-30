@@ -1,6 +1,6 @@
 {
   "service_id": "oracle",
-  "name": "Oracle Fusion Applications",
+  "name": "Oracle",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: Oracle Fusion Applications; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

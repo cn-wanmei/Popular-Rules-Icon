@@ -1,6 +1,6 @@
 {
   "service_id": "oneplus",
-  "name": "O+ Connect",
+  "name": "一加",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: O+ Connect; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

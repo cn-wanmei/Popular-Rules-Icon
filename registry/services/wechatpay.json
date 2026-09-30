@@ -1,6 +1,6 @@
 {
   "service_id": "wechatpay",
-  "name": "微信",
+  "name": "微信支付",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: 微信; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "minimax",
-  "name": "MiniMax - 通用AI Agent",
+  "name": "MiniMax",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,5 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: MiniMax - 通用AI Agent; REVIEW REQUIRED"
+  "notes": "Manual reviewer replacement 2026-09-29"
 }

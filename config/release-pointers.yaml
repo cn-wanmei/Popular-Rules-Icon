@@ -1,4 +1,4 @@
-production: icon-2026.09.29.9
-rollback: icon-2026.09.29.8
-updated_at: "2026-09-29T12:29:22Z"
-note: "247 services expansion; RISK_REVIEW for human pass before freeze"
+production: icon-2026.09.30.1
+rollback: icon-2026.09.29.9
+updated_at: "2026-09-30T05:28:07Z"
+note: "Manual URL replacements x39 from RISK_REVIEW audit"
