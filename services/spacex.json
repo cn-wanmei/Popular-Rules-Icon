@@ -1,31 +1,20 @@
 {
   "service_id": "spacex",
   "source_fingerprint": "6a613fe8d02f7c3914924311a33dc7156774615f0cc44da453d41c67b4e759d5",
-  "object_hash": "8d28b6c051e9d5e6374a5e08e8c5fcc88f053f8199ec455a51192fb820c157d8",
-  "variant_hashes": {
-    "source_original:128:png": "bec0fa059adeb1a073950e12ce3497cfc616101feabacb4f04cac9ee081729dd",
-    "source_original:256:png": "a9a70492d67cd033016a27ae1f7863cefab98e5ca9c4c5ea71a1f0365ab8eae4",
-    "glassmorphism:128:png": "80d37fe3da4837c8b919f1e558ce2732511c1d28a5224a9f7df1a48ad57df4f8",
-    "glassmorphism:256:png": "c26229f675be7aa314dae00d54bfbeebeb54b399c439f12391e6bdd474546341",
-    "soft_3d:128:png": "2a6b940e8ab23caded81080f5a65745f2ad1be86f63dde231557a5aa577b5c4d",
-    "soft_3d:256:png": "5e95a0078b06e1cc1c67743fca373f1e5fc4dc8015d848c043a536bdadef4755",
-    "neo_skeuomorphism:128:png": "976edc71099bbd7d61d2a3b1250b4a5acf5fcab4933061a8f0a085f45c9076d7",
-    "neo_skeuomorphism:256:png": "b7cc6f11b99215816d4adce872bc31a9230bd84650ea15a4ae0abbe550667d09",
-    "minimalist:128:png": "4877748e387ea08aee6805731123e4789ebe0928efb38ec0051f70c8f3815fa8",
-    "minimalist:256:png": "13e1baa7e55df823c872e1ade3d83ca245c637d3dd0271fe060b3034db74f3b6",
-    "duotone_line:128:png": "cc72d97eb0b58b733110a4ac4d53131c9ffc9f3b15d0c6548a10ec758f86e785",
-    "duotone_line:256:png": "4a2be807ce98c532125baf64353e730c600d52e17c037c8fac96861659eaaa6e",
-    "mbe:128:png": "72571bf0a69cacbdf37645b3452a4d027821c9213c35fbcc49785b1586501caf",
-    "mbe:256:png": "6e88518291264712d0656d109463357c24fdf91c685e8a3b2d0199b2b110fe1a",
-    "y2k:128:png": "9c6d7c5441de94ca1ebddf66c6981c88bd8fc602a2be926bbc7cfaa26f4ef8a6",
-    "y2k:256:png": "7d5176142581f764b66cce7d779f1fca66b368340558cdcce7c5faca803fcab7"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:18.806865+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:18.806865+00:00",
-  "source_url": "seed://spacex.png",
+  "source_url": "seed://spacex.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
