@@ -1,31 +1,20 @@
 {
   "service_id": "intel",
   "source_fingerprint": "eacdff3e4449c430d1da22a7b0400466f16c3f047a63022ee00cc8d2000d8045",
-  "object_hash": "8a8eccc3aa084bba17336084fa038c690e09a1fdfba282784dc5a5afb81698a7",
-  "variant_hashes": {
-    "source_original:128:png": "9f580c2379a375914622913eaf24096386ebde7d3f2e313b53e7d9236c4d737c",
-    "source_original:256:png": "416e306e670e33f7792913f88010d00abe2de973533d8296e196fc6a4559a585",
-    "glassmorphism:128:png": "9b0c381c4214433f3612072b5567198d3eabc2ca59a0e5f4711b8dd058303063",
-    "glassmorphism:256:png": "0c082d248a4831d41e9cec6462b0df32fe34b297cec6b75c1611dc1c9c782fd4",
-    "soft_3d:128:png": "cd7d3f95a2466b1ac67483737f7a5759a295b5e89fb97eb011e56d48a639cf47",
-    "soft_3d:256:png": "6e227957e56eafeecbd5a8e5f626af9b0b184819c42297611b9e2315e631074c",
-    "neo_skeuomorphism:128:png": "e77a7290a936d1d67b3204a3a9d44a0819842f270a68072ec4f730223028025c",
-    "neo_skeuomorphism:256:png": "d08f2cee3ed0933d53762e784e0358521898ad9ac005d11a8a6c979e34013b81",
-    "minimalist:128:png": "e1e504db084d4f900d16e58081b50ce3e54ed5b92675d75f049b46e0eef5ac98",
-    "minimalist:256:png": "ddaa94215c80ef00a42a93269bf82e39ab3f095854813c6207a7e77e0b3784c4",
-    "duotone_line:128:png": "627744cbb67202aa7a081a444f207b48e4e19abb6666afd5e667f675f21d1331",
-    "duotone_line:256:png": "153c910e3f63a558b0c400d4ee8ce5100fe050cffca3ebaa0c2a20a514664cce",
-    "mbe:128:png": "5cd88ca697a40a1a38f5d6abeed5b7f5c50f4a34c7016d3a446f5cbd87279b04",
-    "mbe:256:png": "73627457db880fafa85b862c77b390d90f36837f42d6bac205b3c5788a1dde20",
-    "y2k:128:png": "e6cc6165f92739f84da45f9c16d43577e627ae35a2ee6608b8d497d1d9703a68",
-    "y2k:256:png": "d55ad6e87921a0bffad531bd568340ec81c41c82431577457ccaff16c2d3f89d"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:41.652011+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:41.652011+00:00",
-  "source_url": "seed://intel.png",
+  "source_url": "seed://intel.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
