@@ -12,16 +12,11 @@ Do **not** implement abolished designs (see freeze doc). Legacy planning files l
 
 | Phase | Status |
 |-------|--------|
-| R0.1 Documentation freeze | landed |
-| R0.2 Schema | landed |
-| R0.3 Registry samples + state layout | landed |
-| R0.4 Fixtures + L0/L1 CI | landed |
-| R1 Network acquire (canary) | **done** (frozen seed path) |
-| R2 Score / lock / curated seeds | **done** |
-| R3 dist + release pointers | **done** (`dist` + freeze tag) |
-| R4 Collection shadow | **partial** (config scaffold; default still v5) |
-| R5 Collection default cutover | **pending** |
-| Freeze `icon-2026.09.30.freeze1` | **done** (247 local seeds) |
+| R0–R4 foundation | done |
+| Freeze `icon-2026.09.30.freeze1` | done (247) |
+| R5 Collection default v6 | **done** |
+| R6 icon-demand | done |
+| R7–R13 | done (see docs/ROADMAP_R5_R13.md) |
 
 ## Layout
 
