@@ -1,5 +1,6 @@
 production: icon-2026.09.30.r14.1
-rollback: icon-2026.09.30.styles8
+rollback: icon-2026.09.30.r14
+rollback_note: "r14 is retained as immutable rollback; R14.1 corrects only manifest path metadata, not object hashes."
 updated_at: "2026-09-30T10:50:00Z"
 frozen: true
 freeze_id: icon-2026.09.30.r14.1
