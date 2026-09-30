@@ -1,0 +1,497 @@
+# Informational only
+remote_provenance:
+  12306:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/05/62/ad056221-9f87-c034-ce27-00c21a921bf3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  1688:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/97/73/569773c2-3a17-e678-195f-4520248dd990/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg"
+  1password:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/c0/b9/04c0b91f-1ee8-1b18-f9cc-ca7a834ee038/AppIcon-0-0-1x_U007epad-0-8-0-P3-85-220.png/512x512bb.jpg"
+  acfun:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/cd/77/dccd7722-b756-ebfe-d11e-bb2d8030e1cc/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
+  adobe:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/44/2b/c4442bdc-3955-4337-e423-b89edcd8322e/AppIconSpark-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  airbnb:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/3e/b4/c03eb4d2-6051-2bdc-ee63-a76449fe05c5/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg"
+  airtable:
+    - "https://www.podfeet.com/blog/wp-content/uploads/2018/05/airtable-logo-1.png"
+  alibaba:
+    - "https://bkimg.cdn.bcebos.com/pic/32fa828ba61ea8d3fd1f41f80e53274e251f94caf28c?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  alibabacloud:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/eb/1b/16eb1be9-ae70-ad51-19c7-c3405a6216ad/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg"
+  aliexpress:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/eb/ae/91ebae86-cf1d-ed59-6b19-1bd5fdd5d1e7/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  alipay:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e9/04/0d/e9040dff-777f-ea95-93f6-accc2d860790/Placeholder.mill/400x400bb-75.jpg"
+  alipayhk:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/2f/48/762f48eb-b69b-6f76-655a-86b48ee2c9fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  amazon:
+    - "https://bkimg.cdn.bcebos.com/pic/38dbb6fd5266d01609247e7d7870c30735fae6cd9f68?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  amazonmusic:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/17/a7/6b17a7bd-98c5-a875-196b-14f9abedd231/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  amd:
+    - "https://bkimg.cdn.bcebos.com/pic/4ec2d5628535e5dde71166840f9bb0efce1b9d16c460?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  anjuke:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/11/c4/f911c4fd-80b4-2cf1-3489-abfbb0e9789d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  anker:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/48/79/dd4879c2-cb2e-9ac5-74ad-e4d3ca7084ff/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+  apple:
+    - "https://bkimg.cdn.bcebos.com/pic/1ad5ad6eddc451da81cbe9b559a64566d01609249463?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080"
+  applebooks:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/7d/6f/017d6fb2-8195-a029-b943-e6fdc1711902/booksCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  applemaps:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/9d/37/d79d376c-e1d6-9cb1-70fa-cdee6b6c198e/mapsCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  applemusic:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/e5/e7/cee5e74c-d943-b7fc-02ac-70220d7dd16d/musicCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  applenews:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/06/99/bc069961-648b-8227-41b5-b601f58959f7/newsCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  applepodcasts:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/2e/51/e72e5114-ef3b-315b-d9fd-32418483296f/podcastsCalistoga-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  appletv:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/34/31/553431b1-f35d-b0c9-5046-73fca3aa4ec0/tvCalistoga-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  appstore:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/83/16/7b831651-30d2-55a7-aabe-a0d6053df222/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.jpg"
+  asus:
+    - "https://bkimg.cdn.bcebos.com/pic/10dfa9ec8a13632762d0d61d60c5b7ec08fa513d69c0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  atlassian:
+    - "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*XBjByL76rrguN7qEqd1KzA.jpeg"
+  audible:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/19/ac/6f19acce-c839-523d-a9d5-ca37c94ebe91/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  autodesk:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/ec/1b/0aec1bb6-efa1-71ef-24a2-5e551f4e333a/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg"
+  autohome:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/0e/c5/fb0ec570-c98f-6016-def0-63c7844e94d0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  aws:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/89/86/f78986af-8835-46f3-7d51-1e2acf92f62d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  azure:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/40/17/02401779-c44b-9658-a1b8-9a2cd9bb7ee1/Placeholder.mill/400x400bb-75.webp"
+  baidu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/19/62/0f196241-b161-cdd1-81a2-b67f986d9d67/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  baidumap:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/c6/35/14c6352b-031f-c43b-9105-f3d543e6875d/appIconLiquid-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  baidunetdisk:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/1b/70/5b1b7063-e121-b536-dd0e-651f4a88081b/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  baidutieba:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/1e/74/7a1e74e5-262e-ef03-55a2-3d55d7eacd11/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg"
+  baiduwenku:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/ab/03/5fab03ef-a276-aaa8-8a9c-338dec832c56/AppIcon-0-1x_U007ephone-0-1-0-P3-85-220-0.png/512x512bb.jpg"
+  basecamp:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/f2/45/4bf2459f-55b9-dd5a-56d6-535bb6a1b767/basecamp-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  battlenet:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/97/fe/b097feb6-276a-e77c-dcb5-97fa054c5bda/AppIconGlass-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  bbc:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/eb/ba/1febbad6-76cd-cda4-aea8-88990922e9d9/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+  bear:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/83/72/ed837234-9513-5440-fb54-fd39e38b4e01/AppIcon-26-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  bilibili:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/a3/40/9fa34060-e9fa-feec-41c5-007b09c4ae83/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  bilibili_manga:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/a8/7b/01a87b70-f719-a312-86eb-b4217c66b314/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  binance:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/16/6a/2e166a61-3c21-19a1-0e0b-433d7ce3ce2e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+  bing:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/0d/7d/b60d7d97-0e00-43da-1d60-31e93ac5a16a/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  bitbucket:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/52/81/c4/5281c49f-9271-d37c-c711-40a6c4a0559e/AppIcon-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg"
+  bitwarden:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/d3/a2/23d3a21b-15f3-804a-2400-a544a5ae3035/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  blizzard:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/97/fe/b097feb6-276a-e77c-dcb5-97fa054c5bda/AppIconGlass-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  booking:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/06/be/9806bed9-20ce-a87f-d7cb-dddd399f32e1/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/512x512bb.jpg"
+  boss:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/99/42/ab99422a-8afa-86e4-deb8-f8e7996a890f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  bytedance:
+    - "https://bkimg.cdn.bcebos.com/pic/21a4462309f79052982293b04fa4c0ca7bcb0b467fbf?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  cainiao:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/7f/81/7a7f817e-184b-3ec6-b8d0-492a15419dd2/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg"
+  canva:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/ea/e2/99eae2c4-6d6f-43cf-28e0-59a3cb625ede/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  capcut:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/7d/61/a97d6162-c9cb-8fa3-d671-dae8538cb974/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  cctv:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/18/e5/52/18e5529c-6803-a631-cdc0-b5f8afd1131e/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.jpg"
+  chrome:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/1f/c9/de1fc9f1-2ce1-2c7c-e89c-8e033feefb6f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  cisco:
+    - "https://bkimg.cdn.bcebos.com/pic/5243fbf2b2119313b07ec3be266f1bd7912397dd273c?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  citi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/3e/37/bb3e37c7-111d-d51c-7f00-af24dcc22bb5/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg"
+  claude:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/89/a5/1c89a53e-032b-cb5a-b1e5-e3227c749811/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  clickup:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/fc/2f/3cfc2f5b-d619-9a3b-2e10-cf3df1b5e95b/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  cloudflare:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/80/f7/c5/80f7c5d2-a597-de2d-83b1-99a2c434f438/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.JPG"
+  cmb:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/de/de/06dedefb-0618-e2ad-b262-35a0a6ede3f4/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  coinbase:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/2a/93/6f2a9371-7da6-5d87-48a6-189319ce460c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg"
+  confluence:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/1d/34/2b1d3454-8e2d-6141-a822-9ea35090cf02/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  copilot:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/94/ed/6994ed6d-80ae-35ff-3451-b9d8b81412b4/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  craft:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/a4/08/c8a408d7-939b-ca05-90c5-c886926814de/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  ctrip:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/05/98/ce05983d-b80e-1d98-803c-d14c386aa6f2/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg"
+  cursor:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/6b/43/0f6b43b9-8225-7a83-8c2d-d86e930a6f90/AppIcon-Light-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  datadog:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/93/9c/35939c9d-e998-8af4-3ccf-f4658f508675/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  deepseek:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/2f/a3/442fa386-e9bc-da3c-4d0c-7f5ad8186b7e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  dell:
+    - "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/3840px-Dell_logo_2016.svg.png"
+  dianping:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/27/f0/7227f0d5-e50d-d756-8508-1b112cd8ab7c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  didi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/cf/ff/20cfff66-44b7-73d4-696e-d95fe9f611c7/AppIcon_default-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg"
+  digitalocean:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/07/d9/5507d932-05aa-858d-fd01-3eb99e402793/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  dingtalk:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/70/18/017018c5-7aec-5a4d-4c1a-8ccb51a84bd0/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  discord:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/43/6f/3f436fa5-0358-07c1-e7b0-ba796f1f906a/Placeholder.mill/400x400bb-75.jpg"
+  disneyplus:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/a3/33/5aa333ba-cc14-bead-a8e5-4345b87cc887/AppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  doubao:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/c3/af/a5c3afec-9121-afb2-6011-e6fd8796fdc4/AppIcon-0-0-1x_U007epad-0-8-0-sRGB-85-220.png/512x512bb.jpg"
+  douyin:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/b7/f2/4db7f24d-f39c-b291-c880-8afd5d93a1a4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg"
+  drive:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b7/7e/b2/b77eb26a-5d8c-fefa-82b1-da8c49b19f8d/drive_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  dropbox:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/8f/bd/e98fbd4d-f432-bfab-c1a9-f727008290ff/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  ea:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/f2/06/6ef20663-0b87-5b72-3e90-80757b2a473e/AppIconRegular-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+  ebay:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/85/27/868527c7-b63f-3413-d60c-706e6f5080e1/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  emby:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/63/e7/9763e766-44d5-db30-2620-45eccd9b1621/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  epic:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/f7/2b/c1f72ba6-c578-e57f-f474-a29149ba3399/AppIcon-Companion-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+  epicgames:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/f7/2b/c1f72ba6-c578-e57f-f474-a29149ba3399/AppIcon-Companion-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg"
+  evernote:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/8f/ed/9a8fed64-fa5d-fd4c-eada-168cbd14bc5b/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  facebook:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/d2/9f/4ad29fa6-ac86-66b9-3c9e-2c9950173431/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  feishu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/f8/ca/94f8cad1-6fe1-9258-adc2-d01d31ad92fa/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  figma:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/ba/eb/a4baeb71-2781-550a-7e4a-b28281212ddf/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/512x512bb.jpg"
+  gaode:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/0d/b7/3d0db700-cb0f-62e2-aa78-6e7a7341cba2/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  gemini:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/b1/22/7bb122bd-3f0a-2663-88ec-c3c6d32ee880/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  github:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/b6/42/f5b6428d-341e-f35d-9b18-adc4ca362510/Placeholder.mill/400x400bb-75.jpg"
+  github_mobile:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/a9/bd/1ea9bd40-50de-3b12-4c9e-e5a32fe7886f/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg"
+  gitlab:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/04/fb/1204fb19-f444-a711-6317-b5f4619513fb/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/512x512bb.jpg"
+  gmail:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/e2/23/91e223e2-0de8-367b-ae90-5bb895662760/gmail_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  google:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ca/10/53/ca105375-b161-cf23-acb9-aa3cbf4b0a29/Placeholder.mill/400x400bb-75.jpg"
+  googledocs:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/41/59/a84159d8-9f96-3224-6b4f-c158458eaf3a/docs_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  googlephotos:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/31/1c/e2311c4e-23e1-55a7-8995-576b5153fe87/Photos-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  googleplay:
+    - "https://bkimg.cdn.bcebos.com/pic/c9fcc3cec3fdfc039245062a37659094a4c27d1e8854?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  hbo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/a6/10/54a61045-95b0-4368-3aa0-77ecad9f5dd5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  hellobike:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/4a/76/6f4a762d-940f-0ed8-ee7c-65cc64d63588/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  hikvision:
+    - "https://bkimg.cdn.bcebos.com/pic/14ce36d3d539b6003af3f0cc9106222ac65c1038190b?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  honor:
+    - "https://bkimg.cdn.bcebos.com/pic/42a98226cffc1e178a82231504cde103738da97743db?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  hoyoverse:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a5/71/23a57134-128b-37e5-4bbf-68cbb17a0e9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+  hp:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/91/0b/e9910bdd-e8fd-ef1e-b29b-d9d83d88dbb9/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  huawei:
+    - "https://thumb.wikimedia.org/wikipedia/zh/thumb/0/04/Huawei_Standard_logo.svg/3840px-Huawei_Standard_logo.svg.png"
+  hulu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/56/7a/04567ab3-2c25-7fd2-8bf7-8ba83cce3a76/HuluAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  iawriter:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/ab/7c/62ab7cf2-09d9-d4b7-9fd1-2a2b5ffcf3b7/Writer-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  ibm:
+    - "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/3840px-IBM_logo.svg.png"
+  icbc:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/6e/49/c96e4981-d3a9-f9d0-cff5-4d36135fdc3b/AppIcon-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  icloud:
+    - "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/ICloud_logo.svg/3840px-ICloud_logo.svg.png"
+  instagram:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/7f/2c/f57f2c00-2dff-4704-501b-ab6849c6277d/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  iqiyi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/05/b8/6f05b8c1-3f9f-325f-9433-300e3c77287f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  jianying:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/dc/1d/e0dc1d35-22cd-587a-a08a-bcb390e2f1af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  jingdong:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/37/e7/e637e7c9-bea1-b9fc-2b80-04edb021083d/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  jira:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/23/bd/0e23bdbc-a026-20dc-5814-bb4fa4357ff2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  kakaotalk:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/51/c4/8c51c438-691a-7f64-58ba-c287153e5293/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  keep:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/12/09/0d1209da-4d07-e1bb-02c6-d82001f10e36/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  kimi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/c5/1d/afc51d35-0ed3-ba63-6b8c-45a7428fa3fd/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  kuaishou:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/45/88/524588cc-ba64-a9ec-393a-b6718a85ab03/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg"
+  kugou:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/05/53/cd055382-f468-65cb-03b5-4ac9e905e080/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  lark:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ac/a8/81aca8e5-2764-f907-0f12-651850e72d67/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  lastpass:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/0e/68/6f0e6894-03a9-a2ae-5f04-dcde5b3d2fcf/AppIcon_distribution-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  lenovo:
+    - "https://bkimg.cdn.bcebos.com/pic/a8014c086e061d950a7b38c8b6a31dd162d9f3d35cb1?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  lianjia:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/70/69/4e7069e5-d576-cabb-a874-038ca0bec299/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+  line:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/94/41/029441a9-1b22-89ae-b80f-ffac0749eba0/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  linear:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/62/42/f0624205-3393-7b79-6464-a9a7b9920ed9/Linear-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  linkedin:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/11/39/c61139de-74e6-2017-cf6c-f8b2faada08a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  logseq:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/4a/ff/0a4affb6-7f92-b2cf-4e94-9990bb7a5891/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg"
+  mailchimp:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/64/d7/7f64d741-fa16-e603-ecb5-34e6a26dfcbe/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  maps:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/3d/88/673d887a-0001-c7d0-0ca2-fc8cd73a9ded/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  max:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/a6/10/54a61045-95b0-4368-3aa0-77ecad9f5dd5/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  meituan:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/7c/56/f97c56ea-ddcb-7fe0-66aa-97d5f481ef62/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/512x512bb.jpg"
+  meta:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/d2/9f/4ad29fa6-ac86-66b9-3c9e-2c9950173431/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+    - "https://bkimg.cdn.bcebos.com/pic/5fdf8db1cb1349540923cbb927128558d109b2dedce0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  mgtv:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/e2/cc/40e2cc8e-a1d0-84f2-0d07-4dad9eb1a07c/AppIcon-0-0-1x_U007ephone-0-1-0-0-0-85-220.png/512x512bb.jpg"
+  microsoft:
+    - "https://bkimg.cdn.bcebos.com/pic/d058ccbf6c81800a19d828f64f6924fa828ba71ee98c?x-bce-process=image/format,f_auto/watermark,image_d2F0ZXIvYmFpa2UyNzI,g_7,xp_5,yp_5,P_20/resize,m_lfit,limit_1,h_1080"
+  migu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/72/ce/c272ce10-0c51-9df3-ebea-c9e2fb8b0f71/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  mihoyo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/a5/71/23a57134-128b-37e5-4bbf-68cbb17a0e9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+  minimax:
+    - "https://upload.wikimedia.org/wikipedia/commons/3/3c/MiniMax.png"
+  monday:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/de/34/b7/de34b7bc-e9d1-e542-ff87-6dffc1a65a7d/Placeholder.mill/400x400bb-75.webp"
+  mongodb:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/7a/60/1a7a604c-a30b-a156-6bc1-55180250d263/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  moonshot:
+    - "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQROAwRrv17reaWoq2-XsRxWUItt934Vq7_-IP__tXbfw&s"
+  netease_mail:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/2d/4f/ac2d4ffc-f481-f3aa-cbff-65a7ebc9c04c/AppIconStore-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  netease_music:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/fc/91/31fc91b8-c30b-e00f-2add-0aa3f12322b3/appIconNew-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  netflix:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/76/f9/cd76f98c-0811-0a8c-7587-715d38832dc9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg"
+  netlify:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/06/fa/bc06fa5a-530e-bdec-7e6a-a2c8860d8e71/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  nintendo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/59/33/b55933e1-949c-4a34-a00c-a02f35df610b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  notion:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/5b/34/c05b3493-4ffd-dff4-547c-d37f7d421e40/AppIconProd-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  nvidia:
+    - "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-vert-500x200-2c50-p@2x.png"
+  obsidian:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/65/16/f16516c3-0348-efca-4b07-d5ce40b1a5b5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  office:
+    - "https://thumb.wikimedia.org/wikipedia/en/thumb/3/35/Microsoft_Office_Logo_%282019-present%29.svg/3840px-Microsoft_Office_Logo_%282019-present%29.svg.png"
+  okta:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/43/91/d3/4391d3d9-282f-37a5-24b4-f88aef7d36e5/Placeholder.mill/400x400bb-75.webp"
+  okx:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/94/ae/7094ae67-3216-b114-7396-6928fad2ede6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  onedrive:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/49/8e/17498e22-559b-1dbc-089d-6203026abc38/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  oneplus:
+    - "https://bkimg.cdn.bcebos.com/pic/8435e5dde71190ef76c6e29ee2568a16fdfaaf51ca17?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  openai:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f6/83/7ff6832a-72ec-d628-282d-e9510fe85377/Placeholder.mill/400x400bb-75.jpg"
+  openai_chat:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/97/93/ca9793c1-b8fe-eb04-9933-c8796a9f1578/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg"
+  oppo:
+    - "https://bkimg.cdn.bcebos.com/pic/ac6eddc451da81cb39db2f9d753bc7160924ab189b14?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  oracle:
+    - "https://bkimg.cdn.bcebos.com/pic/9a504fc2d5628535e5ddedd7f4b861c6a7efcf1bc5b4?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  outlook:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ec/c6/81ecc693-62f5-2bbd-b8ff-efd5bb322ddd/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg"
+  paypal:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/04/3c/a8043c56-a7b6-f98b-ccf8-85768c9cef4a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg"
+  perplexity:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/b5/f3/5eb5f32e-7d46-58e8-07d9-5f5a95f5500a/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  pinduoduo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/8d/11/2b8d11cc-2553-fbb7-0b84-458132f00c5a/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg"
+  pinterest:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/76/28/a3762853-1519-fb46-e927-ef783025ba61/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg"
+  playstation:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/35/e1/1035e128-8665-8f04-99ae-81e459416739/PlayStation-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  pptv:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/ed/7b/b6ed7b2e-d64f-f4d0-fa93-f77344b8223f/AppIcon-0-0-1x_U007emarketing-0-6-0-0-sRGB-85-220.png/512x512bb.jpg"
+  primevideo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/ae/4c/36ae4c07-4a4d-8870-d7bc-e4329b9fe281/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  qq:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/ad/b6/04adb647-777c-85e3-83ed-979ea46484bf/AppIcon-1-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  qqbrowser:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/88/c1/1188c17d-cabc-f65a-9eae-0d9e8f594e07/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg"
+  qualcomm:
+    - "https://bkimg.cdn.bcebos.com/pic/562c11dfa9ec8a136327c3e3875a868fa0ec08fa6a24?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  rakuten:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/aa/2b/23aa2b7f-3385-1789-4aee-94fbb845778c/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  reddit:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/ea/a5/d4eaa5bf-752c-c993-d8a3-e8c7e66a9f34/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  roam:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/52/aa/9752aaa4-c31a-315d-2d80-2cbe9a6eeb0a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  salesforce:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/ea/41/a5ea41aa-5f0e-bb8d-7943-f39e06c0d84a/SalesforceAppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.jpg"
+  samsung:
+    - "https://bkimg.cdn.bcebos.com/pic/48540923dd54564e92585710b7858b82d158ccbfe1dd?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  sap:
+    - "https://bkimg.cdn.bcebos.com/pic/314e251f95cad1c8a7868cd724677009c93d71cffbb0?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  servicenow:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/80/35/d1803554-2bb7-ffea-3e1f-ceb9856dcc4c/SNAppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
+  sfexpress:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/c3/5b/d4c35beb-fb9c-f55d-db60-8487701cd35a/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/512x512bb.jpg"
+  shopify:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/25/27/0525271e-c537-8f4c-8359-8f8a8254722a/AppIcon-com.jadedpixel.shopify-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  signal:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/91/83/1491835e-a28f-9ac3-6195-c583e51ab028/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  skype:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/27/ee/b327ee1f-d14c-6650-21cf-71294902677e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg"
+  slack:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/87/63/c387636e-03de-eedc-cdee-38d1b2106073/slack_icon_prod-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  snapchat:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/21/58/372158fe-98a6-5e2f-2a43-feb2ca74619a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  sohu:
+    - "https://bkimg.cdn.bcebos.com/pic/6609c93d70cf3bc79f3da6429859ada1cd11728bfc5e?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536"
+  sony:
+    - "https://www.sony.com.cn/aboutsony/images/Genryu01.jpg"
+  soundcloud:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/68/d0/8768d031-540a-c635-525b-b19ddec4a972/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  spotify:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/b0/e6/fdb0e66d-165c-aa66-ac6b-1ee1e01911e8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  square:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/11/85/c7118565-f7cc-8a73-0208-7eec1f2f50d4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  stability:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/93/51/9f935131-865f-d892-5014-92b20b2ffaa0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  steam:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/e1/8d/1de18df0-9f13-4bdb-728a-ddc7ecaf9849/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  stripe:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/78/92/e9789280-94ec-e743-8e7e-e7312f543784/Icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg"
+  supabase:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/5d/7a/635d7a05-f6d0-617f-7853-963b1db04fff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  taobao:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/01/f9/04/01f90491-bd6c-1458-da24-aa644bb83154/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg"
+  taobao_flash:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/1a/8a/bf1a8ade-77a0-d667-d7d8-c590343de98a/AppIcon_new-0-1x_U007epad-0-1-0-85-220-0.png/512x512bb.jpg"
+  teams:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/ff/e0/ecffe051-af85-edee-02da-88b89319ad81/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  telegram:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/400x400bb-75.jpg"
+  tencent:
+    - "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-6/461580641_2235185163504107_1325590738975729581_n.png?stp=dst-png&cstp=mx667x667&ctp=s667x667&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=DTwy_aNifacQ7kNvwE7MobK&_nc_oc=AdqnfRid9HwJPzoSxlUwjbzGZPLL8g74YBCoGfYelWxjvVreMYhwtk-GWCSBfKLUe60&_nc_zt=23&_nc_ht=scontent-lax7-1.xx&_nc_gid=Dcwt30uBkaAVKpsYMS6BHQ&_nc_ss=79289&oh=00_AQOrVVDTA4_6KphIBf2vyF0RHyE--Qv0PRA7MGnEkskcBw&oe=6AC2821A"
+  tencentmeeting:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/c0/12/1cc01246-7352-8597-01a4-a74242448930/AppIcon-Release-0-0-1x_U007epad-0-9-0-85-220.png/512x512bb.jpg"
+  tencentvideo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/95/24/e395244a-10a0-09bb-30df-54434911eb69/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  tesla:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/c7/1c/bec71cde-bb42-a942-cb0d-c50fcecdfd52/ProdAppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg"
+  things:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/13/4e/d6134ee3-d173-099a-cc89-df935aa5d2e1/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/512x512bb.jpg"
+  tidal:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/86/f2/8286f20a-c3d4-9251-474e-63e26a9e3b94/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  tiktok:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/7c/88/b07c88d8-0314-7b8b-7ab0-788e7059074b/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  tmall:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/9c/f7/7f9cf771-5b6c-8096-4ca1-3297d74840f6/AppIcon-0-1x_U007emarketing-0-8-0-sRGB-85-220-0.png/512x512bb.jpg"
+  todoist:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/25/bc/b825bc15-7268-8c88-7e8d-d5761b56f140/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  tongyi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c9/3b/05/c93b05a3-6bf4-53aa-3286-7bbdfeb81015/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  trello:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/ad/5c/17ad5cc9-4be5-05d9-95f0-865638f36546/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  tripadvisor:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/bc/89/acbc899c-731b-0e71-1743-a72bbed17341/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  tsmc:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/90/7b/e4907b87-d350-5902-2519-4816f25805d2/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/512x512bb.jpg"
+  tuya:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/ba/ab/96baabf0-8df2-7962-287c-a8540941d545/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  twilio:
+    - "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScDOyu-Zmon4waSy-pUmUtR7D9a7jb3yxWepz-mBJhYw&s=10"
+  twitch:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/93/59/d79359be-7e13-44ac-547b-09a443bf5f8c/TwitchAppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-0-85-220.png/512x512bb.jpg"
+  twitter:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/ad/3b/acad3b41-25dd-c82d-39e9-e39ddf0b9877/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  uber:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/4b/39/744b39ab-c800-cd5d-cc6e-b4c8b6de5717/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
+  ubisoft:
+    - "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxp1DQexD1Wu6.mxrLUJN7dHGHWXUTfJex5lGmAKBkyu2Qw_4nrD4v9n1ddmw2MV1pVCHaC7.VGY.MjHhVqZMFS0-&format=source&h=170"
+  ulysses:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/bc/84/48bc847b-f953-97d3-a738-7cc093449a8f/AppIcon-Release-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  unionpay:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/12/18/9b121847-ff76-5ebf-62fd-1b8a6a346222/AppIcon-0-1x_U007ephone-0-1-0-sRGB-85-220-0.png/512x512bb.jpg"
+  vercel:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/07/12/1d071270-cb40-f54c-f1a0-0ed58e7bdfa5/icon-ios-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg"
+  verizon:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/57/c0/6557c0cb-8239-1e94-5db8-7672caaba44a/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  vivo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/66/ad/7f66ad8c-3245-91f1-3b08-be99cef2149b/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.jpg"
+  vmware:
+    - "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/3840px-Vmware_workstation_16_icon.svg.png"
+  walmart:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/a5/97/0ea59795-56e1-25b0-4914-e1fa707b26bc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  wechat:
+    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/6a/85/cf6a857e-2d4b-5015-d398-17009fc9c4ef/Placeholder.mill/400x400bb-75.jpg"
+  wechatpay:
+    - "https://www.ecommercestrategychina.com/storage/uploads/images/WeChat%20pay-20190524.png"
+  wechatwork:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/82/4b/37824b8d-b335-c13b-fe78-84496ea917b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  wegame:
+    - "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh4PZTr8ivgGhwScZWaS_gpXjHS8R6RPBLCiPHrr6uIjmuo5giO7mPr7wC&s=10"
+  weibo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/4d/6f/154d6f05-868c-942c-78a7-8f07026fa49c/WeiboAppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  wenxin:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/6b/5f/866b5fbf-97df-4b47-16d1-5ae9badf9328/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  wework:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/82/4b/37824b8d-b335-c13b-fe78-84496ea917b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  whatsapp:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/08/2d/54082dca-2973-b8b7-5481-a6299244b8c6/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  wise:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/65/77/a66577bb-aded-e9c6-b7e5-dec1cc551bd6/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  woocommerce:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/a2/bd/8aa2bd3a-914d-da2e-761a-2b300acda30e/AppIcon-Default-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  wps:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/37/c9/a537c9b1-7b08-609e-4de2-dc7d4112da7b/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  xbox:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/cf/e8/e2cfe83d-7774-b19d-9c71-4420b46b9944/AppIcon-1x_U007epad-0-1-85-220-0.png/512x512bb.jpg"
+  xianyu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/94/6c/10946c03-0307-c6ec-d7dc-c3ee6c7dbbaf/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  xiaohongshu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/66/9d/59669dea-04c2-e90f-547f-32fefaf9d44a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  xiaomi:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/aa/e5/52aae52c-a0f6-2762-1bcf-8e3ec4da3e7b/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220-0.png/512x512bb.jpg"
+  xigua:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/84/57/938457b2-53eb-f868-080f-959bed5a2dbf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  ximalaya:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/e1/68/bfe1687f-0b36-efcf-6427-d4e174d13c84/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg"
+  yahoo:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/3d/ad/773dadf9-0aa0-0643-33ff-ce8b9f3a38b3/MailAppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  yelp:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/d5/d9/fad5d93e-ea60-ccee-42cc-799f0304cf8a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  youdao:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/49/c6/2749c699-1d54-e2bb-abfc-2df2d8bd170a/AppIcon-0-1x_U007epad-0-11-0-85-220-0.png/512x512bb.jpg"
+  youku:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/e5/93/dfe5939f-bb8d-f358-0627-4bd32dcda759/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg"
+  youtube:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/86/1c/77861cb6-0f87-5220-d6a5-5f11c8fcad7f/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  zhihu:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/8d/64/b48d64a1-e72e-9cae-8b20-2721bcb059a9/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg"
+  zoom:
+    - "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/db/26/6edb2659-ba47-1968-f869-19cb59cb11f3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"

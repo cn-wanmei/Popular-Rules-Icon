@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Interim App Store icon (LinkedIn: Community & Network); reviewer may replace"
+  "notes": "Interim App Store icon (LinkedIn: Community & Network); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

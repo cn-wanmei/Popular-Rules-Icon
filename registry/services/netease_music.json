@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Interim App Store icon (网易云音乐-数亿音乐畅听); reviewer may replace"
+  "notes": "Interim App Store icon (网易云音乐-数亿音乐畅听); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

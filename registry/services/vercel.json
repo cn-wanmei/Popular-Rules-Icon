@@ -9,5 +9,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: Rev for Vercel; REVIEW REQUIRED"
+  "notes": "Auto App Store: Rev for Vercel; REVIEW REQUIRED",
+  "source_mode": "frozen_seed"
 }

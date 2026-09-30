@@ -12,5 +12,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "小米商城 App Icon (replaced 米家)"
+  "notes": "小米商城 App Icon (replaced 米家)",
+  "source_mode": "frozen_seed"
 }

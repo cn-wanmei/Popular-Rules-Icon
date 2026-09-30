@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "App Store interim (高德地图-高德打车,导航公交地铁出行); reviewer may replace"
+  "notes": "App Store interim (高德地图-高德打车,导航公交地铁出行); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

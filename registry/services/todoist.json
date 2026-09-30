@@ -9,5 +9,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: Todoist: To Do List & Calendar; REVIEW REQUIRED"
+  "notes": "Auto App Store: Todoist: To Do List & Calendar; REVIEW REQUIRED",
+  "source_mode": "frozen_seed"
 }

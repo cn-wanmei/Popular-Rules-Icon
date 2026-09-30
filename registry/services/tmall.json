@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Interim App Store icon (天猫 - 好品牌，好价格，上天猫); reviewer may replace"
+  "notes": "Interim App Store icon (天猫 - 好品牌，好价格，上天猫); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

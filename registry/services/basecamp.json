@@ -9,5 +9,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "Auto App Store: Basecamp - Project Management; REVIEW REQUIRED"
+  "notes": "Auto App Store: Basecamp - Project Management; REVIEW REQUIRED",
+  "source_mode": "frozen_seed"
 }

@@ -1,4 +1,6 @@
-production: icon-2026.09.30.1
-rollback: icon-2026.09.29.9
-updated_at: "2026-09-30T05:28:07Z"
-note: "Manual URL replacements x39 from RISK_REVIEW audit"
+production: icon-2026.09.30.freeze1
+rollback: icon-2026.09.30.1
+updated_at: "2026-09-30T05:33:19Z"
+frozen: true
+freeze_id: icon-2026.09.30.freeze1
+note: "FROZEN: all sources local seed://; remote URLs provenance-only"

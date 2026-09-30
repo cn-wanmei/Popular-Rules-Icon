@@ -2,8 +2,9 @@
 
 | Item | Status |
 |------|--------|
-| Services with icons | **247** (`icon-2026.09.29.9`) |
-| Risk list | docs/RISK_REVIEW.md |
-| Full preview | docs/CANARY_REVIEW.md |
-| Freeze remote→repo | **waiting for your review sign-off** |
-| R5 cutover | after freeze |
+| Services | **247** frozen |
+| Freeze | **`icon-2026.09.30.freeze1`** |
+| Local seeds | assets/icons/seed |
+| Objects | assets/icons/objects |
+| Dist variants | dist branch /v/{hash}.png |
+| Remote fetch | **disabled** for production sources |

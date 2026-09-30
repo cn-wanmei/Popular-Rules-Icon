@@ -12,5 +12,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "App Store interim (闲鱼 - 上闲鱼，赚一笔 !); reviewer may replace"
+  "notes": "App Store interim (闲鱼 - 上闲鱼，赚一笔 !); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

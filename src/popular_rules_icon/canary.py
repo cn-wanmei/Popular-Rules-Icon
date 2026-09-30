@@ -14,14 +14,52 @@ from .render import make_source_original_png
 from .sanitize import SanitizeError, sanitize_svg
 
 
+def _load_local_source(url: str, repo_root: Path | None = None) -> tuple[bytes, str | None, str]:
+    """Load frozen seed from repo. Supports seed://name.ext and assets/ relative paths."""
+    root = repo_root or Path.cwd()
+    path: Path | None = None
+    if url.startswith("seed://"):
+        name = url[len("seed://"):]
+        path = root / "assets" / "icons" / "seed" / name
+    elif url.startswith("assets/"):
+        path = root / url
+    elif url.startswith("file://"):
+        path = Path(url[7:])
+    if path is None or not path.is_file():
+        raise FileNotFoundError(f"local source not found: {url}")
+    data = path.read_bytes()
+    # content-type hint by suffix
+    suf = path.suffix.lower()
+    ct = {
+        ".png": "image/png",
+        ".jpg": "image/jpeg",
+        ".jpeg": "image/jpeg",
+        ".webp": "image/webp",
+        ".svg": "image/svg+xml",
+        ".gif": "image/gif",
+    }.get(suf)
+    return data, ct, str(path)
+
+
+
+
 def _parse_official_sources(path: Path) -> dict[str, list[dict[str, str]]]:
     text = path.read_text(encoding="utf-8")
+    # Ignore provenance / non-source sections
+    for stop in ("\nremote_provenance:", "\n# --- provenance"):
+        if stop in text:
+            text = text.split(stop, 1)[0]
     sources: dict[str, list[dict[str, str]]] = {}
     current: str | None = None
+    skip_keys = {"sources", "candidates", "schema_version", "freeze_id", "remote_provenance"}
     for line in text.splitlines():
         m = re.match(r"^  ([a-z0-9_-]+):\s*$", line)
         if m:
-            current = m.group(1)
+            key = m.group(1)
+            if key in skip_keys:
+                current = None
+                continue
+            current = key
             sources[current] = []
             continue
         if current and "url:" in line:
@@ -75,7 +113,23 @@ def acquire_canary(
             continue
         last_err = None
         for cand in cands:
-            fr = fetch_url(cand["url"])
+            url = cand["url"]
+            if url.startswith(("seed://", "assets/", "file://")):
+                data, ct, resolved = _load_local_source(url)
+                class _FR:
+                    pass
+                fr = _FR()
+                fr.ok = True
+                fr.data = data
+                fr.content_type = ct
+                fr.status = 200
+                fr.etag = None
+                fr.last_modified = None
+                fr.failure_code = None
+                fr.error = None
+                fr.final_url = resolved
+            else:
+                fr = fetch_url(url)
             if not fr.ok or not fr.data:
                 last_err = {
                     "service_id": sid,

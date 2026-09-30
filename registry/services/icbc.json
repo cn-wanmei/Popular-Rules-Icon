@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "app_icon",
-  "notes": "App Store interim (中国工商银行); reviewer may replace"
+  "notes": "App Store interim (中国工商银行); reviewer may replace",
+  "source_mode": "frozen_seed"
 }

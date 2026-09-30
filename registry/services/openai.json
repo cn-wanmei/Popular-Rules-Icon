@@ -11,5 +11,6 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "glyph",
-  "notes": "Curated App Store/brand hires; reviewer may replace"
+  "notes": "Curated App Store/brand hires; reviewer may replace",
+  "source_mode": "frozen_seed"
 }
