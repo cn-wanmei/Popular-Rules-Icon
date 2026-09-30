@@ -3,7 +3,7 @@
   "version": 1,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "d8e721f7e0756c7f95ff3ae90af7b940cfa52179",
+    "ref": "36574a5f5b1be71c90ff51f822212cf64f1a5489",
     "path": "rule/_index.yaml",
     "selection": {
       "include_entity": "service",
