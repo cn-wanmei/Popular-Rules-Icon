@@ -1,6 +1,6 @@
 {
   "service_id": "powerbi",
-  "name": "powerbi",
+  "name": "Power BI",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→microsoft",
   "icon_alias_of": "microsoft",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "microsoft",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "linecorp",
-  "name": "LINE Rangers: Brown-Cony Wars!",
+  "name": "LINE",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: LINE Rangers: Brown-Cony Wars!",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "linecorp",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

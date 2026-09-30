@@ -1,6 +1,6 @@
 {
   "service_id": "caocao",
-  "name": "曹操出行-打车网约车专车顺风车平台",
+  "name": "曹操出行",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 曹操出行-打车网约车专车顺风车平台",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "caocao",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

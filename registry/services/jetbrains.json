@@ -1,6 +1,6 @@
 {
   "service_id": "jetbrains",
-  "name": "YouTrack",
+  "name": "JetBrains",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: YouTrack",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "jetbrains",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

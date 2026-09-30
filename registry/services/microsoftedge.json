@@ -1,6 +1,6 @@
 {
   "service_id": "microsoftedge",
-  "name": "microsoftedge",
+  "name": "Microsoft Edge",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of microsoft",
-  "icon_alias_of": "microsoft"
+  "icon_alias_of": "microsoft",
+  "provider": "microsoft",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

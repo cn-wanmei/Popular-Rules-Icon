@@ -1,6 +1,6 @@
 {
   "service_id": "cambricon",
-  "name": "GLOBOCAM",
+  "name": "寒武纪",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: GLOBOCAM",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "cambricon",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

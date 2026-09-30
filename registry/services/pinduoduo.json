@@ -1,6 +1,6 @@
 {
   "service_id": "pinduoduo",
-  "name": "拼多多",
+  "name": "Pinduoduo",
   "domains": [
     "pinduoduo.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (拼多多 - 多多买菜，百亿补贴); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "pinduoduo",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

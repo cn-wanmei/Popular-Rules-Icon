@@ -1,6 +1,6 @@
 {
   "service_id": "applemedia",
-  "name": "applemedia",
+  "name": "Apple Media",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→apple",
   "icon_alias_of": "apple",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "apple",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "disney",
-  "name": "disney",
+  "name": "Disney",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of disneyplus",
-  "icon_alias_of": "disneyplus"
+  "icon_alias_of": "disneyplus",
+  "provider": "disney",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

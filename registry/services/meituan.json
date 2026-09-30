@@ -1,6 +1,6 @@
 {
   "service_id": "meituan",
-  "name": "美团",
+  "name": "Meituan",
   "domains": [
     "meituan.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (美团-问美团，都安排); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "meituan",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

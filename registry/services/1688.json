@@ -11,5 +11,7 @@
   "composition_hint": "app_icon",
   "notes": "Historical R14 source result retained as provenance; canonical identity comes from Collection.",
   "source_mode": "frozen_seed",
-  "provider": "alibaba"
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

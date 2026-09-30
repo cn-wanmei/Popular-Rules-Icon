@@ -1,6 +1,6 @@
 {
   "service_id": "birentech",
-  "name": "BilfingerIN",
+  "name": "壁仞科技",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: BilfingerIN",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "birentech",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

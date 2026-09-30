@@ -1,6 +1,6 @@
 {
   "service_id": "heytap",
-  "name": "heytap",
+  "name": "HeyTap",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→oppo",
   "icon_alias_of": "oppo",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "heytap",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

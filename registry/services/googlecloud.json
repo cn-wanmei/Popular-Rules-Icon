@@ -1,6 +1,6 @@
 {
   "service_id": "googlecloud",
-  "name": "googlecloud",
+  "name": "Google Cloud",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→google",
   "icon_alias_of": "google",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "google",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

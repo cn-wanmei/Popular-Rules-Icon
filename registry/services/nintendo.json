@@ -1,6 +1,6 @@
 {
   "service_id": "nintendo",
-  "name": "Nintendo Switch App",
+  "name": "Nintendo",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: Nintendo Switch App; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "nintendo",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

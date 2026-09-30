@@ -1,6 +1,6 @@
 {
   "service_id": "pptv",
-  "name": "PP视频-海量电视剧电影综艺视频高清播放",
+  "name": "PPTV",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: PP视频-海量电视剧电影综艺视频高清播放; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "pptv",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

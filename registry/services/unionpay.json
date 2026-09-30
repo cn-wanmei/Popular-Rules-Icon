@@ -1,6 +1,6 @@
 {
   "service_id": "unionpay",
-  "name": "云闪付",
+  "name": "UnionPay",
   "domains": [
     "unionpay.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (云闪付-银行业统一移动支付App); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "unionpay",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

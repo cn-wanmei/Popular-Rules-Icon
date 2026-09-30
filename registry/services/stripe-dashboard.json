@@ -1,6 +1,6 @@
 {
   "service_id": "stripe-dashboard",
-  "name": "stripe-dashboard",
+  "name": "Stripe Dashboard",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→stripe",
   "icon_alias_of": "stripe",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "stripe",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

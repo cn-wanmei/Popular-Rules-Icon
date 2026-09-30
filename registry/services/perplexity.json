@@ -1,6 +1,6 @@
 {
   "service_id": "perplexity",
-  "name": "Perplexity - AI Search & Chat",
+  "name": "Perplexity",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: Perplexity - AI Search & Chat; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "perplexity",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "eleme",
-  "name": "eleme",
+  "name": "Ele.me",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of taobao_flash",
-  "icon_alias_of": "taobao_flash"
+  "icon_alias_of": "taobao_flash",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

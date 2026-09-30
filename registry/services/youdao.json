@@ -1,6 +1,6 @@
 {
   "service_id": "youdao",
-  "name": "网易有道词典-专业查词翻译学习助手",
+  "name": "Youdao",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: 网易有道词典-专业查词翻译学习助手; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "netease",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

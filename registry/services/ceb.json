@@ -1,6 +1,6 @@
 {
   "service_id": "ceb",
-  "name": "光大银行",
+  "name": "China Everbright Bank",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 光大银行",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "ceb",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

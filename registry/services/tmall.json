@@ -1,6 +1,6 @@
 {
   "service_id": "tmall",
-  "name": "天猫",
+  "name": "Tmall",
   "domains": [
     "tmall.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (天猫 - 好品牌，好价格，上天猫); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

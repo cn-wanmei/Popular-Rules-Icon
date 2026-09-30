@@ -1,6 +1,6 @@
 {
   "service_id": "equinix",
-  "name": "Equinix Customer Portal",
+  "name": "Equinix",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Equinix Customer Portal",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "equinix",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

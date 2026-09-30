@@ -1,6 +1,6 @@
 {
   "service_id": "baichuan",
-  "name": "文心 - 百度旗下全能AI助手",
+  "name": "百川智能",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 文心 - 百度旗下全能AI助手",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "baichuan",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

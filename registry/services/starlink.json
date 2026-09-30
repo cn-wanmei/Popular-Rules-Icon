@@ -1,6 +1,6 @@
 {
   "service_id": "starlink",
-  "name": "starlink",
+  "name": "Starlink",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "none",
   "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "review_status": "placeholder_needs_replace",
+  "provider": "starlink",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

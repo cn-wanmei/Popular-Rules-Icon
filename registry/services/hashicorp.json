@@ -1,6 +1,6 @@
 {
   "service_id": "hashicorp",
-  "name": "Terraform Academy",
+  "name": "HashiCorp",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Terraform Academy",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "ibm",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

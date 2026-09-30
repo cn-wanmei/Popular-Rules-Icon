@@ -1,6 +1,6 @@
 {
   "service_id": "chinamobile",
-  "name": "中国移动（手机营业厅）",
+  "name": "China Mobile",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 中国移动（手机营业厅）",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "chinamobile",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

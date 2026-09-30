@@ -1,6 +1,6 @@
 {
   "service_id": "chatgpt",
-  "name": "chatgpt",
+  "name": "ChatGPT",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of openai_chat",
-  "icon_alias_of": "openai_chat"
+  "icon_alias_of": "openai_chat",
+  "provider": "openai",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

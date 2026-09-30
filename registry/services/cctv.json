@@ -1,6 +1,6 @@
 {
   "service_id": "cctv",
-  "name": "央视影音-新闻体育人文影视高清平台",
+  "name": "CCTV",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: 央视影音-新闻体育人文影视高清平台; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "cctv",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

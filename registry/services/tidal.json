@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (TIDAL Music: HiFi Sound); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "tidal",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

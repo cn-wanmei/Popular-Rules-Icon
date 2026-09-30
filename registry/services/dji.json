@@ -1,6 +1,6 @@
 {
   "service_id": "dji",
-  "name": "DJI Mimo",
+  "name": "大疆",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: DJI Mimo",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "dji",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

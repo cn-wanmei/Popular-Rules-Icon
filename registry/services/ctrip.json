@@ -1,6 +1,6 @@
 {
   "service_id": "ctrip",
-  "name": "携程",
+  "name": "Trip.com",
   "domains": [
     "ctrip.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (携程旅行-订酒店机票火车票); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "ctrip",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

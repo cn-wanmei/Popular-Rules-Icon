@@ -1,6 +1,6 @@
 {
   "service_id": "ea",
-  "name": "EA Connect",
+  "name": "Electronic Arts",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: EA Connect; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "ea",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

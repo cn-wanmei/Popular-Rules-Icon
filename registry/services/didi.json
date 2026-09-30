@@ -1,6 +1,6 @@
 {
   "service_id": "didi",
-  "name": "滴滴出行",
+  "name": "DiDi",
   "domains": [
     "didiglobal.com",
     "didichuxing.com"
@@ -13,5 +13,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (滴滴-打车骑车顺风车火车票租车代驾送货); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "didi",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

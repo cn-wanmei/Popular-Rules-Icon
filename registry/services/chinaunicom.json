@@ -1,6 +1,6 @@
 {
   "service_id": "chinaunicom",
-  "name": "中国联通",
+  "name": "China Unicom",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 中国联通",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "chinaunicom",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

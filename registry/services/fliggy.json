@@ -1,6 +1,6 @@
 {
   "service_id": "fliggy",
-  "name": "fliggy",
+  "name": "Fliggy",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→alibaba",
   "icon_alias_of": "alibaba",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

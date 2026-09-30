@@ -1,6 +1,6 @@
 {
   "service_id": "findmy",
-  "name": "findmy",
+  "name": "Find My",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of icloud",
-  "icon_alias_of": "icloud"
+  "icon_alias_of": "icloud",
+  "provider": "apple",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

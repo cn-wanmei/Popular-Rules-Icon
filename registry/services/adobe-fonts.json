@@ -1,6 +1,6 @@
 {
   "service_id": "adobe-fonts",
-  "name": "adobe-fonts",
+  "name": "Adobe Fonts",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→adobe",
   "icon_alias_of": "adobe",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "adobe",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }
