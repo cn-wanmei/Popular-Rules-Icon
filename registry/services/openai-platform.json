@@ -1,6 +1,6 @@
 {
   "service_id": "openai-platform",
-  "name": "openai-platform",
+  "name": "OpenAI Platform",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→openai",
   "icon_alias_of": "openai",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "openai",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

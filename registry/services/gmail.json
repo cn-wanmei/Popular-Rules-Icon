@@ -13,5 +13,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (Gmail - Email by Google); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "google",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

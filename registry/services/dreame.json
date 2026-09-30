@@ -1,6 +1,6 @@
 {
   "service_id": "dreame",
-  "name": "DREAME",
+  "name": "追觅",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: DREAME",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "dreame",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

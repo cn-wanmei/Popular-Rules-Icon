@@ -1,6 +1,6 @@
 {
   "service_id": "bilibili",
-  "name": "哔哩哔哩",
+  "name": "Bilibili",
   "domains": [
     "bilibili.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Curated App Store/brand hires; reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "bilibili",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

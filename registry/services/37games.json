@@ -10,5 +10,7 @@
   "lock": "binding",
   "notes": "Canonical identity normalized from Collection; prior 4399 App Store result was not the requested service.",
   "review_status": "needs_review",
-  "provider": "37games"
+  "provider": "37games",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

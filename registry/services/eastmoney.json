@@ -1,6 +1,6 @@
 {
   "service_id": "eastmoney",
-  "name": "东方财富-股票、炒股、理财",
+  "name": "东方财富",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 东方财富-股票、炒股、理财",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "eastmoney",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

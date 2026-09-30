@@ -1,6 +1,6 @@
 {
   "service_id": "honorofkings_cn",
-  "name": "honorofkings_cn",
+  "name": "王者荣耀（国服）",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→tencent",
   "icon_alias_of": "tencent",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "tencent",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

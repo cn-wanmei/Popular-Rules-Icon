@@ -1,6 +1,6 @@
 {
   "service_id": "anthropic",
-  "name": "anthropic",
+  "name": "Anthropic",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of claude",
-  "icon_alias_of": "claude"
+  "icon_alias_of": "claude",
+  "provider": "anthropic",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

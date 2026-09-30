@@ -1,6 +1,6 @@
 {
   "service_id": "roborock",
-  "name": "roborock",
+  "name": "石头科技",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "none",
   "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "review_status": "placeholder_needs_replace",
+  "provider": "roborock",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

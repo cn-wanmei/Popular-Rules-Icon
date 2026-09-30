@@ -1,6 +1,6 @@
 {
   "service_id": "garena",
-  "name": "Free Fire x NARUTO SHIPPUDEN",
+  "name": "Garena",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Free Fire x NARUTO SHIPPUDEN",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "garena",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

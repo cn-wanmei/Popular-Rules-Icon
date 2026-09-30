@@ -1,6 +1,6 @@
 {
   "service_id": "sfexpress",
-  "name": "顺丰速运",
+  "name": "顺丰",
   "domains": [
     "sf-express.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (顺丰速运-快递查寄收 不止是快); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "sfexpress",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

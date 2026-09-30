@@ -1,6 +1,6 @@
 {
   "service_id": "fujitsu",
-  "name": "Fujitsu - Infinite Comfort Pro",
+  "name": "Fujitsu",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Fujitsu - Infinite Comfort Pro",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "fujitsu",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "appstore",
-  "name": "Apple Store",
+  "name": "App Store",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: Apple Store; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "apple",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

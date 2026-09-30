@@ -1,6 +1,6 @@
 {
   "service_id": "arista",
-  "name": "Arista.",
+  "name": "Arista",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Arista.",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "arista",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

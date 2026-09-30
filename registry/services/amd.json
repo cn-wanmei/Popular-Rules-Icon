@@ -1,6 +1,6 @@
 {
   "service_id": "amd",
-  "name": "AMD Link | Radeon™ RX 7000 GPU",
+  "name": "AMD",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Manual reviewer replacement 2026-09-29",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "amd",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

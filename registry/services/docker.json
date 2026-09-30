@@ -1,6 +1,6 @@
 {
   "service_id": "docker",
-  "name": "Windows App Mobile",
+  "name": "Docker",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Windows App Mobile",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "docker",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

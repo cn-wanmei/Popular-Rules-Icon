@@ -1,6 +1,6 @@
 {
   "service_id": "tuya",
-  "name": "Tuya: Smart Life, Smart Living",
+  "name": "涂鸦智能",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: Tuya: Smart Life, Smart Living; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "tuya",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

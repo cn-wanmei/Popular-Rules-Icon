@@ -1,6 +1,6 @@
 {
   "service_id": "messenger",
-  "name": "messenger",
+  "name": "Messenger",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→meta",
   "icon_alias_of": "meta",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "meta",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

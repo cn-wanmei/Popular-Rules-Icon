@@ -1,6 +1,6 @@
 {
   "service_id": "take2",
-  "name": "take2",
+  "name": "Take-Two",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "none",
   "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "review_status": "placeholder_needs_replace",
+  "provider": "take2",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

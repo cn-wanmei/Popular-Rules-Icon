@@ -1,6 +1,6 @@
 {
   "service_id": "google-maps",
-  "name": "google-maps",
+  "name": "Google Maps",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of maps",
-  "icon_alias_of": "maps"
+  "icon_alias_of": "maps",
+  "provider": "google",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

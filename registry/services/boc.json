@@ -1,6 +1,6 @@
 {
   "service_id": "boc",
-  "name": "中国银行",
+  "name": "Bank of China",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 中国银行",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "boc",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

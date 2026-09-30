@@ -1,6 +1,6 @@
 {
   "service_id": "trello",
-  "name": "Trello: Daily Task Tracker",
+  "name": "Trello",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: Trello: Daily Task Tracker; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "atlassian",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

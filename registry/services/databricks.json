@@ -1,6 +1,6 @@
 {
   "service_id": "databricks",
-  "name": "Genie One by Databricks",
+  "name": "Databricks",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Genie One by Databricks",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "databricks",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

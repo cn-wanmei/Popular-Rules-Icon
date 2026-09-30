@@ -1,6 +1,6 @@
 {
   "service_id": "okta",
-  "name": "Okta Verify",
+  "name": "Okta",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Manual reviewer replacement 2026-09-29",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "okta",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

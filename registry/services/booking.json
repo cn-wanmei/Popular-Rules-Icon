@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (Booking.com: Hotels & Travel); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "booking",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

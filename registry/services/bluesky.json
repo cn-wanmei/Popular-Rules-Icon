@@ -1,6 +1,6 @@
 {
   "service_id": "bluesky",
-  "name": "Bluesky Social",
+  "name": "Bluesky",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Bluesky Social",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "bluesky",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

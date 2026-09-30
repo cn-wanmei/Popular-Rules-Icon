@@ -1,6 +1,6 @@
 {
   "service_id": "atour",
-  "name": "亚朵-高品质人文主题酒店预订平台",
+  "name": "亚朵",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 亚朵-高品质人文主题酒店预订平台",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "atour",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

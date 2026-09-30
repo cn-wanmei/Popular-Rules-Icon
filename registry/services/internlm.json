@@ -1,6 +1,6 @@
 {
   "service_id": "internlm",
-  "name": "EvalEdge",
+  "name": "书生InternLM",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: EvalEdge",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "internlm",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

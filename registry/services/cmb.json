@@ -1,6 +1,6 @@
 {
   "service_id": "cmb",
-  "name": "招商银行",
+  "name": "China Merchants Bank",
   "domains": [
     "cmbchina.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (招商银行); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "cmb",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

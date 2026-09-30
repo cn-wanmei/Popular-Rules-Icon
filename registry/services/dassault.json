@@ -1,6 +1,6 @@
 {
   "service_id": "dassault",
-  "name": "FalconCabin by Collins",
+  "name": "Dassault Systèmes",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: FalconCabin by Collins",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "dassault",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

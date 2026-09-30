@@ -1,6 +1,6 @@
 {
   "service_id": "googledrive",
-  "name": "googledrive",
+  "name": "Google Drive",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of drive",
-  "icon_alias_of": "drive"
+  "icon_alias_of": "drive",
+  "provider": "google",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

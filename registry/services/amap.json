@@ -1,6 +1,6 @@
 {
   "service_id": "amap",
-  "name": "amap",
+  "name": "AMap",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of gaode",
-  "icon_alias_of": "gaode"
+  "icon_alias_of": "gaode",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

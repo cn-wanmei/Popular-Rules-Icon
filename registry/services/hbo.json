@@ -1,6 +1,6 @@
 {
   "service_id": "hbo",
-  "name": "HBO Max: Stream Movies & TV",
+  "name": "HBO",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: HBO Max: Stream Movies & TV; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "hbo",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

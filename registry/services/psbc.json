@@ -1,6 +1,6 @@
 {
   "service_id": "psbc",
-  "name": "psbc",
+  "name": "Postal Savings Bank of China",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "none",
   "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "review_status": "placeholder_needs_replace",
+  "provider": "psbc",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

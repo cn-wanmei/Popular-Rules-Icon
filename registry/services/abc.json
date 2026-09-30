@@ -10,5 +10,7 @@
   "lock": "none",
   "notes": "Canonical identity normalized from Collection; prior App Store result was not the requested service.",
   "review_status": "placeholder_needs_replace",
-  "provider": "abc"
+  "provider": "abc",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

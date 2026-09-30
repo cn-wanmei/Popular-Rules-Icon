@@ -1,6 +1,6 @@
 {
   "service_id": "anjuke",
-  "name": "安居客-买卖二手房新房租房房价装修",
+  "name": "安居客",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: 安居客-买卖二手房新房租房房价装修; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "anjuke",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }
