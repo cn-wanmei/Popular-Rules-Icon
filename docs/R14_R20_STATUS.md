@@ -2,7 +2,7 @@
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| R14 Collection coverage | **audit reopened** | Current dist has 482 entries; 393/394 current Collection canonical services are present, 89 entries are orphaned, and `ai` is missing. |
+| R14 Collection coverage | **identity boundary enforced** | Release writer is fail-closed; current dist remains 393/394 canonical services with `ai` missing and historical orphan entries still outside the canonical set. |
 | R15 Style QA gate | **implemented** | 8 styles × 2 sizes are present in the R14 physical manifest; production validation is still required. |
 | R16 Demand styles | **implemented** | `config/icon-demand.yaml` defines generic/rich subsets. |
 | R17 Evidence bulk | **implemented** | Evidence tooling is present; provenance must be retained for canonical services. |
