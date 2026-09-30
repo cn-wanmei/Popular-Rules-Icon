@@ -36,19 +36,13 @@ jobs:
         with:
           python-version: '3.12.14'
           cache: pip
-          cache: pip
 
       - run: python -m pip install -e ".[dev]"
 
       - name: Read configured V6 release
         id: release
         run: |
-          python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import yaml
-          from pathlib import Path
-          cfg = yaml.safe_load(Path("config/release-pointers.yaml").read_text(encoding="utf-8"))
-          print(f"release={cfg['production']}")
-          PY
+          awk '/^production:/ {print "release=" $2}' config/release-pointers.yaml >> "$GITHUB_OUTPUT"
 
       - name: Fetch immutable dist manifest
         run: |
