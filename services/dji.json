@@ -1,31 +1,20 @@
 {
   "service_id": "dji",
   "source_fingerprint": "f26367159cf87f3f84bae179193f0c26cc159b65e7b21497243634969770c8d9",
-  "object_hash": "f243f0c521937bb00cf847936ae3008188f6e9dc2ebaa82be290a640c6b0bead",
-  "variant_hashes": {
-    "source_original:128:png": "629897751480ec5b248acd242ccef5822e6e0b3a4a1d05d5484570b770b32018",
-    "source_original:256:png": "c58fed9e22d6f57352ed50b4444e455119e228cc63e493749ca3e3f45e66ed59",
-    "glassmorphism:128:png": "51fae3ae8012249b8f61374ab7dd9d7635aacf76aa5245e40a2804b9e52e3a2b",
-    "glassmorphism:256:png": "a97b8305f70ae5d9b2789f2f1214dc3bec2e8a2bcb6d8d78d8085ff998c02ebd",
-    "soft_3d:128:png": "a030daac5ef8b7bd41d3e02c991f2cb2454bf099085e574f0edc61b81691f71b",
-    "soft_3d:256:png": "390ebfbfc3e64cef8002ab794efe4e39ac2159f5c31a7defcf7f7006ff12c78f",
-    "neo_skeuomorphism:128:png": "6f1de08ee68f63cf463344a582d7e5ad8204bf8eef068bf755733dab5461ed9e",
-    "neo_skeuomorphism:256:png": "a422402ab49df3419ebe24ea8507ce6e92f4fe504ba6b7ba65fc436017ac6392",
-    "minimalist:128:png": "1f145bb0e29206ec90dbc2e9b7551eb4a31046d5c5c6a583e5136beb055415ac",
-    "minimalist:256:png": "deaafada5a69894cdbcdcc2901021b27707138bae66a09a3a035c0076baff7ca",
-    "duotone_line:128:png": "ff215346f88835a43c75ef425c1e46670ee6d983477cc2a70b825f64f1102086",
-    "duotone_line:256:png": "a767d9024c6a3514eda17935112690a42e36c9eb5ebeba8df7587b248baf85a2",
-    "mbe:128:png": "70d1ffce95dcfa26ab52ce8a870c93a7232f2322f14e7074198481d333ef518d",
-    "mbe:256:png": "7f1d33979191baae0c7b3030427fad9eb99d8b0d3b395a3d896da6468813d2ab",
-    "y2k:128:png": "2322033d19e23e392dd6774cdb3a5eff9ebbc293cb22e9fea492d78187732a19",
-    "y2k:256:png": "c85e982bbe55c69a214b0a3be5403cab7a5652260df1c6462755d17a60106e97"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://dji.jpg",
+  "source_url": "seed://dji.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
