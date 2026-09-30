@@ -16,10 +16,12 @@ Do **not** implement abolished designs (see freeze doc). Legacy planning files l
 | R0.2 Schema | landed |
 | R0.3 Registry samples + state layout | landed |
 | R0.4 Fixtures + L0/L1 CI | landed |
-| R1 Network acquire (canary) | library SSRF/sanitize ready; full net canary incremental |
-| R2 Score / lock / curated seeds | score + lock helpers landed |
-| R3 dist + release pointers | config + workflow placeholders |
-| R4–R5 Collection shadow / cutover | pending Collection integration |
+| R1 Network acquire (canary) | **done** (frozen seed path) |
+| R2 Score / lock / curated seeds | **done** |
+| R3 dist + release pointers | **done** (`dist` + freeze tag) |
+| R4 Collection shadow | **partial** (config scaffold; default still v5) |
+| R5 Collection default cutover | **pending** |
+| Freeze `icon-2026.09.30.freeze1` | **done** (247 local seeds) |
 
 ## Layout
 

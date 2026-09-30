@@ -339,7 +339,7 @@ sources:
       - { url: "seed://icbc.jpg", source_class: frozen_seed }
   icloud:
     candidates:
-      - { url: "seed://icloud.svg", source_class: frozen_seed }
+      - { url: "seed://icloud.png", source_class: frozen_seed }
   instagram:
     candidates:
       - { url: "seed://instagram.jpg", source_class: frozen_seed }

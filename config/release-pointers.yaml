@@ -1,6 +1,6 @@
 production: icon-2026.09.30.freeze1
 rollback: icon-2026.09.30.1
-updated_at: "2026-09-30T05:33:19Z"
+updated_at: "2026-09-30T05:39:38Z"
 frozen: true
 freeze_id: icon-2026.09.30.freeze1
-note: "FROZEN: all sources local seed://; remote URLs provenance-only"
+note: "FROZEN 247; icloud PNG delivery patched (was svg-only)"
