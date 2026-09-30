@@ -41,18 +41,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B automation/identity-normalize-20260930
-          git add registry/services build/identity-normalization-report.json
+          git add registry/services
           if git diff --cached --quiet; then
             echo "No canonical registry identity changes"
             exit 0
           fi
           git commit -m "fix(identity): normalize registry metadata from Collection"
           git push --force-with-lease origin automation/identity-normalize-20260930
-          if gh pr view automation/identity-normalize-20260930 --base main >/dev/null 2>&1; then
-            echo "Normalization PR already exists; branch updated."
-          else
-            gh pr create               --base main               --head automation/identity-normalize-20260930               --title "fix(identity): normalize Icon Registry to Collection canonical identities"               --body "Automated Phase C normalization. Canonical service_id/name/provider fields are synchronized from config/collection_identity_snapshot.json. Orphans are intentionally not deleted."
-          fi
+          echo "Normalization branch updated; review/merge the generated branch separately."
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         if: always()
