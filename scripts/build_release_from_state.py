@@ -15,7 +15,7 @@ from popular_rules_icon import POLICY_VERSION, RENDERER_VERSION
 from popular_rules_icon.hashutil import object_hash, variant_hash
 from popular_rules_icon.manifest import build_physical_manifest, write_manifest
 from popular_rules_icon.pipeline import BuildResult
-from popular_rules_icon.render import render_all_styles
+from popular_rules_icon.styles8 import render_all_styles
 
 STYLES = (
     "source_original",

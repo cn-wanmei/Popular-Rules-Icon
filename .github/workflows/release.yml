@@ -18,10 +18,6 @@ on:
         description: Use "publish" to write the verified manifest and new objects to dist.
         required: true
         default: "dry-run"
-  push:
-    branches:
-      - release-clean-v1
-
 concurrency:
   group: v6-release-writer
   cancel-in-progress: false
@@ -92,7 +88,14 @@ jobs:
       - name: Build canonical V6 release
         run: |
           set -euo pipefail
-          python scripts/build_release_from_state.py             --state-dir build/state             --snapshot config/collection_identity_snapshot.json             --release-id "${{ steps.params.outputs.release }}"             --out "build/${{ steps.params.outputs.release }}.json"             --seed-dir assets/icons/seed             --objects-out build/objects             --materialized-state-dir build/materialized-state             --allow-seed-bootstrap
+          python scripts/build_release_from_state.py \
+            --state-dir build/state \
+            --snapshot config/collection_identity_snapshot.json \
+            --release-id "${{ steps.params.outputs.release }}" \
+            --out "build/${{ steps.params.outputs.release }}.json" \
+            --seed-dir assets/icons/seed \
+            --objects-out build/objects \
+            --materialized-state-dir build/materialized-state
 
       - name: Verify exact dist object closure
         run: |
@@ -134,7 +137,11 @@ jobs:
       - name: Strict V6 manifest gate
         run: |
           set -euo pipefail
-          python scripts/v6_manifest_gate.py             --manifest "build/${{ steps.params.outputs.release }}.json"             --snapshot config/collection_identity_snapshot.json             --release-id "${{ steps.params.outputs.release }}"             --strict
+          python scripts/v6_manifest_gate.py \
+            --manifest "build/${{ steps.params.outputs.release }}.json" \
+            --snapshot config/collection_identity_snapshot.json \
+            --release-id "${{ steps.params.outputs.release }}" \
+            --strict
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         if: always()
