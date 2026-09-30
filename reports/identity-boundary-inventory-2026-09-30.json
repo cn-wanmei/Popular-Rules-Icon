@@ -1,0 +1,28 @@
+{
+  "schema": "icon_identity_boundary_inventory_v2",
+  "generated_at": "2026-09-30",
+  "authority": {
+    "repository": "cn-wanmei/Popular-Rules-Collection",
+    "ref": "b95c01f98704bc9a9c306c53c0fb73e74b3c64e4",
+    "path": "rule/_index.yaml",
+    "selection": {
+      "include_entity": "service",
+      "exclude_entities": [
+        "provider_aggregate",
+        "aggregate",
+        "domestic_aggregate",
+        "category"
+      ]
+    }
+  },
+  "canonical_service_count": 394,
+  "registry_service_files": 482,
+  "dist_manifest_entries": 482,
+  "canonical_services_present_in_dist": 393,
+  "canonical_services_missing_in_dist": 1,
+  "dist_orphan_entries": 89,
+  "missing_service_ids": [
+    "ai"
+  ],
+  "note": "Recomputed against current Collection main. Registry and dist require normalization before strict mode."
+}
