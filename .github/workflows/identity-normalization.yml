@@ -47,7 +47,7 @@ jobs:
             exit 0
           fi
           git commit -m "fix(identity): normalize registry metadata from Collection"
-          git push --force-with-lease origin automation/identity-normalize-20260930
+          git push --force origin HEAD:refs/heads/automation/identity-normalize-20260930
           echo "Normalization branch updated; review/merge the generated branch separately."
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
