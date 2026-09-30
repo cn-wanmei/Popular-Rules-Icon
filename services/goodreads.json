@@ -1,31 +1,20 @@
 {
   "service_id": "goodreads",
   "source_fingerprint": "399ac456b57f7f6802d0f036887eb7afdf02a9b75602a1daa31dde1971571fa8",
-  "object_hash": "8cd5ffdc7e0ee679a5a8ec448d438c72afccddf825bcbc4433511ef2f05d50ad",
-  "variant_hashes": {
-    "source_original:128:png": "16671f0ee10e543106641963eda7e4b4537021a359bf067834eb62f7df6a0c50",
-    "source_original:256:png": "b7bbedbc020d9e661b8356f8cad4fae9b4cd7bd6abd645b0a3e7a03bfc1d447e",
-    "glassmorphism:128:png": "9be4f4b2b453f4fd928d70438a1f1e0e8a27913fbd26036d76dd159268c3d7d2",
-    "glassmorphism:256:png": "d91dadf7ce86a31d72ecf69409afabf0f2b25b95d9bdc031643e507c577dbe73",
-    "soft_3d:128:png": "4f54668408f6e529c41a3853f682934f2b9a049dcac02f9a581742007084b786",
-    "soft_3d:256:png": "ab6c8347c753f9ecc4a4aaa9bdd775b7da1fda48cbabda5eb8cb660be2b13f14",
-    "neo_skeuomorphism:128:png": "71d76b3c4b2aa81b68f88f76a366907ab28faf3822da15024f467b609239c51f",
-    "neo_skeuomorphism:256:png": "d1892bb595f4b49a57ddf50c5dc4c983d1bda057c773ca17e64752b00bacbd24",
-    "minimalist:128:png": "73affa170e638b59f3ea921e7fd55131c8cee3ab41fcc5d9b5c36c6ad774d911",
-    "minimalist:256:png": "3a46a0e9838ba291fcfede46806b7b791c3f0e7e9509ff1354e9628711079e57",
-    "duotone_line:128:png": "a2e431b22b608ddb72d505b4a726bdbdedd2b09a4d3623c6b80a52ec2a7e670b",
-    "duotone_line:256:png": "e2a8de356650c9448cd359b128f73fecc720c6561491eea90988938abe42d6e4",
-    "mbe:128:png": "86d2517f57f48c9dfe0dcc174708c923c6e68f8ad0db77daa6f6f63cb66ccade",
-    "mbe:256:png": "d7377cc5b4fb199c5cecbd65ed828431b9f35441e37570d63a1ffdd08d5a04f4",
-    "y2k:128:png": "024c0038447f828bd03a6b3d1c7129373d10261c399b63b3605aa6f47f5b0e29",
-    "y2k:256:png": "a637c56dda8e290c125f27ca39dfe85b6a30fd363ff2e3b4d54736be1dc682c1"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://goodreads.jpg",
+  "source_url": "seed://goodreads.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
