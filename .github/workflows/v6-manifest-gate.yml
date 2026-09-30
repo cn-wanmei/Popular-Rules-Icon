@@ -36,9 +36,9 @@ jobs:
         with:
           python-version: '3.12.14'
           cache: pip
-          cache-dependency-path: requirements.lock
+          cache: pip
 
-      - run: python -m pip install -r requirements.lock
+      - run: python -m pip install -e ".[dev]"
 
       - name: Read configured V6 release
         id: release
