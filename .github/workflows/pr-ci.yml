@@ -29,6 +29,9 @@ jobs:
         run: python -m pytest -q
       - name: Registry presence
         run: python -m popular_rules_icon.cli validate-registry
+      - name: Identity boundary gate (report during migration)
+        run: |
+          python scripts/identity_boundary_gate.py --write-report reports/identity-boundary-report.json
       - name: R10 Freeze coverage gate (seeds)
         run: |
           test -f scripts/freeze_coverage_gate.py || { echo "missing freeze_coverage_gate.py — commit scripts with workflow"; exit 1; }
