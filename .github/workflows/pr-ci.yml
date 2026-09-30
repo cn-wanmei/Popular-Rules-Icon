@@ -39,12 +39,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build
-          RELEASE=$(python3 - <<'PY'
-          import yaml
-          from pathlib import Path
-          cfg = yaml.safe_load(Path("config/release-pointers.yaml").read_text(encoding="utf-8"))
-          print(cfg["production"])
-          PY
+          RELEASE=$(awk '/^production:/ {print $2}' config/release-pointers.yaml
           )
           curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
           python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE" | tee build/v6-manifest-report.json
