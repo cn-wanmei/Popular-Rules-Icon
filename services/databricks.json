@@ -1,31 +1,20 @@
 {
   "service_id": "databricks",
   "source_fingerprint": "22df341d65da948437d021406727f696a0648e10320e213f35cd3909a877c6a7",
-  "object_hash": "c8363af672f2a32cb20dbcad56895e87d143b781dfa036fb3cbd5cb33be5eec9",
-  "variant_hashes": {
-    "source_original:128:png": "ef876f2ab5773813bc7d734875671c528d0ae847c76c95f8dd43f410e1de7e54",
-    "source_original:256:png": "cf3d29046172119a6ff6279933897350b95a710e0815e94cae8c787074c7b386",
-    "glassmorphism:128:png": "72e900e693b0098cd1bf7b3ca614a2a51e51a7847830207c4bcc38a88751708d",
-    "glassmorphism:256:png": "369dc4fc51f1c326ec7ef96151dc02c95629aef8525b8c9b15b2dc81a8c1a836",
-    "soft_3d:128:png": "3bcfb19dafeeab4d176c848890490d202fb38d41afa268e47a95fe11f85fe42d",
-    "soft_3d:256:png": "95cd38f476abc7fe8484f21bfdb20796d997c32a11bd3b9ea3f6c84090591329",
-    "neo_skeuomorphism:128:png": "a4de4067fbc9b0ea102adc81a70f4b2aafcfb3685deefb2c7e0f62d5c6ae5061",
-    "neo_skeuomorphism:256:png": "48fb8a0817abad293227d865119559331225e03a0c3ed64b98a6504698dec2a9",
-    "minimalist:128:png": "bf332a99c7ecbfe02e377e335fee1bf41632016c27e55f5f4b6f81ea1a06aeb3",
-    "minimalist:256:png": "244429c9428aea13fac7a4da5c9cb4655a5e69c125e67994c3173d1cbd0da0be",
-    "duotone_line:128:png": "0621c2bf6d8cfbdd1593bf68f7b970c4e9d689e4c23cec23e6b29c3a0e421e7c",
-    "duotone_line:256:png": "52afa5189b038c6e7076fe0359b104bfa865afb9542ad011f90f5e4c774e8caa",
-    "mbe:128:png": "b2ce5513d8297daca1a06ababbef13fdc4e981593b8752759dc37a541d68b56d",
-    "mbe:256:png": "f34e6a00e60500d4b2e67dc3ab1feb6487561160c99af0b59849ae6aec2cbfbd",
-    "y2k:128:png": "92833da1c36b405c0f4f03b80df8ff0266269d3e0bd9d04d7117ee1779181b10",
-    "y2k:256:png": "1f2382ae9d06e993f0b4002d57205fffb509de6ccb658346f7af65fbccd28a77"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://databricks.jpg",
+  "source_url": "seed://databricks.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
