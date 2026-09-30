@@ -1,0 +1,5 @@
+{
+  "schema": "collection_icon_identity_snapshot_v1",
+  "note": "Generated from Popular-Rules-Collection rule/_index.yaml. Service identities are immutable here; update only by pinning a new Collection commit.",
+  "generated_from_commit": "5bc537c894c88713f5a947dca91535318c610d23"
+}
