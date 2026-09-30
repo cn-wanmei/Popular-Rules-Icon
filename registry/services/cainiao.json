@@ -1,6 +1,6 @@
 {
   "service_id": "cainiao",
-  "name": "菜鸟",
+  "name": "Cainiao",
   "domains": [
     "cainiao.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (菜鸟—快递物流轻松查寄取); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

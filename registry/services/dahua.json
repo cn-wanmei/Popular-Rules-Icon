@@ -1,6 +1,6 @@
 {
   "service_id": "dahua",
-  "name": "大华云联",
+  "name": "大华股份",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 大华云联",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "dahua",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

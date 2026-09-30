@@ -1,6 +1,6 @@
 {
   "service_id": "wanmei",
-  "name": "wanmei",
+  "name": "完美世界",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "none",
   "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "review_status": "placeholder_needs_replace",
+  "provider": "wanmei",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

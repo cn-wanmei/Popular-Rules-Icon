@@ -1,6 +1,6 @@
 {
   "service_id": "google-play",
-  "name": "google-play",
+  "name": "Google Play",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of googleplay",
-  "icon_alias_of": "googleplay"
+  "icon_alias_of": "googleplay",
+  "provider": "google",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

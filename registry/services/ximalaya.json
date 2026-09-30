@@ -1,6 +1,6 @@
 {
   "service_id": "ximalaya",
-  "name": "喜马拉雅",
+  "name": "Ximalaya",
   "domains": [
     "ximalaya.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (喜马拉雅「听书社区」电台有声小说相声评书); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "ximalaya",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

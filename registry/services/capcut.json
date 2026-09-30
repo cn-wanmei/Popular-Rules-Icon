@@ -1,6 +1,6 @@
 {
   "service_id": "capcut",
-  "name": "CapCut: Photo & Video Editor",
+  "name": "剪映/CapCut",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: CapCut: Photo & Video Editor; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "bytedance",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

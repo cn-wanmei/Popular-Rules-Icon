@@ -1,6 +1,6 @@
 {
   "service_id": "aisuite",
-  "name": "aisuite",
+  "name": "AI Suite",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→claude",
   "icon_alias_of": "claude",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "special",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

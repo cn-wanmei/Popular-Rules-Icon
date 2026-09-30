@@ -1,6 +1,6 @@
 {
   "service_id": "xiaohongshu",
-  "name": "小红书 - 你的生活兴趣社区",
+  "name": "Xiaohongshu",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: 小红书 - 你的生活兴趣社区; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "xiaohongshu",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -1,6 +1,6 @@
 {
   "service_id": "iqiyi",
-  "name": "爱奇艺",
+  "name": "iQIYI",
   "domains": [
     "iqiyi.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (爱奇艺-《我不是大师》以骗治骗); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "iqiyi",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

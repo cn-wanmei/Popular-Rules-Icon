@@ -1,6 +1,6 @@
 {
   "service_id": "huolala",
-  "name": "货拉拉-拉货搬家跑腿货运物流平台",
+  "name": "货拉拉",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 货拉拉-拉货搬家跑腿货运物流平台",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "huolala",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

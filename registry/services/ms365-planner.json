@@ -1,6 +1,6 @@
 {
   "service_id": "ms365-planner",
-  "name": "ms365-planner",
+  "name": "Planner",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→office",
   "icon_alias_of": "office",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "microsoft",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

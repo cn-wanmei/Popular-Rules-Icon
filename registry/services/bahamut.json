@@ -1,6 +1,6 @@
 {
   "service_id": "bahamut",
-  "name": "巴哈姆特",
+  "name": "Bahamut",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 巴哈姆特",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "bahamut",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

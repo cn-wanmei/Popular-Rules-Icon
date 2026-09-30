@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (DeepSeek - AI 智能助手); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "deepseek",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

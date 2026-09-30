@@ -1,6 +1,6 @@
 {
   "service_id": "neteasemusic",
-  "name": "neteasemusic",
+  "name": "NetEase Cloud Music",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of netease_music",
-  "icon_alias_of": "netease_music"
+  "icon_alias_of": "netease_music",
+  "provider": "netease",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

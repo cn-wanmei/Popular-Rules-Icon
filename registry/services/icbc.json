@@ -1,6 +1,6 @@
 {
   "service_id": "icbc",
-  "name": "工商银行",
+  "name": "Industrial and Commercial Bank of China",
   "domains": [
     "icbc.com.cn"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (中国工商银行); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "icbc",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

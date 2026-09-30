@@ -1,6 +1,6 @@
 {
   "service_id": "dingding",
-  "name": "dingding",
+  "name": "DingTalk",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of dingtalk",
-  "icon_alias_of": "dingtalk"
+  "icon_alias_of": "dingtalk",
+  "provider": "alibaba",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

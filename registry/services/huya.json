@@ -1,6 +1,6 @@
 {
   "service_id": "huya",
-  "name": "虎牙直播-游戏互动直播平台",
+  "name": "Huya",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 虎牙直播-游戏互动直播平台",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "huya",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

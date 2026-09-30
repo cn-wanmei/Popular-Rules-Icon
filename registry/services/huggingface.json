@@ -1,6 +1,6 @@
 {
   "service_id": "huggingface",
-  "name": "Perplexity - AI Search & Chat",
+  "name": "Hugging Face",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Perplexity - AI Search & Chat",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "huggingface",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

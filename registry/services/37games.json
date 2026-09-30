@@ -1,6 +1,6 @@
 {
   "service_id": "37games",
-  "name": "4399游戏盒",
+  "name": "三七互娱",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -8,6 +8,9 @@
   "tier": 1,
   "status": "active",
   "lock": "binding",
-  "notes": "R14 iTunes: 4399游戏盒",
-  "review_status": "needs_review"
+  "notes": "Canonical identity normalized from Collection; prior 4399 App Store result was not the requested service.",
+  "review_status": "needs_review",
+  "provider": "37games",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

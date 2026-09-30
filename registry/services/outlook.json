@@ -1,6 +1,6 @@
 {
   "service_id": "outlook",
-  "name": "Outlook",
+  "name": "Microsoft Outlook",
   "domains": [
     "outlook.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "App Store interim (Microsoft Outlook); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "microsoft",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

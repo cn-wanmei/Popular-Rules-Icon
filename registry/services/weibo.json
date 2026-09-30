@@ -1,6 +1,6 @@
 {
   "service_id": "weibo",
-  "name": "微博",
+  "name": "Weibo",
   "domains": [
     "weibo.com"
   ],
@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Curated App Store/brand hires; reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "weibo",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

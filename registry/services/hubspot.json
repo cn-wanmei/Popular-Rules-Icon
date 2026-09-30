@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: HubSpot",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "hubspot",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

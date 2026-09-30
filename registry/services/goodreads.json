@@ -1,6 +1,6 @@
 {
   "service_id": "goodreads",
-  "name": "Goodreads: Book Tracker & More",
+  "name": "Goodreads",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Goodreads: Book Tracker & More",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "amazon",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

@@ -12,5 +12,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Interim App Store icon (Uber - Rides, Eats, Hotels); reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "uber",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

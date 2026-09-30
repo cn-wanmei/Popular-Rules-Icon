@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 海尔智家",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "haier",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

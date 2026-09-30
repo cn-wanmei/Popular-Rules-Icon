@@ -1,6 +1,6 @@
 {
   "service_id": "mi-cloud",
-  "name": "mi-cloud",
+  "name": "Mi Cloud",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→xiaomi",
   "icon_alias_of": "xiaomi",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "xiaomi",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

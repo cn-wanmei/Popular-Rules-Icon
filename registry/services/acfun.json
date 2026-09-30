@@ -1,6 +1,6 @@
 {
   "service_id": "acfun",
-  "name": "AcFun-国内弹幕动漫视频第一家",
+  "name": "AcFun",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: AcFun-国内弹幕动漫视频第一家; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "acfun",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

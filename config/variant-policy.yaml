@@ -12,3 +12,6 @@ production_styles:
 sizes: [128, 256]
 formats: [png]
 max_upscale: 1.0
+artifact_invariants:
+  format_extension_must_match: true
+  canonical_variant_path: "/v/{variant_hash}.png"

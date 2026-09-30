@@ -1,6 +1,6 @@
 {
   "service_id": "icloudprivaterelay",
-  "name": "icloudprivaterelay",
+  "name": "iCloud Private Relay",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→icloud",
   "icon_alias_of": "icloud",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "apple",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

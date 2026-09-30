@@ -1,6 +1,6 @@
 {
   "service_id": "anthropic-platform",
-  "name": "anthropic-platform",
+  "name": "Anthropic Platform",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "notes": "R14 alias→claude",
   "icon_alias_of": "claude",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "anthropic",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

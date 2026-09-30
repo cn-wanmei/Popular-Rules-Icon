@@ -1,6 +1,6 @@
 {
   "service_id": "mihome",
-  "name": "mihome",
+  "name": "米家",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "alias of xiaomi",
-  "icon_alias_of": "xiaomi"
+  "icon_alias_of": "xiaomi",
+  "provider": "xiaomi",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

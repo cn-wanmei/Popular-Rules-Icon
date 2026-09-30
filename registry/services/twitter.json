@@ -1,6 +1,6 @@
 {
   "service_id": "twitter",
-  "name": "X (Twitter)",
+  "name": "Twitter",
   "domains": [
     "twitter.com",
     "x.com"
@@ -15,5 +15,8 @@
   "lock": "binding",
   "composition_hint": "glyph",
   "notes": "Curated App Store/brand hires; reviewer may replace",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "twitter",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

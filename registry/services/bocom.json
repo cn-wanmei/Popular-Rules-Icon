@@ -1,6 +1,6 @@
 {
   "service_id": "bocom",
-  "name": "交通银行",
+  "name": "Bank of Communications",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 交通银行",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "bocom",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

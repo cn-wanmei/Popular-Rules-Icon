@@ -1,6 +1,6 @@
 {
   "service_id": "elevenlabs",
-  "name": "ElevenLabs: AI Voice Generator",
+  "name": "ElevenLabs",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: ElevenLabs: AI Voice Generator",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "elevenlabs",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

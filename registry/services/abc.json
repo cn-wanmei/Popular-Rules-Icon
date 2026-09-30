@@ -1,6 +1,6 @@
 {
   "service_id": "abc",
-  "name": "abc",
+  "name": "Agricultural Bank of China",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -8,6 +8,9 @@
   "tier": 2,
   "status": "active",
   "lock": "none",
-  "notes": "R14 generated placeholder — MUST replace",
-  "review_status": "placeholder_needs_replace"
+  "notes": "Canonical identity normalized from Collection; prior App Store result was not the requested service.",
+  "review_status": "placeholder_needs_replace",
+  "provider": "abc",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

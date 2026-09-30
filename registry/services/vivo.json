@@ -1,6 +1,6 @@
 {
   "service_id": "vivo",
-  "name": "vivo 商城-官方正品安心服务",
+  "name": "vivo",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: vivo 商城-官方正品安心服务; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "vivo",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

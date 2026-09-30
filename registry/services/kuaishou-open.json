@@ -1,6 +1,6 @@
 {
   "service_id": "kuaishou-open",
-  "name": "The Open",
+  "name": "快手开放平台",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: The Open",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "kuaishou",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

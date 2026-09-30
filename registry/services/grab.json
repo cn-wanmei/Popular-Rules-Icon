@@ -1,6 +1,6 @@
 {
   "service_id": "grab",
-  "name": "Grab: Taxi Ride, Food Delivery",
+  "name": "Grab",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -9,5 +9,8 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: Grab: Taxi Ride, Food Delivery",
-  "review_status": "needs_review"
+  "review_status": "needs_review",
+  "provider": "grab",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }

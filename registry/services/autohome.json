@@ -1,6 +1,6 @@
 {
   "service_id": "autohome",
-  "name": "汽车之家-5亿人都在用的汽车App",
+  "name": "汽车之家",
   "domains": [],
   "aliases": [],
   "renamed_from": [],
@@ -10,5 +10,8 @@
   "lock": "binding",
   "composition_hint": "app_icon",
   "notes": "Auto App Store: 汽车之家-5亿人都在用的汽车App; REVIEW REQUIRED",
-  "source_mode": "frozen_seed"
+  "source_mode": "frozen_seed",
+  "provider": "autohome",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
 }
