@@ -20,6 +20,6 @@ consumer_rules:
   shared_visual_asset_does_not_merge_service_ids: true
   seed_must_exist_for_production_registry: true
 migration:
-  current_mode: report_only
+  current_mode: strict
   target_mode: strict
   normalize_registry_before_strict: true
