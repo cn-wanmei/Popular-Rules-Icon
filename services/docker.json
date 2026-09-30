@@ -1,31 +1,20 @@
 {
   "service_id": "docker",
   "source_fingerprint": "9b17385c63b478b62010ed49ca982b688d964fa3d334afd2d4547faf82472a77",
-  "object_hash": "1a67dcd819dff34b133b1909f0c3c57254214bbabc3ccc55778ff90a0103dbc4",
-  "variant_hashes": {
-    "source_original:128:png": "7646fdace622926dbf70a68ea48c4a316adfebeadb49d65529058b35006b3d9e",
-    "source_original:256:png": "3b42e75d1284e3b610bd3347f92364f5efde42faf14c6e376461724b31bfb2e0",
-    "glassmorphism:128:png": "6cce910515bd289bada5faae870ba3a9007823ac59cd1b7cc875c9235509ac2c",
-    "glassmorphism:256:png": "eea33ec08f51a0b97cd5ca5b649aee018f2e3052309600acdf1fad6a3d2463aa",
-    "soft_3d:128:png": "7d6ff9e6f4447f36ea255d81e9cb4caea5c96d71ffc3d833586d7567a188852e",
-    "soft_3d:256:png": "76b70f35d18d456d687bad39d6f9fa478dacd3d3ce0509d8cf24c244c72316ef",
-    "neo_skeuomorphism:128:png": "c3557139492a69baf0de4653fa87669f32bc6cec703d8a785ebf6612b9a8807b",
-    "neo_skeuomorphism:256:png": "6d6fd86fcd2425fdcd6d41ca81fedb11d6c26d3137c53df44b8745fb6222b169",
-    "minimalist:128:png": "9b61f6f831a932f8b74e52afb7e8fdd45d83d54c1b459822cf21ec9c7dedd3f0",
-    "minimalist:256:png": "be0ced608928eced3de2866733d5c4ce9e731d96259dab72c16d941b59f77110",
-    "duotone_line:128:png": "adeec3d6b47fb1552870d8bebb80fbe6b7450082fc2823db54a1b782ca7d67dc",
-    "duotone_line:256:png": "f6179a000f2d39fd94ebbfe8b3269c11811d4460c21b9b5ecec5945590dd48f0",
-    "mbe:128:png": "400dc5fa8e634beaa53b338518408148f9aff1a5f6d7d914af7212a3b4e1b2e2",
-    "mbe:256:png": "64edffb9c10cd28b46277af39aff368dbbc64f810df8e6cfbf1d3fdbc791a0e2",
-    "y2k:128:png": "3d07d3b935089e54589680235961745d0e8f70673f8c8f898ae8f64744648286",
-    "y2k:256:png": "29b03f5ac5edd828ebbefb96da4f0ca961d9e7cf3ad9b6c8bdc0363e34dba066"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://docker.jpg",
+  "source_url": "seed://docker.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
