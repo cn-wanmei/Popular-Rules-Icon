@@ -1,31 +1,20 @@
 {
   "service_id": "arm",
   "source_fingerprint": "214d7ad3639243e598c58b16637b45592c3a663cc6b9f285b2f2badf600835a3",
-  "object_hash": "d8a92a2e06d368e759667169e1f635174f3f4abea203492ab3255cb24cb0159c",
-  "variant_hashes": {
-    "source_original:128:png": "4c2dbd16676bbf80c74691b648f78bb0057cae659520f44554be18950882529d",
-    "source_original:256:png": "e4770e3e569b0d1bc687453ba9e5956a8a418816bd90345b1da3608adb3b8982",
-    "glassmorphism:128:png": "966ea24d44c826e56c186fa3fcfd1988401a7c911887c1df2be03cd6f87fe94b",
-    "glassmorphism:256:png": "48f0073a1fd019ae7b3f253571c10bb21a9c72d228ec059871f073e18c6e7d51",
-    "soft_3d:128:png": "32223a77461038fa980a9e450a55dc79e7c1328e6b829312a63ff92f24177576",
-    "soft_3d:256:png": "6889f2a847fb6acdb0e464600b942483b31171c5b91278dd06b02950c6106740",
-    "neo_skeuomorphism:128:png": "3c81c7a703444b1d28562a04f64eff0a61e0ede715b1686a48b69f1091127705",
-    "neo_skeuomorphism:256:png": "253b0092d4e6d24105e540d9a3bd9500de8ddddce2ba82cc1ca4f2913fa5ddc4",
-    "minimalist:128:png": "bc7c24c7d3ce8e24d54a316f64cd41c7e486f3d325be0629da44dd8d444f820b",
-    "minimalist:256:png": "ff82ba71940c4916bb4e4abc5cd19f504283eaebdb1d4b245c3af1e7cacb01b6",
-    "duotone_line:128:png": "3947fa49779841a72aa980d07ac61862c1130cda018e64223ae1578e50ed142d",
-    "duotone_line:256:png": "a6ea6061034b47deddaa7fb07f6c762e1c088290689f0ed9afa42146d9b1a611",
-    "mbe:128:png": "dc926c4fc338677f957c41b2e84ccb620a7a946bf96f3fd15120ae0b8bb638f2",
-    "mbe:256:png": "4488f39764b54e648459065af88756a2b4f7d0b3df3fc3fca1afce4e9a84b5f7",
-    "y2k:128:png": "2cbf1046325ba764f843ab326a5ec04cb2f280eaf989871056457fc4ea0f6300",
-    "y2k:256:png": "fd89cfef6d0725ea7d0119daed9093dcf09bcd2f5c14829ba737b7095b2e7fe2"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:41:49.874807+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:41:49.874807+00:00",
-  "source_url": "seed://arm.png",
+  "source_url": "seed://arm.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
