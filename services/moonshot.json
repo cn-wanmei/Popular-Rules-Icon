@@ -1,31 +1,20 @@
 {
   "service_id": "moonshot",
   "source_fingerprint": "15c160411dcfa605d357e8ad44dc6962a803b2931e80769e690b5296fa1b3c06",
-  "object_hash": "d34dbfc201bd76b84ae35682d5b183b29be26e9b1f889c226f475a324b92602f",
-  "variant_hashes": {
-    "source_original:128:png": "d7cd3c9649dd9f5efe353cca94fc9f3f37f419c4b24801862d97221e6a23e70b",
-    "source_original:256:png": "f29d90d27879436e0d678340cea323b48ef77f50eac5f20b1686ff4f1ff59214",
-    "glassmorphism:128:png": "5c46da4adab96431157090f7fbef5cb0af32f76bb575c0baec49f443e49c3e89",
-    "glassmorphism:256:png": "190f9c2cc943b7e023f519d262e19a3dcc970e9d8c6759f957b4efde6fb9c738",
-    "soft_3d:128:png": "94b66ff677de8627165300abbbccc2e353c7d6379c0b7394c80c8a86275b1a0e",
-    "soft_3d:256:png": "248cc302232dbc797209f10f5242f0250a7515e1579d94989814ec1d8cfbff04",
-    "neo_skeuomorphism:128:png": "dd8dbee7baa5ccc2fdf75ba87b2732c023b4c0b78678bfa140a125035a7353a4",
-    "neo_skeuomorphism:256:png": "ac7a24b77a21d8a271b2afc94b2874d76c8d1d398cef92ba733b773edd8b9edb",
-    "minimalist:128:png": "85c4354eee80751c3a6ffd0f5695770d0622e2c15bbbd62c949a8d7452c5fc97",
-    "minimalist:256:png": "fb072eed8091b2743245726b30004d86196123a5ff710e8bce8afd65514a514f",
-    "duotone_line:128:png": "c64bedacea95acc9e14f407ec511dc6757aea3dc20baddf22f22aacedbf0edea",
-    "duotone_line:256:png": "d46ae023384366314787cebc0c58070d0659223306a33438e487b213ed41fed9",
-    "mbe:128:png": "ebfe065c2a538d959d5d59cca4a229c5e40cd0fb610945a586e4eadb2a4e4c7e",
-    "mbe:256:png": "30bfbb12738945a3bf2270139411ba408cbb0444bb3f3c02c11f553dcb3039ab",
-    "y2k:128:png": "9a2835d6bfa738ec55a8659b064d94da196e6b6a068c91be52fece7a982014cb",
-    "y2k:256:png": "85dba61149044796a9579a05c49f9fb5ce0cd514de6f8bdeec966a654c4c3ae8"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "simple_icons",
   "lifecycle": "active",
   "last_checked": "2026-09-30T06:03:22.052354+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T06:03:22.052354+00:00",
-  "source_url": "seed://moonshot.jpg",
+  "source_url": "seed://moonshot.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
