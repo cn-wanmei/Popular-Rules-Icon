@@ -1,15 +1,14 @@
-production: icon-2026.09.30.r14.1
-rollback: icon-2026.09.30.r14
-rollback_note: "r14 is retained as immutable rollback; R14.1 corrects only manifest path metadata, not object hashes."
-updated_at: "2026-09-30T10:50:00Z"
+production: icon-2026.09.30.clean1
+rollback: icon-2026.09.30.r14.1
+rollback_note: "Independent immutable V6 rollback. It does not depend on Collection V5 assets."
+updated_at: "2026-09-30T19:46:00+08:00"
 frozen: true
-freeze_id: icon-2026.09.30.r14.1
+freeze_id: icon-2026.09.30.clean1
 styles: 8
-registry_entries: 482
+registry_entries: 394
 canonical_collection_services: 394
-canonical_services_present: 393
-canonical_services_missing: 1
-orphan_entries: 89
-collection_coverage: "99.746% (393/394)"
-production_status: blocked_identity_drift
-note: "R14.1 corrected immutable manifest exists, but coverage must be evaluated against Collection canonical service IDs rather than total registry entries."
+canonical_services_present: 394
+canonical_services_missing: 0
+orphan_entries: 0
+collection_coverage: "100% (394/394)"
+production_status: production_clean
