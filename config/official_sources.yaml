@@ -51,7 +51,7 @@ sources:
       - { url: "seed://amazonmusic.jpg", source_class: frozen_seed }
   amd:
     candidates:
-      - { url: "seed://amd.jpg", source_class: frozen_seed }
+      - { url: "seed://amd.svg", source_class: frozen_seed }
   anjuke:
     candidates:
       - { url: "seed://anjuke.jpg", source_class: frozen_seed }
@@ -102,13 +102,13 @@ sources:
       - { url: "seed://appletv.jpg", source_class: frozen_seed }
   appstore:
     candidates:
-      - { url: "seed://appstore.jpg", source_class: frozen_seed }
+      - { url: "seed://appstore.svg", source_class: frozen_seed }
   arista:
     candidates:
       - { url: "seed://arista.jpg", source_class: frozen_seed }
   arm:
     candidates:
-      - { url: "seed://arm.png", source_class: frozen_seed }
+      - { url: "seed://arm.svg", source_class: frozen_seed }
   asml:
     candidates:
       - { url: "seed://asml.png", source_class: frozen_seed }
@@ -240,7 +240,7 @@ sources:
       - { url: "seed://chinaunicom.jpg", source_class: frozen_seed }
   cisco:
     candidates:
-      - { url: "seed://cisco.jpg", source_class: frozen_seed }
+      - { url: "seed://cisco.svg", source_class: frozen_seed }
   claude:
     candidates:
       - { url: "seed://claude.jpg", source_class: frozen_seed }
@@ -285,7 +285,7 @@ sources:
       - { url: "seed://deepseek.jpg", source_class: frozen_seed }
   dell:
     candidates:
-      - { url: "seed://dell.jpg", source_class: frozen_seed }
+      - { url: "seed://dell.svg", source_class: frozen_seed }
   dewu:
     candidates:
       - { url: "seed://dewu.jpg", source_class: frozen_seed }
@@ -327,7 +327,7 @@ sources:
       - { url: "seed://dropbox.jpg", source_class: frozen_seed }
   ea:
     candidates:
-      - { url: "seed://ea.jpg", source_class: frozen_seed }
+      - { url: "seed://ea.svg", source_class: frozen_seed }
   eastmoney:
     candidates:
       - { url: "seed://eastmoney.jpg", source_class: frozen_seed }
@@ -375,7 +375,7 @@ sources:
       - { url: "seed://fliggy.jpg", source_class: frozen_seed }
   fortinet:
     candidates:
-      - { url: "seed://fortinet.png", source_class: frozen_seed }
+      - { url: "seed://fortinet.svg", source_class: frozen_seed }
   fujitsu:
     candidates:
       - { url: "seed://fujitsu.jpg", source_class: frozen_seed }
@@ -492,7 +492,7 @@ sources:
       - { url: "seed://hashicorp.jpg", source_class: frozen_seed }
   hbo:
     candidates:
-      - { url: "seed://hbo.jpg", source_class: frozen_seed }
+      - { url: "seed://hbo.svg", source_class: frozen_seed }
   hellobike:
     candidates:
       - { url: "seed://hellobike.jpg", source_class: frozen_seed }
@@ -510,7 +510,7 @@ sources:
       - { url: "seed://himalaya.jpg", source_class: frozen_seed }
   hitachi:
     candidates:
-      - { url: "seed://hitachi.png", source_class: frozen_seed }
+      - { url: "seed://hitachi.svg", source_class: frozen_seed }
   honor:
     candidates:
       - { url: "seed://honor.jpg", source_class: frozen_seed }
@@ -564,7 +564,7 @@ sources:
       - { url: "seed://instagram.jpg", source_class: frozen_seed }
   intel:
     candidates:
-      - { url: "seed://intel.png", source_class: frozen_seed }
+      - { url: "seed://intel.svg", source_class: frozen_seed }
   internlm:
     candidates:
       - { url: "seed://internlm.jpg", source_class: frozen_seed }
@@ -591,7 +591,7 @@ sources:
       - { url: "seed://jingdong.jpg", source_class: frozen_seed }
   kakao:
     candidates:
-      - { url: "seed://kakao.png", source_class: frozen_seed }
+      - { url: "seed://kakao.svg", source_class: frozen_seed }
   kakaotalk:
     candidates:
       - { url: "seed://kakaotalk.jpg", source_class: frozen_seed }
@@ -627,13 +627,13 @@ sources:
       - { url: "seed://lazada.png", source_class: frozen_seed }
   lenovo:
     candidates:
-      - { url: "seed://lenovo.jpg", source_class: frozen_seed }
+      - { url: "seed://lenovo.svg", source_class: frozen_seed }
   letv:
     candidates:
       - { url: "seed://letv.png", source_class: frozen_seed }
   lg:
     candidates:
-      - { url: "seed://lg.png", source_class: frozen_seed }
+      - { url: "seed://lg.svg", source_class: frozen_seed }
   line:
     candidates:
       - { url: "seed://line.jpg", source_class: frozen_seed }
@@ -651,7 +651,7 @@ sources:
       - { url: "seed://manbang.png", source_class: frozen_seed }
   mediatek:
     candidates:
-      - { url: "seed://mediatek.png", source_class: frozen_seed }
+      - { url: "seed://mediatek.svg", source_class: frozen_seed }
   meituan:
     candidates:
       - { url: "seed://meituan.jpg", source_class: frozen_seed }
@@ -735,7 +735,7 @@ sources:
       - { url: "seed://nintendo.jpg", source_class: frozen_seed }
   nokia:
     candidates:
-      - { url: "seed://nokia.png", source_class: frozen_seed }
+      - { url: "seed://nokia.svg", source_class: frozen_seed }
   notion:
     candidates:
       - { url: "seed://notion.jpg", source_class: frozen_seed }
@@ -765,7 +765,7 @@ sources:
       - { url: "seed://openai-platform.jpg", source_class: frozen_seed }
   oppo:
     candidates:
-      - { url: "seed://oppo.jpg", source_class: frozen_seed }
+      - { url: "seed://oppo.svg", source_class: frozen_seed }
   oracle:
     candidates:
       - { url: "seed://oracle.jpg", source_class: frozen_seed }
@@ -774,7 +774,7 @@ sources:
       - { url: "seed://outlook.jpg", source_class: frozen_seed }
   palantir:
     candidates:
-      - { url: "seed://palantir.png", source_class: frozen_seed }
+      - { url: "seed://palantir.svg", source_class: frozen_seed }
   paloalto:
     candidates:
       - { url: "seed://paloalto.png", source_class: frozen_seed }
@@ -837,7 +837,7 @@ sources:
       - { url: "seed://qqmusic.jpg", source_class: frozen_seed }
   qualcomm:
     candidates:
-      - { url: "seed://qualcomm.jpg", source_class: frozen_seed }
+      - { url: "seed://qualcomm.svg", source_class: frozen_seed }
   quanmin-k-ge:
     candidates:
       - { url: "seed://quanmin-k-ge.jpg", source_class: frozen_seed }
@@ -846,7 +846,7 @@ sources:
       - { url: "seed://qunar.png", source_class: frozen_seed }
   rakuten:
     candidates:
-      - { url: "seed://rakuten.jpg", source_class: frozen_seed }
+      - { url: "seed://rakuten.svg", source_class: frozen_seed }
   reddit:
     candidates:
       - { url: "seed://reddit.jpg", source_class: frozen_seed }
@@ -855,10 +855,10 @@ sources:
       - { url: "seed://restricted.png", source_class: frozen_seed }
   riotgames:
     candidates:
-      - { url: "seed://riotgames.png", source_class: frozen_seed }
+      - { url: "seed://riotgames.svg", source_class: frozen_seed }
   roblox:
     candidates:
-      - { url: "seed://roblox.png", source_class: frozen_seed }
+      - { url: "seed://roblox.svg", source_class: frozen_seed }
   roborock:
     candidates:
       - { url: "seed://roborock.png", source_class: frozen_seed }
@@ -870,13 +870,13 @@ sources:
       - { url: "seed://salesforce.jpg", source_class: frozen_seed }
   samsung:
     candidates:
-      - { url: "seed://samsung.jpg", source_class: frozen_seed }
+      - { url: "seed://samsung.svg", source_class: frozen_seed }
   sangfor:
     candidates:
       - { url: "seed://sangfor.png", source_class: frozen_seed }
   sap:
     candidates:
-      - { url: "seed://sap.jpg", source_class: frozen_seed }
+      - { url: "seed://sap.svg", source_class: frozen_seed }
   schneider:
     candidates:
       - { url: "seed://schneider.png", source_class: frozen_seed }
@@ -903,13 +903,13 @@ sources:
       - { url: "seed://shimo.png", source_class: frozen_seed }
   shopee:
     candidates:
-      - { url: "seed://shopee.png", source_class: frozen_seed }
+      - { url: "seed://shopee.svg", source_class: frozen_seed }
   shopify:
     candidates:
       - { url: "seed://shopify.jpg", source_class: frozen_seed }
   siemens:
     candidates:
-      - { url: "seed://siemens.png", source_class: frozen_seed }
+      - { url: "seed://siemens.svg", source_class: frozen_seed }
   signal:
     candidates:
       - { url: "seed://signal.jpg", source_class: frozen_seed }
@@ -927,19 +927,19 @@ sources:
       - { url: "seed://snapchat.jpg", source_class: frozen_seed }
   snowflake:
     candidates:
-      - { url: "seed://snowflake.png", source_class: frozen_seed }
+      - { url: "seed://snowflake.svg", source_class: frozen_seed }
   sohu:
     candidates:
       - { url: "seed://sohu.jpg", source_class: frozen_seed }
   sony:
     candidates:
-      - { url: "seed://sony.jpg", source_class: frozen_seed }
+      - { url: "seed://sony.svg", source_class: frozen_seed }
   soundcloud:
     candidates:
       - { url: "seed://soundcloud.jpg", source_class: frozen_seed }
   spacex:
     candidates:
-      - { url: "seed://spacex.png", source_class: frozen_seed }
+      - { url: "seed://spacex.svg", source_class: frozen_seed }
   speedtest:
     candidates:
       - { url: "seed://speedtest.png", source_class: frozen_seed }
@@ -1056,7 +1056,7 @@ sources:
       - { url: "seed://uber.jpg", source_class: frozen_seed }
   ubisoft:
     candidates:
-      - { url: "seed://ubisoft.jpg", source_class: frozen_seed }
+      - { url: "seed://ubisoft.svg", source_class: frozen_seed }
   umc:
     candidates:
       - { url: "seed://umc.png", source_class: frozen_seed }
@@ -1065,7 +1065,7 @@ sources:
       - { url: "seed://unionpay.jpg", source_class: frozen_seed }
   unity:
     candidates:
-      - { url: "seed://unity.png", source_class: frozen_seed }
+      - { url: "seed://unity.svg", source_class: frozen_seed }
   venmo:
     candidates:
       - { url: "seed://venmo.png", source_class: frozen_seed }
@@ -1098,7 +1098,7 @@ sources:
       - { url: "seed://wecom.png", source_class: frozen_seed }
   wegame:
     candidates:
-      - { url: "seed://wegame.jpg", source_class: frozen_seed }
+      - { url: "seed://wegame.svg", source_class: frozen_seed }
   weibo:
     candidates:
       - { url: "seed://weibo.jpg", source_class: frozen_seed }
@@ -1113,7 +1113,7 @@ sources:
       - { url: "seed://wikipedia.png", source_class: frozen_seed }
   wise:
     candidates:
-      - { url: "seed://wise.jpg", source_class: frozen_seed }
+      - { url: "seed://wise.svg", source_class: frozen_seed }
   workday:
     candidates:
       - { url: "seed://workday.png", source_class: frozen_seed }
