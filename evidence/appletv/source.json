@@ -1,0 +1,9 @@
+{
+  "service_id": "appletv",
+  "source_url": "seed://appletv.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.754185+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9093144ffe9d1a7e152d01dccc17ccd2e4c28a84d1833b2dcb5469fcbe57227f",
+  "review_status": "Auto App Store: Apple TV; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

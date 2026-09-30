@@ -1,0 +1,9 @@
+{
+  "service_id": "1password",
+  "source_url": "seed://1password.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.835963+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "749dc667fa7cf3354bb84c01d9e604dabbf777954bfa4bda88d2e1019584c48b",
+  "review_status": "Auto App Store: 1Password: Password Manager; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

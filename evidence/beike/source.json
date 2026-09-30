@@ -1,0 +1,9 @@
+{
+  "service_id": "beike",
+  "source_url": "seed://beike.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.904492+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ef740e1b47070bcff01f90fa3c6a47cca463b2a8e966f6c2a4d7099b2f9c7687",
+  "review_status": "alias of lianjia",
+  "usage_basis": "identifier_use_takedown"
+}

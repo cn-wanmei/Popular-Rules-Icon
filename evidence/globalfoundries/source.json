@@ -1,0 +1,9 @@
+{
+  "service_id": "globalfoundries",
+  "source_url": "seed://globalfoundries.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.985726+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c5855c8e272e97a974bfdefb85b70ad26369857a1cee38c36b3838a4dd9dbc8f",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

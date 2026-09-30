@@ -1,0 +1,9 @@
+{
+  "service_id": "shopee",
+  "source_url": "seed://shopee.png",
+  "retrieved_at": "2026-09-30T07:44:19.943356+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d6b7496027d1a66808249b53a6f261e0767c331827288c8b3b1f660ec2880310",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "arista",
+  "source_url": "seed://arista.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.891476+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c8dff6522aa480c7e954810c160aca0b01a7bddd938d57f0866dde534c92d9bd",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

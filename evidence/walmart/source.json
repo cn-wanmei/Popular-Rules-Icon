@@ -1,0 +1,9 @@
+{
+  "service_id": "walmart",
+  "source_url": "seed://walmart.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.910437+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2cb95029885e8bb9011a4a33c1d7b0ea9508e66c7b39696c789296cdffc451aa",
+  "review_status": "Auto App Store: Walmart: Shopping & Savings; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "grab",
+  "source_url": "seed://grab.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.888529+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "30d64b3aae0355acb5df81b9f9d0a672e1ad7878c0ab195a3c4406904451c239",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

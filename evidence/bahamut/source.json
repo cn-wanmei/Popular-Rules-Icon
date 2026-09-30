@@ -1,0 +1,9 @@
+{
+  "service_id": "bahamut",
+  "source_url": "seed://bahamut.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.971547+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2d32329675909c7cb10a9174519d73e1759f6e791dac9097885695c9c5ecdc57",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

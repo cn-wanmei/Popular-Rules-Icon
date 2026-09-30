@@ -1,0 +1,9 @@
+{
+  "service_id": "applemaps",
+  "source_url": "seed://applemaps.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.951943+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c586bf9490a2ee0c28c82ddf0977f5c4306346f06b79a98663d946325d0ecbea",
+  "review_status": "Auto App Store: Apple Maps; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

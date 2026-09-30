@@ -1,0 +1,9 @@
+{
+  "service_id": "caocao",
+  "source_url": "seed://caocao.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.793763+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0b6a096ea508aa0cab83376e51edaa4d06c884197d0b10c498ae1389eeb50312",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

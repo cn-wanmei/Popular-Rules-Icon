@@ -1,0 +1,9 @@
+{
+  "service_id": "himalaya",
+  "source_url": "seed://himalaya.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.892700+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "70fd2f84371475520b043b21ca071a272c921b0ff7d9502a834314056f570720",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

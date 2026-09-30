@@ -1,0 +1,9 @@
+{
+  "service_id": "didi",
+  "source_url": "seed://didi.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.751173+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a8fbb72f354f63150db257d6cb576d263e97a4014aace3eded227db7c1bc7e95",
+  "review_status": "App Store interim (滴滴-打车骑车顺风车火车票租车代驾送货); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

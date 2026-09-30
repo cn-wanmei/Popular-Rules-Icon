@@ -1,0 +1,9 @@
+{
+  "service_id": "aliexpress",
+  "source_url": "seed://aliexpress.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.763782+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "14187ad9f989795d993006e90bd9896fd8e80975a7dd5c89f8c394d3cdf6ad21",
+  "review_status": "Auto App Store: AliExpress - Shopping App; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

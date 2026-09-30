@@ -1,0 +1,9 @@
+{
+  "service_id": "qq",
+  "source_url": "seed://qq.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.779484+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "cdb1dd4d4c6a3bc93531e394633cfe9e830cb5b178d10c8ecc5b669cbce8d292",
+  "review_status": "Interim App Store icon (QQ); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

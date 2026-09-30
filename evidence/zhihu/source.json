@@ -1,0 +1,9 @@
+{
+  "service_id": "zhihu",
+  "source_url": "seed://zhihu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.977786+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e777f3f060b2e87139968abd5a4b106f27bd3cd4f9da9442b81c025daefb2f64",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

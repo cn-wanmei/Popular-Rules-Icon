@@ -1,0 +1,9 @@
+{
+  "service_id": "craft",
+  "source_url": "seed://craft.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.886094+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "00220d754d0cefa1e3083bb00c39685e88adb4cce755178f4fe07c90e16d6da2",
+  "review_status": "Auto App Store: Craft: Notes, Documents, AI; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

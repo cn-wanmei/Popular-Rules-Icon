@@ -1,0 +1,9 @@
+{
+  "service_id": "temu",
+  "source_url": "seed://temu.png",
+  "retrieved_at": "2026-09-30T07:44:20.006484+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3d3689eb290a33f94ae9225ec460f08412c88ad685075ee3a5179a7ecc7caf38",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

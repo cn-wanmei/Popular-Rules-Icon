@@ -1,0 +1,9 @@
+{
+  "service_id": "kla",
+  "source_url": "seed://kla.png",
+  "retrieved_at": "2026-09-30T07:44:19.955686+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "de285114ca08ffdd731e74f18830d714c423c2f85033784f796f362386294d5b",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

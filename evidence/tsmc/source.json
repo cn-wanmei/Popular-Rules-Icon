@@ -1,0 +1,9 @@
+{
+  "service_id": "tsmc",
+  "source_url": "seed://tsmc.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.879644+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "5e59fd787aa1985c328e401fed57f487a6886ad37583a74d07155d038fb14974",
+  "review_status": "Auto App Store: TSMC ANNOUNCEMENT; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

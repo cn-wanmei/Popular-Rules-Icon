@@ -1,0 +1,9 @@
+{
+  "service_id": "twitter",
+  "source_url": "seed://twitter.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.911580+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bf95bd4626b0f378e6727464934ca5caaa3af121e294b9183e64de892d3948fd",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

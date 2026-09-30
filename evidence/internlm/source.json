@@ -1,0 +1,9 @@
+{
+  "service_id": "internlm",
+  "source_url": "seed://internlm.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.798644+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "fe587e30e6e9b9790a542930bde4b7be6f47ac40660bc57beccb081477f90c9f",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

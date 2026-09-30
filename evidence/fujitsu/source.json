@@ -1,0 +1,9 @@
+{
+  "service_id": "fujitsu",
+  "source_url": "seed://fujitsu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.900878+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "22b903e93749eb0e943bdb12af2ccc516d93dd43cd3d7c8c87fb3ef131203bb6",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "bbc",
+  "source_url": "seed://bbc.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.864492+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "82e9082694296beaa060a0dc1e706a6d01466d9f15ee7aae2fe0422b20790ce2",
+  "review_status": "Auto App Store: BBC: World News & Stories; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

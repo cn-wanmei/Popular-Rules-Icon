@@ -1,0 +1,9 @@
+{
+  "service_id": "battlenet",
+  "source_url": "seed://battlenet.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.887439+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a5a68762d7234c5a152f4e6d3e29dc74839f02ccb55e613df0959b31e2a5caf7",
+  "review_status": "Auto App Store: Battle.net; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

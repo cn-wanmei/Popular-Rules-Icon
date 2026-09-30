@@ -1,0 +1,9 @@
+{
+  "service_id": "amd",
+  "source_url": "seed://amd.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.828840+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7557a58b1b3f169b0817128993f62755ffa95d8121354fb187369c0947114707",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

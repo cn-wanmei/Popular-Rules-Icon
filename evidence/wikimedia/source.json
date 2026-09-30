@@ -1,0 +1,9 @@
+{
+  "service_id": "wikimedia",
+  "source_url": "seed://wikimedia.png",
+  "retrieved_at": "2026-09-30T07:44:19.939434+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4de2127171bdeaffae8bc4767d2491f3600d693ac7e2f536ea8ed015d7f96db7",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

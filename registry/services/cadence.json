@@ -1,0 +1,13 @@
+{
+  "service_id": "cadence",
+  "name": "cadence",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "placeholder",
+  "tier": 2,
+  "status": "active",
+  "lock": "none",
+  "notes": "R14 generated placeholder — MUST replace",
+  "review_status": "placeholder_needs_replace"
+}

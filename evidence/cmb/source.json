@@ -1,0 +1,9 @@
+{
+  "service_id": "cmb",
+  "source_url": "seed://cmb.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.925020+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ae1943b55817b8049404c34cb2a3a9ab6a09a410ad02050a3d0c6c9d41cc5be7",
+  "review_status": "App Store interim (招商银行); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

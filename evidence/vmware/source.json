@@ -1,0 +1,9 @@
+{
+  "service_id": "vmware",
+  "source_url": "seed://vmware.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.755733+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7a70106e740efb014cf32cb70130c68d841ae4cab3761417c16c0c58087d8fed",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

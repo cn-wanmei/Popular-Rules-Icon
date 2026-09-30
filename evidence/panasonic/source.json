@@ -1,0 +1,9 @@
+{
+  "service_id": "panasonic",
+  "source_url": "seed://panasonic.png",
+  "retrieved_at": "2026-09-30T07:44:19.857357+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0829d8ae1cde0fed69c9415286afc29c38739589830f96106d606b971538bc24",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,14 @@
+{
+  "service_id": "adobe-firefly",
+  "name": "adobe-firefly",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→adobe",
+  "icon_alias_of": "adobe",
+  "review_status": "needs_review"
+}

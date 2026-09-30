@@ -1,0 +1,9 @@
+{
+  "service_id": "pptv",
+  "source_url": "seed://pptv.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.765995+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3b0419e7b9828cd87020d8d07d94fca110fbabf5189a636d8aec8d9900c76b58",
+  "review_status": "Auto App Store: PP视频-海量电视剧电影综艺视频高清播放; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

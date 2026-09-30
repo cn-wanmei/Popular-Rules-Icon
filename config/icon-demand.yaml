@@ -1,29 +1,31 @@
-# R6 — Icon demand contract (Collection may override; this is Icon-side default)
 schema: icon_demand_v1
-version: "1.0.0"
+version: "1.1.0"
 updated: "2026-09-30"
-
-# Default demand when Collection does not publish icon-demand
 defaults:
   styles:
     - source_original
+    - glassmorphism
+    - soft_3d
+    - neo_skeuomorphism
+    - minimalist
+    - duotone_line
+    - mbe
+    - y2k
   sizes: [128, 256]
   formats: [png]
-  tier0_require_real: true
-  allow_placeholder: false
-
-# Optional per-client overrides
+  # clients may subset via clients.<name>.styles
 clients:
   generic:
     styles: [source_original]
     sizes: [128, 256]
-  mobile:
-    styles: [source_original]
+  rich:
+    styles:
+      - source_original
+      - glassmorphism
+      - soft_3d
+      - neo_skeuomorphism
+      - minimalist
+      - duotone_line
+      - mbe
+      - y2k
     sizes: [128, 256]
-  desktop:
-    styles: [source_original]
-    sizes: [256]
-
-notes: |
-  Collection may publish config/icon-demand.yaml with the same schema.
-  Icon pipeline falls back to this file when Collection demand is absent.

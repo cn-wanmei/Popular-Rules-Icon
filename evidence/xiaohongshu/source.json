@@ -1,0 +1,9 @@
+{
+  "service_id": "xiaohongshu",
+  "source_url": "seed://xiaohongshu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.829379+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e1dacfc0d18fb5895e26760963fa9eb8bd07a2512971ecf5c1b814286c12a5ad",
+  "review_status": "Auto App Store: 小红书 - 你的生活兴趣社区; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

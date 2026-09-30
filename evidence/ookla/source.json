@@ -1,0 +1,9 @@
+{
+  "service_id": "ookla",
+  "source_url": "seed://ookla.png",
+  "retrieved_at": "2026-09-30T07:44:19.734616+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e91ec45009513fe7772205f1eea7cc438a0b2ad4854025c37c5786e8a2682e36",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

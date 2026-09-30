@@ -1,0 +1,9 @@
+{
+  "service_id": "dianping",
+  "source_url": "seed://dianping.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.870890+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bd92babcc103c6d3bcdf48e808ed9f5e75f4f9bb7eb10ff3ccc48f4cfa3e9f88",
+  "review_status": "App Store interim (大众点评 - 吃喝玩乐指南); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

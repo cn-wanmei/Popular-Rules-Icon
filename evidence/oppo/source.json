@@ -1,0 +1,9 @@
+{
+  "service_id": "oppo",
+  "source_url": "seed://oppo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.882624+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7f0d99b763077e8986df40924a02c1913b5c98470139eb35f03fac14b11f9e90",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

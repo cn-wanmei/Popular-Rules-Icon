@@ -1,0 +1,9 @@
+{
+  "service_id": "atour",
+  "source_url": "seed://atour.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.728982+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3bbe12df935ac49e73e25645a689dcd4163a82f5029a4844994b4eb3f6ffbb0d",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

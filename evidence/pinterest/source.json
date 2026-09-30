@@ -1,0 +1,9 @@
+{
+  "service_id": "pinterest",
+  "source_url": "seed://pinterest.jpg",
+  "retrieved_at": "2026-09-30T07:44:20.002967+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d4b97a1eecc05bd042c0d320a2bfa1194873e5c8dc99c0f8f3e55ea2519883ba",
+  "review_status": "Interim App Store icon (Pinterest); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

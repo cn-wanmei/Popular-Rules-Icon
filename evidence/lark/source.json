@@ -1,0 +1,9 @@
+{
+  "service_id": "lark",
+  "source_url": "seed://lark.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.735091+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e17869303b23cdb2963f652303cc36f18fabc3afd545393f0764c5e9c0b72b9a",
+  "review_status": "Auto App Store: Lark - Team Collaboration; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

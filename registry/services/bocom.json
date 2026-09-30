@@ -1,0 +1,13 @@
+{
+  "service_id": "bocom",
+  "name": "交通银行",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 交通银行",
+  "review_status": "needs_review"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "yelp",
+  "source_url": "seed://yelp.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.990024+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2127132ca78437adb12cd48ab87ca60ba1db30d94136fd7c92399e47a5d2c676",
+  "review_status": "App Store interim (Yelp: Food, Services & Reviews); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

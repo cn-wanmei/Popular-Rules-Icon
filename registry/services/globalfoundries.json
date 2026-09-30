@@ -1,0 +1,13 @@
+{
+  "service_id": "globalfoundries",
+  "name": "Foreign Affairs Magazine",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: Foreign Affairs Magazine",
+  "review_status": "needs_review"
+}

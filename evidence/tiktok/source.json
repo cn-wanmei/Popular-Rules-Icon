@@ -1,0 +1,9 @@
+{
+  "service_id": "tiktok",
+  "source_url": "seed://tiktok.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.822194+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8eaccc891502def6952ac2a3973ea5e618aff642856410b5f072e3a52cff6959",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

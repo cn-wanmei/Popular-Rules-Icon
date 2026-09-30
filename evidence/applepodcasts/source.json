@@ -1,0 +1,9 @@
+{
+  "service_id": "applepodcasts",
+  "source_url": "seed://applepodcasts.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.794898+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "349928383bc7720474533851610d2675646ea088e5267f1f703a4b25371161e0",
+  "review_status": "Auto App Store: Apple Podcasts; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

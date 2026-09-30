@@ -1,0 +1,9 @@
+{
+  "service_id": "hellobike",
+  "source_url": "seed://hellobike.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.849191+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ee1c811a45f00891f7b1dbb1135a10024a28e58e02bd2b844b47c7fca1db332a",
+  "review_status": "App Store interim (哈啰-骑车顺风车打车租车); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

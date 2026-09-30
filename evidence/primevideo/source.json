@@ -1,0 +1,9 @@
+{
+  "service_id": "primevideo",
+  "source_url": "seed://primevideo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.953108+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "fc72cae163fb287d85debb64adb526d5d430987e9cc1d4fe948f34007f791126",
+  "review_status": "App Store interim (Amazon Prime Video); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

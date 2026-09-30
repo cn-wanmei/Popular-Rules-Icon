@@ -1,0 +1,9 @@
+{
+  "service_id": "spacex",
+  "source_url": "seed://spacex.png",
+  "retrieved_at": "2026-09-30T07:44:19.795998+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8d28b6c051e9d5e6374a5e08e8c5fcc88f053f8199ec455a51192fb820c157d8",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

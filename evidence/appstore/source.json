@@ -1,0 +1,9 @@
+{
+  "service_id": "appstore",
+  "source_url": "seed://appstore.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.775169+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6c04487e9881270ff01f07c8f42a3fc558c60c312871b5255a86725db157d577",
+  "review_status": "Auto App Store: Apple Store; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

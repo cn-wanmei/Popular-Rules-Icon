@@ -1,0 +1,9 @@
+{
+  "service_id": "steam",
+  "source_url": "seed://steam.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.767304+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "5b2775317e0009edc944fe7f1ee4f22115161d00b4b0872686483947867d8df3",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

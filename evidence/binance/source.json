@@ -1,0 +1,9 @@
+{
+  "service_id": "binance",
+  "source_url": "seed://binance.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.846726+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "41f5149afabef3f6bb6991b91e1c67f36395a037a9790103c9a783213d225926",
+  "review_status": "App Store interim (Binance.US - Buy Crypto & BTC); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "elevenlabs",
+  "source_url": "seed://elevenlabs.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.873731+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "334fca8fb3c80b77112b58ac8830cff5582c1a08b557ff9a2582252f63c466d0",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

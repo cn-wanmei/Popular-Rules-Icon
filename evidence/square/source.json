@@ -1,0 +1,9 @@
+{
+  "service_id": "square",
+  "source_url": "seed://square.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.935931+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a2ad9e1ce000eac84300a91b200dc7e990365628ba3e43c8629962aeab7695ac",
+  "review_status": "App Store interim (Square Point of Sale (POS)); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

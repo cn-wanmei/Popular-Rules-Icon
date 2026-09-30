@@ -1,0 +1,9 @@
+{
+  "service_id": "dingtalk",
+  "source_url": "seed://dingtalk.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.997001+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "30b8c0fea2ad43abf2fc23c10137eb6a677adeca2e087b927487bdde5a434b19",
+  "review_status": "App Store interim (钉钉); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

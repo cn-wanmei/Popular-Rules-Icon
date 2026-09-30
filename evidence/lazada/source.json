@@ -1,0 +1,9 @@
+{
+  "service_id": "lazada",
+  "source_url": "seed://lazada.png",
+  "retrieved_at": "2026-09-30T07:44:20.010304+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e921356bec68d64ecd0ce30f8dbf31723ce33728267d34d41469d5c5c86d2345",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

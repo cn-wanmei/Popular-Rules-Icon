@@ -1,0 +1,9 @@
+{
+  "service_id": "roborock",
+  "source_url": "seed://roborock.png",
+  "retrieved_at": "2026-09-30T07:44:19.844493+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3da86d066a398ca0a8ba23f5f2ea9dd32609d3c9dccdafd10d5c8d8790458cf2",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

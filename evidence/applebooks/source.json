@@ -1,0 +1,9 @@
+{
+  "service_id": "applebooks",
+  "source_url": "seed://applebooks.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.876165+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9329cce0b5c1a3edad8bb2b141a2c9b628cdcc3376b2b0e7f6af3d735a30abfa",
+  "review_status": "Auto App Store: Apple Books; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

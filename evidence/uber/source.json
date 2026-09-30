@@ -1,0 +1,9 @@
+{
+  "service_id": "uber",
+  "source_url": "seed://uber.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.905038+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1bc1330ee99ec3134e1ed3c90060580b174a1a489ab18c2e285471bd9d5f758e",
+  "review_status": "Interim App Store icon (Uber - Rides, Eats, Hotels); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

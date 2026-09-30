@@ -1,0 +1,9 @@
+{
+  "service_id": "databricks",
+  "source_url": "seed://databricks.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.880813+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c8363af672f2a32cb20dbcad56895e87d143b781dfa036fb3cbd5cb33be5eec9",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

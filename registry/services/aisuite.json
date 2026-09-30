@@ -1,0 +1,14 @@
+{
+  "service_id": "aisuite",
+  "name": "aisuite",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→claude",
+  "icon_alias_of": "claude",
+  "review_status": "needs_review"
+}

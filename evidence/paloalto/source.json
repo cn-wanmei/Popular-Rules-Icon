@@ -1,0 +1,9 @@
+{
+  "service_id": "paloalto",
+  "source_url": "seed://paloalto.png",
+  "retrieved_at": "2026-09-30T07:44:19.813880+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9daa8f51edccf5bb8caa98c6000145643bfd38623cfc2bd79ed7d403ebc738d4",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

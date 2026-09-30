@@ -1,0 +1,9 @@
+{
+  "service_id": "google-play",
+  "source_url": "seed://google-play.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.950666+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "922a72e75e488d41c248827d3d52c9c669a99cca73d25e5865b09b694c4ebedc",
+  "review_status": "alias of googleplay",
+  "usage_basis": "identifier_use_takedown"
+}

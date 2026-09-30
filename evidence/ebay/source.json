@@ -1,0 +1,9 @@
+{
+  "service_id": "ebay",
+  "source_url": "seed://ebay.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.953653+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7c2a430ad96976159c87495e2aec6ca131d6ffb88703378f76845420b2098f45",
+  "review_status": "Interim App Store icon (eBay online shopping & selling); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

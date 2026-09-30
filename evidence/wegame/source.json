@@ -1,0 +1,9 @@
+{
+  "service_id": "wegame",
+  "source_url": "seed://wegame.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.785492+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6e139f5d1a662c92b6771d642525eff9d47eac02dd8b54aa7c497aa41a33d08d",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

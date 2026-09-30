@@ -1,0 +1,9 @@
+{
+  "service_id": "playstation",
+  "source_url": "seed://playstation.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.744703+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "5887a639dd9c37fb2eb0e693bb3f5d4795d485e10f5c8e8d047454d3959663ad",
+  "review_status": "Auto App Store: PlayStation App; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

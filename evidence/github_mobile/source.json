@@ -1,0 +1,9 @@
+{
+  "service_id": "github_mobile",
+  "source_url": "seed://github_mobile.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.874426+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "cab0d60fb4807df4eec14100322226409802347c9701177ec55d39ca3870a28f",
+  "review_status": "App Store interim (GitHub); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

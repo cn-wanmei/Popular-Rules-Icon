@@ -1,0 +1,9 @@
+{
+  "service_id": "bitbucket",
+  "source_url": "seed://bitbucket.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.986907+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1fb444bb446bba40a40c221d44da24db98c38d272accf5645a38db5cc2682f63",
+  "review_status": "App Store interim (GitApp for Bitbucket); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

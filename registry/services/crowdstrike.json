@@ -1,0 +1,13 @@
+{
+  "service_id": "crowdstrike",
+  "name": "CrowdStrike Falcon",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: CrowdStrike Falcon",
+  "review_status": "needs_review"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "birentech",
+  "source_url": "seed://birentech.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.748487+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "26c7b0fa9e0b094b8b5f0b8dac053f1f1dc9a7351944a9b6d5aaf6bebd1dac13",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "abc",
+  "source_url": "seed://abc.png",
+  "retrieved_at": "2026-09-30T07:44:19.843989+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0b306e448bfcbeeaf198860142d3e431e3ea1bb62a69a4398ea3c8c3788b857c",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

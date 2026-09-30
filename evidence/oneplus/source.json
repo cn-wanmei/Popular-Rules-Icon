@@ -1,0 +1,9 @@
+{
+  "service_id": "oneplus",
+  "source_url": "seed://oneplus.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.780450+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bfdef1a36d2833d7c688f590731e5546cc5afb9d8c03579283f359884b03fdb4",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "honor",
+  "source_url": "seed://honor.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.941076+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4efd6dd76d3c80be4125db6eededdee94d807e1b2bf8e52782cfce918496fe56",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

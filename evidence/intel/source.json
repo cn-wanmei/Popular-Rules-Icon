@@ -1,0 +1,9 @@
+{
+  "service_id": "intel",
+  "source_url": "seed://intel.png",
+  "retrieved_at": "2026-09-30T07:44:19.833297+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8a8eccc3aa084bba17336084fa038c690e09a1fdfba282784dc5a5afb81698a7",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

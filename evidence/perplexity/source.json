@@ -1,0 +1,9 @@
+{
+  "service_id": "perplexity",
+  "source_url": "seed://perplexity.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.924311+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e58dabedc00831be6ac36ff8c74dc906210831ef33ef82859f2c28617d47338c",
+  "review_status": "Auto App Store: Perplexity - AI Search & Chat; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

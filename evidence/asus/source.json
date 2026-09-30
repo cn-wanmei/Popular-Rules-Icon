@@ -1,0 +1,9 @@
+{
+  "service_id": "asus",
+  "source_url": "seed://asus.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.753187+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4934fd89630bfb66cf434549e561428ef7b59d93d3c3743d34e5ed9818b3c2bd",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

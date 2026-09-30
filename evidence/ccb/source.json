@@ -1,0 +1,9 @@
+{
+  "service_id": "ccb",
+  "source_url": "seed://ccb.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.744055+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e5e20bb9a090695f4ff35fd6948cabd0f8f152a5d2caec6435d1c0d2d820e38e",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

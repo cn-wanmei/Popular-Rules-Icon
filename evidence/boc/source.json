@@ -1,0 +1,9 @@
+{
+  "service_id": "boc",
+  "source_url": "seed://boc.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.729983+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e05af9b1b672efb40403e7bb4375780dcb9043c4e9092dd304cac665e3816c8d",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

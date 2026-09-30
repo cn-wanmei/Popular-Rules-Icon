@@ -1,0 +1,9 @@
+{
+  "service_id": "huawei",
+  "source_url": "seed://huawei.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.848105+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "57ba28b09909512d4e18dc263a3010a488879eb2873e63494c37a1677c2bb13a",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

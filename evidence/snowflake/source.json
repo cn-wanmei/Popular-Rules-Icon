@@ -1,0 +1,9 @@
+{
+  "service_id": "snowflake",
+  "source_url": "seed://snowflake.png",
+  "retrieved_at": "2026-09-30T07:44:19.748984+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b2a2c729db9402ff4173c8a145c03a4c718cd269609c1e56b5e932c4280b7799",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

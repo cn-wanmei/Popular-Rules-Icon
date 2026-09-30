@@ -1,0 +1,9 @@
+{
+  "service_id": "signal",
+  "source_url": "seed://signal.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.899525+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "25fc1ae5e9f78344d0a92ba7147c84bea95108d7f8c25fa27d51760cf6e37d23",
+  "review_status": "Auto App Store: Signal - Private Messenger; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

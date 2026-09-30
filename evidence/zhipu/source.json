@@ -1,0 +1,9 @@
+{
+  "service_id": "zhipu",
+  "source_url": "seed://zhipu.png",
+  "retrieved_at": "2026-09-30T07:44:19.764945+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a5d7589a117638eef898af63378e73ca19f07671849f35809241a2adb4ba51db",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

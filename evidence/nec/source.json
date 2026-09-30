@@ -1,0 +1,9 @@
+{
+  "service_id": "nec",
+  "source_url": "seed://nec.png",
+  "retrieved_at": "2026-09-30T07:44:19.939980+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d7003d5e4a6f948e10aa6d319750a4fa611d6948d47131ffd72edc246dbe533b",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

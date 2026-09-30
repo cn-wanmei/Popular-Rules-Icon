@@ -1,0 +1,9 @@
+{
+  "service_id": "stripe",
+  "source_url": "seed://stripe.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.837865+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2797c51b6fca9654c4d616c8c48693262608eaab5004757278d25a72483cf936",
+  "review_status": "App Store interim (Stripe Dashboard); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

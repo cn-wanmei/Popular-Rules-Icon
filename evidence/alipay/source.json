@@ -1,0 +1,9 @@
+{
+  "service_id": "alipay",
+  "source_url": "seed://alipay.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.808129+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8e0475b4d56312f4e37de11bbfc05adac38abaf786347611700494c2e8df290f",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

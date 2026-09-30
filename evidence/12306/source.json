@@ -1,0 +1,9 @@
+{
+  "service_id": "12306",
+  "source_url": "seed://12306.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.752636+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2836c329fe5359cc6dd1ca12e1a79a0f9592cdad59c3f4880cc781e4a333ed61",
+  "review_status": "App Store interim (铁路12306); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

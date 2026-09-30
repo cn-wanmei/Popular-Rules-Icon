@@ -1,0 +1,9 @@
+{
+  "service_id": "meta",
+  "source_url": "seed://meta.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.943861+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b17e0ebf54f903866ceafd045bc32f51914ff8bb5912e204215f14cfe2cc72fd",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

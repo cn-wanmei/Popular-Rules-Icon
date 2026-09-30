@@ -1,0 +1,9 @@
+{
+  "service_id": "chrome",
+  "source_url": "seed://chrome.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.836960+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b0d52684d6c1a39278eee456aaff58f20b20d349851b12b1288a1b4dbea51459",
+  "review_status": "App Store interim (Google Chrome); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "sony",
+  "source_url": "seed://sony.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.944955+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "77853049a3d4e0d387bec749b49dfbb4e3e638ff531928eb7a3155e0da0b771f",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "bytedance",
+  "source_url": "seed://bytedance.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.893250+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3cc66dba35558db2a0986895bfb163d68fc59c55e0c599eae0015bcf228feddf",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

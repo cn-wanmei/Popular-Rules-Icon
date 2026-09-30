@@ -1,0 +1,9 @@
+{
+  "service_id": "alibaba",
+  "source_url": "seed://alibaba.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.727399+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e637d9fbccb88e89facacb452971e6d8fde3c4a1ddec85bcae756454168f1a50",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

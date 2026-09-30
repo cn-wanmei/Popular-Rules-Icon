@@ -1,0 +1,9 @@
+{
+  "service_id": "okta",
+  "source_url": "seed://okta.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.842951+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9f6ee65834d45b60eecb4ec1bd7e8a236c4ed5479152b8a2a29bbd917a0693d0",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

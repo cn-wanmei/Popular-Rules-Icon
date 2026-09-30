@@ -1,0 +1,9 @@
+{
+  "service_id": "nintendo",
+  "source_url": "seed://nintendo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.827852+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "245648eba4e5f54c8721bacc47d7c76a7d5152cbedc8dfda7d3fa958f043b0f9",
+  "review_status": "Auto App Store: Nintendo Switch App; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

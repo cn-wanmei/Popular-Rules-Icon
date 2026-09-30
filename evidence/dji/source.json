@@ -1,0 +1,9 @@
+{
+  "service_id": "dji",
+  "source_url": "seed://dji.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.805224+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f243f0c521937bb00cf847936ae3008188f6e9dc2ebaa82be290a640c6b0bead",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

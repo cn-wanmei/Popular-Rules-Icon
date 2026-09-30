@@ -1,0 +1,9 @@
+{
+  "service_id": "meituan",
+  "source_url": "seed://meituan.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.858508+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "50571e7287546a976ba7fecf07bf3368bdf3fc053074551c2bee1db6f26cd881",
+  "review_status": "Interim App Store icon (美团-问美团，都安排); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

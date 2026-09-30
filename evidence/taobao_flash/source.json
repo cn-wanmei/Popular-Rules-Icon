@@ -1,0 +1,9 @@
+{
+  "service_id": "taobao_flash",
+  "source_url": "seed://taobao_flash.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.765502+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "03ce097e2a85124bd09a20a162b9dada469cd8b3887954c90a0092000caf2b23",
+  "review_status": "原饿了么业务已并入淘宝闪购；service_id=taobao_flash，eleme 为别名",
+  "usage_basis": "identifier_use_takedown"
+}

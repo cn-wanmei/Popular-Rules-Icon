@@ -1,0 +1,9 @@
+{
+  "service_id": "ximalaya",
+  "source_url": "seed://ximalaya.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.747502+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "70fd2f84371475520b043b21ca071a272c921b0ff7d9502a834314056f570720",
+  "review_status": "App Store interim (喜马拉雅「听书社区」电台有声小说相声评书); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

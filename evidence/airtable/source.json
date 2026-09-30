@@ -1,0 +1,9 @@
+{
+  "service_id": "airtable",
+  "source_url": "seed://airtable.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.887975+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "769c1a86fae2ec8eaa0399f2e3769973504d616ee4aee2e68fb13c6790167493",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

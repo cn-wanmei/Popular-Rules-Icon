@@ -2,10 +2,10 @@
 
 | Phase | Status | Notes |
 |-------|--------|-------|
-| R14 Collection gap fill | partial | 266 services; ~44%→~50%+ via aliases; more waves needed |
-| R15 Style QA gate | done | scripts/styles_coverage_gate.py PASS 266×16 |
-| R16 Demand-driven styles | pending | icon-demand can list styles; pipeline always emits 8 |
-| R17 Evidence bulk | pending | template only |
-| R18 Collection materialize | pending | resolver exists; wire into build |
-| R19 Mirror health | pending | |
-| R20 Yearly freeze | pending | |
+| R14 Collection 100% | **done** | all Collection non-aggregate IDs have seed+registry; placeholders/aliases need human audit |
+| R15 Style QA gate | **done** | 16 variants/service |
+| R16 Demand styles | **done** | icon-demand.yaml client subsets |
+| R17 Evidence bulk | **done** | evidence/<sid>/source.json |
+| R18 URL map export | **done** | reports/icon_url_map_source_original_256.json |
+| R19 Mirror health | **done** | scripts/mirror_health.py |
+| R20 Yearly freeze | pending | next calendar freeze |

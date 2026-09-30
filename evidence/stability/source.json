@@ -1,0 +1,9 @@
+{
+  "service_id": "stability",
+  "source_url": "seed://stability.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.885564+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d1997dc74cbde706071020b23c5c4e1c0c1695bceebe20109833c7612ff83243",
+  "review_status": "Auto App Store: Stability AI - Video Generator; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

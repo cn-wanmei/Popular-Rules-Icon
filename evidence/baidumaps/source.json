@@ -1,0 +1,9 @@
+{
+  "service_id": "baidumaps",
+  "source_url": "seed://baidumaps.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.947317+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9901cffe5ccb8e1efc86276f2c24f25a7bd4dcc1b5110ec64623e026a7c708c6",
+  "review_status": "alias of baidumap",
+  "usage_basis": "identifier_use_takedown"
+}

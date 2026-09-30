@@ -1,0 +1,9 @@
+{
+  "service_id": "asml",
+  "source_url": "seed://asml.png",
+  "retrieved_at": "2026-09-30T07:44:19.732895+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f19e868a31a2e0bfeddb96d4e17e49044c666d77bdd2bab277c7567cc77b2e4c",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

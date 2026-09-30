@@ -1,0 +1,9 @@
+{
+  "service_id": "special",
+  "source_url": "seed://special.png",
+  "retrieved_at": "2026-09-30T07:44:19.911023+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6d9316a1e88cc753ffea0735342e7a4ec45f5f535a1b68cb8e0f5424505d650e",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

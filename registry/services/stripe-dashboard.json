@@ -1,0 +1,14 @@
+{
+  "service_id": "stripe-dashboard",
+  "name": "stripe-dashboard",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→stripe",
+  "icon_alias_of": "stripe",
+  "review_status": "needs_review"
+}

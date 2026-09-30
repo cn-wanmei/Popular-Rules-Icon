@@ -1,0 +1,9 @@
+{
+  "service_id": "kingsoft",
+  "source_url": "seed://kingsoft.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.886738+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9e198fa07f8e1417fa9fa6835f874075ac9efadc2deb7f7598e94041f301e357",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

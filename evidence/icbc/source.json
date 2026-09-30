@@ -1,0 +1,9 @@
+{
+  "service_id": "icbc",
+  "source_url": "seed://icbc.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.825909+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "793e102f312714b48c8119a8375406ab9cd27ff7bda271232e629aa98fc3099f",
+  "review_status": "App Store interim (中国工商银行); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

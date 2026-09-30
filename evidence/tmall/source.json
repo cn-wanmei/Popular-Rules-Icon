@@ -1,0 +1,9 @@
+{
+  "service_id": "tmall",
+  "source_url": "seed://tmall.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.903877+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "997ff0c575366a92613359d7cb6b3701752e736da3541928e5852d48030dc000",
+  "review_status": "Interim App Store icon (天猫 - 好品牌，好价格，上天猫); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

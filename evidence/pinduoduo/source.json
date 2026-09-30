@@ -1,0 +1,9 @@
+{
+  "service_id": "pinduoduo",
+  "source_url": "seed://pinduoduo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.906163+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a722ed2a672d3a02f19d4722ea8c46232ffd67e8cfadd8e6e55e48db889c2ff0",
+  "review_status": "Interim App Store icon (拼多多 - 多多买菜，百亿补贴); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "bilibili",
+  "source_url": "seed://bilibili.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.909248+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "335bb86bf63b9db7866d539431f0425bb3e336d3c43c2ca0bc11000558442ba6",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

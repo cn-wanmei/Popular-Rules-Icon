@@ -1,0 +1,9 @@
+{
+  "service_id": "ubisoft",
+  "source_url": "seed://ubisoft.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.897160+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f2c742c2493b24e07c668b7c426c3a231fccfd7acb3320ac373ec0bcf80c2e84",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

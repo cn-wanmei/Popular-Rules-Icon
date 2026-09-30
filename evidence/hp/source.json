@@ -1,0 +1,9 @@
+{
+  "service_id": "hp",
+  "source_url": "seed://hp.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.919689+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d3d79b5bfdbda0e0bf7f50b866d38dfd03de4888db8495f1f532da1458958ad9",
+  "review_status": "Auto App Store: HP; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

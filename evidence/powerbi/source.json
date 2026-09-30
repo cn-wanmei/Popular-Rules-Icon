@@ -1,0 +1,9 @@
+{
+  "service_id": "powerbi",
+  "source_url": "seed://powerbi.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.732437+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1dbc4a69d85984c349e85e6a817e675a939c73a4f8257792a6c5ce949f998624",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

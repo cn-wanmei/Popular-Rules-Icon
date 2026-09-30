@@ -1,0 +1,9 @@
+{
+  "service_id": "ceb",
+  "source_url": "seed://ceb.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.916822+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1f7d365c7a8782f29acc4f319a686a523a72c3cfd63245631fd392de7e09873d",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

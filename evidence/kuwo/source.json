@@ -1,0 +1,9 @@
+{
+  "service_id": "kuwo",
+  "source_url": "seed://kuwo.png",
+  "retrieved_at": "2026-09-30T07:44:19.972773+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b236a54ab53a9ee316c787ba7b977b3c31d7ca7293397a8703e8be9ff72df867",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

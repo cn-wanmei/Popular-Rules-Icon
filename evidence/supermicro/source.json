@@ -1,0 +1,9 @@
+{
+  "service_id": "supermicro",
+  "source_url": "seed://supermicro.png",
+  "retrieved_at": "2026-09-30T07:44:20.000343+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1d19db48321f0ec96491698826106b0863e19854b1b55cc58cbd82ffcaa7147a",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

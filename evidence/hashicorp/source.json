@@ -1,0 +1,9 @@
+{
+  "service_id": "hashicorp",
+  "source_url": "seed://hashicorp.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.781861+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bef347868ffd9efb84853c20e7a6fbcfcd3a99e750abe4bc43263908adeced74",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

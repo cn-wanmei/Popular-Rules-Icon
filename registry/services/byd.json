@@ -1,0 +1,13 @@
+{
+  "service_id": "byd",
+  "name": "比亚迪",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 比亚迪",
+  "review_status": "needs_review"
+}

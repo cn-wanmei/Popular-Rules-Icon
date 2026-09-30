@@ -1,0 +1,9 @@
+{
+  "service_id": "youtubemusic",
+  "source_url": "seed://youtubemusic.png",
+  "retrieved_at": "2026-09-30T07:44:20.005454+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0dc511c445ce3cff30135b9b5d8b0135f00e0e26b2a0eb35363269ad86c2c03b",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

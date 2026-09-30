@@ -1,0 +1,9 @@
+{
+  "service_id": "mongodb",
+  "source_url": "seed://mongodb.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.948948+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "5a35b8b1bd557a054d6f85539dd5511f04e2e415b29aa03125805bfb35cc3ea3",
+  "review_status": "Auto App Store: MongoDB Events; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

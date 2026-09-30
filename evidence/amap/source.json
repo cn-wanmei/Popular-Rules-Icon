@@ -1,0 +1,9 @@
+{
+  "service_id": "amap",
+  "source_url": "seed://amap.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.907448+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "22e39e91c3706d2d26884cf8c7342248510f527c093a33d2ee68bfc19891ce37",
+  "review_status": "alias of gaode",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "airbnb",
+  "source_url": "seed://airbnb.jpg",
+  "retrieved_at": "2026-09-30T07:44:20.005924+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "be278b74b7fd12af31f35f1879e0640fd56299c0b4e795664daa75e44b1b072b",
+  "review_status": "Interim App Store icon (Airbnb); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

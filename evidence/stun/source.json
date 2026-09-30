@@ -1,0 +1,9 @@
+{
+  "service_id": "stun",
+  "source_url": "seed://stun.png",
+  "retrieved_at": "2026-09-30T07:44:19.847240+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0243e31a6b25f22757e44fb9f5db06e1ca9d3bc0c820aaa37642c764f1bbfb89",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

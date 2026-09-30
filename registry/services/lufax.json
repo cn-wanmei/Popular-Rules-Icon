@@ -1,0 +1,13 @@
+{
+  "service_id": "lufax",
+  "name": "CARFAX for Dealers",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: CARFAX for Dealers",
+  "review_status": "needs_review"
+}

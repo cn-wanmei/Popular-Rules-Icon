@@ -1,0 +1,9 @@
+{
+  "service_id": "applenews",
+  "source_url": "seed://applenews.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.940550+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "62ded8a37974bfff5e869cf773012a22c1ac25a0864b57d12e3f30ecc5ea48ea",
+  "review_status": "Auto App Store: Apple News; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

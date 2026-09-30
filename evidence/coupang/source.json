@@ -1,0 +1,9 @@
+{
+  "service_id": "coupang",
+  "source_url": "seed://coupang.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.869591+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3e74b026b43c23ab6fef5dcaece564d5d600cd10119cd2bc2cc5454dc1a4009e",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "jd",
+  "source_url": "seed://jd.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.838479+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "42e830aecf55ffd0872d8e28d365ff48e1ba1b6da210cb63d9a3ea1c344e1a24",
+  "review_status": "alias of jingdong",
+  "usage_basis": "identifier_use_takedown"
+}

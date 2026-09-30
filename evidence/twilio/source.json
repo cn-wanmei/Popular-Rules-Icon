@@ -1,0 +1,9 @@
+{
+  "service_id": "twilio",
+  "source_url": "seed://twilio.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.793231+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "500f09b28f707e07b514f93e27c64c80e806925c235df8778ff73a40f626c1af",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

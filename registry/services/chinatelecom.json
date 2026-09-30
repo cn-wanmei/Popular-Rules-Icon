@@ -1,0 +1,13 @@
+{
+  "service_id": "chinatelecom",
+  "name": "中国电信-全国统一官方服务平台",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 中国电信-全国统一官方服务平台",
+  "review_status": "needs_review"
+}

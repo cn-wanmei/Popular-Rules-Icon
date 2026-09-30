@@ -1,0 +1,13 @@
+{
+  "service_id": "douyu",
+  "name": "斗鱼-超高清游戏直播视频娱乐平台",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 斗鱼-超高清游戏直播视频娱乐平台",
+  "review_status": "needs_review"
+}

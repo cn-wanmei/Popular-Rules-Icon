@@ -1,0 +1,9 @@
+{
+  "service_id": "dassault",
+  "source_url": "seed://dassault.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.855529+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b1778acad7736e339b8af5c33e15d580549c751b623aac894d135a4f59d35813",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

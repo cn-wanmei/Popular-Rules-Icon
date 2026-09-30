@@ -1,0 +1,13 @@
+{
+  "service_id": "dewu",
+  "name": "得物 - 得到美好事物",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 得物 - 得到美好事物",
+  "review_status": "needs_review"
+}

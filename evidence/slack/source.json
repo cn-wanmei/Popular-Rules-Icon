@@ -1,0 +1,9 @@
+{
+  "service_id": "slack",
+  "source_url": "seed://slack.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.842055+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7f20c2542862dc0e54bd59c1afba87c5099f28996aa0686f401fd982550576ac",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

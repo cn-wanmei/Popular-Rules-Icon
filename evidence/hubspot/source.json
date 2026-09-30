@@ -1,0 +1,9 @@
+{
+  "service_id": "hubspot",
+  "source_url": "seed://hubspot.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.870171+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "35cb5fe9f23a0bbd839faceeb9e44affb373e85fae84588e574da2abbe6bf9c9",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

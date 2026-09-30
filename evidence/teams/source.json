@@ -1,0 +1,9 @@
+{
+  "service_id": "teams",
+  "source_url": "seed://teams.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.883177+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e287bc876186570ad6f82799851a17814c388e1830e0f1e71ad5a258b042f5bb",
+  "review_status": "App Store interim (Microsoft Teams); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

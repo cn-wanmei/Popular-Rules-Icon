@@ -1,0 +1,9 @@
+{
+  "service_id": "kakao",
+  "source_url": "seed://kakao.png",
+  "retrieved_at": "2026-09-30T07:44:19.963079+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6a74ba20756139867ddaa53c83a86071e9286855d0986b307143e9ff113e55ec",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

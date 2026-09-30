@@ -1,0 +1,9 @@
+{
+  "service_id": "eleme",
+  "source_url": "seed://eleme.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.737960+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "03ce097e2a85124bd09a20a162b9dada469cd8b3887954c90a0092000caf2b23",
+  "review_status": "alias of taobao_flash",
+  "usage_basis": "identifier_use_takedown"
+}

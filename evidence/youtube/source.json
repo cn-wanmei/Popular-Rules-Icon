@@ -1,0 +1,9 @@
+{
+  "service_id": "youtube",
+  "source_url": "seed://youtube.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.771713+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "69b9300bc591fc14a537aeaafb2beac330742a7bf553e2fe517779501d5e908c",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

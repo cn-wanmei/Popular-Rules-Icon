@@ -1,0 +1,9 @@
+{
+  "service_id": "eastmoney",
+  "source_url": "seed://eastmoney.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.770202+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "91196028c33c3f65e694bc76b604791f02edb910a3779230cc9360dc8b7ca736",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

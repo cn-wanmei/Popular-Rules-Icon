@@ -1,0 +1,9 @@
+{
+  "service_id": "netease_music",
+  "source_url": "seed://netease_music.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.819382+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7818b2b1290e5dfe4f017c628f61325a0fd811f3a877ef11e32bd1f86e2d0af2",
+  "review_status": "Interim App Store icon (网易云音乐-数亿音乐畅听); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

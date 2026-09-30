@@ -1,0 +1,9 @@
+{
+  "service_id": "dreame",
+  "source_url": "seed://dreame.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.818844+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e5aa698035a73df3f726e3a025495be88612c2d6bcb84f7e7f0b32bd38a77e10",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

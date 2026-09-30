@@ -1,0 +1,9 @@
+{
+  "service_id": "fortinet",
+  "source_url": "seed://fortinet.png",
+  "retrieved_at": "2026-09-30T07:44:19.827394+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0e60b87ff16d326edc54ebaa5f8bf6a0013d3ea095fba30c78ee9ad66aa28331",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

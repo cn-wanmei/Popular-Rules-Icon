@@ -1,0 +1,9 @@
+{
+  "service_id": "alipayhk",
+  "source_url": "seed://alipayhk.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.935379+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "eca849f9c65cf03bd8d1bdc6010078dda874ea61fba7132710a35d8172f388a4",
+  "review_status": "Auto App Store: AlipayHK; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

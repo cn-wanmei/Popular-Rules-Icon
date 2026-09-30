@@ -1,0 +1,9 @@
+{
+  "service_id": "things",
+  "source_url": "seed://things.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.835478+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "324a132c65aa6ea99caa23c7c1bad724a5d14d6f30c1c61421f30390afc171da",
+  "review_status": "Auto App Store: Things 3; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

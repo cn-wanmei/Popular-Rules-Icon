@@ -1,0 +1,9 @@
+{
+  "service_id": "rakuten",
+  "source_url": "seed://rakuten.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.922665+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8845b29a737cb70d695e57b99ccdba9e0ab63d08c6972442b95685aa4e4cbf04",
+  "review_status": "Auto App Store: Rakuten: Cash Back & Deals; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

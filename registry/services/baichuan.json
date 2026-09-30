@@ -1,0 +1,13 @@
+{
+  "service_id": "baichuan",
+  "name": "文心 - 百度旗下全能AI助手",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 文心 - 百度旗下全能AI助手",
+  "review_status": "needs_review"
+}

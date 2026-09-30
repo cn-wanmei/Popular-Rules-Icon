@@ -1,0 +1,9 @@
+{
+  "service_id": "google-maps",
+  "source_url": "seed://google-maps.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.832263+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a8d22875f4e7aefe59c53f772f17f583ca542643debf319e6e399500c32ccc70",
+  "review_status": "alias of maps",
+  "usage_basis": "identifier_use_takedown"
+}

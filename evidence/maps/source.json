@@ -1,0 +1,9 @@
+{
+  "service_id": "maps",
+  "source_url": "seed://maps.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.905583+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a8d22875f4e7aefe59c53f772f17f583ca542643debf319e6e399500c32ccc70",
+  "review_status": "App Store interim (Google Maps); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

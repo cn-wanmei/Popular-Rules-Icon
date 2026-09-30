@@ -1,0 +1,9 @@
+{
+  "service_id": "netapp",
+  "source_url": "seed://netapp.png",
+  "retrieved_at": "2026-09-30T07:44:20.004486+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7f071b091529bbdda128285c72fc7b125b8fd738381bee1f24052d40c86a8e0e",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

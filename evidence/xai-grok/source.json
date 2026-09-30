@@ -1,0 +1,9 @@
+{
+  "service_id": "xai-grok",
+  "source_url": "seed://xai-grok.png",
+  "retrieved_at": "2026-09-30T07:44:19.965656+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "330ccca8428c78ff95e7f43ddd3e2f5c89095d917df8e7f4a9960fcbe6b95935",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "mailchimp",
+  "source_url": "seed://mailchimp.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.916261+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bfd6c69bfe220967c70efe1e419fc7d6047dedee9b628cdb2736d13978ca03d2",
+  "review_status": "Auto App Store: Mailchimp Email Marketing; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

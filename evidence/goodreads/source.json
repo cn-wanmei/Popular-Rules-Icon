@@ -1,0 +1,9 @@
+{
+  "service_id": "goodreads",
+  "source_url": "seed://goodreads.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.929477+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8cd5ffdc7e0ee679a5a8ec448d438c72afccddf825bcbc4433511ef2f05d50ad",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

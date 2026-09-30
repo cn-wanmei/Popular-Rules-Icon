@@ -1,0 +1,9 @@
+{
+  "service_id": "yahoo",
+  "source_url": "seed://yahoo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.862563+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a35a8c0469ec5129bff5dbfe3b3bd095d4a54d3ce42aba59b141149fd3183042",
+  "review_status": "Auto App Store: Yahoo Mail: Your Email & Inbox; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

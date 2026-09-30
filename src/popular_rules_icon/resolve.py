@@ -30,6 +30,15 @@ def resolve_service_id(
     return service_id
 
 
+def demand_styles(demand: dict | None, client: str | None = None) -> list[str]:
+    """R16: styles allowed by icon-demand for a client."""
+    if not demand:
+        return ["source_original"]
+    if client and isinstance(demand.get("clients"), dict) and client in demand["clients"]:
+        return list(demand["clients"][client].get("styles") or demand.get("defaults", {}).get("styles") or ["source_original"])
+    return list((demand.get("defaults") or {}).get("styles") or ["source_original"])
+
+
 def variant_url(
     manifest: dict[str, Any],
     service_id: str,

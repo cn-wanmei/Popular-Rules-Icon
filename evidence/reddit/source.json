@@ -1,0 +1,9 @@
+{
+  "service_id": "reddit",
+  "source_url": "seed://reddit.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.999098+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4af5340199c09ace772f521294ed77a3f7e07740a9d5d74a6b4e440954589ce2",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

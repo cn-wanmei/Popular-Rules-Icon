@@ -1,0 +1,9 @@
+{
+  "service_id": "hitachi",
+  "source_url": "seed://hitachi.png",
+  "retrieved_at": "2026-09-30T07:44:19.923201+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "04297da8be7ca7e729239d9646f379d09da8008c30d42c36c4e9d40d11251bb9",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

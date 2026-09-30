@@ -1,0 +1,9 @@
+{
+  "service_id": "dewu",
+  "source_url": "seed://dewu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.745876+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8987c93174e7497afadda02145b4f189e2b2d42679b60478c4a8d8d46eb70135",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

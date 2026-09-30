@@ -1,0 +1,9 @@
+{
+  "service_id": "toutiao",
+  "source_url": "seed://toutiao.png",
+  "retrieved_at": "2026-09-30T07:44:19.808610+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d2b3c4e4cd5320bfeb0cc5f5e5b9910941d558ca6e3b5ebe0cf78b0f07d998c2",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

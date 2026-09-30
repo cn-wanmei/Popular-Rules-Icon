@@ -1,0 +1,9 @@
+{
+  "service_id": "tripadvisor",
+  "source_url": "seed://tripadvisor.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.973410+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "124680d9eabd3cb13a70643e30f148a2615ced4497aa581fa36ca3880d7393ad",
+  "review_status": "App Store interim (Tripadvisor: Plan & Book Trips); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

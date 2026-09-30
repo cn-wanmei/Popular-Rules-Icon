@@ -1,0 +1,9 @@
+{
+  "service_id": "kugou",
+  "source_url": "seed://kugou.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.779956+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2ed2119aa90bc565428a6234e93c510088d2529f84f4af11346e13bee2adf97a",
+  "review_status": "Auto App Store: 酷狗音乐 - 就是歌多; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "schneider",
+  "source_url": "seed://schneider.png",
+  "retrieved_at": "2026-09-30T07:44:19.994204+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "e86c3481d0e0bd1133339f433f3e89120ad85f5a79eab295d6026711f0c14144",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

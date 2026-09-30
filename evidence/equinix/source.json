@@ -1,0 +1,9 @@
+{
+  "service_id": "equinix",
+  "source_url": "seed://equinix.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.987899+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4da37fff418fd7831be533ba05946cf37b591bee74d258bf33cd07a4acce441c",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "speedtest",
+  "source_url": "seed://speedtest.png",
+  "retrieved_at": "2026-09-30T07:44:19.982880+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "da982d6269f1d471561364a99d0d6747082625301af4b8346225ed9791295a58",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

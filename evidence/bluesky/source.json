@@ -1,0 +1,9 @@
+{
+  "service_id": "bluesky",
+  "source_url": "seed://bluesky.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.802818+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ce5bf8f24422ff93c9b4a240f57809324dacbc293c31d5f7b2a11d1f8eb935f3",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

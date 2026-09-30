@@ -1,0 +1,9 @@
+{
+  "service_id": "xigua",
+  "source_url": "seed://xigua.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.803314+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f012a75c1e771f1d94d58e2021701760591cc4239e9d87314ad7ce2adab465de",
+  "review_status": "Auto App Store: 西瓜视频; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

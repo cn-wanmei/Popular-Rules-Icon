@@ -1,0 +1,9 @@
+{
+  "service_id": "byd",
+  "source_url": "seed://byd.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.831708+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f3642f2615b42170dd600239135cecc6854244cdb3a6f3ba81a5c4b70692669d",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

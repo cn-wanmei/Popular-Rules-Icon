@@ -1,0 +1,9 @@
+{
+  "service_id": "tencentmeeting",
+  "source_url": "seed://tencentmeeting.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.872010+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6b83c1c656c79ad335083427ffea8c3b3624423291a86eaa28bdd9eaf60734cc",
+  "review_status": "Auto App Store: 腾讯会议-多人实时视频会议软件; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

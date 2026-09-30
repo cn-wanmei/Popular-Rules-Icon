@@ -1,0 +1,9 @@
+{
+  "service_id": "sohu",
+  "source_url": "seed://sohu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.807677+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6072c5e6d1c46bb6341b637e44cfe1df31b5d44c86ae4aff05d1c64c3ca763f1",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "applemusic",
+  "source_url": "seed://applemusic.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.829854+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6c6d633a0290d22038e32030fc682023f52bcafde50b18c19f6839535990f40d",
+  "review_status": "Auto App Store: Apple Music; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

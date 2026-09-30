@@ -1,0 +1,9 @@
+{
+  "service_id": "ms365-loop",
+  "source_url": "seed://ms365-loop.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.927510+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1401763713660fef59a09c4ec805cdf1f72911ca31190ea8839f7cd367469302",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

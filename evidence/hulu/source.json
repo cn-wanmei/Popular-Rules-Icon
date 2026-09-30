@@ -1,0 +1,9 @@
+{
+  "service_id": "hulu",
+  "source_url": "seed://hulu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.931844+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "12e0ecd3b9338859e58d686108524ddf7731ce64ad376b47ce5cd27a4658d589",
+  "review_status": "App Store interim (Hulu: Stream TV shows & movies); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

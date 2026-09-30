@@ -1,0 +1,9 @@
+{
+  "service_id": "garena",
+  "source_url": "seed://garena.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.992184+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a91d48d4e295695c38b05c34931d1e9a9f8c223e2657a43c60fb30188a3f1ecd",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

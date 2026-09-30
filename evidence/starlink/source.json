@@ -1,0 +1,9 @@
+{
+  "service_id": "starlink",
+  "source_url": "seed://starlink.png",
+  "retrieved_at": "2026-09-30T07:44:19.880202+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4322296a532185a9d440c35c690221e553d5b2b855855d7b451c993bb1ed6e10",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

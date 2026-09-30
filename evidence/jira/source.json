@@ -1,0 +1,9 @@
+{
+  "service_id": "jira",
+  "source_url": "seed://jira.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.867772+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bbfbd98a7c84cd5c8ef43124eb1c1c0d4693a5d0bba6c222db4a4396d9d827ba",
+  "review_status": "App Store interim (Jira Cloud by Atlassian); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

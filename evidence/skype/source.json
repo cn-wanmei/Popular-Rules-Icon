@@ -1,0 +1,9 @@
+{
+  "service_id": "skype",
+  "source_url": "seed://skype.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.960860+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b2397f380f4e9e7c0ef0ae3cf9ebccac0646c76d0362083a97dcbfc39ad723ae",
+  "review_status": "App Store interim (Skype for Business); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

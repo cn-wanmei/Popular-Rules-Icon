@@ -1,0 +1,9 @@
+{
+  "service_id": "atlassian",
+  "source_url": "seed://atlassian.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.948412+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bbfbd98a7c84cd5c8ef43124eb1c1c0d4693a5d0bba6c222db4a4396d9d827ba",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

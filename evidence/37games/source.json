@@ -1,0 +1,9 @@
+{
+  "service_id": "37games",
+  "source_url": "seed://37games.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.946755+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3ddd82d430b429689c1bcec996d99c334772ec8dbdf3f4680c73e7a8b761728a",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

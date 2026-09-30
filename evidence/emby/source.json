@@ -1,0 +1,9 @@
+{
+  "service_id": "emby",
+  "source_url": "seed://emby.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.745356+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "52e6cf57f30856518b17918bbe65446bebc05a14b70f53583ab382aab983229f",
+  "review_status": "Auto App Store: Emby; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

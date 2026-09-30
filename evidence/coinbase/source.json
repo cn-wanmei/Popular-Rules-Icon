@@ -1,0 +1,9 @@
+{
+  "service_id": "coinbase",
+  "source_url": "seed://coinbase.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.995961+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d872668cc413c165e684653ff8082034b8321267502c9cc61117e3d12db93348",
+  "review_status": "App Store interim (Coinbase: Buy Crypto & Stocks); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

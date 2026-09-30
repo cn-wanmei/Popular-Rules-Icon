@@ -1,0 +1,14 @@
+{
+  "service_id": "openai-api",
+  "name": "openai-api",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→openai",
+  "icon_alias_of": "openai",
+  "review_status": "needs_review"
+}

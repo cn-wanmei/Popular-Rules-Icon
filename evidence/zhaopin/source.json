@@ -1,0 +1,9 @@
+{
+  "service_id": "zhaopin",
+  "source_url": "seed://zhaopin.png",
+  "retrieved_at": "2026-09-30T07:44:19.790815+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0c91291743c06bfab5c61133cb0cf3bfdf174940be9919f7a2746bb95634d769",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

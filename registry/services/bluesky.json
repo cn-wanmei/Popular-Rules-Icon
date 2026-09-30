@@ -1,0 +1,13 @@
+{
+  "service_id": "bluesky",
+  "name": "Bluesky Social",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: Bluesky Social",
+  "review_status": "needs_review"
+}

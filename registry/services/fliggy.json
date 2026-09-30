@@ -1,0 +1,14 @@
+{
+  "service_id": "fliggy",
+  "name": "fliggy",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→alibaba",
+  "icon_alias_of": "alibaba",
+  "review_status": "needs_review"
+}

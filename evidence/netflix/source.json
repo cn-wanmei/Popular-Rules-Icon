@@ -1,0 +1,9 @@
+{
+  "service_id": "netflix",
+  "source_url": "seed://netflix.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.903312+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "bbbcc340d36e642f0c3e1c75d6e8538033732bc989a5d39016a2ba9e7f48dc92",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

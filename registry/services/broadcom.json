@@ -1,0 +1,13 @@
+{
+  "service_id": "broadcom",
+  "name": "BroadLink",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: BroadLink",
+  "review_status": "needs_review"
+}

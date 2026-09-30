@@ -1,0 +1,9 @@
+{
+  "service_id": "deepseek",
+  "source_url": "seed://deepseek.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.791899+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4175653c2941b55b67aa89ec0503daec69550fc6bb1859667d4789f3a975754c",
+  "review_status": "App Store interim (DeepSeek - AI 智能助手); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

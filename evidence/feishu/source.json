@@ -1,0 +1,9 @@
+{
+  "service_id": "feishu",
+  "source_url": "seed://feishu.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.898960+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3cc66dba35558db2a0986895bfb163d68fc59c55e0c599eae0015bcf228feddf",
+  "review_status": "App Store interim (飞书 - 字节跳动旗下 AI 工作平台); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

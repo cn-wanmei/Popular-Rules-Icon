@@ -1,0 +1,9 @@
+{
+  "service_id": "hpe",
+  "source_url": "seed://hpe.png",
+  "retrieved_at": "2026-09-30T07:44:19.918568+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d3e3831734fc3fc19158ad62b5c9ce44acd2f6b4d7506ebef07a2f6f7d6d2254",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

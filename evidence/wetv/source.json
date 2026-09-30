@@ -1,0 +1,9 @@
+{
+  "service_id": "wetv",
+  "source_url": "seed://wetv.png",
+  "retrieved_at": "2026-09-30T07:44:19.806709+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c7ae6fbc441eb42e57884b6fb5d3799b61129b6e78899417f6740b780ab3ad2b",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

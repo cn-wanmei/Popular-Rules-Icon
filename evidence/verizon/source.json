@@ -1,0 +1,9 @@
+{
+  "service_id": "verizon",
+  "source_url": "seed://verizon.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.830431+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "572fae1b209ab824db49bc8bc02a724b1dbf00392945ceea112b5d9d34b18449",
+  "review_status": "Auto App Store: My Verizon; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

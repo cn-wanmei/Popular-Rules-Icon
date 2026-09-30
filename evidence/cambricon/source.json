@@ -1,0 +1,9 @@
+{
+  "service_id": "cambricon",
+  "source_url": "seed://cambricon.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.830973+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "69c3a663875534abc9dbab18316e36d31cc8ccd563b339bcfd2d19247fd67cef",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

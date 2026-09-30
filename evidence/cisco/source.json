@@ -1,0 +1,9 @@
+{
+  "service_id": "cisco",
+  "source_url": "seed://cisco.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.820341+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d2d20408284934a007cd0f515acc9c13325dbd13373ec5191846115c681bd01c",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

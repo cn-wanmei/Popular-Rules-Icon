@@ -1,0 +1,9 @@
+{
+  "service_id": "weibo",
+  "source_url": "seed://weibo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.832803+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b5e915ef0d5d865688f77bc51a0b2b97a50635011b52368e356b075ecb3c362b",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "amazonmusic",
+  "source_url": "seed://amazonmusic.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.824954+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "90a63912adc8f86ec0174ac5c68b833d62ab2231c3fa424bd0e28ed6e0f5eab9",
+  "review_status": "Auto App Store: Amazon Music: Songs & Podcasts; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

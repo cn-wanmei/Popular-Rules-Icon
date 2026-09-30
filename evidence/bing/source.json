@@ -1,0 +1,9 @@
+{
+  "service_id": "bing",
+  "source_url": "seed://bing.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.894975+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "5ad91e51285d8394b0094dccab432692dadb85d838e2c54d15e2642ecf3b7918",
+  "review_status": "Auto App Store: Microsoft Bing Search; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

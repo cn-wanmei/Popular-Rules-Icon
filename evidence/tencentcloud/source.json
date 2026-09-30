@@ -1,0 +1,9 @@
+{
+  "service_id": "tencentcloud",
+  "source_url": "seed://tencentcloud.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.998004+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "cd64f50d73eebb6a61dc3dc18dc956abd8c1dfb39178b41876a47cdfdbead1ce",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

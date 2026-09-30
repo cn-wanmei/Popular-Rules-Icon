@@ -1,0 +1,9 @@
+{
+  "service_id": "onedrive",
+  "source_url": "seed://onedrive.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.788878+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "264f27d91705f62efcb4e959ce8826f5b0753c7c8a57ddb3edd8a93d865984ac",
+  "review_status": "App Store interim (Microsoft OneDrive); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

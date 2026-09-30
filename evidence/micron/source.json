@@ -1,0 +1,9 @@
+{
+  "service_id": "micron",
+  "source_url": "seed://micron.png",
+  "retrieved_at": "2026-09-30T07:44:19.784970+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "14d0b0f825ffe2e04490e9628fee22dd9c3cffb9ff9ebc478428ef7adbff6a54",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

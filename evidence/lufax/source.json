@@ -1,0 +1,9 @@
+{
+  "service_id": "lufax",
+  "source_url": "seed://lufax.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.739545+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "95c32acb3f28bf4f24177dd9cdb5f365e2f719dfb806a3c40af3accfe5e87a79",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

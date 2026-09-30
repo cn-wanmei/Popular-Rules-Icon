@@ -1,0 +1,9 @@
+{
+  "service_id": "google-drive",
+  "source_url": "seed://google-drive.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.823877+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "943d74b860f38d45e825df293516ae6a191cdb66d8f5aabdb2f3b8ea97d6c23f",
+  "review_status": "alias of drive",
+  "usage_basis": "identifier_use_takedown"
+}

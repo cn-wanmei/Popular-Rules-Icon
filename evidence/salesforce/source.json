@@ -1,0 +1,9 @@
+{
+  "service_id": "salesforce",
+  "source_url": "seed://salesforce.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.981631+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d5abf9ca931021475857f42b902faf35755872e18aed687c46d54635c5ecb050",
+  "review_status": "Auto App Store: Salesforce; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

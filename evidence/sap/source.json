@@ -1,0 +1,9 @@
+{
+  "service_id": "sap",
+  "source_url": "seed://sap.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.860233+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a724c9735362854cbc8b6c13630f94baa4847d1fb35bbca592c703ba4159568e",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

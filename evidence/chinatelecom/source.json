@@ -1,0 +1,9 @@
+{
+  "service_id": "chinatelecom",
+  "source_url": "seed://chinatelecom.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.970147+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d64f8e7795f96e19a268c6b1f290efc5028109e3b7d978f0df12d6956ce9144e",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

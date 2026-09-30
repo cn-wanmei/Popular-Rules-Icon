@@ -1,0 +1,9 @@
+{
+  "service_id": "apple",
+  "source_url": "seed://apple.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.846086+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6c04487e9881270ff01f07c8f42a3fc558c60c312871b5255a86725db157d577",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

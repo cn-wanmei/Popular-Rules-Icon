@@ -1,0 +1,9 @@
+{
+  "service_id": "nvidia",
+  "source_url": "seed://nvidia.png",
+  "retrieved_at": "2026-09-30T07:44:19.828351+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "2bf07934272e42e6f3c66eee6754ca5482bf8c69b98807a7120a2bad18db39d9",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "dahua",
+  "source_url": "seed://dahua.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.993743+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6082550087206a707011e1951dbcd6d155028d0f054522276b06eed84f370de0",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

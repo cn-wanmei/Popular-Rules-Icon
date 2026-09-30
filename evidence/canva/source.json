@@ -1,0 +1,9 @@
+{
+  "service_id": "canva",
+  "source_url": "seed://canva.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.770771+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ede778e3b5297645f748edf8f3c117227ed96d391aaec93019e79092bcbddabf",
+  "review_status": "App Store interim (Canva AI Photo & Video Editor); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

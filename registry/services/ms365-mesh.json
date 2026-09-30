@@ -1,0 +1,14 @@
+{
+  "service_id": "ms365-mesh",
+  "name": "ms365-mesh",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 alias→office",
+  "icon_alias_of": "office",
+  "review_status": "needs_review"
+}

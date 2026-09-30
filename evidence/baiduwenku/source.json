@@ -1,0 +1,9 @@
+{
+  "service_id": "baiduwenku",
+  "source_url": "seed://baiduwenku.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.747975+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d7c9e4eb919edaac74b828352a4f78b2c2d89e7e0b5423787645242438fb9c35",
+  "review_status": "Auto App Store: 百度文库-全能AI内容获取及创作; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

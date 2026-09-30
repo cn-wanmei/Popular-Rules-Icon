@@ -1,0 +1,9 @@
+{
+  "service_id": "ibm",
+  "source_url": "seed://ibm.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.871465+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "dedeb796556fc92f09730ec09dc9d72a5b9af43836a7a07d3e64f925a2cf39da",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

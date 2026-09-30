@@ -1,0 +1,9 @@
+{
+  "service_id": "telegram",
+  "source_url": "seed://telegram.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.985110+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "3e3b7d0acf7eef2560428550e04cea6d741ec8d7be0121c0c7b3989d23b5234d",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "minimax",
+  "source_url": "seed://minimax.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.913900+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "68951db5dce9e1014beec692d37203be4aef719ec9e7cf3a6ad673eb2dde6c19",
+  "review_status": "Manual reviewer replacement 2026-09-29",
+  "usage_basis": "identifier_use_takedown"
+}

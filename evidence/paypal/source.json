@@ -1,0 +1,9 @@
+{
+  "service_id": "paypal",
+  "source_url": "seed://paypal.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.736537+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6e3995f7fc944c0699efa6eb058675aef22387878f8e499b062e4499d0c3ad82",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

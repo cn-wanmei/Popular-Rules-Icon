@@ -1,0 +1,13 @@
+{
+  "service_id": "himalaya",
+  "name": "喜马拉雅「听书社区」电台有声小说相声评书",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "R14 iTunes: 喜马拉雅「听书社区」电台有声小说相声评书",
+  "review_status": "needs_review"
+}

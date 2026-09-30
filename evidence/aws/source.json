@@ -1,0 +1,9 @@
+{
+  "service_id": "aws",
+  "source_url": "seed://aws.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.896079+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a0c0bc06fd846586ed94c93011365f0bee97107166df311f10e89f8f1289cc01",
+  "review_status": "Auto App Store: AWS Console; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

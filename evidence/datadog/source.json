@@ -1,0 +1,9 @@
+{
+  "service_id": "datadog",
+  "source_url": "seed://datadog.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.785951+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "97e9ffbabad7dfd4e5d4769a4ea60cf4f0f10863bc0570317c509268b324f02a",
+  "review_status": "Auto App Store: Datadog; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "digitalocean",
+  "source_url": "seed://digitalocean.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.852078+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "4b5a11c35d0b6eb450be78bbc8297c5ceb196e263a6df55b0861352ec2417fe8",
+  "review_status": "Auto App Store: Digital Ocean Mobile — Ocean; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

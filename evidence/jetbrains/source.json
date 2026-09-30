@@ -1,0 +1,9 @@
+{
+  "service_id": "jetbrains",
+  "source_url": "seed://jetbrains.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.868989+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "1a6a6fb79ef2620e3b8957b0f38f27371fd5c07f8bec0684ff1c855d80e1ce34",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

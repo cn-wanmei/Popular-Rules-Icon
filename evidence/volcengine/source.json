@@ -1,0 +1,9 @@
+{
+  "service_id": "volcengine",
+  "source_url": "seed://volcengine.png",
+  "retrieved_at": "2026-09-30T07:44:19.912641+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "f2605c2b620a2a1f5eb46cc2f8e7f2b30d3c9e1837c66785669e9d65f6d5ee0a",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

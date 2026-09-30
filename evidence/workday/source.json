@@ -1,0 +1,9 @@
+{
+  "service_id": "workday",
+  "source_url": "seed://workday.png",
+  "retrieved_at": "2026-09-30T07:44:19.863209+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "a813864f6f116fbb3a4e226295cb132ff1ac1425e576a3706cb87ead6e099ff8",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

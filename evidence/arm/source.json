@@ -1,0 +1,9 @@
+{
+  "service_id": "arm",
+  "source_url": "seed://arm.png",
+  "retrieved_at": "2026-09-30T07:44:19.790360+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "d8a92a2e06d368e759667169e1f635174f3f4abea203492ab3255cb24cb0159c",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

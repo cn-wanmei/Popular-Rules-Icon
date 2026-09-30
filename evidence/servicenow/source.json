@@ -1,0 +1,9 @@
+{
+  "service_id": "servicenow",
+  "source_url": "seed://servicenow.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.949996+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "514766ac35d3327a2fc938c3d93858844255321e516c112eec5f5be99a715a2b",
+  "review_status": "Auto App Store: ServiceNow Agent; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

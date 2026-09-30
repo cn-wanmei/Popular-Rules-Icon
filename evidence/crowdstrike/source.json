@@ -1,0 +1,9 @@
+{
+  "service_id": "crowdstrike",
+  "source_url": "seed://crowdstrike.jpg",
+  "retrieved_at": "2026-09-30T07:44:20.007718+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b501d4f361b83581587c6ec799871596f64d5a500a90bc1ab4cea19c2269bf47",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "tesla",
+  "source_url": "seed://tesla.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.743569+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "8b09caf9ab87ae5c0b11bc8a7dd3ec35d251daccaeec89415d8084a0561402ef",
+  "review_status": "Auto App Store: Tesla; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "intuit",
+  "source_url": "seed://intuit.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.795485+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7c8e8cce0e7c352258ccd0e3a392d0ac9480fc987030738abd07d06228d22614",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

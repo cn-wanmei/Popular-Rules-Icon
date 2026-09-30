@@ -1,0 +1,9 @@
+{
+  "service_id": "snap",
+  "source_url": "seed://snap.png",
+  "retrieved_at": "2026-09-30T07:44:19.777516+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "44b59e445450069c68f69838302e7128e3a18a1f2580a0bf045d4d2315fa6c00",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

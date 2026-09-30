@@ -1,0 +1,9 @@
+{
+  "service_id": "soundcloud",
+  "source_url": "seed://soundcloud.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.814509+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "835ca007fcf57990ec2dab4573a66fa0a0038155f5db35f290cf113964076067",
+  "review_status": "App Store interim (SoundCloud: The Music You Love); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

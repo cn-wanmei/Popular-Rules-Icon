@@ -1,0 +1,9 @@
+{
+  "service_id": "hbo",
+  "source_url": "seed://hbo.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.908002+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c068ff2ed6011534c0b9516fcf73a5efdb9986b4d88d5e2430d6e3a343ce385c",
+  "review_status": "Auto App Store: HBO Max: Stream Movies & TV; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

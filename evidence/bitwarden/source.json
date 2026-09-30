@@ -1,0 +1,9 @@
+{
+  "service_id": "bitwarden",
+  "source_url": "seed://bitwarden.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.980110+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "0bc6f92683727dafe46e57f5dabd37c694491225b1260032a0cab3a3b0586af3",
+  "review_status": "Auto App Store: Bitwarden Password Manager; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

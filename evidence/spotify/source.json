@@ -1,0 +1,9 @@
+{
+  "service_id": "spotify",
+  "source_url": "seed://spotify.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.991117+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "6c1d490d2e2fc582bb474b6fad3bb594542945b6052037bf116caa6fccef097e",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

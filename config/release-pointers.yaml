@@ -1,8 +1,9 @@
-production: icon-2026.09.30.styles8
-rollback: icon-2026.09.30.freeze1
-updated_at: "2026-09-30T06:05:38Z"
+production: icon-2026.09.30.r14
+rollback: icon-2026.09.30.styles8
+updated_at: "2026-09-30T07:44:20Z"
 frozen: true
-freeze_id: icon-2026.09.30.styles8
+freeze_id: icon-2026.09.30.r14
 styles: 8
-services: 266
-note: "8-style full render; Collection coverage expanded via aliases"
+services: 482
+collection_coverage: 100%
+note: "R14 100% Collection id coverage; see docs/R14_UNCERTAIN_REVIEW.md"

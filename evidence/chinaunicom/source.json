@@ -1,0 +1,9 @@
+{
+  "service_id": "chinaunicom",
+  "source_url": "seed://chinaunicom.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.755161+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "18aec49d3b2210d98733ed3fc5d48f4fc2ca192c7745b82e06968ff3c202724c",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

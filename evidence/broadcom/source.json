@@ -1,0 +1,9 @@
+{
+  "service_id": "broadcom",
+  "source_url": "seed://broadcom.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.893845+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "7b0e15f7d603802a625dda84a652faa384ca85379309803a8ade4ce06904b352",
+  "review_status": "needs_review",
+  "usage_basis": "identifier_use_takedown"
+}

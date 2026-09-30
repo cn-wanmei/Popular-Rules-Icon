@@ -1,0 +1,9 @@
+{
+  "service_id": "heroku",
+  "source_url": "seed://heroku.png",
+  "retrieved_at": "2026-09-30T07:44:19.941632+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "c8d972f35f587dfe74462984be6259c017be3576d872e76a0d141025cf15fa40",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

@@ -1,0 +1,9 @@
+{
+  "service_id": "youdao",
+  "source_url": "seed://youdao.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.974017+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "b67bd154a06c2bbedad8f988b7e1d6c38787f4690836c8f8d41e731cbc338a5e",
+  "review_status": "Auto App Store: 网易有道词典-专业查词翻译学习助手; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

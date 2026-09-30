@@ -1,0 +1,9 @@
+{
+  "service_id": "openai",
+  "source_url": "seed://openai.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.783483+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "75ae9c156ebce929a8986ca66b8f41f359f5033fff0210224c42de58144ed5c6",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

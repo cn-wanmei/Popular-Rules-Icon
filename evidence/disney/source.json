@@ -1,0 +1,9 @@
+{
+  "service_id": "disney",
+  "source_url": "seed://disney.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.966345+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9dcbc19b5aa0407266e6fd503b4d3032fe47a13b8022366710a8bb960f6be8bf",
+  "review_status": "alias of disneyplus",
+  "usage_basis": "identifier_use_takedown"
+}

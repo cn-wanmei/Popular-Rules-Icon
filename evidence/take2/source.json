@@ -1,0 +1,9 @@
+{
+  "service_id": "take2",
+  "source_url": "seed://take2.png",
+  "retrieved_at": "2026-09-30T07:44:19.892081+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "07646d4c755efd76a307e742d5ac06252ed310c04949bdf11806fdd8f840cb6d",
+  "review_status": "placeholder_needs_replace",
+  "usage_basis": "identifier_use_takedown"
+}

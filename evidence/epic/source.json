@@ -1,0 +1,9 @@
+{
+  "service_id": "epic",
+  "source_url": "seed://epic.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.788407+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "99e67fed992abaa6a2ce6a2997e651ca507977bc6d15344ff3ffaad5f8c3b198",
+  "review_status": "Auto App Store: Epic Games; REVIEW REQUIRED",
+  "usage_basis": "identifier_use_takedown"
+}

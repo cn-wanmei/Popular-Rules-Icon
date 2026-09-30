@@ -1,0 +1,9 @@
+{
+  "service_id": "chatgpt",
+  "source_url": "seed://chatgpt.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.738502+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "57a5b98f91eac2c3a1498c25b8eafed15cf1b6c22dc4dd66be3fe39f407419f3",
+  "review_status": "alias of openai_chat",
+  "usage_basis": "identifier_use_takedown"
+}

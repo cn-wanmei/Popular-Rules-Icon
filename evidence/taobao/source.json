@@ -1,0 +1,9 @@
+{
+  "service_id": "taobao",
+  "source_url": "seed://taobao.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.851397+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "ebf820abbda861390c38e8f0d0fc0d096c9b0601b156c7d257cfaadb3dcbe8cd",
+  "review_status": "Curated App Store/brand hires; reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}

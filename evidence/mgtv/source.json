@@ -1,0 +1,9 @@
+{
+  "service_id": "mgtv",
+  "source_url": "seed://mgtv.jpg",
+  "retrieved_at": "2026-09-30T07:44:19.866989+00:00",
+  "source_class": "frozen_seed",
+  "sha256": "9de0bc460cc4923095d8f6063c19626ead0b7ffd04c571a51f7755d2f97d8e2a",
+  "review_status": "App Store interim (芒果TV); reviewer may replace",
+  "usage_basis": "identifier_use_takedown"
+}
