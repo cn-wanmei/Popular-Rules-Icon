@@ -3,7 +3,7 @@ version: 1
 authority:
   repository: cn-wanmei/Popular-Rules-Collection
   path: rule/_index.yaml
-  pinned_commit: b95c01f98704bc9a9c306c53c0fb73e74b3c64e4
+  pinned_commit: afa94e0c993555f70038ccf1951584d8ab0bb435
   selection:
     include_entity: service
   imported_fields:
