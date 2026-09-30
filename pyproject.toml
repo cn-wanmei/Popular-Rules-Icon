@@ -9,6 +9,7 @@ description = "Popular-Rules-Icon 6.0 core"
 requires-python = ">=3.11"
 dependencies = [
   "pillow>=10.0",
+  "cairosvg>=2.7,<3",
 ]
 
 [project.optional-dependencies]
