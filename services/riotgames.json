@@ -1,31 +1,20 @@
 {
   "service_id": "riotgames",
   "source_fingerprint": "4a7106a5c91196ee8b7167e81e769f00cd7a414111a514f6b83a5f2db9a629e7",
-  "object_hash": "fc852ff4f0a8bf52d4c4770a769d1f79337f362c319f6435cd28a0896db790e3",
-  "variant_hashes": {
-    "source_original:128:png": "13a03fa9d45067fe67b08d605a4014f03318597ce9ff3a1d84ccc2362489b6ca",
-    "source_original:256:png": "d8d4cc5a26f07a795ac92d1de9c513c7dd946eb821f2412b21fbb58ebccae319",
-    "glassmorphism:128:png": "9a556873f6251c5ad89efd2b12073833a3b62a96432b64e5a49af000921cc62d",
-    "glassmorphism:256:png": "aaa69c9ac319fd75f41f9726628f5916cc9a0d03d6a979bb3ec9eb73561ca392",
-    "soft_3d:128:png": "db6541dbedadb8c3a1a72183d90865a5031bc9a19b99c4bac8e9eedfdcb954a1",
-    "soft_3d:256:png": "0ae87cffc1ab27e9e9f1fb78742ef6efdc9818a877c25506eaa4bff433b7dc19",
-    "neo_skeuomorphism:128:png": "bb53fc901e6eb8bd2b42f511f5b415186c41f8088fd409dc2e8b680cb9ba3bad",
-    "neo_skeuomorphism:256:png": "b9f4d0c325d2076f28ec3f691b7dd448b7e9f422da9c232d36236d10ff4fc413",
-    "minimalist:128:png": "33f4bc32c493d487c643ffa5b17bbdbc4a046a1ad0f25faa30fec15aa6ce9499",
-    "minimalist:256:png": "e9839bb5e742da250ef0001bf864fbf58b4a107343fe9b5dd1179ef3bcdccb0b",
-    "duotone_line:128:png": "19230558d38e0c6c118de1aeff5a0ec94523cfc3709c993a9e4f1655427fae71",
-    "duotone_line:256:png": "74140c8dd952cadcdc4be5624881d6545a13fd3e0b2813af3fc4ac5c61941fe2",
-    "mbe:128:png": "3ac82be67d3eee41159b26da01574f2d9956ab0d1b128837d93e8643aee34849",
-    "mbe:256:png": "feb09e739611e048826db6c4ebb815ef3a3840bb5523652cb749189c744a9b66",
-    "y2k:128:png": "fbd9b3e4deba1f4aa76a6dff3eff27b3f1017877fe3da75fc59af0065919f37d",
-    "y2k:256:png": "a96d11cb10da5ea6bc73de0bc36e09187248fa50773cc76c03de69168341870b"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:11.616544+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:11.616544+00:00",
-  "source_url": "seed://riotgames.png",
+  "source_url": "seed://riotgames.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
