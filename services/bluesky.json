@@ -1,31 +1,20 @@
 {
   "service_id": "bluesky",
   "source_fingerprint": "6611c62d54ccb6d0e79944a694b24c26ed29209bf5fe366a71ba001ef4d1e4af",
-  "object_hash": "ce5bf8f24422ff93c9b4a240f57809324dacbc293c31d5f7b2a11d1f8eb935f3",
-  "variant_hashes": {
-    "source_original:128:png": "6cbb95afcbc7206fc313921154cdde1cbebbed1ac16c4076e6db84ca64602d87",
-    "source_original:256:png": "d6b8649eab4ebef39074a632eb5647cebc0355dca074a87dd20660ffc689685f",
-    "glassmorphism:128:png": "c392b53c6729d9a522e285974f744663d26265233da851ea962d4c505e1e149e",
-    "glassmorphism:256:png": "2906758770e514632023ba54bbf5580127c10865ca207140e693cd062711c692",
-    "soft_3d:128:png": "82a4df712db79a74300b1c02c9cc86777ca2e58999571b7e2e857c30a7426246",
-    "soft_3d:256:png": "b21e473916cb829f251b1fc0e7be5b2fc0999a5c3faf27fcb92b057885d75f8d",
-    "neo_skeuomorphism:128:png": "ab74e9be32d5271bc3271ac3cb1a0592abc7b39665a8f2fb2b683164cbc4da24",
-    "neo_skeuomorphism:256:png": "4f28569bca71847fdd87e3591614d4f220a0ec25fc16d5c27f46fd9f72b004de",
-    "minimalist:128:png": "eeb29b10d469ed6bc588fb7be74bfb37bac1b79733da6f635ca28bb7213e4a0c",
-    "minimalist:256:png": "c12cd963bc18097069f05391606f9e57e8ea60f957c714bef3b57a5088406ffa",
-    "duotone_line:128:png": "707bc1a70f3ed0a1c7180a9699de762d177a057589bbb70e79ec33ad8e367a78",
-    "duotone_line:256:png": "49c3ef1dbfcfb8ef3b9eafa7f9307e0753b73c580b6186644eae069559d1a53b",
-    "mbe:128:png": "bae36126f9bade6f4fb36ded34b1d6a2d97d3f3453164ffda03ddf00b061ee8d",
-    "mbe:256:png": "a262d970c52b442d647e84437a2c259b5092552d427bdc282a3930c9002d6e0a",
-    "y2k:128:png": "4a869fba3e85c6635e9bd55b52a620de95be2a0f3ef1a0f5eabbb39c535b0bcb",
-    "y2k:256:png": "d10a75aec1486b7b072049e50af313fafa0c17d65ee4bd11a5b89dc174f211c0"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:03.264242+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:03.264242+00:00",
-  "source_url": "seed://bluesky.jpg",
+  "source_url": "seed://bluesky.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
