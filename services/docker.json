@@ -3,7 +3,7 @@
   "source_fingerprint": "9b17385c63b478b62010ed49ca982b688d964fa3d334afd2d4547faf82472a77",
   "object_hash": null,
   "variant_hashes": {},
-  "source_class": "verified_seed_svg",
+  "source_class": "simple_icons",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
   "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
