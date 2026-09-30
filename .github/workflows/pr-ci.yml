@@ -29,20 +29,20 @@ jobs:
         run: python -m pytest -q
       - name: Registry presence
         run: python -m popular_rules_icon.cli validate-registry
-      - name: Identity boundary gate (report during migration)
+      - name: Identity boundary gate (strict)
         run: |
           test -f scripts/identity_boundary_gate.py || { echo "missing identity_boundary_gate.py"; exit 1; }
           test -f config/collection_identity_snapshot.json || { echo "missing Collection identity snapshot"; exit 1; }
-          python scripts/identity_boundary_gate.py --write-report build/identity-boundary-report.json
+          python scripts/identity_boundary_gate.py --write-report build/identity-boundary-report.json --strict
 
-      - name: V6 manifest verification (migration report)
+      - name: V6 manifest verification (strict)
         run: |
           set -euo pipefail
           mkdir -p build
           RELEASE=$(awk '/^production:/ {print $2}' config/release-pointers.yaml
           )
           curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
-          python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE" | tee build/v6-manifest-report.json
+          python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE"             --strict | tee build/v6-manifest-report.json
 
       - name: R10 Freeze coverage gate (seeds)
         run: |
