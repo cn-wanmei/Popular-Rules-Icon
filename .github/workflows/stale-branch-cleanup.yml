@@ -6,15 +6,19 @@ on:
 
 jobs:
   cleanup:
-    if: ${{ github.event.head_commit.message == 'chore(repo): cleanup stale icon branches' }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
-      - name: Delete stale branches
+      - name: Delete confirmed obsolete branches
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
+            const message = context.payload.head_commit?.message || '';
+            if (!message.startsWith('chore(repo): cleanup stale icon branches')) {
+              core.info('Not the explicit stale-branch cleanup commit; nothing to delete.');
+              return;
+            }
             const stale = [
               'automation/identity-normalize-20260930',
               'docs/final-icon-status-20260930',
@@ -36,17 +40,16 @@ jobs:
               'state-clean-canonical-v1-20260930'
             ];
             for (const branch of stale) {
-              if (branch === 'main' || branch === 'dist' || branch === 'state') continue;
               try {
                 await github.rest.git.deleteRef({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   ref: 'heads/' + branch,
                 });
-                core.info('Deleted ' + branch);
+                core.info('Deleted: ' + branch);
               } catch (error) {
-                if ([404, 422].includes(error.status)) {
-                  core.info('Already absent ' + branch);
+                if (error.status === 404 || error.status === 422) {
+                  core.info('Already absent: ' + branch);
                 } else {
                   throw error;
                 }
