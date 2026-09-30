@@ -20,7 +20,7 @@ on:
         default: "dry-run"
   push:
     branches:
-      - release-clean-v1-20260930
+      - release-clean-v1
 
 concurrency:
   group: v6-release-writer
