@@ -1,31 +1,20 @@
 {
   "service_id": "rockstar",
   "source_fingerprint": "5ceb5bb2e1803922c55635b4d83f2129c05fa6293a7ffe9bd8e91f76073afb45",
-  "object_hash": "ad286794bc8aa51a969ff97e7a317c8b744c999a2180d9578799cb28814c74a8",
-  "variant_hashes": {
-    "source_original:128:png": "39c3038100bf049f0c403704f981a217d56655a2fe8f7263eb18101ccb548438",
-    "source_original:256:png": "1945738391d47d728a3f001886f0a5b7aca64b79ca7018767a757b9b29bad6bc",
-    "glassmorphism:128:png": "fe84a4fa1461d146c67c5e284130b209dd2c63681e1f2b174a5b92857cff098e",
-    "glassmorphism:256:png": "00fb1e2de993cdb43688cfd0c60347f22a6b7a42663ada69ec4101fd86896a22",
-    "soft_3d:128:png": "709cc34f347752d58cd15d3857f3ec063b794c2c41bba1225a85de17cdc1ecb3",
-    "soft_3d:256:png": "8eda76ec86fb351e38a9b848520252fe75560186e05bf84b7d6d8217bab1ddee",
-    "neo_skeuomorphism:128:png": "80336a650cbf583ed9143d93e354ceb57242d5b24e1bbc6123d370b3b6db127e",
-    "neo_skeuomorphism:256:png": "8607bc3f4a875c1bb470265154abed22b6ccfa191c61c143c77604883bb392e3",
-    "minimalist:128:png": "57681e5da024b2f96e450d77ade24ab6cf0144958c974e37e29b4b9ea90e201f",
-    "minimalist:256:png": "6bb408104957378f0c1e1396feb9f3d79dc73505acff17e105cf6ede2b667889",
-    "duotone_line:128:png": "c80a18dd259778dd1a536e6982666bd9dba80e870ad8cec69e66fa4cc750c06a",
-    "duotone_line:256:png": "279a7b37966c4cd2ee56c91def1ddc4d1830d56a76caa0a852a69b1929626c9c",
-    "mbe:128:png": "62bf32ed4978101eaf0700edc3f1fc108409e6c5e06d66486a5132529fad9368",
-    "mbe:256:png": "d293654c25a6d70bc5b8eae1af042c1fbfb204b32e73e6b6e1aac391f96cdd48",
-    "y2k:128:png": "fe0d1dc930df151988b23e248d48d44dc6a6d35a890efe9f4beb0e53a3caa4f9",
-    "y2k:256:png": "3ee65ff547cdb56b4b54a039e38c561b1f33a63a4741839ec3ce86f3c158d089"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:11.616544+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:11.616544+00:00",
-  "source_url": "seed://rockstar.png",
+  "source_url": "seed://rockstar.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
