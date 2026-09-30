@@ -14,12 +14,13 @@ Strict visual-identity rules:
 5. When an exact externally sourced brand vector was available and could be fetched into the repository, it was used directly. No synthetic brand recreation was used.
 
 ## Confirmed wrong assets replaced in this pass
-amd, appstore, cisco, dell, ea, hbo, lenovo, oppo, samsung, sap, sony, ubisoft, wegame, wise, qualcomm, rakuten.
+amd, appstore, cisco, dell, ea, hbo, lenovo, oppo, samsung, sap, sony, ubisoft, wegame, wise, qualcomm, rakuten, nintendo, oracle.
 
 ## Placeholder assets replaced in this pass
 arm, fortinet, hitachi, intel, kakao, lg, mediatek, nokia, palantir, riotgames, roblox, shopee, siemens, snowflake, spacex, unity.
 
-Total direct replacements: 32 canonical seeds.
+Total direct replacements: 34 canonical seeds.
+The Nintendo and Oracle vectors were sourced from the Mibew/simple-icons `develop` mirror of Simple Icons; the mirror files explicitly identify the Nintendo and Oracle brand marks.
 Exact vectors were sourced from Simple Icons 16.33.0. IconArchive's Simpleicons Team mirror identifies the same designer/brand pack and CC0 distribution metadata. Trademark rights remain with the respective owners.
 
 ## Confirmed wrong candidates still awaiting a repository-fetchable exact asset
@@ -28,10 +29,8 @@ Anker (anker)
 CCTV / 中国中央电视台 (cctv)
 海康威视 / Hikvision (hikvision)
 咪咕 (migu)
-Nintendo (nintendo)
 Microsoft Office (office)
 Okta (okta)
-Oracle (oracle)
 PPTV (pptv)
 Sohu / 搜狐 (sohu)
 TSMC / 台积电 (tsmc)
