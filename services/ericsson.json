@@ -1,31 +1,20 @@
 {
   "service_id": "ericsson",
   "source_fingerprint": "a6ac43821a3dcacb9d3c684ad0fd95ee17f221f7ab2b5982ecba846bf28ac33a",
-  "object_hash": "cfe7c01f5916c3cc4b095bb2c57318d0fbb2b09bfc194b55d595d3a83b57279c",
-  "variant_hashes": {
-    "source_original:128:png": "b59b930c869be0a1f77fae043828d6a7845db7e714b01f72d0d8ab09d458af8a",
-    "source_original:256:png": "23a1dedbc188da759f97fba8ae4b17eea32b0b7c05419f55aff039382683c34e",
-    "glassmorphism:128:png": "83e589f73ffd90d5cd4d7359ffe644bdac7de2ca1a5a7916a9a9e8fd75c76609",
-    "glassmorphism:256:png": "3c127b7f6bac636fc523b13b3eb858722f0557af36678f71251ed16395cb8661",
-    "soft_3d:128:png": "918f0d8f2e68247f48493bf972cdfdaa2d42e068500f7422f98f108016f4fb4d",
-    "soft_3d:256:png": "c5febc0fe728528b58cc367a804c434ea18d11f95f14bf062108beb7045dd882",
-    "neo_skeuomorphism:128:png": "c7e51b8d0b86641a4b43a29b9b253923558539288c343de15ead2571123319e2",
-    "neo_skeuomorphism:256:png": "27a2da73699da15ed21772c01fd34cb96e6d1c0a41346af012e08a1de4257063",
-    "minimalist:128:png": "04287e2b14b4274e0ddc80673aadeb254c355c70f6dc59281450bc48948ba936",
-    "minimalist:256:png": "c1358dcb7b961663336d41df73a2c154ca1a1d20403b0ad1566cc8ce80587d91",
-    "duotone_line:128:png": "be1801ec7d410af3e68e3714dfc143156aaf23ce4e55752fc09617117918b04e",
-    "duotone_line:256:png": "236f2fe104079d0346ea1dbe6d671dd38341218fbaefd935a1b61a3087aece41",
-    "mbe:128:png": "67b83618373d3e6752fc0368dea5e74fa154b43b0bca9dba204fd2b585da6ec0",
-    "mbe:256:png": "c1687fd853e32ba67083f2000b7797d4a22d10110a135eb6cb19e7dc34a9b8ce",
-    "y2k:128:png": "c4f885459e879da6e020c38805a5f5893874241f18d5ecd943726cf11f955f62",
-    "y2k:256:png": "076f8c7a600cbfd0e3d01119c8e93a61bea48c598356e308f055f547d4870fdb"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:16.396517+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:16.396517+00:00",
-  "source_url": "seed://ericsson.jpg",
+  "source_url": "seed://ericsson.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
