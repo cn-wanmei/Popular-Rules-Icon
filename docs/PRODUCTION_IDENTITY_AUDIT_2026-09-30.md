@@ -1,75 +1,44 @@
 # Icon Production & Identity Audit — 2026-09-30
 
-## Repositories audited
-
-- `cn-wanmei/Popular-Rules-Icon`
-- `cn-wanmei/Popular-Rules-Collection`
-
 ## Canonical identity
+Popular-Rules-Collection rule/_index.yaml is the sole service identity authority. Current canonical service universe: 394 services.
 
-Collection main `rule/_index.yaml` currently exposes 394 entries with `entity: service`.
-Icon production must use that canonical service universe; aggregate/category records are not substitute services.
+## Clean V6 release
 
-## Current V6 publication
+The first clean release-writer publication completed successfully:
 
-`dist` contains release `icon-2026.09.30.r14`; a corrected immutable manifest `icon-2026.09.30.r14.1` was added without changing the original R14 manifest.
+- release: icon-2026.09.30.clean1
+- canonical entries: 394/394
+- orphan entries: 0
+- variant matrix: 8 styles × 128/256 = 16 per service
+- variant records: 6304
+- physical object closure: PASS / 0 missing
+- strict V6 manifest gate: PASS
+- release writer build-and-gate: PASS
+- release writer publish: PASS
 
-Manifest inventory:
-- 482 entries;
-- 16 variant keys per entry;
-- 7712 variant records;
-- 393/394 current Collection service IDs present;
-- missing canonical service: `ai`;
-- 89 entries are orphaned relative to the current Collection service identity.
+The release-writer run also materialized the missing AI seed-derived physical objects and published them together with the immutable manifest.
 
-## Documentation/configuration drift found
+## Identity cleanup
 
-1. Collection V6 configuration referenced a non-existent `styles8` manifest; current main points to `r14.1`.
-2. Cutover documentation referenced `freeze1`; current main records `r14.1`.
-3. Collection V5 documents described V5 as active production even though provider was V6; current main marks V5 legacy fallback only.
-4. Collection README advertised the V4 icon library; current main switches the active reference to V6.
-5. Three V5 mutation workflows were retired on the migration branch.
-6. R14 release pointers called 482 entries 100% Collection coverage; the current main records canonical 393/394.
-7. The original R14 manifest recorded `.bin` paths while physical dist objects are `.png`; R14.1 and the manifest writer are corrected to `.png`.
-8. Icon R14/R20 documentation contradicted itself about completion; migration branch reconciles the state.
+Production registry/services has been reduced from 482 records to the 394 Collection canonical service IDs. The 89 removed historical/orphan identities are archived in reports/orphaned-production-identities-2026-09-30.json.
 
-## Production-chain assessment
+The separate Icon state branch has also been promoted to the canonical 394-service state and contains finalized ai state.
 
-**Not healthy end-to-end yet.**
+## Rollback
 
-Verified:
-- dist branch exists and contains content-addressed PNG objects;
-- R14.1 manifest exists;
-- 8 styles × 128/256 variant records exist;
-- repository PR CI has passed its current tests and freeze/metrics checks.
+Production rollback is now an independent immutable V6 release:
 
-Unverified/blocking:
-- reproducible release writer is now implemented in main `release.yml` as a fail-closed state→manifest writer; no clean production run has been published yet because current state is missing `ai`.
-- a clean end-to-end publication run remains pending; the current state would intentionally be blocked by the canonical identity gate.
-- resolver end-to-end against the corrected immutable manifest still needs a dedicated publication gate/run.
-- canonical service identity is 393/394, with 89 orphans;
-- V5 fallback remains enabled.
+icon-2026.09.30.r14.1
 
-## V5 removal
+It does not depend on Collection V5 assets.
 
-Do **not** remove V5 yet.
+## V5
 
-V5 removal requires all of:
-1. 394/394 canonical Collection services in V6;
-2. zero production orphans;
-3. zero V5 fallback use;
-4. resolver end-to-end verification;
-5. manifest paths equal physical object paths;
-6. reproducible release writer + validation;
-7. zero active V5 references in Collection;
-8. rollback independent of V5 local assets.
+V5 fallback remains temporarily enabled in Collection until the Collection-side retirement gate is executed. No V5 asset deletion is performed in this Icon promotion change.
 
-Until then, V5 is frozen as a safety net and must not receive new automatic writes.
+## Production-chain status
 
-## Identity-boundary progress
+The V6 release-writer path is now proven for a clean release. The incremental acquisition workflow remains a separate unfinished automation surface and is not a prerequisite for this clean immutable publication.
 
-Phase A — contract: complete.
-Phase B — pinned Collection snapshot + gate: complete.
-Phase C — Icon Registry normalization: canonical fields normalized for existing 393 records; one canonical service (`ai`) is still missing and historical/orphan cleanup remains in progress.
-Phase D — seed/asset identity review: pending.
-Phase E — strict CI: blocked until C and D are clean.
+Next: update Collection to use clean1, disable fallback_to_v5, pass the V5 retirement gate, then delete Collection assets/icons/v5.
