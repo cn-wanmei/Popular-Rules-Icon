@@ -1,6 +1,6 @@
 production: icon-2026.09.30.clean1
-rollback: icon-2026.09.30.r14.1
-rollback_note: "Independent immutable V6 rollback. It does not depend on Collection V5 assets."
+rollback: icon-2026.09.30.clean1-rb1
+rollback_note: "Independent immutable V6 rollback manifest; reuses only the clean1 content-addressed physical objects and does not depend on Collection V5 assets."
 updated_at: "2026-09-30T19:46:00+08:00"
 frozen: true
 freeze_id: icon-2026.09.30.clean1
