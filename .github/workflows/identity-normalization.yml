@@ -1,14 +1,17 @@
 name: Identity Registry Normalization
 
 on:
-  push:
-    branches:
-      - feat/identity-boundary-v3-20260930
-  pull_request:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Apply canonical service identity fields to registry/services and prepare an automation branch.
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
-  group: identity-normalize-${{ github.ref }}
-  cancel-in-progress: true
+  group: identity-normalize-manual
+  cancel-in-progress: false
 
 jobs:
   normalize:
@@ -31,9 +34,12 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build
-          python scripts/normalize_registry_identity.py             --apply             --report build/identity-normalization-report.json
+          APPLY_ARG=""
+          if [ "${{ inputs.apply }}" = "true" ]; then APPLY_ARG="--apply"; fi
+          python scripts/normalize_registry_identity.py             $APPLY_ARG             --report build/identity-normalization-report.json
 
-      - name: Create/update normalization PR
+      - name: Publish reviewed normalization branch
+        if: ${{ inputs.apply == true }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -48,12 +54,12 @@ jobs:
           fi
           git commit -m "fix(identity): normalize registry metadata from Collection"
           git push --force origin HEAD:refs/heads/automation/identity-normalize-20260930
-          echo "Normalization branch updated; review/merge the generated branch separately."
+          echo "Reviewed normalization branch updated."
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         if: always()
         with:
-          name: identity-normalization-${{ github.sha }}
+          name: identity-normalization-${{ github.run_id }}
           path: build/identity-normalization-report.json
           if-no-files-found: warn
           retention-days: 30
