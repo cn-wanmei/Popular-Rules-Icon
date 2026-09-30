@@ -732,7 +732,7 @@ sources:
       - { url: "seed://netlify.jpg", source_class: frozen_seed }
   nintendo:
     candidates:
-      - { url: "seed://nintendo.jpg", source_class: frozen_seed }
+      - { url: "seed://nintendo.svg", source_class: frozen_seed }
   nokia:
     candidates:
       - { url: "seed://nokia.svg", source_class: frozen_seed }
@@ -768,7 +768,7 @@ sources:
       - { url: "seed://oppo.svg", source_class: frozen_seed }
   oracle:
     candidates:
-      - { url: "seed://oracle.jpg", source_class: frozen_seed }
+      - { url: "seed://oracle.svg", source_class: frozen_seed }
   outlook:
     candidates:
       - { url: "seed://outlook.jpg", source_class: frozen_seed }
