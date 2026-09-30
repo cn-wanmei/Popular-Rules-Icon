@@ -1,31 +1,20 @@
 {
   "service_id": "youtubemusic",
   "source_fingerprint": "201982f8a102071c860d3058c20f7d6495b382af79e64cd246b08c45287f0631",
-  "object_hash": "0dc511c445ce3cff30135b9b5d8b0135f00e0e26b2a0eb35363269ad86c2c03b",
-  "variant_hashes": {
-    "source_original:128:png": "042ef6c23f23805ecb47b7912ba0c8008d2cca74775a97e120badcbb8ba25003",
-    "source_original:256:png": "9e0bc78daabdb041e7213ad47bb227091b2e2fb45ce8e1228148441214409572",
-    "glassmorphism:128:png": "4dbbf8c8a2eeec67664dfeb8b82f2b982d26faf2e7ef00de5754001d1d465a24",
-    "glassmorphism:256:png": "1dd63d5c64b484780d18926d07805de0299ceb9ab4dfb47502e6f9eb537fbfdd",
-    "soft_3d:128:png": "10d25302c541cda2f0f3f59d0c56fd865498a019bcce794d216f185ac8472fab",
-    "soft_3d:256:png": "3497b4b195ce21d75bbea9ef0409e8c889f859ac7c389da69535e2cdffb78beb",
-    "neo_skeuomorphism:128:png": "12ce1e3eca4eeb870ba8168cdbde90d71f46b2f8383319e0c3ef27c7a7fb9071",
-    "neo_skeuomorphism:256:png": "b187926c3a1c1f0d2d0eddad4203f3038c795ee45027eb259fb9308d9d12987f",
-    "minimalist:128:png": "a95f7b84b3c23684b5e8d454c7ea5b9503827f3b5643d951d9728eb34358f220",
-    "minimalist:256:png": "8a785ecde4d2e8641aadc6256b1a911d0e96ecd8ca352731ed8bf8c2bcbebe22",
-    "duotone_line:128:png": "bf0432be3dd95a45c8de53827d7fe3c3577c7dfb604181247ff233e070181e4f",
-    "duotone_line:256:png": "1635668c8f754cf512f68f6125bf5dcb4fea782358b8cf0d0c7710f8a613fada",
-    "mbe:128:png": "0e0866f878ec1878adc3d8674683b9a503e81917536de4ce0739d44985e22e02",
-    "mbe:256:png": "3617cc29adaca02fea819a8efd0c623b638e653c1add38ccfae760361d97a385",
-    "y2k:128:png": "90eac40701b4b6b05387e62baac18d0bc0d2c32b534c15ab271bfb270c5ad777",
-    "y2k:256:png": "e66f855ab70fbf32be9f6a8d27a0c7f266ac145f42792f22e7ea42c3c0725779"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:33.163993+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:43:33.163993+00:00",
-  "source_url": "seed://youtubemusic.png",
+  "source_url": "seed://youtubemusic.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
