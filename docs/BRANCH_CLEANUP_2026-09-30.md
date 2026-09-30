@@ -28,3 +28,5 @@ Removed as stale migration/review branches:
 - state-clean-canonical-v1-20260930
 
 The cleanup itself is a one-time maintenance action; the cleanup workflow is removed after completion.
+
+Cleanup workflow implementation was corrected to execute the deletion script deterministically.
