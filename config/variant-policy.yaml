@@ -1,0 +1,20 @@
+# R7 — Variant policy
+schema: variant_policy_v1
+version: "1.0.0"
+production_styles:
+  - source_original
+# Future styles (not rendered in freeze1; demand-gated)
+planned_styles:
+  - glassmorphism
+  - soft_3d
+  - neo_skeuomorphism
+  - minimalist
+  - duotone_line
+  - mbe
+  - y2k
+sizes: [128, 256]
+formats: [png]
+max_upscale: 1.0
+notes: |
+  Freeze1 delivers source_original only.
+  Additional styles require explicit demand + renderer enablement (R7 expansion).
