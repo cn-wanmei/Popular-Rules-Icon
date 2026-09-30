@@ -1,0 +1,16 @@
+{
+  "service_id": "ai",
+  "source_fingerprint": null,
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "original_generated",
+  "lifecycle": "active",
+  "last_checked": "2026-09-30T19:25:00+08:00",
+  "last_failure_code": null,
+  "updated_at": "2026-09-30T19:25:00+08:00",
+  "source_url": "seed://ai.svg",
+  "native_px": 512,
+  "status": 200,
+  "identity_authority": "collection",
+  "identity_status": "canonical_pending_build"
+}
