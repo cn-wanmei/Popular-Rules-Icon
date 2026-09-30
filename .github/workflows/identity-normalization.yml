@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - feat/identity-boundary-v3-20260930
+  pull_request:
 
 concurrency:
   group: identity-normalize-${{ github.ref }}
