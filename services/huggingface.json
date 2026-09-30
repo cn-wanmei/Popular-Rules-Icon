@@ -1,31 +1,20 @@
 {
   "service_id": "huggingface",
   "source_fingerprint": "4d94ce5a0684962eb8b666aa71bbd3f051190f4403fa0b7b6491945afe59655d",
-  "object_hash": "e58dabedc00831be6ac36ff8c74dc906210831ef33ef82859f2c28617d47338c",
-  "variant_hashes": {
-    "source_original:128:png": "493938abdec87ed9db96d77efc01d9eb3be36a86a378b462d02ad24bad050522",
-    "source_original:256:png": "590fb60b29186564277f6cb6741d2dbc21823719a1c2fc415816570c9aa00d80",
-    "glassmorphism:128:png": "1944d62f6055807d72e427024004da0c7da45a791ebf4297ce5696b03d5064b4",
-    "glassmorphism:256:png": "b5c2deb9a8e67efcbe52e1b440867a001d33750e39de86effb1f6e4b60e9b55b",
-    "soft_3d:128:png": "cf79117fe015904856decba9e7219bd9a695f38a886294b26b48e636e0730258",
-    "soft_3d:256:png": "095c48989df7464f187b60936fe4ce73ec23d1522a2057e0aef3c90f2b946a19",
-    "neo_skeuomorphism:128:png": "6288e79fc242160e9dc2cdc1f7373a0c9fc0ccf2cb707bb34a3d31d1ec930518",
-    "neo_skeuomorphism:256:png": "7444b4dbb68f964c3631fc19c310581080582663a40517bd82c39a419891bda4",
-    "minimalist:128:png": "97330cd1a05d1cf1b3305d38d9c92cf33429d61f3811900136b69d1b3c15f55c",
-    "minimalist:256:png": "8c198a308ad8f921ebe5d374672b3c87244bd6eae4293ed5fd09ecaafcb255ae",
-    "duotone_line:128:png": "4c2b1b71a201f3f401c157d1ea7d194ed8bf2d86532996015ad00a7a71b475a8",
-    "duotone_line:256:png": "650e11a4b07f7ae37f87a2a4b87d7cee35471e238d36c8f7cd126cc3817dfddb",
-    "mbe:128:png": "606d1914087fc93e40a69e67e86204238b56d699e4f4dc46d5fd1004c6bc5e81",
-    "mbe:256:png": "fbf9cdd8e57ec59ee5bd7b1d64fdb0b9687472a99eae27af1513795b0c39c6ac",
-    "y2k:128:png": "a2c0209f87e3aeedc99f0a0bbe03f8e41f275595419e8d7c564abe4354fe9bdc",
-    "y2k:256:png": "5c7bbf7a3b0b920458770989a580b7fe3caa1c1c58d808b63ffbf6e57d656d9c"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:41.652011+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:41.652011+00:00",
-  "source_url": "seed://huggingface.jpg",
+  "source_url": "seed://huggingface.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
