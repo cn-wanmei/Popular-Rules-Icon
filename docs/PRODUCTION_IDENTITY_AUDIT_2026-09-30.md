@@ -24,12 +24,12 @@ Manifest inventory:
 
 ## Documentation/configuration drift found
 
-1. Collection V6 configuration referenced a non-existent `styles8` manifest; migration branch now points to `r14.1`.
-2. Cutover documentation referenced `freeze1`; migration branch now records `r14.1`.
-3. Collection V5 documents described V5 as active production even though provider was V6; migration branch marks V5 legacy fallback only.
-4. Collection README advertised the V4 icon library; migration branch switches the active reference to V6.
+1. Collection V6 configuration referenced a non-existent `styles8` manifest; current main points to `r14.1`.
+2. Cutover documentation referenced `freeze1`; current main records `r14.1`.
+3. Collection V5 documents described V5 as active production even though provider was V6; current main marks V5 legacy fallback only.
+4. Collection README advertised the V4 icon library; current main switches the active reference to V6.
 5. Three V5 mutation workflows were retired on the migration branch.
-6. R14 release pointers called 482 entries 100% Collection coverage; the migration branch records canonical 393/394.
+6. R14 release pointers called 482 entries 100% Collection coverage; the current main records canonical 393/394.
 7. The original R14 manifest recorded `.bin` paths while physical dist objects are `.png`; R14.1 and the manifest writer are corrected to `.png`.
 8. Icon R14/R20 documentation contradicted itself about completion; migration branch reconciles the state.
 
