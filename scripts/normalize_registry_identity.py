@@ -2,13 +2,13 @@
 """Normalize Icon Registry identity fields against a pinned Collection snapshot.
 
 Default mode is dry-run: writes a normalized staging tree and a report.
-No source file is deleted. Orphan records are classified but retained.
+--apply updates only canonical registry records in place. Orphans are classified
+but never deleted automatically.
 """
 from __future__ import annotations
 
 import argparse
 import json
-import shutil
 from pathlib import Path
 
 
@@ -22,12 +22,14 @@ def main() -> int:
     ap.add_argument("--registry", type=Path, default=Path("registry/services"))
     ap.add_argument("--out", type=Path, default=Path("build/identity-normalized/registry/services"))
     ap.add_argument("--report", type=Path, default=Path("build/identity-normalization-report.json"))
+    ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
 
     snap = load(args.snapshot)
     canonical = snap.get("services") or {}
     entities = snap.get("entity_universe") or {}
-    args.out.mkdir(parents=True, exist_ok=True)
+    if not args.apply:
+        args.out.mkdir(parents=True, exist_ok=True)
 
     report = {
         "schema": "icon_identity_normalization_report_v1",
@@ -40,7 +42,7 @@ def main() -> int:
         "orphan_category": [],
         "orphan_unknown": [],
         "invalid_json": [],
-        "output_tree": str(args.out),
+        "apply_mode": args.apply,
     }
 
     for source in sorted(args.registry.glob("*.json")):
@@ -52,7 +54,6 @@ def main() -> int:
             continue
 
         sid = item.get("service_id") or source.stem
-        dest = args.out / source.name
 
         if sid in canonical:
             expected = canonical[sid]
@@ -69,7 +70,11 @@ def main() -> int:
                 report["canonical_records_normalized"] += 1
         else:
             entity = entities.get(sid, {}).get("entity")
-            record = {"service_id": sid, "name": item.get("name"), "provider": item.get("provider")}
+            record = {
+                "service_id": sid,
+                "name": item.get("name"),
+                "provider": item.get("provider"),
+            }
             if entity == "provider_aggregate":
                 report["orphan_provider_aggregate"].append(record)
             elif entity == "domestic_aggregate":
@@ -81,10 +86,15 @@ def main() -> int:
             item["identity_authority"] = "collection"
             item["identity_status"] = "orphan"
 
-        dest.write_text(json.dumps(item, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        encoded = json.dumps(item, ensure_ascii=False, indent=2) + "\n"
+        if args.apply and sid in canonical:
+            source.write_text(encoded, encoding="utf-8")
+        elif not args.apply:
+            (args.out / source.name).write_text(encoded, encoding="utf-8")
 
     report["orphan_count"] = sum(
-        len(report[k]) for k in (
+        len(report[k])
+        for k in (
             "orphan_provider_aggregate",
             "orphan_domestic_aggregate",
             "orphan_category",
