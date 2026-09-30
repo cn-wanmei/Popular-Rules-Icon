@@ -1,31 +1,20 @@
 {
   "service_id": "hashicorp",
   "source_fingerprint": "22c695975d4acce6bbe34e7dfbc7e943f208a96ac975c75f3ea2f416028cb3c2",
-  "object_hash": "bef347868ffd9efb84853c20e7a6fbcfcd3a99e750abe4bc43263908adeced74",
-  "variant_hashes": {
-    "source_original:128:png": "f945b9e5e5cc095e9149e7ce29d5610385048d4d058724596dafaead41297e8b",
-    "source_original:256:png": "cb9ac48d46663a7390d3902159adf246d0b36c98c00051b74abe4be4401bbd89",
-    "glassmorphism:128:png": "85d301f8dd13cf72108c1a44119e55daadb5c265d4f035c1430aac95847e7972",
-    "glassmorphism:256:png": "017d368eb6af07aaad5cd0c1b05fc5660f454f5506d281aef918a98aca43e5be",
-    "soft_3d:128:png": "dfed4ebb9b6d1cc34bd9554f7358054871ad137e2a69587cefd3125703506768",
-    "soft_3d:256:png": "3f7e64e002adfdd32f5284fa6f2d43b1f0e037d0c95447725456a08ce5214db9",
-    "neo_skeuomorphism:128:png": "0c8a8ab00e2743d79d49588128ab9e7461b5fa7cb08bca766cc46d3e9b5d5d3b",
-    "neo_skeuomorphism:256:png": "e301f19bdcdf5372736d9c714889bbde74d5543ccfa02bfb9f4e35dc5047dad7",
-    "minimalist:128:png": "2ed4e4eeb901b4e0cf70b8f44800c80bbff2f64832f3769b4a9394490b69f766",
-    "minimalist:256:png": "d73a9bc7aced05e415ae7f5ae07f191a091c0f7e449394bdf983556112845143",
-    "duotone_line:128:png": "60660ac6e3de71a29df6b545898c6bcd2982d3a47d0dbde6e97868ee03ada179",
-    "duotone_line:256:png": "113ab227c242840af90e14a0673cfdec60d96866117df48e5ddf4ea5214f5043",
-    "mbe:128:png": "1b23885963105f566a673bae68877b0b9ee30abb7e2ce6ad101940298f46462f",
-    "mbe:256:png": "c5b6381a51815bcbf34c26f8b0c7112b2221668a6bc119279f77fa69850a0abe",
-    "y2k:128:png": "0b1f2f0db0609ffd9a25dfcb6b8e471bf3d592f7dcd26c94e48724d349911202",
-    "y2k:256:png": "da77e41131742c062651f48560aef085f3ff4222a1b11a4921e325cb4eaeb087"
-  },
-  "source_class": "frozen_seed",
+  "object_hash": null,
+  "variant_hashes": {},
+  "source_class": "verified_seed_svg",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:41.652011+00:00",
-  "last_failure_code": null,
+  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
   "updated_at": "2026-09-30T07:42:41.652011+00:00",
-  "source_url": "seed://hashicorp.jpg",
+  "source_url": "seed://hashicorp.svg",
   "native_px": 512,
-  "status": 200
+  "status": 0,
+  "review_status": "visual_identity_verified",
+  "visual_identity_audit": {
+    "status": "replaced",
+    "audited_on": "2026-10-01",
+    "source": "simple-icons/simple-icons"
+  }
 }
