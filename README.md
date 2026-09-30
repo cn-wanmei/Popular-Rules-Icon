@@ -15,9 +15,9 @@
 | Manifest physical closure | **6304/6304** |
 | Clean release-writer build-and-gate | **PASS** |
 | Clean release-writer publish | **PASS** |
-| V6 fallback | **Collection side pending final cutover; Icon side has independent rollback** |
+| V6 fallback | **Collection fallback disabled; Icon strict V6 only** |
 | Independent rollback | `icon-2026.09.30.r14.1` |
-| V5 production registry | **retired from Icon production state** |
+| V5 production registry | **removed from Icon production state** |
 
 ## 身份边界
 

@@ -11,8 +11,9 @@
    - physical object closure
    - release writer
    - verification gates
-3. **R20 final Collection retirement — in progress**
-   - disable Collection V5 fallback
-   - remove V5 local assets/runtime
-   - keep independent immutable V6 rollback
-   - pass final retirement verification
+3. **R20 final Collection retirement — complete**
+   - V5 runtime dependency removed
+   - V5 fallback disabled
+   - V5 local assets deleted
+   - independent V6 rollback retained
+   - Collection retirement evidence recorded

@@ -3,7 +3,7 @@ version: 1
 authority:
   repository: cn-wanmei/Popular-Rules-Collection
   path: rule/_index.yaml
-  pinned_commit: d916ed7911b10716d42a107fd5b5b6470299286a
+  pinned_commit: c2f6676e44b6a3641a5a5d06c79644e0935faf86
   source_file_sha: 493eb3bcbb9e69c3067adeed336cc0e2566537a1
   selection:
     include_entity: service
@@ -21,5 +21,6 @@ consumer_rules:
   seed_must_exist_for_production_registry: true
 migration:
   current_mode: strict
+  last_verified_collection_commit: c2f6676e44b6a3641a5a5d06c79644e0935faf86
   target_mode: strict
   normalize_registry_before_strict: true
