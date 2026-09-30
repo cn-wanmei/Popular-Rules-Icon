@@ -1,0 +1,13 @@
+{
+  "service_id": "neteasemusic",
+  "name": "neteasemusic",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "alias of netease_music",
+  "icon_alias_of": "netease_music"
+}

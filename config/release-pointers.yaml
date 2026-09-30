@@ -1,6 +1,8 @@
-production: icon-2026.09.30.freeze1
-rollback: icon-2026.09.30.1
-updated_at: "2026-09-30T05:39:38Z"
+production: icon-2026.09.30.styles8
+rollback: icon-2026.09.30.freeze1
+updated_at: "2026-09-30T06:05:38Z"
 frozen: true
-freeze_id: icon-2026.09.30.freeze1
-note: "FROZEN 247; icloud PNG delivery patched (was svg-only)"
+freeze_id: icon-2026.09.30.styles8
+styles: 8
+services: 266
+note: "8-style full render; Collection coverage expanded via aliases"

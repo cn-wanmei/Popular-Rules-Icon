@@ -30,6 +30,10 @@ jobs:
       - name: Registry presence
         run: python -m popular_rules_icon.cli validate-registry
       - name: R10 Freeze coverage gate (seeds)
-        run: python scripts/freeze_coverage_gate.py --registry registry/services --seed assets/icons/seed
+        run: |
+          test -f scripts/freeze_coverage_gate.py || { echo "missing freeze_coverage_gate.py — commit scripts with workflow"; exit 1; }
+          python scripts/freeze_coverage_gate.py --registry registry/services --seed assets/icons/seed
       - name: R12 Metrics
-        run: python scripts/icon_metrics.py
+        run: |
+          test -f scripts/icon_metrics.py || { echo "missing icon_metrics.py"; exit 1; }
+          python scripts/icon_metrics.py

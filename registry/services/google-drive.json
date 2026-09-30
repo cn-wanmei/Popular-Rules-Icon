@@ -1,0 +1,13 @@
+{
+  "service_id": "google-drive",
+  "name": "google-drive",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "alias of drive",
+  "icon_alias_of": "drive"
+}

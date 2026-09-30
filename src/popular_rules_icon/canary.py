@@ -11,6 +11,7 @@ from . import POLICY_VERSION, RENDERER_VERSION
 from .acquire import fetch_url
 from .hashutil import object_hash, source_fingerprint, variant_hash
 from .render import make_source_original_png
+from .styles8 import render_all_styles
 from .sanitize import SanitizeError, sanitize_svg
 
 
@@ -161,31 +162,43 @@ def acquire_canary(
             variants: dict[str, str] = {}
             native_px = None
             try:
-                for size in (128, 256):
-                    vh, png, nat = make_source_original_png(
-                        oh, data, size=size, max_upscale=1.0
+                from PIL import Image
+                from io import BytesIO as _B
+                im = Image.open(_B(data))
+                native_px = max(im.size)
+            except Exception:
+                pass
+            try:
+                styled = render_all_styles(data, sizes=(128, 256))
+                for key, png in styled.items():
+                    style, size_s, fmt = key.split(":")
+                    size_i = int(size_s)
+                    vh = variant_hash(
+                        oh,
+                        renderer_version=RENDERER_VERSION + "+styles8",
+                        style=style,
+                        size=size_i,
+                        fmt=fmt,
+                        policy_version=POLICY_VERSION,
                     )
-                    native_px = nat
-                    key = f"source_original:{size}:png"
                     variants[key] = vh
                     if out_variants:
                         (out_variants / f"{vh}.png").write_bytes(png)
-            except Exception as exc:  # noqa: BLE001
-                key = f"source_original:256:{ext}"
-                vh = variant_hash(
-                    oh,
-                    renderer_version=RENDERER_VERSION,
-                    style="source_original",
-                    size=256,
-                    fmt=ext,
-                    policy_version=POLICY_VERSION,
-                )
-                variants[key] = vh
-                if out_variants:
-                    (out_variants / f"{vh}.{ext}").write_bytes(data)
-                last_err = None
-                # still success with fallback
-                _ = exc
+            except Exception as style_exc:  # noqa: BLE001
+                try:
+                    for size in (128, 256):
+                        vh, png, nat = make_source_original_png(oh, data, size=size, max_upscale=1.0)
+                        native_px = native_px or nat
+                        variants[f"source_original:{size}:png"] = vh
+                        if out_variants:
+                            (out_variants / f"{vh}.png").write_bytes(png)
+                except Exception as exc:  # noqa: BLE001
+                    vh = variant_hash(oh, renderer_version=RENDERER_VERSION, style="source_original", size=256, fmt=ext, policy_version=POLICY_VERSION)
+                    variants[f"source_original:256:{ext}"] = vh
+                    if out_variants:
+                        (out_variants / f"{vh}.{ext}").write_bytes(data)
+                    _ = exc
+                _ = style_exc
 
             state = {
                 "service_id": sid,

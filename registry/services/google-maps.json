@@ -1,0 +1,13 @@
+{
+  "service_id": "google-maps",
+  "name": "google-maps",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "brand",
+  "tier": 1,
+  "status": "active",
+  "lock": "binding",
+  "notes": "alias of maps",
+  "icon_alias_of": "maps"
+}

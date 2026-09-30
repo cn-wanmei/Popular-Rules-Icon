@@ -1,8 +1,5 @@
-# FREEZE SNAPSHOT — production sources are local seeds.
-# Remote URLs kept only as provenance under remote_provenance (not fetched by default).
-# schema_version: "1-freeze"
 schema_version: "1-freeze"
-freeze_id: "icon-2026.09.30.freeze1"
+freeze_id: "icon-2026.09.30.styles8"
 sources:
   12306:
     candidates:
@@ -40,6 +37,9 @@ sources:
   alipayhk:
     candidates:
       - { url: "seed://alipayhk.jpg", source_class: frozen_seed }
+  amap:
+    candidates:
+      - { url: "seed://amap.jpg", source_class: frozen_seed }
   amazon:
     candidates:
       - { url: "seed://amazon.jpg", source_class: frozen_seed }
@@ -55,6 +55,12 @@ sources:
   anker:
     candidates:
       - { url: "seed://anker.jpg", source_class: frozen_seed }
+  anthropic:
+    candidates:
+      - { url: "seed://anthropic.jpg", source_class: frozen_seed }
+  anthropic-claude:
+    candidates:
+      - { url: "seed://anthropic-claude.jpg", source_class: frozen_seed }
   apple:
     candidates:
       - { url: "seed://apple.jpg", source_class: frozen_seed }
@@ -106,6 +112,9 @@ sources:
   baidumap:
     candidates:
       - { url: "seed://baidumap.jpg", source_class: frozen_seed }
+  baidumaps:
+    candidates:
+      - { url: "seed://baidumaps.jpg", source_class: frozen_seed }
   baidunetdisk:
     candidates:
       - { url: "seed://baidunetdisk.jpg", source_class: frozen_seed }
@@ -127,6 +136,9 @@ sources:
   bear:
     candidates:
       - { url: "seed://bear.jpg", source_class: frozen_seed }
+  beike:
+    candidates:
+      - { url: "seed://beike.jpg", source_class: frozen_seed }
   bilibili:
     candidates:
       - { url: "seed://bilibili.jpg", source_class: frozen_seed }
@@ -169,6 +181,9 @@ sources:
   cctv:
     candidates:
       - { url: "seed://cctv.jpg", source_class: frozen_seed }
+  chatgpt:
+    candidates:
+      - { url: "seed://chatgpt.jpg", source_class: frozen_seed }
   chrome:
     candidates:
       - { url: "seed://chrome.jpg", source_class: frozen_seed }
@@ -226,12 +241,18 @@ sources:
   digitalocean:
     candidates:
       - { url: "seed://digitalocean.jpg", source_class: frozen_seed }
+  dingding:
+    candidates:
+      - { url: "seed://dingding.jpg", source_class: frozen_seed }
   dingtalk:
     candidates:
       - { url: "seed://dingtalk.jpg", source_class: frozen_seed }
   discord:
     candidates:
       - { url: "seed://discord.jpg", source_class: frozen_seed }
+  disney:
+    candidates:
+      - { url: "seed://disney.jpg", source_class: frozen_seed }
   disneyplus:
     candidates:
       - { url: "seed://disneyplus.jpg", source_class: frozen_seed }
@@ -253,6 +274,9 @@ sources:
   ebay:
     candidates:
       - { url: "seed://ebay.jpg", source_class: frozen_seed }
+  eleme:
+    candidates:
+      - { url: "seed://eleme.jpg", source_class: frozen_seed }
   emby:
     candidates:
       - { url: "seed://emby.jpg", source_class: frozen_seed }
@@ -274,6 +298,9 @@ sources:
   figma:
     candidates:
       - { url: "seed://figma.jpg", source_class: frozen_seed }
+  findmy:
+    candidates:
+      - { url: "seed://findmy.png", source_class: frozen_seed }
   gaode:
     candidates:
       - { url: "seed://gaode.jpg", source_class: frozen_seed }
@@ -295,9 +322,21 @@ sources:
   google:
     candidates:
       - { url: "seed://google.jpg", source_class: frozen_seed }
+  google-drive:
+    candidates:
+      - { url: "seed://google-drive.jpg", source_class: frozen_seed }
+  google-maps:
+    candidates:
+      - { url: "seed://google-maps.jpg", source_class: frozen_seed }
+  google-play:
+    candidates:
+      - { url: "seed://google-play.jpg", source_class: frozen_seed }
   googledocs:
     candidates:
       - { url: "seed://googledocs.jpg", source_class: frozen_seed }
+  googledrive:
+    candidates:
+      - { url: "seed://googledrive.jpg", source_class: frozen_seed }
   googlephotos:
     candidates:
       - { url: "seed://googlephotos.jpg", source_class: frozen_seed }
@@ -346,6 +385,9 @@ sources:
   iqiyi:
     candidates:
       - { url: "seed://iqiyi.jpg", source_class: frozen_seed }
+  jd:
+    candidates:
+      - { url: "seed://jd.jpg", source_class: frozen_seed }
   jianying:
     candidates:
       - { url: "seed://jianying.jpg", source_class: frozen_seed }
@@ -415,9 +457,15 @@ sources:
   microsoft:
     candidates:
       - { url: "seed://microsoft.jpg", source_class: frozen_seed }
+  microsoftedge:
+    candidates:
+      - { url: "seed://microsoftedge.jpg", source_class: frozen_seed }
   migu:
     candidates:
       - { url: "seed://migu.jpg", source_class: frozen_seed }
+  mihome:
+    candidates:
+      - { url: "seed://mihome.jpg", source_class: frozen_seed }
   mihoyo:
     candidates:
       - { url: "seed://mihoyo.jpg", source_class: frozen_seed }
@@ -433,12 +481,18 @@ sources:
   moonshot:
     candidates:
       - { url: "seed://moonshot.jpg", source_class: frozen_seed }
+  netease:
+    candidates:
+      - { url: "seed://netease.jpg", source_class: frozen_seed }
   netease_mail:
     candidates:
       - { url: "seed://netease_mail.jpg", source_class: frozen_seed }
   netease_music:
     candidates:
       - { url: "seed://netease_music.jpg", source_class: frozen_seed }
+  neteasemusic:
+    candidates:
+      - { url: "seed://neteasemusic.jpg", source_class: frozen_seed }
   netflix:
     candidates:
       - { url: "seed://netflix.jpg", source_class: frozen_seed }
@@ -745,5 +799,3 @@ sources:
   zoom:
     candidates:
       - { url: "seed://zoom.jpg", source_class: frozen_seed }
-
-# --- provenance (informational; not used by acquire) ---
