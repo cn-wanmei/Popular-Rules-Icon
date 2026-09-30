@@ -35,6 +35,20 @@ jobs:
           test -f config/collection_identity_snapshot.json || { echo "missing Collection identity snapshot"; exit 1; }
           python scripts/identity_boundary_gate.py --write-report build/identity-boundary-report.json
 
+      - name: V6 manifest verification (migration report)
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          RELEASE=$(python3 - <<'PY'
+          import yaml
+          from pathlib import Path
+          cfg = yaml.safe_load(Path("config/release-pointers.yaml").read_text(encoding="utf-8"))
+          print(cfg["production"])
+          PY
+          )
+          curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
+          python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE" | tee build/v6-manifest-report.json
+
       - name: R10 Freeze coverage gate (seeds)
         run: |
           test -f scripts/freeze_coverage_gate.py || { echo "missing freeze_coverage_gate.py — commit scripts with workflow"; exit 1; }
