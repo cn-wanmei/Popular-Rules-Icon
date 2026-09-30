@@ -4,7 +4,7 @@
 
 Popular-Rules-Collection is the sole authority for canonical service identity.
 
-Pinned source: Collection main commit b95c01f98704bc9a9c306c53c0fb73e74b3c64e4, path rule/_index.yaml, selecting only entity=service.
+Pinned source: Collection main commit d916ed7911b10716d42a107fd5b5b6470299286a4, path rule/_index.yaml, selecting only entity=service.
 
 Icon Registry is an identity consumer. It must not rename, merge, invent, or reinterpret Collection services.
 
