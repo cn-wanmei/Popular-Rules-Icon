@@ -3,7 +3,7 @@
   "version": 1,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "b95c01f98704bc9a9c306c53c0fb73e74b3c64e4",
+    "ref": "afa94e0c993555f70038ccf1951584d8ab0bb435",
     "path": "rule/_index.yaml",
     "selection": {
       "include_entity": "service",
@@ -6278,5 +6278,6 @@
       "provider": "zte",
       "collection_path": "zte/zte_aggregate/zte_aggregate.yaml"
     }
-  }
+  },
+  "generated_from_commit": "afa94e0c993555f70038ccf1951584d8ab0bb435"
 }
