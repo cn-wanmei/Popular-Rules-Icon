@@ -33,7 +33,7 @@ jobs:
         run: |
           test -f scripts/identity_boundary_gate.py || { echo "missing identity_boundary_gate.py"; exit 1; }
           test -f config/collection_identity_snapshot.json || { echo "missing Collection identity snapshot"; exit 1; }
-          python scripts/identity_boundary_gate.py --write-report build/identity-boundary-report.json --strict --strict
+          python scripts/identity_boundary_gate.py --write-report build/identity-boundary-report.json --strict
 
       - name: V6 manifest verification (strict)
         run: |
