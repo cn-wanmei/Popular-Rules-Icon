@@ -1,0 +1,16 @@
+{
+  "service_id": "ai",
+  "name": "AI",
+  "domains": [],
+  "aliases": [],
+  "renamed_from": [],
+  "asset_class": "generated",
+  "tier": 2,
+  "status": "active",
+  "lock": "binding",
+  "composition_hint": "glyph",
+  "notes": "Canonical Collection service. Local generated neutral AI glyph used as deterministic seed until an official service-specific asset is available.",
+  "review_status": "approved_identity",
+  "identity_authority": "collection",
+  "identity_status": "canonical"
+}

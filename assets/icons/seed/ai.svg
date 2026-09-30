@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="AI">
+  <rect x="32" y="32" width="448" height="448" rx="108" fill="#141820"/>
+  <g stroke="#6EE7B7" stroke-width="10" stroke-linecap="round" opacity="0.8">
+    <path d="M142 190L256 132L370 190"/>
+    <path d="M142 190L180 328L256 390L332 328L370 190"/>
+    <path d="M142 190L256 390L370 190"/>
+    <path d="M256 132L180 328"/>
+    <path d="M256 132L332 328"/>
+  </g>
+  <g fill="#6EE7B7">
+    <circle cx="142" cy="190" r="22"/><circle cx="256" cy="132" r="22"/><circle cx="370" cy="190" r="22"/>
+    <circle cx="180" cy="328" r="22"/><circle cx="332" cy="328" r="22"/><circle cx="256" cy="390" r="22"/>
+  </g>
+  <g fill="#141820">
+    <circle cx="142" cy="190" r="8"/><circle cx="256" cy="132" r="8"/><circle cx="370" cy="190" r="8"/>
+    <circle cx="180" cy="328" r="8"/><circle cx="332" cy="328" r="8"/><circle cx="256" cy="390" r="8"/>
+  </g>
+  <text x="256" y="316" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="108" font-weight="700" fill="#F5FAFF">AI</text>
+</svg>
