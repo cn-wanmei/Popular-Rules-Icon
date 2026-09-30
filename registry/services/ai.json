@@ -9,8 +9,9 @@
   "status": "active",
   "lock": "binding",
   "composition_hint": "glyph",
-  "notes": "Canonical Collection service. Local generated neutral AI glyph used as deterministic seed until an official service-specific asset is available.",
+  "notes": "Canonical Collection service. Local generated neutral AI glyph used as deterministic seed; canonical provider mirrored from Collection.",
   "review_status": "approved_identity",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "provider": "special"
 }
