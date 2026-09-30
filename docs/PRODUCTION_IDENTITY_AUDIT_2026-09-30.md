@@ -1,42 +1,75 @@
 # Icon Production & Identity Audit — 2026-09-30
 
-## Repositories
+## Repositories audited
 
-- cn-wanmei/Popular-Rules-Icon
-- cn-wanmei/Popular-Rules-Collection
+- `cn-wanmei/Popular-Rules-Icon`
+- `cn-wanmei/Popular-Rules-Collection`
 
 ## Canonical identity
 
-Collection main `rule/_index.yaml` currently contains 394 entries with `entity: service`.
-Icon dist release `icon-2026.09.30.r14` contains 482 entries.
-Against the Collection canonical set, 393 are present, 1 canonical service (`ai`) is missing, and 89 entries are orphaned.
+Collection main `rule/_index.yaml` currently exposes 394 entries with `entity: service`.
+Icon production must use that canonical service universe; aggregate/category records are not substitute services.
 
-## Documentation drift found
+## Current V6 publication
 
-1. R14/R20 status documentation simultaneously described R14 as done and in progress.
-2. Release pointers called 482 entries 100% Collection coverage, which is not valid after canonical service filtering.
-3. Collection V6 configuration/docs referred to `styles8` and `freeze1`, while the actual dist manifest is `r14`.
-4. Collection V5 documents still described V5 as active/production.
-5. Collection V5 automation could continue changing the V5 asset tree.
+`dist` contains release `icon-2026.09.30.r14`; a corrected immutable manifest `icon-2026.09.30.r14.1` was added without changing the original R14 manifest.
 
-## Production-chain defects
+Manifest inventory:
+- 482 entries;
+- 16 variant keys per entry;
+- 7712 variant records;
+- 393/394 current Collection service IDs present;
+- missing canonical service: `ai`;
+- 89 entries are orphaned relative to the current Collection service identity.
 
-1. Dist manifest variant metadata records `.bin` paths while physical dist artifacts are `.png`.
-2. The configured `styles8` manifest did not exist on the dist branch; the actual published manifest was `r14`.
-3. Icon `release.yml` and `incremental.yml` on main are placeholder/scaffold workflows rather than a reproducible publish writer.
-4. Dist branch is present, but end-to-end reproducibility of its publication is not established by mainline workflow.
-5. V5 fallback is still enabled, so deleting the V5 tree would remove the current safety path before all V6 gates are green.
+## Documentation/configuration drift found
 
-## Decisions
+1. Collection V6 configuration referenced a non-existent `styles8` manifest; migration branch now points to `r14.1`.
+2. Cutover documentation referenced `freeze1`; migration branch now records `r14.1`.
+3. Collection V5 documents described V5 as active production even though provider was V6; migration branch marks V5 legacy fallback only.
+4. Collection README advertised the V4 icon library; migration branch switches the active reference to V6.
+5. Three V5 mutation workflows were retired on the migration branch.
+6. R14 release pointers called 482 entries 100% Collection coverage; the migration branch records canonical 393/394.
+7. The original R14 manifest recorded `.bin` paths while physical dist objects are `.png`; R14.1 and the manifest writer are corrected to `.png`.
+8. Icon R14/R20 documentation contradicted itself about completion; migration branch reconciles the state.
 
-- V5 cannot yet be removed.
-- V5 automatic mutation workflows are retired on the migration branch.
-- Collection remains the sole service identity authority.
-- Icon registry normalization continues against the pinned Collection snapshot.
-- A corrective immutable dist manifest release is required before declaring the V6 release path healthy.
+## Production-chain assessment
 
-## Completion conditions
+**Not healthy end-to-end yet.**
 
-Identity: 394/394 canonical services, zero production orphans.
-Release: immutable manifest points to existing `.png` objects, resolver verified, reproducible release writer present.
-Cutover: zero V5 fallback, zero V5 active references, rollback independent of V5 local tree.
+Verified:
+- dist branch exists and contains content-addressed PNG objects;
+- R14.1 manifest exists;
+- 8 styles × 128/256 variant records exist;
+- repository PR CI has passed its current tests and freeze/metrics checks.
+
+Unverified/blocking:
+- reproducible release writer in mainline CI is absent; `release.yml` is currently a placeholder;
+- current release publication is not proven reproducible from source + workflow;
+- resolver end-to-end against the corrected immutable manifest is not yet gated;
+- canonical service identity is 393/394, with 89 orphans;
+- V5 fallback remains enabled.
+
+## V5 removal
+
+Do **not** remove V5 yet.
+
+V5 removal requires all of:
+1. 394/394 canonical Collection services in V6;
+2. zero production orphans;
+3. zero V5 fallback use;
+4. resolver end-to-end verification;
+5. manifest paths equal physical object paths;
+6. reproducible release writer + validation;
+7. zero active V5 references in Collection;
+8. rollback independent of V5 local assets.
+
+Until then, V5 is frozen as a safety net and must not receive new automatic writes.
+
+## Identity-boundary progress
+
+Phase A — contract: complete.
+Phase B — pinned Collection snapshot + gate: complete.
+Phase C — Icon Registry normalization: in progress.
+Phase D — seed/asset identity review: pending.
+Phase E — strict CI: blocked until C and D are clean.
