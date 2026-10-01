@@ -11,12 +11,12 @@
 | Active V6 release | `icon-2026.09.30.clean1` |
 | Canonical coverage | **394/394 (100%)** |
 | Production orphan identities | **0** |
-| Variant matrix | **6304 = 394 × 16** |
+| Variant matrix | **6304** (394 services × style/theme matrix; see release manifests; `styles: 8` in release-pointers) |
 | Manifest physical closure | **6304/6304** |
 | Clean release-writer build-and-gate | **PASS** |
 | Clean release-writer publish | **PASS** |
 | V6 fallback | **Collection fallback disabled; Icon strict V6 only** |
-| Independent rollback | `icon-2026.09.30.r14.1` |
+| Independent rollback | `icon-2026.09.30.clean1-rb1` |
 | V5 production registry | **removed from Icon production state** |
 
 ## 身份边界
