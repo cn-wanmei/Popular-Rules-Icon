@@ -46,3 +46,7 @@ Collection V6 resolver
 ```
 
 See `docs/PRODUCTION_IDENTITY_AUDIT_2026-09-30.md` and `docs/IDENTITY_BOUNDARY_V1.md`.
+
+## Documentation
+
+- [docs/INDEX.md](docs/INDEX.md)
