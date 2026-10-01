@@ -11,3 +11,4 @@
 - `state` — seed/build state
 
 Retired narrative status docs (R14/R20 roadmaps, freeze notes) remain for history; prefer release-pointers over README tables for operational IDs.
+- [archive/status/](archive/status/) — date-stamped progress/roadmap
