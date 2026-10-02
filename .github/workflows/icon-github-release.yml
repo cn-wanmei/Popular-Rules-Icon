@@ -1,0 +1,105 @@
+name: Icon Style GitHub Release Packages
+
+# Produces 8 style zip packages + RELEASE_NOTES and publishes a GitHub Release.
+# Intended to run after a successful V6 Release Writer publish to dist.
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_id:
+        description: "Immutable V6 release id (must already exist under dist/manifests/)"
+        required: true
+        type: string
+      prev_release_id:
+        description: "Previous production release id for changelog diff (optional)"
+        required: false
+        type: string
+        default: ""
+      dry_run:
+        description: "If true, only package, do not create GitHub Release"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: icon-github-release
+  cancel-in-progress: false
+
+jobs:
+  package-and-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Fetch dist branch (manifests + objects)
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin refs/heads/dist:refs/remotes/origin/dist
+          mkdir -p build/dist-manifests build/objects
+          git show "refs/remotes/origin/dist:manifests/${{ inputs.release_id }}.json" > "build/dist-manifests/${{ inputs.release_id }}.json"
+          git archive refs/remotes/origin/dist v | tar -x -C build/objects --strip-components=1 || true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve previous manifest (optional)
+        id: prev
+        run: |
+          set -euo pipefail
+          PREV="${{ inputs.prev_release_id }}"
+          if [ -n "$PREV" ]; then
+            if git show "refs/remotes/origin/dist:manifests/${PREV}.json" > "build/dist-manifests/${PREV}.json" 2>/dev/null; then
+              echo "path=build/dist-manifests/${PREV}.json" >> "$GITHUB_OUTPUT"
+              echo "id=$PREV" >> "$GITHUB_OUTPUT"
+            else
+              echo "path=" >> "$GITHUB_OUTPUT"
+              echo "id=" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "path=" >> "$GITHUB_OUTPUT"
+            echo "id=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Package 8 style zips
+        run: |
+          set -euo pipefail
+          ARGS=(
+            --manifest "build/dist-manifests/${{ inputs.release_id }}.json"
+            --release-id "${{ inputs.release_id }}"
+            --out-dir release-packages
+          )
+          if [ -n "${{ steps.prev.outputs.path }}" ]; then
+            ARGS+=(--prev-manifest "${{ steps.prev.outputs.path }}" --prev-release-id "${{ steps.prev.outputs.id }}")
+          fi
+          python scripts/package_style_releases.py "${ARGS[@]}"
+          ls -la release-packages/
+
+      - name: Upload package artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: icon-style-packages-${{ inputs.release_id }}
+          path: release-packages/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Create GitHub Release
+        if: ${{ inputs.dry_run != true }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RID="${{ inputs.release_id }}"
+          gh release create "$RID" \
+            --title "Icon System V6 — ${RID}" \
+            --notes-file release-packages/RELEASE_NOTES.md \
+            release-packages/*.zip \
+            release-packages/RELEASE_NOTES.md \
+            release-packages/SHA256SUMS.txt \
+            release-packages/release-meta.json
+          echo "Created icon release: $RID"
