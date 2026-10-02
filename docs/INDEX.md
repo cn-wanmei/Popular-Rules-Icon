@@ -12,3 +12,7 @@
 
 Retired narrative status docs (R14/R20 roadmaps, freeze notes) remain for history; prefer release-pointers over README tables for operational IDs.
 - [archive/status/](archive/status/) — date-stamped progress/roadmap
+- [STYLE_SYSTEM_V1.md](STYLE_SYSTEM_V1.md) — production style semantics (keys unchanged)
+- [gallery/INDEX.md](gallery/INDEX.md) — production preview index
+- [config/variant-policy.yaml](../config/variant-policy.yaml)
+- [config/style-display.yaml](../config/style-display.yaml)

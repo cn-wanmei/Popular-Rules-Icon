@@ -1,0 +1,15 @@
+schema: style_display_v1
+version: "1.0.0"
+# Maps production style keys to UI labels only. Never rewrite manifest keys.
+labels:
+  source_original: { zh: "源图/品牌向", en: "Source / Brand" }
+  minimalist: { zh: "极简", en: "Minimal" }
+  duotone_line: { zh: "双色线稿", en: "Duotone Line" }
+  soft_3d: { zh: "柔和立体", en: "Soft 3D" }
+  glassmorphism: { zh: "玻璃拟态", en: "Glass" }
+  neo_skeuomorphism: { zh: "新拟物", en: "Neo-Skeuo" }
+  mbe: { zh: "MBE 插画向", en: "MBE" }
+  y2k: { zh: "Y2K", en: "Y2K" }
+defaults:
+  documentation: source_original
+  documentation_size: 256
