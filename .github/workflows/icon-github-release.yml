@@ -1,7 +1,8 @@
 name: Icon Style GitHub Release Packages
 
-# Produces 8 style zip packages + RELEASE_NOTES and publishes a GitHub Release.
-# Intended to run after a successful V6 Release Writer publish to dist.
+# Manual-only packaging of 8 style icon zips + GitHub Release.
+# NEVER triggered by push / V6 Release Writer / schedule.
+# Run from Actions after a successful dist publish when you want user-facing zips.
 
 on:
   workflow_dispatch:
@@ -42,15 +43,10 @@ jobs:
           git fetch --no-tags origin refs/heads/dist:refs/remotes/origin/dist
           mkdir -p build/dist-manifests build/objects
           git show "refs/remotes/origin/dist:manifests/${{ inputs.release_id }}.json" > "build/dist-manifests/${{ inputs.release_id }}.json"
-          # Physical objects live under dist/v/<hash>.png
           git archive refs/remotes/origin/dist v | tar -x -C build/objects
-          # Also keep a build/v mirror for path resolution
           mkdir -p build/v
           if [ -d build/objects/v ]; then
             cp -a build/objects/v/. build/v/ || true
-          elif [ -d build/objects ]; then
-            # archive may extract files directly if strip needed
-            find build/objects -name '*.png' | head -5 || true
           fi
           echo "png count: $(find build -name '*.png' | wc -l)"
 
@@ -101,7 +97,7 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Delete previous same-tag release if empty (idempotent republish)
+      - name: Delete previous same-tag release if republishing
         if: ${{ inputs.dry_run != true }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -120,12 +116,17 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
+          set -f
           RID="${{ inputs.release_id }}"
+          ASSET_ARGS=()
+          while IFS= read -r -d '' f; do
+            ASSET_ARGS+=("$f")
+          done < <(find release-packages -maxdepth 1 -type f \
+            \( -name '*.zip' -o -name 'RELEASE_NOTES.md' -o -name 'SHA256SUMS.txt' -o -name 'release-meta.json' \) \
+            -print0 | sort -z)
+          test "${#ASSET_ARGS[@]}" -ge 8
           gh release create "$RID" \
             --title "Icon System V6 — ${RID}" \
             --notes-file release-packages/RELEASE_NOTES.md \
-            release-packages/*.zip \
-            release-packages/RELEASE_NOTES.md \
-            release-packages/SHA256SUMS.txt \
-            release-packages/release-meta.json
+            "${ASSET_ARGS[@]}"
           echo "Created icon release: $RID"
