@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """package_style_releases.py — Build 8 style icon zip artifacts + release notes.
 
-8 styles (stable contract aligned with historical Matrix 8 / V6):
-  1. source-original
-  2. glassmorphism
-  3. soft-3d-claymorphism
-  4. neo-skeuomorphism
-  5. minimalist-glyph-multicolor-flat
-  6. two-tone-broken-line
-  7. mbe-illustration
-  8. y2k-synthwave
+V6 variant keys (from production manifests):
+  source_original, glassmorphism, soft_3d, neo_skeuomorphism,
+  minimalist, duotone_line, mbe, y2k
 
+Each style packs both 128 and 256 png variants when present.
 Zip naming: {style-slug}-{release_id}.zip
 """
 
@@ -24,16 +19,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-# Canonical 8 styles — slug used in filenames
-STYLES: list[tuple[str, str]] = [
-    ("source-original", "Source Original"),
-    ("glassmorphism", "Glassmorphism"),
-    ("soft-3d-claymorphism", "Soft 3D / Claymorphism"),
-    ("neo-skeuomorphism", "Neo-Skeuomorphism"),
-    ("minimalist-glyph-multicolor-flat", "Minimalist Glyph & Multi-color Flat"),
-    ("two-tone-broken-line", "Two-tone / Broken Line"),
-    ("mbe-illustration", "MBE Illustration"),
-    ("y2k-synthwave", "Y2K / Synthwave"),
+# (manifest_variant_prefix, zip_slug, display_title)
+STYLES: list[tuple[str, str, str]] = [
+    ("source_original", "source-original", "Source Original"),
+    ("glassmorphism", "glassmorphism", "Glassmorphism"),
+    ("soft_3d", "soft-3d-claymorphism", "Soft 3D / Claymorphism"),
+    ("neo_skeuomorphism", "neo-skeuomorphism", "Neo-Skeuomorphism"),
+    ("minimalist", "minimalist-glyph-multicolor-flat", "Minimalist Glyph & Multi-color Flat"),
+    ("duotone_line", "two-tone-broken-line", "Two-tone / Broken Line"),
+    ("mbe", "mbe-illustration", "MBE Illustration"),
+    ("y2k", "y2k-synthwave", "Y2K / Synthwave"),
 ]
 
 
@@ -54,30 +49,46 @@ def _load_json(path: Path) -> dict[str, Any] | None:
         return None
 
 
-def _collect_variant_paths(manifest: dict[str, Any], style_key: str) -> list[tuple[str, Path]]:
-    """Return list of (arcname, local_path) for one style from a V6 manifest."""
+def _resolve_local(rel: str, search_roots: list[Path]) -> Path | None:
+    rel = rel.lstrip("/")
+    for root in search_roots:
+        p = root / rel
+        if p.is_file():
+            return p
+        # also try without leading v/
+        if rel.startswith("v/"):
+            p2 = root / rel[2:]
+            if p2.is_file():
+                return p2
+        p3 = root / "v" / Path(rel).name
+        if p3.is_file():
+            return p3
+    return None
+
+
+def _collect_variant_paths(
+    manifest: dict[str, Any],
+    style_prefix: str,
+    search_roots: list[Path],
+) -> list[tuple[str, Path]]:
     results: list[tuple[str, Path]] = []
     for entry in manifest.get("entries") or []:
         service_id = entry.get("service_id") or entry.get("id") or "unknown"
         variants = entry.get("variants") or {}
-        meta = None
-        for k, v in variants.items():
-            kl = str(k).lower().replace(" ", "-").replace("_", "-")
-            if style_key in kl or kl in style_key or style_key.replace("-", "") in kl.replace("-", ""):
-                meta = v
-                break
-        if meta is None and style_key in variants:
-            meta = variants[style_key]
-        if not isinstance(meta, dict):
-            continue
-        rel = (meta.get("path") or "").lstrip("/")
-        if not rel:
-            continue
-        local = Path("build/objects") / rel
-        if not local.is_file():
-            local = Path(rel)
-        if local.is_file():
-            arc = f"{service_id}/{Path(rel).name}"
+        for key, meta in variants.items():
+            if not str(key).startswith(style_prefix + ":"):
+                continue
+            if not isinstance(meta, dict):
+                continue
+            rel = (meta.get("path") or "").lstrip("/")
+            if not rel:
+                continue
+            local = _resolve_local(rel, search_roots)
+            if local is None:
+                continue
+            # arc: service_id / size / filename
+            size = "256" if ":256:" in str(key) else "128" if ":128:" in str(key) else "unknown"
+            arc = f"{service_id}/{size}/{local.name}"
             results.append((arc, local))
     return results
 
@@ -116,7 +127,7 @@ def build_notes(
     lines.append("")
     lines.append("| 风格 | 文件名 | 图标数 |")
     lines.append("|---|---|---:|")
-    for slug, title in STYLES:
+    for _prefix, slug, title in STYLES:
         st = style_stats.get(slug, {})
         lines.append(f"| {title} | `{st.get('zip_name', '')}` | {st.get('icon_count', 0)} |")
     lines.append("")
@@ -149,16 +160,29 @@ def build_notes(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--manifest", type=Path, required=True, help="V6 release manifest JSON")
+    parser.add_argument("--manifest", type=Path, required=True)
     parser.add_argument("--release-id", required=True)
     parser.add_argument("--out-dir", type=Path, default=Path("release-packages"))
-    parser.add_argument("--prev-manifest", type=Path, default=None, help="Previous production manifest for diff")
+    parser.add_argument("--prev-manifest", type=Path, default=None)
     parser.add_argument("--prev-release-id", default="")
+    parser.add_argument(
+        "--objects-root",
+        type=Path,
+        action="append",
+        default=[],
+        help="Root(s) to search for physical png objects (repeatable)",
+    )
     args = parser.parse_args()
 
     manifest = _load_json(args.manifest)
     if not manifest:
         raise SystemExit(f"cannot load manifest: {args.manifest}")
+
+    search_roots = list(args.objects_root) if args.objects_root else [
+        Path("build/objects"),
+        Path("build/v"),
+        Path("."),
+    ]
 
     out = args.out_dir
     out.mkdir(parents=True, exist_ok=True)
@@ -181,8 +205,8 @@ def main() -> int:
             variants = e.get("variants") or {}
             digests = []
             for v in variants.values():
-                if isinstance(v, dict) and v.get("sha256"):
-                    digests.append(v["sha256"])
+                if isinstance(v, dict) and (v.get("variant_hash") or v.get("sha256")):
+                    digests.append(v.get("variant_hash") or v.get("sha256"))
             if digests:
                 prev_hashes[sid] = "|".join(sorted(digests))
 
@@ -197,8 +221,8 @@ def main() -> int:
             variants = e.get("variants") or {}
             digests = []
             for v in variants.values():
-                if isinstance(v, dict) and v.get("sha256"):
-                    digests.append(v["sha256"])
+                if isinstance(v, dict) and (v.get("variant_hash") or v.get("sha256")):
+                    digests.append(v.get("variant_hash") or v.get("sha256"))
             cur_h = "|".join(sorted(digests)) if digests else ""
             if cur_h and cur_h != prev_hashes.get(sid):
                 modified.append(sid)
@@ -207,20 +231,18 @@ def main() -> int:
     style_stats: dict[str, dict[str, Any]] = {}
     total_icons = 0
 
-    for slug, _title in STYLES:
-        pairs = _collect_variant_paths(manifest, slug)
-        if not pairs:
-            objs = Path("build/objects")
-            if objs.is_dir():
-                for p in objs.rglob("*.png"):
-                    if slug.replace("-", "") in p.as_posix().lower().replace("-", "").replace("_", ""):
-                        pairs.append((p.relative_to(objs).as_posix(), p))
+    for prefix, slug, _title in STYLES:
+        pairs = _collect_variant_paths(manifest, prefix, search_roots)
         zip_name = f"{slug}-{args.release_id}.zip"
         dest = out / zip_name
         count = _zip_paths(pairs, dest) if pairs else 0
         if not pairs:
             with zipfile.ZipFile(dest, "w") as zf:
-                zf.writestr("README.txt", f"No physical assets resolved for style {slug} in this run.\n")
+                zf.writestr(
+                    "README.txt",
+                    f"No physical assets resolved for style {prefix} in this run.\n"
+                    f"Search roots: {[str(r) for r in search_roots]}\n",
+                )
             count = 0
         total_icons += count
         style_stats[slug] = {
@@ -228,6 +250,7 @@ def main() -> int:
             "icon_count": count,
             "sha256": _sha256_file(dest),
             "size_bytes": dest.stat().st_size,
+            "variant_prefix": prefix,
         }
         print(f"[package] {zip_name} icons={count}")
 
@@ -245,7 +268,7 @@ def main() -> int:
 
     sums_path = out / "SHA256SUMS.txt"
     with sums_path.open("w", encoding="utf-8") as f:
-        for slug, _ in STYLES:
+        for _p, slug, _t in STYLES:
             st = style_stats[slug]
             f.write(f"{st['sha256']}  {st['zip_name']}\n")
         f.write(f"{_sha256_file(notes_path)}  RELEASE_NOTES.md\n")
@@ -267,6 +290,9 @@ def main() -> int:
 
     print(f"[package] wrote 8 style zips + RELEASE_NOTES.md")
     print(f"[package] added={len(added)} deleted={len(deleted)} modified={len(modified)}")
+    if total_icons == 0:
+        print("[package] WARNING: zero icons resolved — check objects roots")
+        return 2
     return 0
 
 

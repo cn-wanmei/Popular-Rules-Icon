@@ -28,7 +28,7 @@ concurrency:
 jobs:
   package-and-release:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -36,13 +36,23 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch dist branch (manifests + objects)
+      - name: Fetch dist branch (manifests + v objects)
         run: |
           set -euo pipefail
           git fetch --no-tags origin refs/heads/dist:refs/remotes/origin/dist
           mkdir -p build/dist-manifests build/objects
           git show "refs/remotes/origin/dist:manifests/${{ inputs.release_id }}.json" > "build/dist-manifests/${{ inputs.release_id }}.json"
-          git archive refs/remotes/origin/dist v | tar -x -C build/objects --strip-components=1 || true
+          # Physical objects live under dist/v/<hash>.png
+          git archive refs/remotes/origin/dist v | tar -x -C build/objects
+          # Also keep a build/v mirror for path resolution
+          mkdir -p build/v
+          if [ -d build/objects/v ]; then
+            cp -a build/objects/v/. build/v/ || true
+          elif [ -d build/objects ]; then
+            # archive may extract files directly if strip needed
+            find build/objects -name '*.png' | head -5 || true
+          fi
+          echo "png count: $(find build -name '*.png' | wc -l)"
 
       - uses: actions/setup-python@v5
         with:
@@ -73,6 +83,9 @@ jobs:
             --manifest "build/dist-manifests/${{ inputs.release_id }}.json"
             --release-id "${{ inputs.release_id }}"
             --out-dir release-packages
+            --objects-root build/objects
+            --objects-root build/v
+            --objects-root build
           )
           if [ -n "${{ steps.prev.outputs.path }}" ]; then
             ARGS+=(--prev-manifest "${{ steps.prev.outputs.path }}" --prev-release-id "${{ steps.prev.outputs.id }}")
@@ -87,6 +100,19 @@ jobs:
           path: release-packages/
           if-no-files-found: error
           retention-days: 30
+
+      - name: Delete previous same-tag release if empty (idempotent republish)
+        if: ${{ inputs.dry_run != true }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RID="${{ inputs.release_id }}"
+          if gh release view "$RID" >/dev/null 2>&1; then
+            echo "Existing release $RID found; deleting for republish"
+            gh release delete "$RID" --yes || true
+            git push origin ":refs/tags/$RID" || true
+          fi
 
       - name: Create GitHub Release
         if: ${{ inputs.dry_run != true }}
