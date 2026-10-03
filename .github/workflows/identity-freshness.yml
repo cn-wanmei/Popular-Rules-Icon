@@ -52,10 +52,25 @@ jobs:
 
           snap = json.loads(snap_path.read_text(encoding="utf-8"))
           index = yaml.safe_load(Path("/tmp/collection/_index.yaml").read_text(encoding="utf-8"))
+          if not isinstance(index, dict):
+              raise SystemExit(f"unexpected index type: {type(index).__name__}")
 
+          # Collection human index: schema human_rule_distribution_index_v1 → entries[]
           live_ids = set()
-          if isinstance(index, dict):
-              services = index.get("services") or index.get("items") or index
+          entries = index.get("entries")
+          if isinstance(entries, list):
+              for item in entries:
+                  if not isinstance(item, dict):
+                      continue
+                  ent = str(item.get("entity") or "service").lower()
+                  if ent != "service":
+                      continue
+                  sid = item.get("id") or item.get("service_id")
+                  if sid:
+                      live_ids.add(str(sid))
+          else:
+              # Fallback legacy shapes
+              services = index.get("services") or index.get("items")
               if isinstance(services, dict):
                   for sid, meta in services.items():
                       if isinstance(meta, dict):
@@ -72,6 +87,9 @@ jobs:
                           if sid and ent in ("service", ""):
                               live_ids.add(str(sid))
 
+          if not live_ids:
+              raise SystemExit("parsed zero live service ids from Collection index — refuse false empty")
+
           pinned = snap.get("services") or {}
           if isinstance(pinned, dict):
               pinned_ids = set(str(k) for k in pinned.keys())
@@ -86,6 +104,8 @@ jobs:
 
           report = {
               "schema": "icon_identity_freshness_v1",
+              "index_schema": index.get("schema"),
+              "index_run_id": index.get("run_id"),
               "pinned_generated_at": snap.get("generated_at"),
               "pinned_source": snap.get("source"),
               "live_service_count": len(live_ids),
@@ -132,7 +152,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Regenerate collection identity snapshot
-        run: python scripts/sync_collection_identity_snapshot.py
+        run: python scripts/sync_collection_identity_snapshot.py --index-path /tmp/unused 2>/dev/null || python scripts/sync_collection_identity_snapshot.py
 
       - name: Create branch and PR
         env:
@@ -145,13 +165,7 @@ jobs:
           git checkout -b "$BRANCH"
           git add config/collection_identity_snapshot.json
           if git diff --cached --quiet; then
-            echo "Snapshot file unchanged after sync (parser may differ); still recording freshness report"
-            mkdir -p reports
-            echo "{"run":"$GITHUB_RUN_ID","note":"no file delta"}" > reports/identity_sync_note.json
-            git add reports/identity_sync_note.json || true
-          fi
-          if git diff --cached --quiet; then
-            echo "Nothing to commit"
+            echo "Snapshot file unchanged after sync"
             exit 0
           fi
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
@@ -173,8 +187,8 @@ Do not treat service **count** alone as proof of currency — review the diff." 
           set -e
           echo "$PR_OUT"
           if [ "$STATUS" -ne 0 ]; then
-            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
-              echo "::warning::Branch pushed; PR creation blocked by repo Actions policy. Open PR manually from $BRANCH."
+            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest|already exists'; then
+              echo "::warning::Branch pushed; open PR manually from $BRANCH if needed."
               exit 0
             fi
             exit "$STATUS"
