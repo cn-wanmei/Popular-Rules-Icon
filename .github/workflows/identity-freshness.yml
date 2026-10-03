@@ -2,8 +2,10 @@ name: Identity Freshness
 
 on:
   schedule:
-    - cron: "0 6 * * 1"
+    - cron: "0 6 * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [collection-identity-changed]
 
 env:
   PYTHON_VERSION: "3.12"
@@ -94,9 +96,6 @@ jobs:
                       }
                   else:
                       pinned[sid] = {"id": sid, "display_name": sid, "provider": ""}
-          elif isinstance(pinned_raw, list):
-              for sid in pinned_raw:
-                  pinned[str(sid)] = {"id": str(sid), "display_name": str(sid), "provider": ""}
 
           only_live = sorted(set(live) - set(pinned))
           only_pin = sorted(set(pinned) - set(live))
