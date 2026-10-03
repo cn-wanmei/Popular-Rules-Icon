@@ -1,3 +1,10 @@
+> **Status: Historical**  
+> Not current production status.  
+> See `docs/HISTORICAL.md`, `config/collection_identity_snapshot.json`, `config/release-pointers.yaml`.  
+> Do not copy service counts or release IDs from this file into README.
+
+---
+
 # 可能不适配 / 需优先审阅清单（147 项）
 
 总服务数：**247** · Release：`icon-2026.09.29.9`
