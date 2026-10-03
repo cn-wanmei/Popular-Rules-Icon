@@ -57,7 +57,7 @@ jobs:
           if [ "${{ inputs.strict }}" = "true" ]; then STRICT_ARG="--strict"; fi
           python scripts/v6_manifest_gate.py             --manifest build/v6-manifest.json             --snapshot config/collection_identity_snapshot.json             --release-id "${{ steps.release.outputs.release }}"             $STRICT_ARG | tee build/v6-manifest-gate.json
 
-      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
         if: always()
         with:
           name: v6-manifest-gate-${{ github.sha }}
