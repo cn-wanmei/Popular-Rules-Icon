@@ -1,0 +1,113 @@
+name: Identity Freshness
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  compare:
+    name: Compare Collection identity vs pinned snapshot
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Fetch Collection rule/_index.yaml
+        run: |
+          mkdir -p /tmp/collection
+          curl -fsSL \
+            "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/main/rule/_index.yaml" \
+            -o /tmp/collection/_index.yaml
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Freshness compare
+        run: |
+          python - <<'PY'
+          import json, hashlib, sys
+          from pathlib import Path
+
+          try:
+              import yaml
+          except ImportError:
+              import subprocess
+              subprocess.check_call([sys.executable, "-m", "pip", "install", "PyYAML==6.0.2"])
+              import yaml
+
+          snap_path = Path("config/collection_identity_snapshot.json")
+          if not snap_path.is_file():
+              raise SystemExit("missing config/collection_identity_snapshot.json")
+
+          snap = json.loads(snap_path.read_text(encoding="utf-8"))
+          index = yaml.safe_load(Path("/tmp/collection/_index.yaml").read_text(encoding="utf-8"))
+
+          # Collect service ids from Collection index (entity=service only when present)
+          live_ids = set()
+          if isinstance(index, dict):
+              services = index.get("services") or index.get("items") or index
+              if isinstance(services, dict):
+                  for sid, meta in services.items():
+                      if isinstance(meta, dict):
+                          ent = str(meta.get("entity") or meta.get("type") or "service").lower()
+                          if ent in ("service", ""):
+                              live_ids.add(str(sid))
+                      else:
+                          live_ids.add(str(sid))
+              elif isinstance(services, list):
+                  for item in services:
+                      if isinstance(item, dict):
+                          sid = item.get("service_id") or item.get("id")
+                          ent = str(item.get("entity") or "service").lower()
+                          if sid and ent in ("service", ""):
+                              live_ids.add(str(sid))
+
+          pinned = snap.get("services") or {}
+          if isinstance(pinned, dict):
+              pinned_ids = set(str(k) for k in pinned.keys())
+          elif isinstance(pinned, list):
+              pinned_ids = set(str(x) for x in pinned)
+          else:
+              pinned_ids = set()
+
+          only_live = sorted(live_ids - pinned_ids)
+          only_pin = sorted(pinned_ids - live_ids)
+          drift = bool(only_live or only_pin)
+
+          report = {
+              "schema": "icon_identity_freshness_v1",
+              "pinned_generated_at": snap.get("generated_at"),
+              "pinned_source": snap.get("source"),
+              "live_service_count": len(live_ids),
+              "pinned_service_count": len(pinned_ids),
+              "only_in_collection": only_live[:50],
+              "only_in_snapshot": only_pin[:50],
+              "drift": drift,
+          }
+          out = Path("reports")
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "identity_freshness.json").write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          if drift:
+              raise SystemExit(
+                  "DRIFT: run scripts/sync_collection_identity_snapshot.py and open a PR. "
+                  f"only_collection={len(only_live)} only_snapshot={len(only_pin)}"
+              )
+          print("NO DRIFT")
+          PY
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: identity-freshness-report
+          path: reports/identity_freshness.json
+          if-no-files-found: warn
