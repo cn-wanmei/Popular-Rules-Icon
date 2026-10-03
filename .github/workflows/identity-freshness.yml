@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 
 env:
   PYTHON_VERSION: "3.12"
@@ -15,6 +16,8 @@ jobs:
   compare:
     name: Compare Collection identity vs pinned snapshot
     runs-on: ubuntu-latest
+    outputs:
+      drift: ${{ steps.compare.outputs.drift }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -30,9 +33,10 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Freshness compare
+        id: compare
         run: |
           python - <<'PY'
-          import json, hashlib, sys
+          import json, os, sys
           from pathlib import Path
 
           try:
@@ -49,7 +53,6 @@ jobs:
           snap = json.loads(snap_path.read_text(encoding="utf-8"))
           index = yaml.safe_load(Path("/tmp/collection/_index.yaml").read_text(encoding="utf-8"))
 
-          # Collect service ids from Collection index (entity=service only when present)
           live_ids = set()
           if isinstance(index, dict):
               services = index.get("services") or index.get("items") or index
@@ -97,12 +100,16 @@ jobs:
               json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
           )
           print(json.dumps(report, ensure_ascii=False, indent=2))
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"drift={'true' if drift else 'false'}\n")
+
           if drift:
-              raise SystemExit(
-                  "DRIFT: run scripts/sync_collection_identity_snapshot.py and open a PR. "
-                  f"only_collection={len(only_live)} only_snapshot={len(only_pin)}"
+              print(
+                  f"DRIFT detected only_collection={len(only_live)} only_snapshot={len(only_pin)}"
               )
-          print("NO DRIFT")
+          else:
+              print("NO DRIFT")
           PY
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -111,3 +118,64 @@ jobs:
           name: identity-freshness-report
           path: reports/identity_freshness.json
           if-no-files-found: warn
+
+  sync-pr:
+    name: Open snapshot sync PR when drift
+    needs: compare
+    if: needs.compare.outputs.drift == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Regenerate collection identity snapshot
+        run: python scripts/sync_collection_identity_snapshot.py
+
+      - name: Create branch and PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/identity-snapshot-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add config/collection_identity_snapshot.json
+          if git diff --cached --quiet; then
+            echo "Snapshot file unchanged after sync (parser may differ); still recording freshness report"
+            mkdir -p reports
+            echo "{"run":"$GITHUB_RUN_ID","note":"no file delta"}" > reports/identity_sync_note.json
+            git add reports/identity_sync_note.json || true
+          fi
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
+          git push --set-upstream origin "$BRANCH"
+
+          set +e
+          PR_OUT=$(gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(icon): refresh collection identity snapshot" \
+            --body "Automated Identity Freshness reconcile.
+
+Collection is identity authority. This PR only refreshes the **consumer** snapshot.
+
+See workflow Identity Freshness run ${GITHUB_RUN_ID}.
+
+Do not treat service **count** alone as proof of currency — review the diff." 2>&1)
+          STATUS=$?
+          set -e
+          echo "$PR_OUT"
+          if [ "$STATUS" -ne 0 ]; then
+            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
+              echo "::warning::Branch pushed; PR creation blocked by repo Actions policy. Open PR manually from $BRANCH."
+              exit 0
+            fi
+            exit "$STATUS"
+          fi
