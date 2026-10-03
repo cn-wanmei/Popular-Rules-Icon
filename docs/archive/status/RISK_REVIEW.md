@@ -1,18 +1,22 @@
-> **Status: Historical**  
-> Not current production status.  
-> See `docs/HISTORICAL.md`, `config/collection_identity_snapshot.json`, `config/release-pointers.yaml`.  
-> Do not copy service counts or release IDs from this file into README.
+> **Status: Historical archive**  
+> Not current production status.
 
----
+## Full table (immutable)
 
-# 可能不适配 / 需优先审阅清单（147 项）
+The complete pre-clean V6 heuristic list is preserved in git history:
 
-总服务数：**247** · Release：`icon-2026.09.29.9`
+```text
+https://github.com/cn-wanmei/Popular-Rules-Icon/blob/5c359c59be59d0381872fd56ce9b66dfcf27375a/docs/RISK_REVIEW.md
+```
 
-说明：以下为**启发式风险**，不一定错误。请结合预览图人工确认。
+Commit: `5c359c59be59d0381872fd56ce9b66dfcf27375a` (Historical banner + full table).
 
-> Archived from pre-clean V6 review. Full table retained for audit only.
->
-> **For the complete service table, use git history** of `docs/RISK_REVIEW.md` prior to the G4d stub move (commit before `cc03bc7`), or re-export from Icon release audit artifacts.
->
-> This archive marker intentionally avoids re-embedding 30KB of outdated heuristic rows as a living doc; the authoritative pointer is git history + HISTORICAL.md.
+## Why not inline
+
+The table embeds legacy **service counts / release IDs** that must not be treated as SSOT. Keeping the body only in history prevents accidental copy into README.
+
+## Current authority
+
+- `config/collection_identity_snapshot.json`
+- `config/release-pointers.yaml`
+- `docs/HISTORICAL.md`
