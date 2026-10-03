@@ -1,3 +1,5 @@
-# Archived status / roadmap notes
+# Archive / status (Icon)
 
-Date-stamped progress and roadmap files. Operational SSOT: `config/release-pointers.yaml` and root README.
+Historical audit materials. **Not** production SSOT.
+
+See `docs/HISTORICAL.md`.
