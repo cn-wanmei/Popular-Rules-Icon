@@ -5,10 +5,6 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pull-requests: write
-
 env:
   PYTHON_VERSION: "3.12"
 
@@ -16,6 +12,8 @@ jobs:
   compare:
     name: Compare Collection identity vs pinned snapshot
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     outputs:
       drift: ${{ steps.compare.outputs.drift }}
     steps:
@@ -27,24 +25,22 @@ jobs:
           curl -fsSL \
             "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/main/rule/_index.yaml" \
             -o /tmp/collection/_index.yaml
+          wc -c /tmp/collection/_index.yaml
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
+      - name: Install PyYAML
+        run: python -m pip install --disable-pip-version-check "PyYAML==6.0.2"
+
       - name: Freshness compare
         id: compare
         run: |
           python - <<'PY'
-          import json, os, sys
+          import json, os
           from pathlib import Path
-
-          try:
-              import yaml
-          except ImportError:
-              import subprocess
-              subprocess.check_call([sys.executable, "-m", "pip", "install", "PyYAML==6.0.2"])
-              import yaml
+          import yaml
 
           snap_path = Path("config/collection_identity_snapshot.json")
           if not snap_path.is_file():
@@ -55,7 +51,6 @@ jobs:
           if not isinstance(index, dict):
               raise SystemExit(f"unexpected index type: {type(index).__name__}")
 
-          # Collection human index: schema human_rule_distribution_index_v1 → entries[]
           live_ids = set()
           entries = index.get("entries")
           if isinstance(entries, list):
@@ -66,29 +61,13 @@ jobs:
                   if ent != "service":
                       continue
                   sid = item.get("id") or item.get("service_id")
-                  if sid:
+                  if sid is not None and str(sid).strip() != "":
                       live_ids.add(str(sid))
           else:
-              # Fallback legacy shapes
-              services = index.get("services") or index.get("items")
-              if isinstance(services, dict):
-                  for sid, meta in services.items():
-                      if isinstance(meta, dict):
-                          ent = str(meta.get("entity") or meta.get("type") or "service").lower()
-                          if ent in ("service", ""):
-                              live_ids.add(str(sid))
-                      else:
-                          live_ids.add(str(sid))
-              elif isinstance(services, list):
-                  for item in services:
-                      if isinstance(item, dict):
-                          sid = item.get("service_id") or item.get("id")
-                          ent = str(item.get("entity") or "service").lower()
-                          if sid and ent in ("service", ""):
-                              live_ids.add(str(sid))
+              raise SystemExit("Collection index has no entries[] — refuse ambiguous parse")
 
-          if not live_ids:
-              raise SystemExit("parsed zero live service ids from Collection index — refuse false empty")
+          if len(live_ids) < 10:
+              raise SystemExit(f"parsed too few live service ids: {len(live_ids)}")
 
           pinned = snap.get("services") or {}
           if isinstance(pinned, dict):
@@ -107,7 +86,6 @@ jobs:
               "index_schema": index.get("schema"),
               "index_run_id": index.get("run_id"),
               "pinned_generated_at": snap.get("generated_at"),
-              "pinned_source": snap.get("source"),
               "live_service_count": len(live_ids),
               "pinned_service_count": len(pinned_ids),
               "only_in_collection": only_live[:50],
@@ -124,12 +102,7 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"drift={'true' if drift else 'false'}\n")
 
-          if drift:
-              print(
-                  f"DRIFT detected only_collection={len(only_live)} only_snapshot={len(only_pin)}"
-              )
-          else:
-              print("NO DRIFT")
+          print("DRIFT" if drift else "NO DRIFT")
           PY
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -144,6 +117,11 @@ jobs:
     needs: compare
     if: needs.compare.outputs.drift == 'true'
     runs-on: ubuntu-latest
+    # Soft path: branch push / PR policy must not fail the freshness contract itself
+    continue-on-error: true
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -151,8 +129,11 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
+      - name: Install PyYAML
+        run: python -m pip install --disable-pip-version-check "PyYAML==6.0.2"
+
       - name: Regenerate collection identity snapshot
-        run: python scripts/sync_collection_identity_snapshot.py --index-path /tmp/unused 2>/dev/null || python scripts/sync_collection_identity_snapshot.py
+        run: python scripts/sync_collection_identity_snapshot.py
 
       - name: Create branch and PR
         env:
@@ -169,27 +150,16 @@ jobs:
             exit 0
           fi
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
-          git push --set-upstream origin "$BRANCH"
+          git push --set-upstream origin "$BRANCH" || {
+            echo "::warning::push failed"
+            exit 0
+          }
 
           set +e
           PR_OUT=$(gh pr create \
             --base main \
             --head "$BRANCH" \
             --title "chore(icon): refresh collection identity snapshot" \
-            --body "Automated Identity Freshness reconcile.
-
-Collection is identity authority. This PR only refreshes the **consumer** snapshot.
-
-See workflow Identity Freshness run ${GITHUB_RUN_ID}.
-
-Do not treat service **count** alone as proof of currency — review the diff." 2>&1)
-          STATUS=$?
-          set -e
+            --body "Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID})." 2>&1)
           echo "$PR_OUT"
-          if [ "$STATUS" -ne 0 ]; then
-            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest|already exists'; then
-              echo "::warning::Branch pushed; open PR manually from $BRANCH if needed."
-              exit 0
-            fi
-            exit "$STATUS"
-          fi
+          exit 0
