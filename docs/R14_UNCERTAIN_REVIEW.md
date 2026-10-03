@@ -1,3 +1,10 @@
+> **Status: Historical**  
+> Not current production status.  
+> See `docs/HISTORICAL.md`, `config/collection_identity_snapshot.json`, `config/release-pointers.yaml`.  
+> Do not copy service counts or release IDs from this file into README.
+
+---
+
 # R14 待审计图标清单（不确定 / 需替换）
 
 总计待审：222
