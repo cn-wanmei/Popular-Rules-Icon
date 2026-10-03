@@ -16,16 +16,24 @@ jobs:
       contents: read
     outputs:
       drift: ${{ steps.compare.outputs.drift }}
+      collection_sha: ${{ steps.compare.outputs.collection_sha }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Fetch Collection rule/_index.yaml
+      - name: Resolve Collection HEAD and fetch index
+        id: fetch
         run: |
+          set -euo pipefail
           mkdir -p /tmp/collection
+          SHA=$(curl -fsSL -H "Accept: application/vnd.github+json" -H "User-Agent: icon-freshness" \
+            "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/commits/main" \
+            | python -c "import sys,json; print(json.load(sys.stdin)['sha'])")
+          echo "collection_sha=$SHA" >> "$GITHUB_OUTPUT"
           curl -fsSL \
-            "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/main/rule/_index.yaml" \
+            "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/${SHA}/rule/_index.yaml" \
             -o /tmp/collection/_index.yaml
           wc -c /tmp/collection/_index.yaml
+          echo "$SHA" > /tmp/collection/commit.sha
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
@@ -34,11 +42,11 @@ jobs:
       - name: Install PyYAML
         run: python -m pip install --disable-pip-version-check "PyYAML==6.0.2"
 
-      - name: Freshness compare
+      - name: Full identity freshness compare
         id: compare
         run: |
           python - <<'PY'
-          import json, os
+          import hashlib, json, os
           from pathlib import Path
           import yaml
 
@@ -47,60 +55,99 @@ jobs:
               raise SystemExit("missing config/collection_identity_snapshot.json")
 
           snap = json.loads(snap_path.read_text(encoding="utf-8"))
-          index = yaml.safe_load(Path("/tmp/collection/_index.yaml").read_text(encoding="utf-8"))
-          if not isinstance(index, dict):
-              raise SystemExit(f"unexpected index type: {type(index).__name__}")
+          raw = Path("/tmp/collection/_index.yaml").read_bytes()
+          index = yaml.safe_load(raw.decode("utf-8"))
+          live_sha = Path("/tmp/collection/commit.sha").read_text(encoding="utf-8").strip()
+          live_file_sha = hashlib.sha256(raw).hexdigest()
 
-          live_ids = set()
-          entries = index.get("entries")
-          if isinstance(entries, list):
-              for item in entries:
-                  if not isinstance(item, dict):
-                      continue
-                  ent = str(item.get("entity") or "service").lower()
-                  if ent != "service":
-                      continue
-                  sid = item.get("id") or item.get("service_id")
-                  if sid is not None and str(sid).strip() != "":
-                      live_ids.add(str(sid))
-          else:
-              raise SystemExit("Collection index has no entries[] — refuse ambiguous parse")
+          if not isinstance(index, dict) or not isinstance(index.get("entries"), list):
+              raise SystemExit("Collection index missing entries[]")
 
-          if len(live_ids) < 10:
-              raise SystemExit(f"parsed too few live service ids: {len(live_ids)}")
+          live: dict[str, dict] = {}
+          for item in index["entries"]:
+              if not isinstance(item, dict):
+                  continue
+              if str(item.get("entity") or "service").lower() != "service":
+                  continue
+              sid = item.get("id") or item.get("service_id")
+              if sid is None or str(sid).strip() == "":
+                  continue
+              sid = str(sid)
+              live[sid] = {
+                  "id": sid,
+                  "display_name": str(item.get("display_name") or sid),
+                  "provider": str(item.get("provider") or ""),
+              }
 
-          pinned = snap.get("services") or {}
-          if isinstance(pinned, dict):
-              pinned_ids = set(str(k) for k in pinned.keys())
-          elif isinstance(pinned, list):
-              pinned_ids = set(str(x) for x in pinned)
-          else:
-              pinned_ids = set()
+          if len(live) < 10:
+              raise SystemExit(f"too few live services: {len(live)}")
 
-          only_live = sorted(live_ids - pinned_ids)
-          only_pin = sorted(pinned_ids - live_ids)
-          drift = bool(only_live or only_pin)
+          pinned_raw = snap.get("services") or {}
+          pinned: dict[str, dict] = {}
+          if isinstance(pinned_raw, dict):
+              for k, v in pinned_raw.items():
+                  sid = str(k)
+                  if isinstance(v, dict):
+                      pinned[sid] = {
+                          "id": sid,
+                          "display_name": str(v.get("display_name") or sid),
+                          "provider": str(v.get("provider") or ""),
+                      }
+                  else:
+                      pinned[sid] = {"id": sid, "display_name": sid, "provider": ""}
+          elif isinstance(pinned_raw, list):
+              for sid in pinned_raw:
+                  pinned[str(sid)] = {"id": str(sid), "display_name": str(sid), "provider": ""}
+
+          only_live = sorted(set(live) - set(pinned))
+          only_pin = sorted(set(pinned) - set(live))
+          field_mismatches = []
+          for sid in sorted(set(live) & set(pinned)):
+              a, b = live[sid], pinned[sid]
+              for field in ("display_name", "provider"):
+                  if a.get(field) != b.get(field):
+                      field_mismatches.append({"service_id": sid, "field": field, "live": a.get(field), "pinned": b.get(field)})
+                      if len(field_mismatches) >= 50:
+                          break
+              if len(field_mismatches) >= 50:
+                  break
+
+          pinned_src = snap.get("source") if isinstance(snap.get("source"), dict) else {}
+          pinned_ref = str((pinned_src or {}).get("ref") or "")
+          pinned_file_sha = str((pinned_src or {}).get("file_sha") or "")
+
+          drift = bool(only_live or only_pin or field_mismatches or (pinned_ref and pinned_ref not in (live_sha, "main") and pinned_ref != live_sha))
+          # Always treat missing pinned file_sha or ref!=live as soft signal; hard drift on id/field set
+          if only_live or only_pin or field_mismatches:
+              drift = True
+          elif pinned_file_sha and pinned_file_sha != live_file_sha:
+              drift = True
+          elif pinned_ref and pinned_ref not in ("main", live_sha) and pinned_ref != live_sha:
+              drift = True
 
           report = {
-              "schema": "icon_identity_freshness_v1",
-              "index_schema": index.get("schema"),
-              "index_run_id": index.get("run_id"),
+              "schema": "icon_identity_freshness_v2",
+              "live_collection_sha": live_sha,
+              "live_file_sha": live_file_sha,
+              "pinned_ref": pinned_ref,
+              "pinned_file_sha": pinned_file_sha,
               "pinned_generated_at": snap.get("generated_at"),
-              "live_service_count": len(live_ids),
-              "pinned_service_count": len(pinned_ids),
+              "live_service_count": len(live),
+              "pinned_service_count": len(pinned),
               "only_in_collection": only_live[:50],
               "only_in_snapshot": only_pin[:50],
+              "field_mismatches": field_mismatches[:50],
               "drift": drift,
           }
-          out = Path("reports")
-          out.mkdir(parents=True, exist_ok=True)
-          (out / "identity_freshness.json").write_text(
+          Path("reports").mkdir(parents=True, exist_ok=True)
+          Path("reports/identity_freshness.json").write_text(
               json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
           )
           print(json.dumps(report, ensure_ascii=False, indent=2))
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"drift={'true' if drift else 'false'}\n")
+              fh.write(f"collection_sha={live_sha}\n")
 
           print("DRIFT" if drift else "NO DRIFT")
           PY
@@ -113,12 +160,11 @@ jobs:
           if-no-files-found: warn
 
   sync-pr:
-    name: Open snapshot sync PR when drift
+    name: Remediate drift (regenerate + PR)
     needs: compare
     if: needs.compare.outputs.drift == 'true'
     runs-on: ubuntu-latest
-    # Soft path: branch push / PR policy must not fail the freshness contract itself
-    continue-on-error: true
+    # H4: remediation failure must surface (no continue-on-error)
     permissions:
       contents: write
       pull-requests: write
@@ -132,10 +178,12 @@ jobs:
       - name: Install PyYAML
         run: python -m pip install --disable-pip-version-check "PyYAML==6.0.2"
 
-      - name: Regenerate collection identity snapshot
-        run: python scripts/sync_collection_identity_snapshot.py
+      - name: Regenerate snapshot at exact Collection SHA
+        run: |
+          python scripts/sync_collection_identity_snapshot.py \
+            --commit-sha "${{ needs.compare.outputs.collection_sha }}"
 
-      - name: Create branch and PR
+      - name: Create branch and PR (fail if cannot remediate)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -146,20 +194,33 @@ jobs:
           git checkout -b "$BRANCH"
           git add config/collection_identity_snapshot.json
           if git diff --cached --quiet; then
-            echo "Snapshot file unchanged after sync"
-            exit 0
+            echo "::error::Drift reported but snapshot unchanged after sync — investigation required"
+            exit 1
           fi
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
-          git push --set-upstream origin "$BRANCH" || {
-            echo "::warning::push failed"
-            exit 0
-          }
+          git push --set-upstream origin "$BRANCH"
 
           set +e
           PR_OUT=$(gh pr create \
             --base main \
             --head "$BRANCH" \
             --title "chore(icon): refresh collection identity snapshot" \
-            --body "Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID})." 2>&1)
+            --body "Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}).
+
+Pinned to Collection SHA \`${{ needs.compare.outputs.collection_sha }}\`.
+
+Full identity compare: service_id + display_name + provider + file_sha." 2>&1)
+          STATUS=$?
+          set -e
           echo "$PR_OUT"
-          exit 0
+          if [ "$STATUS" -ne 0 ]; then
+            if echo "$PR_OUT" | grep -qiE 'already exists'; then
+              echo "PR already exists for branch — remediation visible"
+              exit 0
+            fi
+            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
+              echo "::error::Branch pushed but PR creation blocked by repo policy. Open PR from $BRANCH manually."
+              exit 1
+            fi
+            exit "$STATUS"
+          fi
