@@ -21,19 +21,18 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Resolve Collection HEAD and fetch index
-        id: fetch
         run: |
           set -euo pipefail
           mkdir -p /tmp/collection
           SHA=$(curl -fsSL -H "Accept: application/vnd.github+json" -H "User-Agent: icon-freshness" \
             "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/commits/main" \
             | python -c "import sys,json; print(json.load(sys.stdin)['sha'])")
-          echo "collection_sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "$SHA" > /tmp/collection/commit.sha
           curl -fsSL \
             "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/${SHA}/rule/_index.yaml" \
             -o /tmp/collection/_index.yaml
           wc -c /tmp/collection/_index.yaml
-          echo "$SHA" > /tmp/collection/commit.sha
+          echo "resolved Collection SHA=$SHA"
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
@@ -63,7 +62,7 @@ jobs:
           if not isinstance(index, dict) or not isinstance(index.get("entries"), list):
               raise SystemExit("Collection index missing entries[]")
 
-          live: dict[str, dict] = {}
+          live = {}
           for item in index["entries"]:
               if not isinstance(item, dict):
                   continue
@@ -83,7 +82,7 @@ jobs:
               raise SystemExit(f"too few live services: {len(live)}")
 
           pinned_raw = snap.get("services") or {}
-          pinned: dict[str, dict] = {}
+          pinned = {}
           if isinstance(pinned_raw, dict):
               for k, v in pinned_raw.items():
                   sid = str(k)
@@ -106,7 +105,12 @@ jobs:
               a, b = live[sid], pinned[sid]
               for field in ("display_name", "provider"):
                   if a.get(field) != b.get(field):
-                      field_mismatches.append({"service_id": sid, "field": field, "live": a.get(field), "pinned": b.get(field)})
+                      field_mismatches.append({
+                          "service_id": sid,
+                          "field": field,
+                          "live": a.get(field),
+                          "pinned": b.get(field),
+                      })
                       if len(field_mismatches) >= 50:
                           break
               if len(field_mismatches) >= 50:
@@ -116,13 +120,12 @@ jobs:
           pinned_ref = str((pinned_src or {}).get("ref") or "")
           pinned_file_sha = str((pinned_src or {}).get("file_sha") or "")
 
-          drift = bool(only_live or only_pin or field_mismatches or (pinned_ref and pinned_ref not in (live_sha, "main") and pinned_ref != live_sha))
-          # Always treat missing pinned file_sha or ref!=live as soft signal; hard drift on id/field set
+          drift = False
           if only_live or only_pin or field_mismatches:
               drift = True
           elif pinned_file_sha and pinned_file_sha != live_file_sha:
               drift = True
-          elif pinned_ref and pinned_ref not in ("main", live_sha) and pinned_ref != live_sha:
+          elif pinned_ref and pinned_ref not in ("main", live_sha):
               drift = True
 
           report = {
@@ -164,7 +167,6 @@ jobs:
     needs: compare
     if: needs.compare.outputs.drift == 'true'
     runs-on: ubuntu-latest
-    # H4: remediation failure must surface (no continue-on-error)
     permissions:
       contents: write
       pull-requests: write
@@ -186,6 +188,7 @@ jobs:
       - name: Create branch and PR (fail if cannot remediate)
         env:
           GH_TOKEN: ${{ github.token }}
+          COLLECTION_SHA: ${{ needs.compare.outputs.collection_sha }}
         run: |
           set -euo pipefail
           BRANCH="automation/identity-snapshot-${GITHUB_RUN_ID}"
@@ -194,32 +197,27 @@ jobs:
           git checkout -b "$BRANCH"
           git add config/collection_identity_snapshot.json
           if git diff --cached --quiet; then
-            echo "::error::Drift reported but snapshot unchanged after sync — investigation required"
+            echo "::error::Drift reported but snapshot unchanged after sync"
             exit 1
           fi
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
           git push --set-upstream origin "$BRANCH"
 
+          BODY="Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}). Pinned to Collection SHA ${COLLECTION_SHA}. Full identity compare: service_id + display_name + provider + file_sha."
           set +e
-          PR_OUT=$(gh pr create \
-            --base main \
-            --head "$BRANCH" \
+          PR_OUT=$(gh pr create --base main --head "$BRANCH" \
             --title "chore(icon): refresh collection identity snapshot" \
-            --body "Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}).
-
-Pinned to Collection SHA \`${{ needs.compare.outputs.collection_sha }}\`.
-
-Full identity compare: service_id + display_name + provider + file_sha." 2>&1)
+            --body "$BODY" 2>&1)
           STATUS=$?
           set -e
           echo "$PR_OUT"
           if [ "$STATUS" -ne 0 ]; then
             if echo "$PR_OUT" | grep -qiE 'already exists'; then
-              echo "PR already exists for branch — remediation visible"
+              echo "PR already exists for branch"
               exit 0
             fi
             if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
-              echo "::error::Branch pushed but PR creation blocked by repo policy. Open PR from $BRANCH manually."
+              echo "::error::Branch pushed; PR blocked by policy. Open PR from $BRANCH manually."
               exit 1
             fi
             exit "$STATUS"
