@@ -154,7 +154,7 @@ rollback
 | Collection 身份快照 | [`config/collection_identity_snapshot.json`](config/collection_identity_snapshot.json) |
 | Style Policy | [`config/variant-policy.yaml`](config/variant-policy.yaml) |
 | Style Display | [`config/style-display.yaml`](config/style-display.yaml) |
-| Gallery | [`gallery/INDEX.md`](gallery/INDEX.md) |
+| Gallery | [`docs/gallery/INDEX.md`](docs/gallery/INDEX.md) |
 | GitHub Releases | [Releases](https://github.com/cn-wanmei/Popular-Rules-Icon/releases) |
 
 ---
@@ -196,7 +196,7 @@ Icon **生产 Release** 与 **用户 GitHub Release** 分离：
 | [`docs/IDENTITY_BOUNDARY_V1.md`](docs/IDENTITY_BOUNDARY_V1.md) | Identity Boundary |
 | [`docs/PRODUCTION_IDENTITY_AUDIT_2026-09-30.md`](docs/PRODUCTION_IDENTITY_AUDIT_2026-09-30.md) | Production identity audit |
 | [`docs/STYLE_SYSTEM_V1.md`](docs/STYLE_SYSTEM_V1.md) | Style semantics |
-| [`gallery/INDEX.md`](gallery/INDEX.md) | 生产预览 |
+| [`docs/gallery/INDEX.md`](docs/gallery/INDEX.md) | 生产预览 |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | 贡献规范 |
 
 ---
