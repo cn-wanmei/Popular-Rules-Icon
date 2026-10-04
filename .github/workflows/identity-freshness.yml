@@ -119,16 +119,32 @@ jobs:
           pinned_ref = str((pinned_src or {}).get("ref") or "")
           pinned_file_sha = str((pinned_src or {}).get("file_sha") or "")
 
+          # P1-01: drift is content-based. Collection HEAD moves without _index.yaml
+          # change must NOT force refresh (docs/status/backup commits).
           drift = False
-          if only_live or only_pin or field_mismatches:
+          drift_reasons = []
+          if only_live or only_pin:
               drift = True
-          elif pinned_file_sha and pinned_file_sha != live_file_sha:
+              drift_reasons.append("service_id_set")
+          if field_mismatches:
               drift = True
-          elif pinned_ref and pinned_ref not in ("main", live_sha):
+              drift_reasons.append("display_name_or_provider")
+          if pinned_file_sha:
+              if pinned_file_sha != live_file_sha:
+                  drift = True
+                  drift_reasons.append("file_sha_mismatch")
+          else:
+              # Legacy snapshot without file_sha: require one refresh to pin content
               drift = True
+              drift_reasons.append("file_sha_missing_in_snapshot")
+
+          head_ahead = bool(pinned_ref and pinned_ref not in ("main", live_sha))
+          # Informational only when content matches
+          content_match = (not only_live and not only_pin and not field_mismatches
+                           and pinned_file_sha and pinned_file_sha == live_file_sha)
 
           report = {
-              "schema": "icon_identity_freshness_v2",
+              "schema": "icon_identity_freshness_v3",
               "live_collection_sha": live_sha,
               "live_file_sha": live_file_sha,
               "pinned_ref": pinned_ref,
@@ -139,7 +155,11 @@ jobs:
               "only_in_collection": only_live[:50],
               "only_in_snapshot": only_pin[:50],
               "field_mismatches": field_mismatches[:50],
+              "collection_head_ahead_of_pin": head_ahead,
+              "content_match": content_match,
+              "drift_reasons": drift_reasons,
               "drift": drift,
+              "note": "Drift uses identity content (ids/fields/file_sha). Collection HEAD alone does not imply drift.",
           }
           Path("reports").mkdir(parents=True, exist_ok=True)
           Path("reports/identity_freshness.json").write_text(
@@ -149,9 +169,12 @@ jobs:
 
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
               fh.write(f"drift={'true' if drift else 'false'}\n")
+              # When remediating, pin to current HEAD (still correct for that content)
               fh.write(f"collection_sha={live_sha}\n")
 
           print("DRIFT" if drift else "NO DRIFT")
+          if head_ahead and content_match:
+              print("INFO: Collection HEAD moved but rule/_index.yaml content matches pin — no refresh")
           PY
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -202,7 +225,7 @@ jobs:
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
           git push --set-upstream origin "$BRANCH"
 
-          BODY="Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}). Pinned to Collection SHA ${COLLECTION_SHA}. Full identity compare: service_id + display_name + provider + file_sha."
+          BODY="Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}). Content pin Collection SHA ${COLLECTION_SHA} (file_sha based)."
           set +e
           PR_OUT=$(gh pr create --base main --head "$BRANCH" \
             --title "chore(icon): refresh collection identity snapshot" \
