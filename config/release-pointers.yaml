@@ -4,6 +4,10 @@ rollback_note: "Independent immutable V6 rollback manifest; reuses only the clea
 updated_at: "2026-09-30T19:46:00+08:00"
 frozen: true
 freeze_id: icon-2026.09.30.clean1
+freeze_started_at: "2026-09-30T19:46:00+08:00"
+freeze_expires_at: "2026-11-14T19:46:00+08:00"
+max_freeze_days: 45
+freeze_reason: "production_clean baseline; explicit extension required after expiry"
 styles: 8
 registry_entries: 394
 canonical_collection_services: 394
