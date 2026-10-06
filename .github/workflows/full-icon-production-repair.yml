@@ -113,7 +113,7 @@ jobs:
           rm -rf build/state-work
           git fetch --no-tags origin refs/heads/state:refs/remotes/origin/state-current
           git worktree add --detach build/state-work refs/remotes/origin/state-current
-          cp build/materialized-state/*.json build/state-work/
+          cp build/materialized-state/*.json build/state-work/services/
           cd build/state-work
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
