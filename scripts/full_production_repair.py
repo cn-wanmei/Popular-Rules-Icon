@@ -39,7 +39,7 @@ SOURCES = {
     "copilot": {"domain": "copilot.microsoft.com", "simple": "microsoftcopilot"},
     "ms365-excel": {"domain": "excel.cloud.microsoft", "simple": "microsoftexcel"},
     "ms365-loop": {"domain": "loop.cloud.microsoft", "simple": "microsoftloop"},
-    "ms365-mesh": {"domain": "mesh.microsoft.com", "simple": "microsoftmesh"},
+    "ms365-mesh": {"domain": "mesh.microsoft.com", "direct": "https://images.squarespace-cdn.com/content/v1/5eb87cf9c85f665e140a2dac/ba8ec874-2bb4-400f-815b-36f34f56fde5/mesh_icon.png"},
     "ms365-onenote": {"domain": "onenote.com", "simple": "microsoftonenote"},
     "ms365-planner": {"domain": "planner.cloud.microsoft", "simple": "microsoftplanner"},
     "ms365-powerpoint": {"domain": "powerpoint.cloud.microsoft", "simple": "microsoftpowerpoint"},
@@ -114,6 +114,21 @@ def validate(data: bytes, kind: str) -> None:
 
 def fetch_source(service_id: str, spec: dict) -> tuple[bytes, str, str]:
     print(f"source repair: {service_id}", flush=True)
+
+    direct = spec.get("direct")
+    if direct:
+        try:
+            raw = download(direct)
+            im = Image.open(io.BytesIO(raw)).convert("RGBA")
+            out = io.BytesIO()
+            im.save(out, format="PNG", optimize=True)
+            data = out.getvalue()
+            validate(data, "png")
+            print(f"  source=direct:{direct}", flush=True)
+            return data, "png", direct
+        except Exception as exc:
+            print(f"  direct source unavailable: {exc}", flush=True)
+
     simple = spec.get("simple")
     if simple:
         simple_url = f"https://cdn.simpleicons.org/{simple}"
