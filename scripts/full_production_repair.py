@@ -2,12 +2,15 @@
 from __future__ import annotations
 
 import hashlib
+import io
 import json
 import shutil
 import subprocess
 import urllib.error
 import urllib.request
 from pathlib import Path
+
+from PIL import Image
 
 ROOT = Path(".")
 SEED = ROOT / "assets/icons/seed"
@@ -109,20 +112,40 @@ def validate(data: bytes, kind: str) -> None:
 
 
 def fetch_source(service_id: str, spec: dict) -> tuple[bytes, str, str]:
+    print(f"source repair: {service_id}", flush=True)
     simple = spec.get("simple")
     if simple:
         simple_url = f"https://cdn.simpleicons.org/{simple}"
         try:
             data = download(simple_url)
             validate(data, "svg")
+            print(f"  source=simpleicons:{simple}", flush=True)
             return data, "svg", simple_url
-        except Exception:
-            pass
+        except Exception as exc:
+            print(f"  simpleicons unavailable: {exc}", flush=True)
+
     domain = spec["domain"]
-    fav_url = f"https://www.google.com/s2/favicons?domain={domain}&sz=512"
-    data = download(fav_url)
-    validate(data, "png")
-    return data, "png", fav_url
+    candidates = [
+        f"https://{domain}/favicon.ico",
+        f"https://www.google.com/s2/favicons?domain={domain}&sz=512",
+        f"https://icons.duckduckgo.com/ip3/{domain}.ico",
+    ]
+    last_exc = None
+    for url in candidates:
+        try:
+            raw = download(url)
+            # Normalize common favicon formats to a deterministic 512x512 PNG.
+            im = Image.open(io.BytesIO(raw)).convert("RGBA")
+            out = io.BytesIO()
+            im.save(out, format="PNG", optimize=True)
+            data = out.getvalue()
+            validate(data, "png")
+            print(f"  source=official-favicon:{url}", flush=True)
+            return data, "png", url
+        except Exception as exc:
+            last_exc = exc
+            print(f"  favicon unavailable: {url} :: {exc}", flush=True)
+    raise RuntimeError(f"all source acquisition methods failed for {service_id}: {last_exc}")
 
 
 def remove_old_service_seeds(service_id: str) -> None:
