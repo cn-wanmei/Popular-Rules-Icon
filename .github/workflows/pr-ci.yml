@@ -39,8 +39,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p build
-          RELEASE=$(awk '/^production:/ {print $2}' config/release-pointers.yaml
-          )
+          RELEASE=$(awk '/^production:/ {print $2}' config/release-pointers.yaml)
           curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
           python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE"             --strict | tee build/v6-manifest-report.json
 
@@ -55,12 +54,18 @@ jobs:
           set -euo pipefail
           test -f config/style-compatibility.yaml
           python - <<'PY'
+          import re
           from pathlib import Path
           text = Path("config/icon-demand.yaml").read_text(encoding="utf-8")
           before, sep, after = text.partition("experimental:")
           assert sep, "missing experimental style section"
-          assert "y2k" not in before, "y2k must not be present in default demand styles"
-          assert "y2k" in after, "y2k must remain explicitly discoverable as experimental"
+          default_block = re.search(r"defaults:\n(.*?)(?=\nclients:)", text, re.S)
+          assert default_block, "missing defaults block"
+          rich_block = re.search(r"clients:\n(.*?)(?=\nexperimental:)", text, re.S)
+          assert rich_block, "missing clients block"
+          assert re.search(r"^\s+- y2k\s*$", default_block.group(1), re.M) is None, "y2k must not be a default demand style"
+          assert re.search(r"^\s+- y2k\s*$", rich_block.group(1), re.M) is None, "y2k must not be a rich default demand style"
+          assert re.search(r"experimental:\n[\s\S]*^\s+- y2k\s*$", text, re.M), "y2k must remain explicitly discoverable as experimental"
           PY
 
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
