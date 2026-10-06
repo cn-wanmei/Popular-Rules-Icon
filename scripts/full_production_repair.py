@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import urllib.error
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from PIL import Image
@@ -172,8 +173,15 @@ def patch_registry() -> None:
 def patch_state() -> None:
     STATE_FORCED.mkdir(parents=True, exist_ok=True)
     override_map = {}
-    for service_id, spec in SOURCES.items():
-        data, ext, source_url = fetch_source(service_id, spec)
+    results = {}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        future_map = {pool.submit(fetch_source, service_id, spec): service_id for service_id, spec in SOURCES.items()}
+        for future in as_completed(future_map):
+            service_id = future_map[future]
+            results[service_id] = future.result()
+
+    for service_id in sorted(SOURCES):
+        data, ext, source_url = results[service_id]
         remove_old_service_seeds(service_id)
         filename = f"{service_id}.{ext}"
         (SEED / filename).write_bytes(data)
