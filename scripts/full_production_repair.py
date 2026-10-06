@@ -57,7 +57,7 @@ SOURCES = {
 
     "appledev": {"domain": "developer.apple.com"},
     "applefirmware": {"domain": "support.apple.com"},
-    "appleid": {"domain": "appleid.apple.com"},
+    "appleid": {"domain": "appleid.apple.com", "direct": "https://www.svgrepo.com/show/9914974/apple-id.svg"},
     "applemail": {"domain": "icloud.com"},
     "applemedia": {"domain": "apple.com"},
     "appstore": {"domain": "apps.apple.com", "simple": "appstore"},
@@ -119,12 +119,16 @@ def fetch_source(service_id: str, spec: dict) -> tuple[bytes, str, str]:
     if direct:
         try:
             raw = download(direct)
+            if direct.lower().split("?")[0].endswith(".svg") or b"<svg" in raw.lstrip()[:1024].lower():
+                validate(raw, "svg")
+                print(f"  source=direct-svg:{direct}", flush=True)
+                return raw, "svg", direct
             im = Image.open(io.BytesIO(raw)).convert("RGBA")
             out = io.BytesIO()
             im.save(out, format="PNG", optimize=True)
             data = out.getvalue()
             validate(data, "png")
-            print(f"  source=direct:{direct}", flush=True)
+            print(f"  source=direct-png:{direct}", flush=True)
             return data, "png", direct
         except Exception as exc:
             print(f"  direct source unavailable: {exc}", flush=True)
