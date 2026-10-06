@@ -1,20 +1,38 @@
 {
   "service_id": "ms365-loop",
   "source_fingerprint": "b626da1f64c9167b458bc2e76d50234e2d0858bb3ff42ea26ee937d984fb6394",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "verified_seed_svg",
+  "object_hash": "0ab872ab6c9e6b769961045dc30dee8fe9a4de4e16c460281e220080470f2de0",
+  "variant_hashes": {
+    "duotone_line:128:png": "88c3b9d2473caa63f21ad47557d33fa318df8db0db2b9e914d62af0129441832",
+    "duotone_line:256:png": "053a07768c9f513e029351947ae2b3c22d2b242b93304b76d8a2c101013b28d0",
+    "glassmorphism:128:png": "cffa1295b0156db1860a1f1dd5f1f1cb37e15f059c263e08d7171b66a55859fb",
+    "glassmorphism:256:png": "8616e37f03318e7585d0a30d90f23cd6376daaa3e7492d256c28c0d329a60151",
+    "mbe:128:png": "2e80c74a3e4e4d515ebe50dc8e51ec84f08676eea48cbb1fd3728b6c0579c51c",
+    "mbe:256:png": "ba648b2a44ce3b779110fc8f57a483b5b12ffbf31c3337433d10ac77d586250a",
+    "minimalist:128:png": "386a2702ee7a449177d9d5c933b99bfd427a5121086fd0bd5bbf1d092e39de88",
+    "minimalist:256:png": "5135dcadb04e15bbb9958fec62bcdeba70680a77e82264034370c4b33d7b9603",
+    "neo_skeuomorphism:128:png": "aacaca6ebfa816c171b47d188f82d8ac4d3c51c944ef98a591fcf5f7464be382",
+    "neo_skeuomorphism:256:png": "62c610150a986175e6ec49fcbc796dff060fa8939ae3cb7763f2bd038da5c858",
+    "soft_3d:128:png": "14f18d413104a4bda762c2dc8e9221587f39b140e364b05d0af607e0f7e8d539",
+    "soft_3d:256:png": "f8172303361206d04ac8809312b979cd62ebb4c802c2ad19b02ea638aa5de545",
+    "source_original:128:png": "53b59b661e16a1a876af56829aa1987e6ef5015bfe477b15163f60a9e2a7bca2",
+    "source_original:256:png": "96ddec7cc91d1a7b7804bf30529d576c92d73fdfe8dc6e57f504e7a02817ced7",
+    "y2k:128:png": "422059a8f3e06e67eeceb6b50fdd307a86cc94173bb602fb5cb95419ff0598cc",
+    "y2k:256:png": "b8a5b27499acbd24831beb853226746432bd3e11c72480793a9c9f15fe57d7ea"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:00.258731+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T07:43:00.258731+00:00",
-  "source_url": "seed://ms365-loop.svg",
+  "source_url": "seed://ms365-loop.png",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://loop.cloud.microsoft/favicon.ico",
+    "source_sha256": "0ab872ab6c9e6b769961045dc30dee8fe9a4de4e16c460281e220080470f2de0"
   }
 }

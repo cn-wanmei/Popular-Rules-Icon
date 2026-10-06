@@ -1,20 +1,38 @@
 {
   "service_id": "threads",
   "source_fingerprint": "774ddf5ca5deb4368533eb445f91825242b583d5357d4fefef77dc8f9a9da749",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "verified_seed_svg",
+  "object_hash": "0cab97930d310837a72473855ad957b1cb69de5cfd7822a1402f481fb4fbfdb1",
+  "variant_hashes": {
+    "duotone_line:128:png": "20c5315659aa979e3606e3593dc9b398359455bea2610af434d71db7a7c9275e",
+    "duotone_line:256:png": "28d56b9f15e1471b12cefd3d03f59a74e6bd807db951ba48810c80bf71550060",
+    "glassmorphism:128:png": "5e8dbc1c292208ef9374aec25fb552b74294b7e5f829ef33216f652e1ba0e90f",
+    "glassmorphism:256:png": "39ba5761de8473c7c8e03f61ce0fbf7a1fdc8199a2f828a2a9688809d7c6b5f3",
+    "mbe:128:png": "906ff8f2b5518928da403312c806e33eca812a89b8fe2ad7063013bf21514cd0",
+    "mbe:256:png": "957a5563c7dee90f6bb4998d072c39ea0a5de56dba9b3ab9785c4f05f436a0b6",
+    "minimalist:128:png": "147e1dddbe1f4b890d58f8d5d25ef7b64cfc1fe82c28bf5ada4932706034d9a9",
+    "minimalist:256:png": "dfe51dd588d65109e829e7da11faef3392bb256cfcd45b602c4e7f0616cb284d",
+    "neo_skeuomorphism:128:png": "9c316cade8cfc8471b1fe34032734be8b40a8e62b54cc1a3637f31e28fe449f3",
+    "neo_skeuomorphism:256:png": "1adb4b091091eac59f43a51c5d59e989cd411d255283f544d32c34eca32fe11d",
+    "soft_3d:128:png": "51924a6a748f6608c88ab8d98bdec340c0a34eedb7fdaa0beadb6c8993b3e544",
+    "soft_3d:256:png": "03fd27e60bca9273d36fa49893eae3c1cdc6b186438d8de0efc5ebe58a706615",
+    "source_original:128:png": "4064093457a01ac6801802efa59c07bb899410c6680b826e4ae3a79510f826de",
+    "source_original:256:png": "f83bc2a354cfd4270030739e5838c338e7998056a5d3eb2ccca972d3805373c0",
+    "y2k:128:png": "f4f56b42572ebeba103f88d8ece4b70022e24359d06d88cd23d1b89baa68c0c7",
+    "y2k:256:png": "b27019908b71eec13ea19c167ffa933b2ea5e1681756cf0eba9eb74c0184a13e"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:26.122840+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T07:43:26.122840+00:00",
   "source_url": "seed://threads.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/threads",
+    "source_sha256": "1f91bc9ac4f80ebbd145dad37ba2edeeb791b4c11494d330de341c2a1e883827"
   }
 }

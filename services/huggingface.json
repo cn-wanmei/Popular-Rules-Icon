@@ -1,20 +1,38 @@
 {
   "service_id": "huggingface",
   "source_fingerprint": "4d94ce5a0684962eb8b666aa71bbd3f051190f4403fa0b7b6491945afe59655d",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "verified_seed_svg",
+  "object_hash": "a633b4131032b100923f21517660a667af47dbbddb4e0ba5cf090db95bbde95c",
+  "variant_hashes": {
+    "duotone_line:128:png": "ae17e35ed6b1f34a5aaef91af47cce001ce1ce1d7013ee5a88100f58b4c61441",
+    "duotone_line:256:png": "4f1579917a6f9ce326cb7c5f65366816508538d9bbfe58a7dad2fba03bc5ace9",
+    "glassmorphism:128:png": "d6c59b0e5e25d6090b0e1f672a48aa0c74f24db775e457c43cbe1387c48a73e6",
+    "glassmorphism:256:png": "c64ef2af82df51ed3a7e0bb54de5682dd684c1d8db7db77f36f67946f39e5877",
+    "mbe:128:png": "5a9bb98ac49a7d18122cdb5b066d425f1437838c4095fecf5e247acfcc2c340f",
+    "mbe:256:png": "a544dacfcf5a3136ab1eca8d379964d280afe5e8241447b0c3a55ad1ae51f766",
+    "minimalist:128:png": "e73920d950afca042973738755b8b2b30d14e9bea321716690b7569f06827d2b",
+    "minimalist:256:png": "265aad3635a182a5b5fca39c3c44ed1cbaaf5e93d9966f4a4e707e5137deec14",
+    "neo_skeuomorphism:128:png": "1f4dbb72c1f92f9c528c451f04331cd533bf84f942f1c873bb71c7eb97fd5a01",
+    "neo_skeuomorphism:256:png": "0ef7b0852a318106310971652b1e45689277aa1e1ff7b73ddc76734bff872b05",
+    "soft_3d:128:png": "fd34d83584385d061f04cafca2526d6c76687e2b8dab923de978e22ae31586ab",
+    "soft_3d:256:png": "c73a5218daffe00e8d8a8a2dc446ed279231aa57355b4956eef218c73fd8f90c",
+    "source_original:128:png": "7196a94ac12baf963f464e67a17f8b78a3168bbc2dc352fc7c28faa0877f2611",
+    "source_original:256:png": "35aac9bea47f506de963c553ceffdec9c932095734691d36f5b98830109da738",
+    "y2k:128:png": "3f255e4c78d26c0c8d32d6285293145e223170433eec5516fd8fa0aeb1bd22f7",
+    "y2k:256:png": "dc050b0d270a5d8eb012d0476f4aae68fa4cd3ea92983f3c1614dce73e7588ff"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:42:41.652011+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T07:42:41.652011+00:00",
   "source_url": "seed://huggingface.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/huggingface",
+    "source_sha256": "c167703fa2fb404f1de9bbbd38b6ac6c4c01dbeae49e7783521333ba03ab706a"
   }
 }

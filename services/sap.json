@@ -1,20 +1,38 @@
 {
   "service_id": "sap",
   "source_fingerprint": "019969f5fcdefe9bc91e14d0e61245577744d01bd4d25cd730b9c76e40de2fac",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "simple_icons",
+  "object_hash": "b3933821ec0b740bf5c916e55d7c9a2c7f3aa6d7bf1929dcc7f45a1f77c9b935",
+  "variant_hashes": {
+    "duotone_line:128:png": "462f4178c62b338055326a9d42bfedc002b15b440b676af093f6fc1a5781f58b",
+    "duotone_line:256:png": "1a3e7b2f4641a47f430794f042ed0cdd05662d3a09da14a93e05e323ec9b0b40",
+    "glassmorphism:128:png": "18dc80f8cb7f974bd61c5bc4b36ee896d52f0ace0595ba556119ad7021d356bb",
+    "glassmorphism:256:png": "ee974f43e3c715db0cb62529d413a9605567948de1b31675b94269c4e5dd014b",
+    "mbe:128:png": "2c6eb3df117bd57012d3a74db1c91c34ceee923618632fdfcc5481acca2aee38",
+    "mbe:256:png": "7d8477eebfcce042c087c1e6aeeb6686398f7bcd1684c07954699d5a4a30d753",
+    "minimalist:128:png": "b262f914fd4b32ad69236a9ac12eed2b62e2956f46216e2f855ccb7fd8382b02",
+    "minimalist:256:png": "2b6942c3a0b1adc09d086d64d8fae64f7ccd43a88b5679bc46166d2d07604883",
+    "neo_skeuomorphism:128:png": "1d9c8e731095d2253103ecf2c2f7360e59ed066a6b277b4321284989e2d99f57",
+    "neo_skeuomorphism:256:png": "0954459953ee55cc3d8f32cdc54a41bac9529007f02eb75911faed2b03b0d082",
+    "soft_3d:128:png": "877907d6b3bb8765f9f54f785bd7adb67add8bb46a60583d687dc5bed054a82e",
+    "soft_3d:256:png": "86e12edb3e6a254cb62bd63dad1e924b2d6dd99697ef580c806e0811d8caab51",
+    "source_original:128:png": "e04f823fac26592b6781ae3634fad617c98b7418d62153a0a8747cb0927a3c91",
+    "source_original:256:png": "895838f3cd9913c2f4d470e2f3731ec11d81cf8f7632675cf5349b1fc488b4a2",
+    "y2k:128:png": "5439d62020b90eec3059223b90b743e4b9e38053b276429df6554a66cdbf82ed",
+    "y2k:256:png": "85eb49f6f96ebaa63221c4c77041ce9b924896363676717258aba7db6926e2d5"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T06:03:42.683070+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T06:03:42.683070+00:00",
   "source_url": "seed://sap.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/sap",
+    "source_sha256": "3c308900c4fadd5e6a43ed304d698f2db9a8f4ecd43827760a4461cb0309052f"
   }
 }

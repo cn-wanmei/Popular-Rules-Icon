@@ -1,20 +1,38 @@
 {
   "service_id": "messenger",
   "source_fingerprint": "e26cdfa1e00b0b1a0b6b36479a060f381d179e7216f7697a2da4144b347018f8",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "verified_seed_svg",
+  "object_hash": "37fae8559cbfec14cd0a19c59303537e9db03bb919c03280c3fc28df7b38dd6d",
+  "variant_hashes": {
+    "duotone_line:128:png": "1de4200c9d659adf328a40b2a39c36b37e20a0a4137013bb2b7088eb0efd473b",
+    "duotone_line:256:png": "bd5c6cb4f7d9fcd8396cfa8bffff3d8ca189aa0e31afddb3486dfded4fcf64ed",
+    "glassmorphism:128:png": "2e03b13da3ccd2f6d3f3053df84f0d597b3ba2ecab4ea0d65f65462d19210284",
+    "glassmorphism:256:png": "733474f0ed9a9705d957b1dec2e8af9fcd1c4d03719141562c5c32e0313884a5",
+    "mbe:128:png": "fad7216e3f3338de6015b8310a033c6a54621b1de244deac4cc46a5d6d90e1a7",
+    "mbe:256:png": "4839b7d57560ce8c057dd7c1b866f2d134116c75bb4083fee6649b5bc51156d6",
+    "minimalist:128:png": "70953967926975421f078040cdf503171bcd7033c791a9f792cb5cf5fbef9876",
+    "minimalist:256:png": "dbdcfa7cb0450e627b8716ba3782f1f54e8af8b266d8273ec38de76ce40037b5",
+    "neo_skeuomorphism:128:png": "34608502475a95e65d9709d172ccb771854288d410ac228db9a2e5aac4a65b2c",
+    "neo_skeuomorphism:256:png": "2402c62c3f6debcda9213065df6a744b203551844aa788014f70d71e3dfb3a30",
+    "soft_3d:128:png": "57a30617364fa6ff14b46b97f3979f2f2bf4bdb5fdf19cd5ceb4b9ad6f0cfc50",
+    "soft_3d:256:png": "4c3e0416e9b2531cc30fcb910c5a98e8ee2f49191f1f943d574e23bcdc52ae1b",
+    "source_original:128:png": "17d5845508c59f5200d1620a564573b5f841b80167ff31437ec1c2d1702420c9",
+    "source_original:256:png": "e7d7a18880feb1e19cf94a8e79432f3555b964020b096343016ac3c9e8547fc4",
+    "y2k:128:png": "26824f2d4048cf5addeb3a945365c2c3556e13153d90a24b0cbc1b2c4cd5ba44",
+    "y2k:256:png": "ad047ace14248ba3fb13da8ef91b246381d7c4f3cc7934fd22918b5c6cd924da"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T07:43:00.258731+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T07:43:00.258731+00:00",
   "source_url": "seed://messenger.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/messenger",
+    "source_sha256": "979e35aa50b5ed29e88432a78f1f70b8cead3e1d643f57851bad0cb184daae1c"
   }
 }

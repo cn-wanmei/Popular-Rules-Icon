@@ -1,20 +1,38 @@
 {
   "service_id": "ubisoft",
   "source_fingerprint": "b26194256fcb0eb7a42892a9fbee331bc04aa70e20e2ab20e271d6093cc3f225",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "simple_icons",
+  "object_hash": "1c8af2ea2f9eec3e259b768a4ed2f14dc7e834f2b51f4d9c69d5c3c5efb853e7",
+  "variant_hashes": {
+    "duotone_line:128:png": "b375942dcb45508e7da6762d9470d57331c92234dbd3420b6e94dab09ff34f8a",
+    "duotone_line:256:png": "d6aaaf7a8023640cc5f067da16167889fcd99051a2ad1569b15145240054986b",
+    "glassmorphism:128:png": "69f8d915724ff005a829ae2742eb57eda1389816ef25c4a02fe187f8dcd1d8db",
+    "glassmorphism:256:png": "1b77583beba48e6749a1562e67b2f43f94f88a9ba25f20797ff194ae66fb86a3",
+    "mbe:128:png": "766faea8cb5a10d86269f90e56249bb2aa811be413a05e2dcfa1dc7c2af209d9",
+    "mbe:256:png": "7cd2cc8c7a3d720cac8b870cccba89a4d28d79aba2a4601657ba08451c4a0bbe",
+    "minimalist:128:png": "96439a3cd5bf4063014ff1db284dc115620a3d2e63c3a491363122093b4f8252",
+    "minimalist:256:png": "2bb4057ba05a4b58227e97cd0490e53dd05c3ddc5327c5decec0a9a2d238f0ed",
+    "neo_skeuomorphism:128:png": "61317c778a09471e1cc96071f4067169fea83ec9f6cf2bc11d0ca619fd250aa9",
+    "neo_skeuomorphism:256:png": "c24d4c9ecd041020f9e38d9f4c19e14e5e79cf004f38d287766f48bb9097a194",
+    "soft_3d:128:png": "f99d495340ff31320643e1f3737aedb1ebfe6b66eca331333c839439b5b31bf0",
+    "soft_3d:256:png": "030088937c4a0b1269c0b0721e2b2596b8dbae91bc347e2bde29f439e8fedaa9",
+    "source_original:128:png": "07968575d1f69967f9d3b95f33829405424c868c9dd81c0fa76cc8add9720a83",
+    "source_original:256:png": "8f42af70340f18050650922f48abd195d76fad7176cd5b154bc65ab60d014b0b",
+    "y2k:128:png": "864f49187a37e03de3eb465a43c4df0a0e49f2e7f089a3cc19c98469a24625eb",
+    "y2k:256:png": "650a91be32f03ff2360347616b348dbd6c19b6fe5c2921fb8f7dc8ed3b5a80b1"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T06:04:25.040082+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T06:04:25.040082+00:00",
   "source_url": "seed://ubisoft.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/ubisoft",
+    "source_sha256": "68392820625c1915e7a29d2f012d528841c25673f0c4d68aa3da3f417fcd9ab6"
   }
 }

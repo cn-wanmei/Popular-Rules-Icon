@@ -1,20 +1,38 @@
 {
   "service_id": "appstore",
   "source_fingerprint": "3a3aed6e03f09c70cab1b08cb0078175183c4bb5d531a54be537fd8bb1f4c4c5",
-  "object_hash": null,
-  "variant_hashes": {},
-  "source_class": "simple_icons",
+  "object_hash": "c80240fc1d23424bac5645fc01e8d37cb5393ebe91de6b1bb8f02397cc7c7e03",
+  "variant_hashes": {
+    "duotone_line:128:png": "d78e4347d387bd5fddb74bc7da2d0bf245b61a208f6ba26befc7347455f788aa",
+    "duotone_line:256:png": "f4c5dfa1d9776487f7d2838ea86090806eb617b329a8b00919ad94a5906a44e2",
+    "glassmorphism:128:png": "844a874888c4c7b8e3326b7771119f2e0f729c3b05f91381ca5cbcf8a76e69bc",
+    "glassmorphism:256:png": "141f92320cf6d651deaf0a49025da580e51b630060fa63ca3a9a83598a70c86f",
+    "mbe:128:png": "20e81ec5cffb6d1c61a6c13619aa996f07ebfa7fc4041549c2d47677cb6b3846",
+    "mbe:256:png": "ab3c1243c4d19d024145e21c3a820a261a10b9fa4a52b86547eb0762bc5969d2",
+    "minimalist:128:png": "81db21c9f25866c0da0ea9b3d9f3fa5e42171d1b48db332433aa47d82da2e158",
+    "minimalist:256:png": "f1c8adee57704d170a65ce3d024116a110b0f9948ba15da2e21a1de81b4b2375",
+    "neo_skeuomorphism:128:png": "4ea5b9ffad608830fd8168f20d4dc48c3f0753e799e8167af145b80fe07d89f9",
+    "neo_skeuomorphism:256:png": "495c2e83e3f6ba406b2459376819542c48d76ce65180c1829e3c92f720ff12cb",
+    "soft_3d:128:png": "1712ee8b1e56740c8711e6f18585dd1407cc327206b53b005d3b2b0dace4d30d",
+    "soft_3d:256:png": "9e794414e6e33b81edd6969adc4d06f33b06f74b677b010259b17c80c073aeb4",
+    "source_original:128:png": "0c0504f2e64d13640307b74f2c2f52a42b779627cbc81d69876192f9f1806a21",
+    "source_original:256:png": "f097d2260bb5776f9a44e683b24789ba01648249292993cab977cb7f69cb330f",
+    "y2k:128:png": "49767b6e6f62e0eaf423db33fe4700c89c2f750c3206e2acddfc7e5c506b6243",
+    "y2k:256:png": "3974e6db053b2e3143c6ca73e2d2c11121b55115d39f0e5a81cbcad869139dee"
+  },
+  "source_class": "official_seed_override",
   "lifecycle": "active",
   "last_checked": "2026-09-30T06:02:13.036231+00:00",
-  "last_failure_code": "SEED_REPLACED_REQUIRES_REBUILD",
+  "last_failure_code": null,
   "updated_at": "2026-09-30T06:02:13.036231+00:00",
   "source_url": "seed://appstore.svg",
   "native_px": 512,
-  "status": 0,
+  "status": 200,
   "review_status": "visual_identity_verified",
   "visual_identity_audit": {
-    "status": "replaced",
-    "audited_on": "2026-10-01",
-    "source": "simple-icons/simple-icons"
+    "status": "verified_replacement",
+    "audited_on": "2026-10-06",
+    "source": "https://cdn.simpleicons.org/appstore",
+    "source_sha256": "6a33ae226071b85917f9fd08fc5fa3d7a64db43227880c1af6bb1c6f7f50eee6"
   }
 }
