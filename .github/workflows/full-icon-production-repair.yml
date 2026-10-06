@@ -47,7 +47,26 @@ jobs:
         run: |
           set -euo pipefail
           test "$(find build/materialized-state -name "*.json" | wc -l)" -eq 394
-          test "$(find build/objects/v -name "*.png" | wc -l)" -ge 6304
+          python - <<PY
+          import json
+          from pathlib import Path
+          m = json.loads(Path("build/icon-2026.10.06.full1.json").read_text(encoding="utf-8"))
+          assert len(m.get("entries", [])) == 394
+          records = 0
+          missing = []
+          for entry in m["entries"]:
+              assert len(entry.get("variants", {})) == 16
+              for meta in entry["variants"].values():
+                  records += 1
+                  p = Path("build/objects") / meta["path"].lstrip("/")
+                  if not p.is_file():
+                      missing.append(meta["path"])
+          assert records == 6304, records
+          assert not missing, missing[:20]
+          print("manifest records:", records)
+          print("unique physical PNG objects:", len(list(Path("build/objects/v").glob("*.png"))))
+          print("state records: 394")
+          PY
 
       - name: Identity Boundary gate
         run: python scripts/identity_boundary_gate.py --write-report build/identity-boundary.json --strict
