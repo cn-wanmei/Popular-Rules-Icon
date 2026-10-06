@@ -44,6 +44,36 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
           python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE"             --strict | tee build/v6-manifest-report.json
 
+      - name: Production icon visual identity audit
+        run: |
+          set -euo pipefail
+          RELEASE=$(awk '/^production:/ {print $2}' config/release-pointers.yaml)
+          python scripts/icon_visual_identity_gate.py             --manifest "build/$RELEASE.json"             --registry registry/services             --write-report build/icon-visual-identity-report.json
+
+      - name: Style compatibility policy audit
+        run: |
+          set -euo pipefail
+          test -f config/style-compatibility.yaml
+          python - <<'PY'
+          from pathlib import Path
+          text = Path("config/icon-demand.yaml").read_text(encoding="utf-8")
+          before, sep, after = text.partition("experimental:")
+          assert sep, "missing experimental style section"
+          assert "y2k" not in before, "y2k must not be present in default demand styles"
+          assert "y2k" in after, "y2k must remain explicitly discoverable as experimental"
+          PY
+
+      - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
+        if: always()
+        with:
+          name: icon-visual-audit-${{ github.sha }}
+          path: |
+            build/identity-boundary-report.json
+            build/v6-manifest-report.json
+            build/icon-visual-identity-report.json
+          if-no-files-found: warn
+          retention-days: 30
+
       - name: R10 Freeze coverage gate (seeds)
         run: |
           test -f scripts/freeze_coverage_gate.py || { echo "missing freeze_coverage_gate.py — commit scripts with workflow"; exit 1; }
