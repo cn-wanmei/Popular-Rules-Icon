@@ -285,6 +285,27 @@ def patch_state() -> None:
             src = state.get("source_url", "")
             if not isinstance(src, str) or not src.startswith("seed://"):
                 raise RuntimeError(f"non-seed source cannot be forced into full rebuild: {sid}")
+
+            # Reconcile historical state filenames with the actual seed tree.
+            # State may retain an old extension while the current seed has a
+            # canonical service-id filename with another extension.
+            requested = src.removeprefix("seed://")
+            requested_path = SEED / requested
+            if requested_path.is_file():
+                seed_name = requested
+            else:
+                candidates = sorted(SEED.glob(f"{sid}.*"))
+                if len(candidates) == 1:
+                    seed_name = candidates[0].name
+                elif not candidates:
+                    raise RuntimeError(f"no seed found for canonical service: {sid}")
+                else:
+                    # Prefer vector sources, then lossless raster, then JPEG;
+                    # deterministic ordering prevents non-reproducible state.
+                    rank = {".svg": 0, ".png": 1, ".webp": 2, ".jpg": 3, ".jpeg": 4}
+                    candidates.sort(key=lambda p: (rank.get(p.suffix.lower(), 99), p.name))
+                    seed_name = candidates[0].name
+            state["source_url"] = f"seed://{seed_name}"
             state["source_class"] = state.get("source_class") or "frozen_seed"
 
         (STATE_FORCED / p.name).write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
