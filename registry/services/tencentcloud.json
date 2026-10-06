@@ -9,9 +9,13 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 alias→tencent",
-  "icon_alias_of": "tencent",
-  "review_status": "needs_review",
+  "review_status": "visual_identity_verified",
   "provider": "tencent",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "visual_identity_audit": {
+    "status": "service_specific_source",
+    "audited_on": "2026-10-06",
+    "canonical_visual_service": "tencentcloud"
+  }
 }

@@ -1,0 +1,363 @@
+{
+  "schema": "visual_source_overrides_v1",
+  "release_id": "icon-2026.10.06.full1",
+  "audited_on": "2026-10-06",
+  "sources": {
+    "1688": {
+      "seed": "1688.png",
+      "source": "https://1688.com/favicon.ico",
+      "sha256": "b69705fc0214ae9633511da9974b77f410a0657e4dd4687407266681d148700d",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "anjuke": {
+      "seed": "anjuke.png",
+      "source": "https://www.google.com/s2/favicons?domain=anjuke.com&sz=512",
+      "sha256": "3693697dfc2730d7a9762fac6c45cee856ef08c4ffe93435f56a30140d8ed726",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "anker": {
+      "seed": "anker.png",
+      "source": "https://anker.com/favicon.ico",
+      "sha256": "092e982469eed6f58d4c3541fa1a04e55598fedb9ca0857a9fc0d29c73b427b1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "appledev": {
+      "seed": "appledev.png",
+      "source": "https://developer.apple.com/favicon.ico",
+      "sha256": "3bac136972e29f6e51059c27280f40c180c6575374a8f6797b09894c8347fee1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "applefirmware": {
+      "seed": "applefirmware.png",
+      "source": "https://support.apple.com/favicon.ico",
+      "sha256": "bca4144f6674b74ecb32402c6b31b55ec8066ccbb0b1ba162a20ddfddc5133fe",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "appleid": {
+      "seed": "appleid.png",
+      "source": "https://appleid.cdn-apple.com/appleid/button/logo?border=false&border_radius=0&color=white&scale=6&size=64",
+      "sha256": "b4d398d5093aa79df4a59d703018929265fd43f23beb7fe9e522c4b630a4afa8",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "applemail": {
+      "seed": "applemail.png",
+      "source": "https://icloud.com/favicon.ico",
+      "sha256": "de4df05e6046f36dbefc2108fb76f51a440a891881b8f7ee2bc284c1895e995f",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "applemedia": {
+      "seed": "applemedia.png",
+      "source": "https://apple.com/favicon.ico",
+      "sha256": "96a576212fa25784f8cc71062325f2c694fbeb0510756afa07a191cddca4ef0f",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "appstore": {
+      "seed": "appstore.svg",
+      "source": "https://cdn.simpleicons.org/appstore",
+      "sha256": "6a33ae226071b85917f9fd08fc5fa3d7a64db43227880c1af6bb1c6f7f50eee6",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "cctv": {
+      "seed": "cctv.png",
+      "source": "https://cctv.com/favicon.ico",
+      "sha256": "858fb9d8118da429f708118a9a9f3d28feb4d097b4e9877ff55c83bb6140f144",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "copilot": {
+      "seed": "copilot.png",
+      "source": "https://copilot.microsoft.com/favicon.ico",
+      "sha256": "5c5517438f183101c3e566d58af1325a4341442d9e8cb56f7fdeb42221779cd1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "epic": {
+      "seed": "epic.svg",
+      "source": "https://cdn.simpleicons.org/epicgames",
+      "sha256": "f551b6fcb64651200e1ba8696521aaff7822aa4a6fb815b33f33778418822f0e",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "facebook": {
+      "seed": "facebook.svg",
+      "source": "https://cdn.simpleicons.org/facebook",
+      "sha256": "daf5a4fff42cb6b9868b7eb61a9f742663cc128d929d37c85873b8b10eaa345a",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "fliggy": {
+      "seed": "fliggy.png",
+      "source": "https://www.google.com/s2/favicons?domain=fliggy.com&sz=512",
+      "sha256": "370f99a4713456d7cc1bd57b26c6eb98b0497f59e3d15623aa53284a1e22a1e6",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "hikvision": {
+      "seed": "hikvision.png",
+      "source": "https://www.google.com/s2/favicons?domain=hikvision.com&sz=512",
+      "sha256": "767099963f738c1611728c9b32b963d53341bbf53511780e729faaad90b79967",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "himalaya": {
+      "seed": "himalaya.png",
+      "source": "https://ximalaya.com/favicon.ico",
+      "sha256": "4775d29843fcbef01e60cb283d3dc97b7dfde227fc5dd3f338ec24d670a21e6c",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "honorofkings_cn": {
+      "seed": "honorofkings_cn.png",
+      "source": "https://pvp.qq.com/favicon.ico",
+      "sha256": "fbe0e1f522476ead57b08ca3ff549a44565f84749e635feb060173bee0458fd1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "honorofkings_global": {
+      "seed": "honorofkings_global.png",
+      "source": "https://www.google.com/s2/favicons?domain=honorofkings.com&sz=512",
+      "sha256": "e40af39b2fbc8ee969a3318793e259b2c604811bc7e1932260c022b974c28ff8",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "huggingface": {
+      "seed": "huggingface.svg",
+      "source": "https://cdn.simpleicons.org/huggingface",
+      "sha256": "c167703fa2fb404f1de9bbbd38b6ac6c4c01dbeae49e7783521333ba03ab706a",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ibm": {
+      "seed": "ibm.png",
+      "source": "https://ibm.com/favicon.ico",
+      "sha256": "35378934a706e6fa292fb22c7f121ff5246a970121b3f4d71b1fd6bd063031d4",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "messenger": {
+      "seed": "messenger.svg",
+      "source": "https://cdn.simpleicons.org/messenger",
+      "sha256": "979e35aa50b5ed29e88432a78f1f70b8cead3e1d643f57851bad0cb184daae1c",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "migu": {
+      "seed": "migu.png",
+      "source": "https://migu.cn/favicon.ico",
+      "sha256": "a3cba0a0cebbacd23f16b6b0aa3427667740034e1e513d385bb1646dd3fb161a",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-excel": {
+      "seed": "ms365-excel.png",
+      "source": "https://www.google.com/s2/favicons?domain=excel.cloud.microsoft&sz=512",
+      "sha256": "77baaeafe525d91d56482119db75d121432ea06f2e43336d1613e49d598b4605",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-loop": {
+      "seed": "ms365-loop.png",
+      "source": "https://loop.cloud.microsoft/favicon.ico",
+      "sha256": "0ab872ab6c9e6b769961045dc30dee8fe9a4de4e16c460281e220080470f2de0",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-mesh": {
+      "seed": "ms365-mesh.png",
+      "source": "https://images.squarespace-cdn.com/content/v1/5eb87cf9c85f665e140a2dac/ba8ec874-2bb4-400f-815b-36f34f56fde5/mesh_icon.png",
+      "sha256": "8f862b25c08121d35d89930c4eb9668b5595803731c8b45e4d456da33d6810ae",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-onenote": {
+      "seed": "ms365-onenote.png",
+      "source": "https://www.google.com/s2/favicons?domain=onenote.com&sz=512",
+      "sha256": "6e424e0b473f171856e57cb18b5f6d75156d6f1ef327d83cfb8dfcfbaa0f0dd1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-planner": {
+      "seed": "ms365-planner.png",
+      "source": "https://planner.cloud.microsoft/favicon.ico",
+      "sha256": "aa9a54e5975383576c619c68f761dabba3f2042e23d1a78ce8c7b638c64ecde2",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-powerpoint": {
+      "seed": "ms365-powerpoint.png",
+      "source": "https://www.google.com/s2/favicons?domain=powerpoint.cloud.microsoft&sz=512",
+      "sha256": "f83b6620b331921e613467bccee0ff698f9953e5ddf8444afa1eb061808c0d25",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ms365-word": {
+      "seed": "ms365-word.png",
+      "source": "https://www.google.com/s2/favicons?domain=word.cloud.microsoft&sz=512",
+      "sha256": "b35f1c2c860c3bf8fd8c66643203ce5af699c756287f8118cc9e123d9f3bbce2",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "office": {
+      "seed": "office.png",
+      "source": "https://www.google.com/s2/favicons?domain=office.com&sz=512",
+      "sha256": "a890ff0addb768cfd3bc8990db7e37b7387d97ee6606fdbc2c247f63cae62421",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "okta": {
+      "seed": "okta.svg",
+      "source": "https://cdn.simpleicons.org/okta",
+      "sha256": "c0d39f09920a50aec44c2a69e4daab5174ac76b936bc27b83713676af0d428ee",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "perplexity": {
+      "seed": "perplexity.svg",
+      "source": "https://cdn.simpleicons.org/perplexity",
+      "sha256": "407ad1254700503eb124ef5650cc267d83c79dc6dea9e9332fbdc92bb2bdf262",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "pptv": {
+      "seed": "pptv.png",
+      "source": "https://app.pptv.com/favicon.ico",
+      "sha256": "e515fff800909829313b5fb4ed6b2c5f2ed2b51d841198cc880444dfe8133ddd",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "qqdoc": {
+      "seed": "qqdoc.png",
+      "source": "https://www.google.com/s2/favicons?domain=docs.qq.com&sz=512",
+      "sha256": "3b83b207c9e57b09d90f1456f2e53f3b914e4f764345a2d915d45ab0e21016a4",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "qqmail": {
+      "seed": "qqmail.png",
+      "source": "https://mail.qq.com/favicon.ico",
+      "sha256": "621c7a23586ebf99fe4db607121bcbe5268de4f5bb1fdf4fc8e8e6c479827711",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "qqmusic": {
+      "seed": "qqmusic.png",
+      "source": "https://y.qq.com/favicon.ico",
+      "sha256": "5dd2d8de713420f5e3fbfe48817ea33b1f29785a69f621f3663f88175100fb1d",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "quanmin-k-ge": {
+      "seed": "quanmin-k-ge.png",
+      "source": "https://kg.qq.com/favicon.ico",
+      "sha256": "1eddb7d2892fc14298b9706672f25e726f15f31c1721c3b4d14c4137d16c01f6",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "sap": {
+      "seed": "sap.svg",
+      "source": "https://cdn.simpleicons.org/sap",
+      "sha256": "3c308900c4fadd5e6a43ed304d698f2db9a8f4ecd43827760a4461cb0309052f",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "sharepoint": {
+      "seed": "sharepoint.png",
+      "source": "https://www.google.com/s2/favicons?domain=sharepoint.com&sz=512",
+      "sha256": "39828915f38be133b950d7f2645ff0514ef9c8ad28e8cd2a955930cf8e9932c5",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "siri": {
+      "seed": "siri.png",
+      "source": "https://apple.com/favicon.ico",
+      "sha256": "96a576212fa25784f8cc71062325f2c694fbeb0510756afa07a191cddca4ef0f",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "snapchat": {
+      "seed": "snapchat.svg",
+      "source": "https://cdn.simpleicons.org/snapchat",
+      "sha256": "f12938263176702963188264d32e20691a7a9bb548841b9d4a8f6bd435c0cf33",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "sohu": {
+      "seed": "sohu.png",
+      "source": "https://www.google.com/s2/favicons?domain=sohu.com&sz=512",
+      "sha256": "f5c9ae979e28bd9367b28fcb7db71f340c80b5e9fd17e8238e4822dcfc2bd8a1",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "tencentcloud": {
+      "seed": "tencentcloud.png",
+      "source": "https://cloud.tencent.com/favicon.ico",
+      "sha256": "8755e0c7212db77f7097252dab32b962406782653e6f482b213599092f1bcdab",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "tencentdocs": {
+      "seed": "tencentdocs.png",
+      "source": "https://www.google.com/s2/favicons?domain=docs.qq.com&sz=512",
+      "sha256": "3b83b207c9e57b09d90f1456f2e53f3b914e4f764345a2d915d45ab0e21016a4",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "testflight": {
+      "seed": "testflight.png",
+      "source": "https://testflight.apple.com/favicon.ico",
+      "sha256": "54999f654777457aadd34658e20108e3bd6c0836a51298fdf7cde2a5b358241c",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "threads": {
+      "seed": "threads.svg",
+      "source": "https://cdn.simpleicons.org/threads",
+      "sha256": "1f91bc9ac4f80ebbd145dad37ba2edeeb791b4c11494d330de341c2a1e883827",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "tsmc": {
+      "seed": "tsmc.png",
+      "source": "https://www.google.com/s2/favicons?domain=tsmc.com&sz=512",
+      "sha256": "661cefa06312d60d9abe841e13fccaba6086222cfe2d9860a7c813ac4797df0d",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ubisoft": {
+      "seed": "ubisoft.svg",
+      "source": "https://cdn.simpleicons.org/ubisoft",
+      "sha256": "68392820625c1915e7a29d2f012d528841c25673f0c4d68aa3da3f417fcd9ab6",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "xbox": {
+      "seed": "xbox.png",
+      "source": "https://xbox.com/favicon.ico",
+      "sha256": "3d4cdc6b098a7fed03f29a171cbbe7ccd7157d28c962edc58322c350ba076342",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    },
+    "ximalaya": {
+      "seed": "ximalaya.png",
+      "source": "https://ximalaya.com/favicon.ico",
+      "sha256": "4775d29843fcbef01e60cb283d3dc97b7dfde227fc5dd3f338ec24d670a21e6c",
+      "retrieval_method": "simpleicons_preferred_official_favicon_fallback",
+      "audited_on": "2026-10-06"
+    }
+  },
+  "aliases": {
+    "tencentdocs": "qqdoc",
+    "himalaya": "ximalaya",
+    "epicgames": "epic"
+  },
+  "note": "Service-specific source replacements for the full production repair. Simple Icons is preferred when available; otherwise the official service-domain favicon is used."
+}

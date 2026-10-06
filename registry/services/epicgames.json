@@ -13,5 +13,12 @@
   "source_mode": "frozen_seed",
   "provider": "epicgames",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "icon_alias_of": "epic",
+  "visual_identity_audit": {
+    "status": "alias_verified",
+    "audited_on": "2026-10-06",
+    "canonical_visual_service": "epic"
+  },
+  "review_status": "visual_identity_verified"
 }

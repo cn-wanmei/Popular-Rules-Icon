@@ -9,8 +9,14 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 iTunes: 喜马拉雅「听书社区」电台有声小说相声评书",
-  "review_status": "needs_review",
+  "review_status": "visual_identity_verified",
   "provider": "himalaya",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "icon_alias_of": "ximalaya",
+  "visual_identity_audit": {
+    "status": "alias_verified",
+    "audited_on": "2026-10-06",
+    "canonical_visual_service": "ximalaya"
+  }
 }
