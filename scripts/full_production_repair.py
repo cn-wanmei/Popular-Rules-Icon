@@ -136,6 +136,8 @@ def fetch_source(service_id: str, spec: dict) -> tuple[bytes, str, str]:
             raw = download(url)
             # Normalize common favicon formats to a deterministic 512x512 PNG.
             im = Image.open(io.BytesIO(raw)).convert("RGBA")
+            if im.size != (512, 512):
+                im = im.resize((512, 512), Image.Resampling.LANCZOS)
             out = io.BytesIO()
             im.save(out, format="PNG", optimize=True)
             data = out.getvalue()
