@@ -202,7 +202,7 @@ service_id → alias/rename resolution → manifest variant → jsDelivr content
 
 其中“393 frozen_seed”是非常重要的生产质量信号：
 
-> 当前所谓 clean production 并不是 393 个服务实时重新拿官方 source 构建，而是绝大多数直接从冻结 seed state 复用。
+> 当前所谓 clean production 并不是 393 个服务实时重新拿官方 source 构建，而是绝大多数直接从冻结 seed state 复用；因此 main seed 更新不会自动改变 clean1。
 
 这在 immutable 发布机制上是合法的，但在视觉身份质量上必须依赖“seed 审计 + state 重建”闭环。
 
@@ -268,17 +268,16 @@ clean1 实际存在以下共享 object group：
 
 但以下共享组属于**高风险身份错配**，不能继续依赖“文件碰巧一样”：
 
-- copilot / Microsoft 365 / Office / SharePoint
-- Tencent 服务簇（王者荣耀/QQ/Tencent Cloud/Docs/Video 等）
-- Apple 服务簇（Apple Developer/Apple ID/Mail/Media/App Store/Siri/TestFlight 等）
-- Facebook / Messenger / Threads
-- Himalaya / Ximalaya
-- Epic / Epic Games
-- SAP / Snapchat
-- Hugging Face / Perplexity
-- 1688 / Fliggy
-- Ubisoft / Xbox
-- **另含 Firebase/Google 共享组中的未授权成员关系**
+- copilot / ms365-excel / ms365-loop / ms365-mesh / ms365-onenote / ms365-planner / ms365-powerpoint / ms365-word / office / sharepoint
+- honorofkings_cn / honorofkings_global / qqdoc / qqmail / qqmusic / quanmin-k-ge / tencentcloud / tencentdocs / tencentvideo
+- appledev / applefirmware / appleid / applemail / applemedia / appstore / siri / testflight
+- facebook / messenger / threads
+- himalaya / ximalaya
+- epic / epicgames
+- sap / snapchat
+- huggingface / perplexity
+- 1688 / fliggy
+- ubisoft / xbox
 
 另外腾讯、Apple、Xiaomi、Huawei、Microsoft 365 产品簇也必须继续逐项验证，不能用 provider 相同替代产品身份相同。
 
