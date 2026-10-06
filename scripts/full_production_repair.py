@@ -57,7 +57,7 @@ SOURCES = {
 
     "appledev": {"domain": "developer.apple.com"},
     "applefirmware": {"domain": "support.apple.com"},
-    "appleid": {"domain": "appleid.apple.com", "direct": "https://www.svgrepo.com/show/9914974/apple-id.svg"},
+    "appleid": {"domain": "appleid.apple.com", "direct": "https://appleid.cdn-apple.com/appleid/button/logo?border=false&border_radius=0&color=white&scale=6&size=64"},
     "applemail": {"domain": "icloud.com"},
     "applemedia": {"domain": "apple.com"},
     "appstore": {"domain": "apps.apple.com", "simple": "appstore"},
