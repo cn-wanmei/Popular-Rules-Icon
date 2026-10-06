@@ -67,7 +67,7 @@ Icon 仓库通过 `config/collection_identity_snapshot.json` 固定 service_id /
 
 `assets/icons/seed/*`
 
-当前 seed 树共有 **483 个文件 / 399 个唯一 Git blob / 36 组重复 blob**。
+当前 seed 树共有 **483 个文件 / 399 个唯一 Git blob / 36 组重复 blob**。重复 blob 本身不等于错误，但 production 共享对象必须有显式 alias 证据。
 
 这说明当前 seed 层存在大量“不同 service_id → 完全相同源图”的情况；其中部分是合法品牌家族/别名，但目前没有统一的自动化证据闸门强制它必须由 `icon_alias_of` 解释。
 
@@ -208,7 +208,7 @@ service_id → alias/rename resolution → manifest variant → jsDelivr content
 
 ## 四、当前生产已确认的视觉身份错配
 
-clean1 生成之后，main 在 2026-10-01 合并了一整轮视觉身份修正。根据已合并的 seed 修正提交，以下 **42 个服务**的 source asset 已被主线判定为视觉身份错误/不匹配并完成 seed 侧替换，但这些修正尚未回灌当前 clean1 production：
+clean1 生成之后，main 在 2026-10-01 合并了一整轮视觉身份修正。根据已合并的 seed 修正提交，以下 **39 个服务**的 source asset 已被主线判定为视觉身份错误/不匹配并完成 seed 侧替换，但这些修正尚未回灌当前 clean1 production：
 
 ### 第一批
 
@@ -264,18 +264,21 @@ clean1 实际存在以下共享 object group：
 - Stripe/Stripe Dashboard
 - Ubisoft/Xbox
 
-其中一部分已经有 `icon_alias_of` 明确授权，例如 OpenAI API → OpenAI、Stripe Dashboard → Stripe、Find My → iCloud、Messenger/Threads → Meta、Google 产品 → Google、Adobe 产品 → Adobe。
+其中一部分已经有 `icon_alias_of` 明确授权，例如 OpenAI API → OpenAI、Stripe Dashboard → Stripe、Find My → iCloud、Messenger/Threads → Meta、Google 产品 → Google、Adobe 产品 → Adobe。新增身份门禁对 current clean1 的实测结果为：**10 个共享 object group 未获得足够的 registry alias 授权**。
 
 但以下共享组属于**高风险身份错配**，不能继续依赖“文件碰巧一样”：
 
-- firebase
-- copilot
-- aisuite
-- perplexity / huggingface
-- snapchat / sap
-- xbox / ubisoft
-- fliggy / 1688
-- heytap / oppo
+- copilot / Microsoft 365 / Office / SharePoint
+- Tencent 服务簇（王者荣耀/QQ/Tencent Cloud/Docs/Video 等）
+- Apple 服务簇（Apple Developer/Apple ID/Mail/Media/App Store/Siri/TestFlight 等）
+- Facebook / Messenger / Threads
+- Himalaya / Ximalaya
+- Epic / Epic Games
+- SAP / Snapchat
+- Hugging Face / Perplexity
+- 1688 / Fliggy
+- Ubisoft / Xbox
+- **另含 Firebase/Google 共享组中的未授权成员关系**
 
 另外腾讯、Apple、Xiaomi、Huawei、Microsoft 365 产品簇也必须继续逐项验证，不能用 provider 相同替代产品身份相同。
 
