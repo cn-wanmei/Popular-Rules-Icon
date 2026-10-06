@@ -88,7 +88,13 @@ ALIASES = {
 
 
 def run(*args: str, cwd: Path | None = None) -> str:
-    p = subprocess.run(args, cwd=cwd, check=True, text=True, capture_output=True)
+    p = subprocess.run(args, cwd=cwd, text=True, capture_output=True)
+    if p.stdout:
+        print(p.stdout, end="", flush=True)
+    if p.returncode != 0:
+        if p.stderr:
+            print(p.stderr, end="", flush=True)
+        raise subprocess.CalledProcessError(p.returncode, args)
     return p.stdout.strip()
 
 
