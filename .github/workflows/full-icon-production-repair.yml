@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - repair/full-icons-20261006
-    paths:
-      - .repair-start
 
 concurrency:
   group: full-icon-production-repair
