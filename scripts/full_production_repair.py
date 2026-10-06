@@ -31,7 +31,7 @@ SOURCES = {
     "migu": {"domain": "migu.cn"},
     "office": {"domain": "office.com", "simple": "microsoftoffice"},
     "okta": {"domain": "okta.com", "simple": "okta"},
-    "pptv": {"domain": "pptv.com"},
+    "pptv": {"domain": "app.pptv.com"},
     "sohu": {"domain": "sohu.com"},
     "tsmc": {"domain": "tsmc.com", "simple": "tsmc"},
     "xbox": {"domain": "xbox.com", "simple": "xbox"},
@@ -69,6 +69,7 @@ SOURCES = {
     "threads": {"domain": "threads.net", "simple": "threads"},
 
     "himalaya": {"domain": "ximalaya.com"},
+    "ximalaya": {"domain": "ximalaya.com"},
     "epic": {"domain": "epicgames.com", "simple": "epicgames"},
     "sap": {"domain": "sap.com", "simple": "sap"},
     "snapchat": {"domain": "snapchat.com", "simple": "snapchat"},
@@ -80,7 +81,6 @@ SOURCES = {
 }
 
 ALIASES = {
-    "honorofkings_global": "honorofkings_cn",
     "tencentdocs": "qqdoc",
     "himalaya": "ximalaya",
     "epicgames": "epic",
@@ -193,8 +193,23 @@ def patch_state() -> None:
             "audited_on": "2026-10-06",
         }
 
-    for alias in ALIASES:
+    for alias, root in ALIASES.items():
+        root_candidates = list(SEED.glob(f"{root}.*"))
+        if not root_candidates:
+            root_state = json.loads((STATE_SOURCE / f"{root}.json").read_text(encoding="utf-8"))
+            root_file = root_state.get("source_url", "").removeprefix("seed://")
+            if not root_file or not (SEED / root_file).is_file():
+                root_spec = SOURCES.get(root)
+                if not root_spec:
+                    raise RuntimeError(f"alias root has no source acquisition spec: {root}")
+                root_data, root_ext, _ = fetch_source(root, root_spec)
+                root_file = f"{root}.{root_ext}"
+                (SEED / root_file).write_bytes(root_data)
+            root_candidates = [SEED / root_file]
         remove_old_service_seeds(alias)
+        root_file = root_candidates[0]
+        alias_target = SEED / f"{alias}{root_file.suffix}"
+        shutil.copy2(root_file, alias_target)
 
     for p in sorted(STATE_SOURCE.glob("*.json")):
         state = json.loads(p.read_text(encoding="utf-8"))
@@ -217,8 +232,10 @@ def patch_state() -> None:
             }
         elif sid in ALIASES:
             root = ALIASES[sid]
-            root_state = json.loads((STATE_SOURCE / f"{root}.json").read_text(encoding="utf-8"))
-            state["source_url"] = root_state["source_url"]
+            alias_candidates = list(SEED.glob(f"{sid}.*"))
+            if not alias_candidates:
+                raise RuntimeError(f"alias seed missing for {sid}")
+            state["source_url"] = f"seed://{alias_candidates[0].name}"
             state["source_class"] = "verified_alias_seed"
             state["visual_identity_audit"] = {
                 "status": "alias_verified",
