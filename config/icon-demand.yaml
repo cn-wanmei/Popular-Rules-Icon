@@ -1,6 +1,6 @@
 schema: icon_demand_v1
-version: "1.1.0"
-updated: "2026-09-30"
+version: "1.2.0"
+updated: "2026-10-06"
 defaults:
   styles:
     - source_original
@@ -10,10 +10,9 @@ defaults:
     - minimalist
     - duotone_line
     - mbe
-    - y2k
   sizes: [128, 256]
   formats: [png]
-  # clients may subset via clients.<name>.styles
+  # y2k is experimental and requires explicit client demand.
 clients:
   generic:
     styles: [source_original]
@@ -27,5 +26,8 @@ clients:
       - minimalist
       - duotone_line
       - mbe
-      - y2k
     sizes: [128, 256]
+experimental:
+  styles:
+    - y2k
+  explicit_opt_in_required: true
