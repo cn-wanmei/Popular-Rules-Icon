@@ -89,14 +89,7 @@ jobs:
       - name: Build canonical V6 release
         run: |
           set -euo pipefail
-          python scripts/build_release_from_state.py \
-            --state-dir build/state \
-            --snapshot config/collection_identity_snapshot.json \
-            --release-id "${{ steps.params.outputs.release }}" \
-            --out "build/${{ steps.params.outputs.release }}.json" \
-            --seed-dir assets/icons/seed \
-            --objects-out build/objects \
-            --materialized-state-dir build/materialized-state
+          python scripts/build_release_from_state.py             --state-dir build/state             --snapshot config/collection_identity_snapshot.json             --release-id "${{ steps.params.outputs.release }}"             --out "build/${{ steps.params.outputs.release }}.json"             --seed-dir assets/icons/seed             --objects-out build/objects             --materialized-state-dir build/materialized-state
 
       - name: Verify exact dist object closure
         run: |
@@ -138,11 +131,28 @@ jobs:
       - name: Strict V6 manifest gate
         run: |
           set -euo pipefail
-          python scripts/v6_manifest_gate.py \
-            --manifest "build/${{ steps.params.outputs.release }}.json" \
-            --snapshot config/collection_identity_snapshot.json \
-            --release-id "${{ steps.params.outputs.release }}" \
-            --strict
+          python scripts/v6_manifest_gate.py             --manifest "build/${{ steps.params.outputs.release }}.json"             --snapshot config/collection_identity_snapshot.json             --release-id "${{ steps.params.outputs.release }}"             --strict
+
+      - name: Strict production icon visual identity gate
+        run: |
+          set -euo pipefail
+          python scripts/icon_visual_identity_gate.py             --manifest "build/${{ steps.params.outputs.release }}.json"             --registry registry/services             --strict
+
+      - name: Style policy consistency gate
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          text = Path("config/icon-demand.yaml").read_text(encoding="utf-8")
+          default_block = re.search(r"defaults:\n(.*?)(?=\nclients:)", text, re.S)
+          rich_block = re.search(r"clients:\n(.*?)(?=\nexperimental:)", text, re.S)
+          assert default_block, "missing defaults block"
+          assert rich_block, "missing clients block"
+          assert re.search(r"^\s+- y2k\s*$", default_block.group(1), re.M) is None, "y2k must not be a default demand style"
+          assert re.search(r"^\s+- y2k\s*$", rich_block.group(1), re.M) is None, "y2k must not be a rich default demand style"
+          assert re.search(r"experimental:\n[\s\S]*^\s+- y2k\s*$", text, re.M), "y2k opt-in declaration missing"
+          PY
 
       - uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f
         if: always()

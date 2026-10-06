@@ -1,0 +1,45 @@
+schema: icon_style_compatibility_v1
+version: "1.0.0"
+principles:
+  identity_baseline: source_original
+  decorative_variants_must_not_be_treated_as_canonical_brand_assets: true
+  brand_identity_is_authoritative_over_decorative_style: true
+defaults:
+  allowed_styles:
+    - source_original
+    - minimalist
+    - duotone_line
+    - soft_3d
+    - glassmorphism
+    - neo_skeuomorphism
+    - mbe
+  experimental_styles:
+    - y2k
+  experimental_requires_explicit_demand: true
+  source_original_required: true
+style_intent:
+  source_original:
+    status: baseline
+    use: "品牌识别、文档主图、默认生产解析"
+  minimalist:
+    status: supported
+    use: "列表、小尺寸、密集 UI"
+  duotone_line:
+    status: supported
+    use: "工具栏、线框感"
+  soft_3d:
+    status: supported
+    use: "展示、卡片"
+  glassmorphism:
+    status: supported
+    use: "桌面/仪表盘"
+  neo_skeuomorphism:
+    status: supported
+    use: "强调质感、展示"
+  mbe:
+    status: supported_opt_in
+    use: "运营/展示，不作为严肃企业列表默认语言"
+  y2k:
+    status: experimental
+    use: "实验/个性主题"
+    avoid: "默认生产 UI"

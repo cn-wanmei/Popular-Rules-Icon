@@ -1,10 +1,11 @@
 schema: clean_release_candidate_v1
 release_id: icon-2026.09.30.clean1
-state_ref: state-clean-canonical-v1-20260930
+state_ref: state
+state_sha: 093792105c2e1f7b09217176cd9308ca85cfb910
 canonical_service_count: 394
 orphan_count: 0
 missing_canonical_count: 0
 seed_bootstrap_allowed:
   - ai
 publish_mode: immutable
-rollback_release: icon-2026.09.30.r14.1
+rollback_release: icon-2026.09.30.clean1-rb1
