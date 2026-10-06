@@ -172,16 +172,30 @@ def remove_old_service_seeds(service_id: str) -> None:
 
 
 def patch_registry() -> None:
-    for alias, root in ALIASES.items():
-        p = ROOT / "registry/services" / f"{alias}.json"
+    # Any service given a service-specific source must not retain stale
+    # icon_alias_of metadata. Only explicit verified aliases keep the field.
+    touched = set(SOURCES) | set(ALIASES)
+    for service_id in touched:
+        p = ROOT / "registry/services" / f"{service_id}.json"
+        if not p.is_file():
+            raise RuntimeError(f"registry service file missing: {service_id}")
         obj = json.loads(p.read_text(encoding="utf-8"))
-        obj["icon_alias_of"] = root
-        obj["review_status"] = "visual_identity_verified"
-        obj["visual_identity_audit"] = {
-            "status": "alias_verified",
-            "audited_on": "2026-10-06",
-            "canonical_visual_service": root,
-        }
+        if service_id in ALIASES:
+            obj["icon_alias_of"] = ALIASES[service_id]
+            obj["visual_identity_audit"] = {
+                "status": "alias_verified",
+                "audited_on": "2026-10-06",
+                "canonical_visual_service": ALIASES[service_id],
+            }
+        else:
+            obj.pop("icon_alias_of", None)
+            obj["visual_identity_audit"] = {
+                "status": "service_specific_source",
+                "audited_on": "2026-10-06",
+                "canonical_visual_service": service_id,
+            }
+        if service_id in SOURCES or service_id in ALIASES:
+            obj["review_status"] = "visual_identity_verified"
         p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
