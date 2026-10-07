@@ -1,0 +1,194 @@
+name: Full Icon Production Repair
+
+on:
+  push:
+    branches:
+      - repair/full-icons-20261006
+
+concurrency:
+  group: full-icon-production-repair
+  cancel-in-progress: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.12"
+
+      - name: Install project
+        run: |
+          python -m pip install -U pip
+          python -m pip install -e ".[dev]"
+          python -m pip install pillow cairosvg pytest pyyaml
+
+      - name: Fetch exact state snapshot
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin refs/heads/state:refs/remotes/origin/state
+          rm -rf build/state-source
+          mkdir -p build/state-source
+          git archive refs/remotes/origin/state services | tar -x -C build/state-source --strip-components=1
+          test "$(find build/state-source -name "*.json" | wc -l)" -eq 394
+
+      - name: Full source repair and forced rebuild
+        run: python scripts/full_production_repair.py
+
+      - name: Verify state rebuild
+        run: |
+          set -euo pipefail
+          test "$(find build/materialized-state -name "*.json" | wc -l)" -eq 394
+          python - <<PY
+          import json
+          from pathlib import Path
+          m = json.loads(Path("build/icon-2026.10.06.full1.json").read_text(encoding="utf-8"))
+          assert len(m.get("entries", [])) == 394
+          records = 0
+          missing = []
+          for entry in m["entries"]:
+              assert len(entry.get("variants", {})) == 16
+              for meta in entry["variants"].values():
+                  records += 1
+                  p = Path("build/objects") / meta["path"].lstrip("/")
+                  if not p.is_file():
+                      missing.append(meta["path"])
+          assert records == 6304, records
+          assert not missing, missing[:20]
+          print("manifest records:", records)
+          print("unique physical PNG objects:", len(list(Path("build/objects/v").glob("*.png"))))
+          print("state records: 394")
+          PY
+
+      - name: Identity Boundary gate
+        run: python scripts/identity_boundary_gate.py --write-report build/identity-boundary.json --strict
+
+      - name: V6 manifest gate
+        run: |
+          python scripts/v6_manifest_gate.py --manifest build/icon-2026.10.06.full1.json --snapshot config/collection_identity_snapshot.json --release-id icon-2026.10.06.full1 --strict | tee build/v6-manifest.json
+
+      - name: Production icon visual identity gate
+        run: |
+          python scripts/icon_visual_identity_gate.py --manifest build/icon-2026.10.06.full1.json --registry registry/services --strict | tee build/icon-visual-identity.json
+
+      - name: Style policy gate
+        run: |
+          python - <<PY
+          import re
+          from pathlib import Path
+          text = Path("config/icon-demand.yaml").read_text(encoding="utf-8")
+          default_block = re.search(r"defaults:\n(.*?)(?=\nclients:)", text, re.S)
+          rich_block = re.search(r"clients:\n(.*?)(?=\nexperimental:)", text, re.S)
+          assert default_block and rich_block
+          assert re.search(r"^\s+- y2k\s*$", default_block.group(1), re.M) is None
+          assert re.search(r"^\s+- y2k\s*$", rich_block.group(1), re.M) is None
+          assert re.search(r"experimental:\n[\s\S]*^\s+- y2k\s*$", text, re.M)
+          print("style policy: PASS")
+          PY
+
+      - name: Freeze and coverage gate
+        run: python scripts/freeze_coverage_gate.py --registry registry/services --seed assets/icons/seed
+
+      - name: Physical object closure
+        run: |
+          set -euo pipefail
+          python - <<PY
+          import json
+          from pathlib import Path
+          m = json.loads(Path("build/icon-2026.10.06.full1.json").read_text(encoding="utf-8"))
+          assert len(m["entries"]) == 394
+          seen = 0
+          for entry in m["entries"]:
+              assert len(entry["variants"]) == 16
+              for meta in entry["variants"].values():
+                  seen += 1
+                  assert (Path("build/objects") / meta["path"].lstrip("/")).is_file()
+          assert seen == 6304
+          print("physical object closure: PASS")
+          PY
+
+      - name: Commit repaired seeds, registry, provenance and docs
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/icons/seed registry/services config/visual-source-overrides.json docs/FULL_ICON_REPAIR_2026-10-06.md
+          git commit -m "repair(icon): replace mismatched service sources" || true
+          git push origin HEAD:refs/heads/repair/full-icons-20261006
+
+      - name: Promote rebuilt state to state branch
+        run: |
+          set -euo pipefail
+          rm -rf build/state-work
+          git fetch --no-tags origin refs/heads/state:refs/remotes/origin/state-current
+          git worktree add --detach build/state-work refs/remotes/origin/state-current
+          cp build/materialized-state/*.json build/state-work/services/
+          cd build/state-work
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add services
+          git commit -m "state(icon): rebuild all 394 services from repaired seeds"
+          git push origin HEAD:refs/heads/state
+
+      - name: Publish immutable release to dist
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin refs/heads/dist:refs/remotes/origin/dist-current
+          rm -rf build/dist-work
+          git worktree add --detach build/dist-work refs/remotes/origin/dist-current
+          if git -C build/dist-work show HEAD:manifests/icon-2026.10.06.full1.json >/dev/null 2>&1; then
+            echo "release already exists"
+            exit 3
+          fi
+          mkdir -p build/dist-work/v build/dist-work/manifests
+          while IFS= read -r -d "" src; do
+            rel=$(realpath --relative-to=build/objects "$src")
+            dest="build/dist-work/$rel"
+            mkdir -p "$(dirname "$dest")"
+            if git -C build/dist-work cat-file -e "HEAD:$rel" 2>/dev/null; then
+              git -C build/dist-work show "HEAD:$rel" > /tmp/existing.bin
+              cmp -s "$src" /tmp/existing.bin || { echo "object collision: $rel"; exit 4; }
+            else
+              cp "$src" "$dest"
+            fi
+          done < <(find build/objects -type f -name "*.png" -print0)
+          cp build/icon-2026.10.06.full1.json build/dist-work/manifests/icon-2026.10.06.full1.json
+          cd build/dist-work
+          git add v manifests
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "release: publish icon-2026.10.06.full1"
+          git push origin HEAD:refs/heads/dist
+
+      - name: Promote production pointer on repair branch
+        run: |
+          set -euo pipefail
+          python - <<PY
+          from pathlib import Path
+          p = Path("config/release-pointers.yaml")
+          lines = p.read_text(encoding="utf-8").splitlines()
+          out=[]
+          for line in lines:
+              if line.startswith("production:"): out.append("production: icon-2026.10.06.full1")
+              elif line.startswith("rollback:"): out.append("rollback: icon-2026.09.30.clean1")
+              elif line.startswith("updated_at:"): out.append('updated_at: "2026-10-06T19:21:00+08:00"')
+              elif line.startswith("freeze_id:"): out.append("freeze_id: icon-2026.10.06.full1")
+              elif line.startswith("freeze_started_at:"): out.append('freeze_started_at: "2026-10-06T19:21:00+08:00"')
+              elif line.startswith("freeze_expires_at:"): out.append('freeze_expires_at: "2026-11-20T19:21:00+08:00"')
+              elif line.startswith("freeze_reason:"): out.append('freeze_reason: "full icon production repair; explicit extension required after expiry"')
+              else: out.append(line)
+          p.write_text("\n".join(out)+"\n", encoding="utf-8")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/release-pointers.yaml
+          git commit -m "release(icon): promote full repaired production candidate" || true
+          git push origin HEAD:refs/heads/repair/full-icons-20261006

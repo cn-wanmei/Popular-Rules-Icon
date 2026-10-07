@@ -13,5 +13,11 @@
   "source_mode": "frozen_seed",
   "provider": "anjuke",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "visual_identity_audit": {
+    "status": "service_specific_source",
+    "audited_on": "2026-10-06",
+    "canonical_visual_service": "anjuke"
+  },
+  "review_status": "visual_identity_verified"
 }

@@ -1,13 +1,13 @@
-production: icon-2026.09.30.clean1
-rollback: icon-2026.09.30.clean1-rb1
+production: icon-2026.10.06.full1
+rollback: icon-2026.09.30.clean1
 rollback_note: "Independent immutable V6 rollback manifest; reuses only the clean1 content-addressed physical objects and does not depend on Collection V5 assets."
-updated_at: "2026-09-30T19:46:00+08:00"
+updated_at: "2026-10-06T19:21:00+08:00"
 frozen: true
-freeze_id: icon-2026.09.30.clean1
-freeze_started_at: "2026-09-30T19:46:00+08:00"
-freeze_expires_at: "2026-11-14T19:46:00+08:00"
+freeze_id: icon-2026.10.06.full1
+freeze_started_at: "2026-10-06T19:21:00+08:00"
+freeze_expires_at: "2026-11-20T19:21:00+08:00"
 max_freeze_days: 45
-freeze_reason: "production_clean baseline; explicit extension required after expiry"
+freeze_reason: "full icon production repair; explicit extension required after expiry"
 styles: 8
 registry_entries: 394
 canonical_collection_services: 394

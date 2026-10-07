@@ -9,9 +9,13 @@
   "status": "active",
   "lock": "binding",
   "notes": "R14 alias→office",
-  "icon_alias_of": "office",
-  "review_status": "needs_review",
+  "review_status": "visual_identity_verified",
   "provider": "microsoft",
   "identity_authority": "collection",
-  "identity_status": "canonical"
+  "identity_status": "canonical",
+  "visual_identity_audit": {
+    "status": "service_specific_source",
+    "audited_on": "2026-10-06",
+    "canonical_visual_service": "ms365-mesh"
+  }
 }
