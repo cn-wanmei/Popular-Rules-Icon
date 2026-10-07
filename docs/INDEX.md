@@ -8,10 +8,11 @@
 
 ## Architecture & identity
 - [IDENTITY_BOUNDARY_V1.md](IDENTITY_BOUNDARY_V1.md) — Collection sole identity authority
+- [COVERAGE_AND_FRESHNESS.md](COVERAGE_AND_FRESHNESS.md) — **entity:service coverage + freshness gate**
 - [STYLE_SYSTEM_V1.md](STYLE_SYSTEM_V1.md) — production style semantics
 - [PRODUCTION_IDENTITY_AUDIT_2026-09-30.md](PRODUCTION_IDENTITY_AUDIT_2026-09-30.md)
 - [ICON_VISUAL_SYSTEM_AUDIT_2026-10-06.md](ICON_VISUAL_SYSTEM_AUDIT_2026-10-06.md) — visual identity & style-policy audit
-- [FULL_ICON_REPAIR_2026-10-06.md](FULL_ICON_REPAIR_2026-10-06.md) — full production repair (icon-2026.10.06.full1)
+- [FULL_ICON_REPAIR_2026-10-06.md](FULL_ICON_REPAIR_2026-10-06.md) — full production repair
 - [ADR-Freeze-Rev.3.1.md](ADR-Freeze-Rev.3.1.md) — freeze governance
 - [ACTIONS_SHA_PIN.md](ACTIONS_SHA_PIN.md)
 
