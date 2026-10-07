@@ -56,6 +56,15 @@ icon asset binding
 
 Icon Registry **消费** Collection identity，但**不反向定义** Collection service。
 
+## Coverage 口径（勿与 Collection 全条目数混淆）
+
+Icon **只**绑定 Collection `rule/_index.yaml` 中 `entity: service` 的条目。
+
+- `provider_aggregate` / `aggregate` / `category` **不在** Icon 覆盖范围内。
+- 因此 `release-pointers.yaml` 中 `100% (394/394)` 表示 **全部 service** 已绑定，**不是**相对 `_index` 总 entries（常 ~651）的缺口。
+- 正式合同：[`docs/COVERAGE_AND_FRESHNESS.md`](docs/COVERAGE_AND_FRESHNESS.md)
+
+
 ---
 
 ## Style System
