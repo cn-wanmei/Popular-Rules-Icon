@@ -3,9 +3,9 @@
   "version": 1,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "914be4d003e5aacf3bd2533e36e7d95d974b92df",
+    "ref": "33fa4d3d375dc95eb3138a0d5fd4586fd8591040",
     "path": "rule/_index.yaml",
-    "file_sha": "8ced6a0361cad58f0ca7a77d5fec7d3b395cc66e98fbcfb5b57843a8c382e583",
+    "file_sha": "2bc5c7aba91e433a6d329f0ca3668f2e2b9e092655152d9fcefedf4e9e3cd1c1",
     "selection": {
       "include_entity": "service",
       "exclude_entities": [
@@ -2383,6 +2383,6 @@
       "entity": "service"
     }
   },
-  "generated_at": "2026-10-06T12:29:15Z",
+  "generated_at": "2026-10-07T12:22:30Z",
   "note": "Pinned to exact Collection commit; do not hand-edit service map."
 }
