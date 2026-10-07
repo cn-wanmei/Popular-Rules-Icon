@@ -24,3 +24,18 @@ State records forced to rebuild: 394
 ## Production promotion rule
 
 只有 Identity Boundary、V6 Manifest、Production Icon Visual Identity、Style Policy、Physical Object Closure 全部通过后，才允许将 production pointer 切换到本 release。
+
+## Promotion status (completed)
+
+| Item | Status |
+|------|--------|
+| Full Icon Production Repair CI | success (#18, run 37460384439) |
+| Branch | `repair/full-icons-20261006` |
+| PR | [#20](https://github.com/cn-wanmei/Popular-Rules-Icon/pull/20) merged |
+| Production pointer | `icon-2026.10.06.full1` |
+| Rollback pointer | `icon-2026.09.30.clean1` |
+| Coverage | 394/394 (100%) |
+| PR CI L0–L1 on merge | success |
+| Docs sync | CHANGELOG + INDEX updated |
+
+**Production Ready** as of merge SHA after PR #20.
