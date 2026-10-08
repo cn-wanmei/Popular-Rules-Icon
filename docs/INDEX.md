@@ -9,6 +9,7 @@
 ## Architecture & identity
 - [IDENTITY_BOUNDARY_V1.md](IDENTITY_BOUNDARY_V1.md)
 - [COVERAGE_AND_FRESHNESS.md](COVERAGE_AND_FRESHNESS.md)
+- [FREEZE_VS_IDENTITY.md](FREEZE_VS_IDENTITY.md)
 - [COLLECTION_POINTER_SYNC.md](COLLECTION_POINTER_SYNC.md) — after promote, update Collection pins
 - [STYLE_SYSTEM_V1.md](STYLE_SYSTEM_V1.md)
 - [ADR-Freeze-Rev.3.1.md](ADR-Freeze-Rev.3.1.md)
