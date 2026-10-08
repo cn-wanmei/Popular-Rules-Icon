@@ -3,7 +3,7 @@
   "version": 1,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "bd44d8edb8950867daf296dd4cc72283e45abc2e",
+    "ref": "6d74cd6901c8e8f9316ae97041c7506b07d03181",
     "path": "rule/_index.yaml",
     "file_sha": "1e8f38e680904bff5f4300b0962aab0bc93be955",
     "file_sha256": "f0c64ed367295c17504a0e1f28a3a3bfb5d2a227bd6a93a46d2f8a18474eb2c8",
@@ -2384,6 +2384,6 @@
       "entity": "service"
     }
   },
-  "generated_at": "2026-10-08T09:02:08.195919+00:00",
-  "note": "Refreshed 2026-10-08 audit P0-4 identity alignment"
+  "generated_at": "2026-10-08T11:49:43.963539+00:00",
+  "note": "Refreshed 2026-10-08 after PR#23 close; pins Collection main index"
 }
