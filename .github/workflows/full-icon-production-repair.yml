@@ -9,8 +9,13 @@ concurrency:
   group: full-icon-production-repair
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   repair:
+    permissions:
+      contents: write
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     permissions:
