@@ -3,9 +3,10 @@
   "version": 1,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "33fa4d3d375dc95eb3138a0d5fd4586fd8591040",
+    "ref": "bd44d8edb8950867daf296dd4cc72283e45abc2e",
     "path": "rule/_index.yaml",
-    "file_sha": "2bc5c7aba91e433a6d329f0ca3668f2e2b9e092655152d9fcefedf4e9e3cd1c1",
+    "file_sha": "1e8f38e680904bff5f4300b0962aab0bc93be955",
+    "file_sha256": "f0c64ed367295c17504a0e1f28a3a3bfb5d2a227bd6a93a46d2f8a18474eb2c8",
     "selection": {
       "include_entity": "service",
       "exclude_entities": [
@@ -22,6 +23,12 @@
       "id": "12306",
       "display_name": "12306",
       "provider": "12306",
+      "entity": "service"
+    },
+    "1688": {
+      "id": "1688",
+      "display_name": "1688",
+      "provider": "alibaba",
       "entity": "service"
     },
     "37games": {
@@ -60,16 +67,22 @@
       "provider": "adobe",
       "entity": "service"
     },
+    "ai": {
+      "id": "ai",
+      "display_name": "AI",
+      "provider": "special",
+      "entity": "service"
+    },
     "airbnb": {
       "id": "airbnb",
       "display_name": "Airbnb",
       "provider": "airbnb",
       "entity": "service"
     },
-    "1688": {
-      "id": "1688",
-      "display_name": "1688",
-      "provider": "alibaba",
+    "aisuite": {
+      "id": "aisuite",
+      "display_name": "AI Suite",
+      "provider": "special",
       "entity": "service"
     },
     "alibabacloud": {
@@ -96,99 +109,9 @@
       "provider": "alibaba",
       "entity": "service"
     },
-    "cainiao": {
-      "id": "cainiao",
-      "display_name": "Cainiao",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "dingding": {
-      "id": "dingding",
-      "display_name": "DingTalk",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "eleme": {
-      "id": "eleme",
-      "display_name": "Ele.me",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "fliggy": {
-      "id": "fliggy",
-      "display_name": "Fliggy",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "gaode": {
-      "id": "gaode",
-      "display_name": "Gaode",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "lazada": {
-      "id": "lazada",
-      "display_name": "Lazada",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "taobao": {
-      "id": "taobao",
-      "display_name": "Taobao",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "tmall": {
-      "id": "tmall",
-      "display_name": "Tmall",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "xianyu": {
-      "id": "xianyu",
-      "display_name": "Xianyu",
-      "provider": "alibaba",
-      "entity": "service"
-    },
-    "youku": {
-      "id": "youku",
-      "display_name": "Youku",
-      "provider": "alibaba",
-      "entity": "service"
-    },
     "amazonmusic": {
       "id": "amazonmusic",
       "display_name": "Amazon Music",
-      "provider": "amazon",
-      "entity": "service"
-    },
-    "audible": {
-      "id": "audible",
-      "display_name": "Audible",
-      "provider": "amazon",
-      "entity": "service"
-    },
-    "aws": {
-      "id": "aws",
-      "display_name": "AWS",
-      "provider": "amazon",
-      "entity": "service"
-    },
-    "goodreads": {
-      "id": "goodreads",
-      "display_name": "Goodreads",
-      "provider": "amazon",
-      "entity": "service"
-    },
-    "primevideo": {
-      "id": "primevideo",
-      "display_name": "Prime Video",
-      "provider": "amazon",
-      "entity": "service"
-    },
-    "twitch": {
-      "id": "twitch",
-      "display_name": "Twitch",
       "provider": "amazon",
       "entity": "service"
     },
@@ -210,6 +133,12 @@
       "provider": "anker",
       "entity": "service"
     },
+    "anthropic": {
+      "id": "anthropic",
+      "display_name": "Anthropic",
+      "provider": "anthropic",
+      "entity": "service"
+    },
     "anthropic-claude": {
       "id": "anthropic-claude",
       "display_name": "Claude",
@@ -219,18 +148,6 @@
     "anthropic-platform": {
       "id": "anthropic-platform",
       "display_name": "Anthropic Platform",
-      "provider": "anthropic",
-      "entity": "service"
-    },
-    "anthropic": {
-      "id": "anthropic",
-      "display_name": "Anthropic",
-      "provider": "anthropic",
-      "entity": "service"
-    },
-    "claude": {
-      "id": "claude",
-      "display_name": "Claude",
       "provider": "anthropic",
       "entity": "service"
     },
@@ -306,36 +223,6 @@
       "provider": "apple",
       "entity": "service"
     },
-    "findmy": {
-      "id": "findmy",
-      "display_name": "Find My",
-      "provider": "apple",
-      "entity": "service"
-    },
-    "icloud": {
-      "id": "icloud",
-      "display_name": "iCloud",
-      "provider": "apple",
-      "entity": "service"
-    },
-    "icloudprivaterelay": {
-      "id": "icloudprivaterelay",
-      "display_name": "iCloud Private Relay",
-      "provider": "apple",
-      "entity": "service"
-    },
-    "siri": {
-      "id": "siri",
-      "display_name": "Siri",
-      "provider": "apple",
-      "entity": "service"
-    },
-    "testflight": {
-      "id": "testflight",
-      "display_name": "TestFlight",
-      "provider": "apple",
-      "entity": "service"
-    },
     "arista": {
       "id": "arista",
       "display_name": "Arista",
@@ -360,16 +247,16 @@
       "provider": "atlassian",
       "entity": "service"
     },
-    "trello": {
-      "id": "trello",
-      "display_name": "Trello",
-      "provider": "atlassian",
-      "entity": "service"
-    },
     "atour": {
       "id": "atour",
       "display_name": "亚朵",
       "provider": "atour",
+      "entity": "service"
+    },
+    "audible": {
+      "id": "audible",
+      "display_name": "Audible",
+      "provider": "amazon",
       "entity": "service"
     },
     "autodesk": {
@@ -382,6 +269,18 @@
       "id": "autohome",
       "display_name": "汽车之家",
       "provider": "autohome",
+      "entity": "service"
+    },
+    "aws": {
+      "id": "aws",
+      "display_name": "AWS",
+      "provider": "amazon",
+      "entity": "service"
+    },
+    "azure": {
+      "id": "azure",
+      "display_name": "Microsoft Azure",
+      "provider": "microsoft",
       "entity": "service"
     },
     "bahamut": {
@@ -426,6 +325,12 @@
       "provider": "baidu",
       "entity": "service"
     },
+    "battlenet": {
+      "id": "battlenet",
+      "display_name": "Battle.net",
+      "provider": "blizzard",
+      "entity": "service"
+    },
     "bbc": {
       "id": "bbc",
       "display_name": "BBC",
@@ -450,16 +355,16 @@
       "provider": "binance",
       "entity": "service"
     },
+    "bing": {
+      "id": "bing",
+      "display_name": "Bing",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "birentech": {
       "id": "birentech",
       "display_name": "壁仞科技",
       "provider": "birentech",
-      "entity": "service"
-    },
-    "battlenet": {
-      "id": "battlenet",
-      "display_name": "Battle.net",
-      "provider": "blizzard",
       "entity": "service"
     },
     "block": {
@@ -510,70 +415,16 @@
       "provider": "byd",
       "entity": "service"
     },
-    "capcut": {
-      "id": "capcut",
-      "display_name": "剪映/CapCut",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "doubao": {
-      "id": "doubao",
-      "display_name": "Doubao",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "douyin": {
-      "id": "douyin",
-      "display_name": "Douyin",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "feishu": {
-      "id": "feishu",
-      "display_name": "Feishu",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "jianying": {
-      "id": "jianying",
-      "display_name": "Jianying",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "lark": {
-      "id": "lark",
-      "display_name": "Lark",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "tiktok": {
-      "id": "tiktok",
-      "display_name": "TikTok",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "toutiao": {
-      "id": "toutiao",
-      "display_name": "Toutiao",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "volcengine": {
-      "id": "volcengine",
-      "display_name": "火山引擎",
-      "provider": "bytedance",
-      "entity": "service"
-    },
-    "xigua": {
-      "id": "xigua",
-      "display_name": "Xigua Video",
-      "provider": "bytedance",
-      "entity": "service"
-    },
     "cadence": {
       "id": "cadence",
       "display_name": "Cadence",
       "provider": "cadence",
+      "entity": "service"
+    },
+    "cainiao": {
+      "id": "cainiao",
+      "display_name": "Cainiao",
+      "provider": "alibaba",
       "entity": "service"
     },
     "cambricon": {
@@ -594,6 +445,12 @@
       "provider": "caocao",
       "entity": "service"
     },
+    "capcut": {
+      "id": "capcut",
+      "display_name": "剪映/CapCut",
+      "provider": "bytedance",
+      "entity": "service"
+    },
     "ccb": {
       "id": "ccb",
       "display_name": "China Construction Bank",
@@ -610,6 +467,12 @@
       "id": "ceb",
       "display_name": "China Everbright Bank",
       "provider": "ceb",
+      "entity": "service"
+    },
+    "chatgpt": {
+      "id": "chatgpt",
+      "display_name": "ChatGPT",
+      "provider": "openai",
       "entity": "service"
     },
     "chinamobile": {
@@ -636,6 +499,12 @@
       "provider": "cisco",
       "entity": "service"
     },
+    "claude": {
+      "id": "claude",
+      "display_name": "Claude",
+      "provider": "anthropic",
+      "entity": "service"
+    },
     "cmb": {
       "id": "cmb",
       "display_name": "China Merchants Bank",
@@ -646,6 +515,12 @@
       "id": "coinbase",
       "display_name": "Coinbase",
       "provider": "coinbase",
+      "entity": "service"
+    },
+    "copilot": {
+      "id": "copilot",
+      "display_name": "Microsoft Copilot",
+      "provider": "microsoft",
       "entity": "service"
     },
     "coupang": {
@@ -732,6 +607,12 @@
       "provider": "digitalocean",
       "entity": "service"
     },
+    "dingding": {
+      "id": "dingding",
+      "display_name": "DingTalk",
+      "provider": "alibaba",
+      "entity": "service"
+    },
     "discord": {
       "id": "discord",
       "display_name": "Discord",
@@ -741,12 +622,6 @@
     "disney": {
       "id": "disney",
       "display_name": "Disney",
-      "provider": "disney",
-      "entity": "service"
-    },
-    "hulu": {
-      "id": "hulu",
-      "display_name": "Hulu",
       "provider": "disney",
       "entity": "service"
     },
@@ -760,6 +635,18 @@
       "id": "docker",
       "display_name": "Docker",
       "provider": "docker",
+      "entity": "service"
+    },
+    "doubao": {
+      "id": "doubao",
+      "display_name": "Doubao",
+      "provider": "bytedance",
+      "entity": "service"
+    },
+    "douyin": {
+      "id": "douyin",
+      "display_name": "Douyin",
+      "provider": "bytedance",
       "entity": "service"
     },
     "douyu": {
@@ -798,6 +685,12 @@
       "provider": "ebay",
       "entity": "service"
     },
+    "eleme": {
+      "id": "eleme",
+      "display_name": "Ele.me",
+      "provider": "alibaba",
+      "entity": "service"
+    },
     "elevenlabs": {
       "id": "elevenlabs",
       "display_name": "ElevenLabs",
@@ -834,10 +727,40 @@
       "provider": "ericsson",
       "entity": "service"
     },
+    "facebook": {
+      "id": "facebook",
+      "display_name": "Facebook",
+      "provider": "meta",
+      "entity": "service"
+    },
+    "feishu": {
+      "id": "feishu",
+      "display_name": "Feishu",
+      "provider": "bytedance",
+      "entity": "service"
+    },
     "figma": {
       "id": "figma",
       "display_name": "Figma",
       "provider": "figma",
+      "entity": "service"
+    },
+    "findmy": {
+      "id": "findmy",
+      "display_name": "Find My",
+      "provider": "apple",
+      "entity": "service"
+    },
+    "firebase": {
+      "id": "firebase",
+      "display_name": "Firebase",
+      "provider": "google",
+      "entity": "service"
+    },
+    "fliggy": {
+      "id": "fliggy",
+      "display_name": "Fliggy",
+      "provider": "alibaba",
       "entity": "service"
     },
     "fortinet": {
@@ -852,10 +775,34 @@
       "provider": "fujitsu",
       "entity": "service"
     },
+    "gaode": {
+      "id": "gaode",
+      "display_name": "Gaode",
+      "provider": "alibaba",
+      "entity": "service"
+    },
     "garena": {
       "id": "garena",
       "display_name": "Garena",
       "provider": "garena",
+      "entity": "service"
+    },
+    "gemini": {
+      "id": "gemini",
+      "display_name": "Gemini",
+      "provider": "google",
+      "entity": "service"
+    },
+    "getapps": {
+      "id": "getapps",
+      "display_name": "GetApps",
+      "provider": "xiaomi",
+      "entity": "service"
+    },
+    "github": {
+      "id": "github",
+      "display_name": "GitHub",
+      "provider": "microsoft",
       "entity": "service"
     },
     "gitlab": {
@@ -870,22 +817,16 @@
       "provider": "globalfoundries",
       "entity": "service"
     },
-    "firebase": {
-      "id": "firebase",
-      "display_name": "Firebase",
-      "provider": "google",
-      "entity": "service"
-    },
-    "gemini": {
-      "id": "gemini",
-      "display_name": "Gemini",
-      "provider": "google",
-      "entity": "service"
-    },
     "gmail": {
       "id": "gmail",
       "display_name": "Gmail",
       "provider": "google",
+      "entity": "service"
+    },
+    "goodreads": {
+      "id": "goodreads",
+      "display_name": "Goodreads",
+      "provider": "amazon",
       "entity": "service"
     },
     "google-calendar": {
@@ -1032,24 +973,6 @@
       "provider": "google",
       "entity": "service"
     },
-    "scholar": {
-      "id": "scholar",
-      "display_name": "Google Scholar",
-      "provider": "google",
-      "entity": "service"
-    },
-    "youtube": {
-      "id": "youtube",
-      "display_name": "YouTube",
-      "provider": "google",
-      "entity": "service"
-    },
-    "youtubemusic": {
-      "id": "youtubemusic",
-      "display_name": "YouTube Music",
-      "provider": "google",
-      "entity": "service"
-    },
     "grab": {
       "id": "grab",
       "display_name": "Grab",
@@ -1068,6 +991,12 @@
       "provider": "haier",
       "entity": "service"
     },
+    "hashicorp": {
+      "id": "hashicorp",
+      "display_name": "HashiCorp",
+      "provider": "ibm",
+      "entity": "service"
+    },
     "hbo": {
       "id": "hbo",
       "display_name": "HBO",
@@ -1078,6 +1007,12 @@
       "id": "hellobike",
       "display_name": "哈啰",
       "provider": "hellobike",
+      "entity": "service"
+    },
+    "heroku": {
+      "id": "heroku",
+      "display_name": "Heroku",
+      "provider": "salesforce",
       "entity": "service"
     },
     "heytap": {
@@ -1110,6 +1045,18 @@
       "provider": "honor",
       "entity": "service"
     },
+    "honorofkings_cn": {
+      "id": "honorofkings_cn",
+      "display_name": "王者荣耀（国服）",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "honorofkings_global": {
+      "id": "honorofkings_global",
+      "display_name": "Honor of Kings Global",
+      "provider": "tencent",
+      "entity": "service"
+    },
     "hpe": {
       "id": "hpe",
       "display_name": "HPE",
@@ -1140,6 +1087,12 @@
       "provider": "huggingface",
       "entity": "service"
     },
+    "hulu": {
+      "id": "hulu",
+      "display_name": "Hulu",
+      "provider": "disney",
+      "entity": "service"
+    },
     "huolala": {
       "id": "huolala",
       "display_name": "货拉拉",
@@ -1150,12 +1103,6 @@
       "id": "huya",
       "display_name": "Huya",
       "provider": "huya",
-      "entity": "service"
-    },
-    "hashicorp": {
-      "id": "hashicorp",
-      "display_name": "HashiCorp",
-      "provider": "ibm",
       "entity": "service"
     },
     "ibm": {
@@ -1170,10 +1117,28 @@
       "provider": "icbc",
       "entity": "service"
     },
+    "icloud": {
+      "id": "icloud",
+      "display_name": "iCloud",
+      "provider": "apple",
+      "entity": "service"
+    },
+    "icloudprivaterelay": {
+      "id": "icloudprivaterelay",
+      "display_name": "iCloud Private Relay",
+      "provider": "apple",
+      "entity": "service"
+    },
     "iflytek": {
       "id": "iflytek",
       "display_name": "科大讯飞",
       "provider": "iflytek",
+      "entity": "service"
+    },
+    "instagram": {
+      "id": "instagram",
+      "display_name": "Instagram",
+      "provider": "meta",
       "entity": "service"
     },
     "intel": {
@@ -1200,12 +1165,6 @@
       "provider": "iqiyi",
       "entity": "service"
     },
-    "jetbrains": {
-      "id": "jetbrains",
-      "display_name": "JetBrains",
-      "provider": "jetbrains",
-      "entity": "service"
-    },
     "jd-cloud": {
       "id": "jd-cloud",
       "display_name": "JD Cloud",
@@ -1216,6 +1175,18 @@
       "id": "jdcloud",
       "display_name": "京东云",
       "provider": "jingdong",
+      "entity": "service"
+    },
+    "jetbrains": {
+      "id": "jetbrains",
+      "display_name": "JetBrains",
+      "provider": "jetbrains",
+      "entity": "service"
+    },
+    "jianying": {
+      "id": "jianying",
+      "display_name": "Jianying",
+      "provider": "bytedance",
       "entity": "service"
     },
     "jingdong": {
@@ -1242,27 +1213,21 @@
       "provider": "kingdee",
       "entity": "service"
     },
-    "wps": {
-      "id": "wps",
-      "display_name": "WPS",
-      "provider": "kingsoft",
-      "entity": "service"
-    },
     "kla": {
       "id": "kla",
       "display_name": "KLA",
       "provider": "kla",
       "entity": "service"
     },
-    "kuaishou-open": {
-      "id": "kuaishou-open",
-      "display_name": "快手开放平台",
-      "provider": "kuaishou",
-      "entity": "service"
-    },
     "kuaishou": {
       "id": "kuaishou",
       "display_name": "Kuaishou",
+      "provider": "kuaishou",
+      "entity": "service"
+    },
+    "kuaishou-open": {
+      "id": "kuaishou-open",
+      "display_name": "快手开放平台",
       "provider": "kuaishou",
       "entity": "service"
     },
@@ -1288,6 +1253,18 @@
       "id": "lamresearch",
       "display_name": "Lam Research",
       "provider": "lamresearch",
+      "entity": "service"
+    },
+    "lark": {
+      "id": "lark",
+      "display_name": "Lark",
+      "provider": "bytedance",
+      "entity": "service"
+    },
+    "lazada": {
+      "id": "lazada",
+      "display_name": "Lazada",
+      "provider": "alibaba",
       "entity": "service"
     },
     "lenovo": {
@@ -1320,6 +1297,12 @@
       "provider": "linecorp",
       "entity": "service"
     },
+    "linkedin": {
+      "id": "linkedin",
+      "display_name": "LinkedIn",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "lufax": {
       "id": "lufax",
       "display_name": "陆金所",
@@ -1350,33 +1333,9 @@
       "provider": "mercadolibre",
       "entity": "service"
     },
-    "facebook": {
-      "id": "facebook",
-      "display_name": "Facebook",
-      "provider": "meta",
-      "entity": "service"
-    },
-    "instagram": {
-      "id": "instagram",
-      "display_name": "Instagram",
-      "provider": "meta",
-      "entity": "service"
-    },
     "messenger": {
       "id": "messenger",
       "display_name": "Messenger",
-      "provider": "meta",
-      "entity": "service"
-    },
-    "threads": {
-      "id": "threads",
-      "display_name": "Threads",
-      "provider": "meta",
-      "entity": "service"
-    },
-    "whatsapp": {
-      "id": "whatsapp",
-      "display_name": "WhatsApp",
       "provider": "meta",
       "entity": "service"
     },
@@ -1386,40 +1345,16 @@
       "provider": "mgtv",
       "entity": "service"
     },
+    "mi-cloud": {
+      "id": "mi-cloud",
+      "display_name": "Mi Cloud",
+      "provider": "xiaomi",
+      "entity": "service"
+    },
     "micron": {
       "id": "micron",
       "display_name": "Micron",
       "provider": "micron",
-      "entity": "service"
-    },
-    "azure": {
-      "id": "azure",
-      "display_name": "Microsoft Azure",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "bing": {
-      "id": "bing",
-      "display_name": "Bing",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "copilot": {
-      "id": "copilot",
-      "display_name": "Microsoft Copilot",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "github": {
-      "id": "github",
-      "display_name": "GitHub",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "linkedin": {
-      "id": "linkedin",
-      "display_name": "LinkedIn",
-      "provider": "microsoft",
       "entity": "service"
     },
     "microsoftedge": {
@@ -1428,10 +1363,40 @@
       "provider": "microsoft",
       "entity": "service"
     },
+    "migu": {
+      "id": "migu",
+      "display_name": "咪咕",
+      "provider": "migu",
+      "entity": "service"
+    },
+    "mihome": {
+      "id": "mihome",
+      "display_name": "米家",
+      "provider": "xiaomi",
+      "entity": "service"
+    },
     "minecraft": {
       "id": "minecraft",
       "display_name": "Minecraft",
       "provider": "microsoft",
+      "entity": "service"
+    },
+    "minimax": {
+      "id": "minimax",
+      "display_name": "MiniMax",
+      "provider": "minimax",
+      "entity": "service"
+    },
+    "mongodb": {
+      "id": "mongodb",
+      "display_name": "MongoDB",
+      "provider": "mongodb",
+      "entity": "service"
+    },
+    "moonshot": {
+      "id": "moonshot",
+      "display_name": "月之暗面",
+      "provider": "moonshot",
       "entity": "service"
     },
     "ms365-excel": {
@@ -1476,72 +1441,6 @@
       "provider": "microsoft",
       "entity": "service"
     },
-    "office": {
-      "id": "office",
-      "display_name": "Microsoft Office",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "onedrive": {
-      "id": "onedrive",
-      "display_name": "OneDrive",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "outlook": {
-      "id": "outlook",
-      "display_name": "Microsoft Outlook",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "powerbi": {
-      "id": "powerbi",
-      "display_name": "Power BI",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "sharepoint": {
-      "id": "sharepoint",
-      "display_name": "SharePoint",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "teams": {
-      "id": "teams",
-      "display_name": "Microsoft Teams",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "xbox": {
-      "id": "xbox",
-      "display_name": "Xbox",
-      "provider": "microsoft",
-      "entity": "service"
-    },
-    "migu": {
-      "id": "migu",
-      "display_name": "咪咕",
-      "provider": "migu",
-      "entity": "service"
-    },
-    "minimax": {
-      "id": "minimax",
-      "display_name": "MiniMax",
-      "provider": "minimax",
-      "entity": "service"
-    },
-    "mongodb": {
-      "id": "mongodb",
-      "display_name": "MongoDB",
-      "provider": "mongodb",
-      "entity": "service"
-    },
-    "moonshot": {
-      "id": "moonshot",
-      "display_name": "月之暗面",
-      "provider": "moonshot",
-      "entity": "service"
-    },
     "nec": {
       "id": "nec",
       "display_name": "NEC",
@@ -1563,12 +1462,6 @@
     "neteasemusic": {
       "id": "neteasemusic",
       "display_name": "NetEase Cloud Music",
-      "provider": "netease",
-      "entity": "service"
-    },
-    "youdao": {
-      "id": "youdao",
-      "display_name": "Youdao",
       "provider": "netease",
       "entity": "service"
     },
@@ -1608,6 +1501,12 @@
       "provider": "nvidia",
       "entity": "service"
     },
+    "office": {
+      "id": "office",
+      "display_name": "Microsoft Office",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "okta": {
       "id": "okta",
       "display_name": "Okta",
@@ -1620,15 +1519,15 @@
       "provider": "okx",
       "entity": "service"
     },
-    "speedtest": {
-      "id": "speedtest",
-      "display_name": "Speedtest",
-      "provider": "ookla",
+    "onedrive": {
+      "id": "onedrive",
+      "display_name": "OneDrive",
+      "provider": "microsoft",
       "entity": "service"
     },
-    "chatgpt": {
-      "id": "chatgpt",
-      "display_name": "ChatGPT",
+    "openai": {
+      "id": "openai",
+      "display_name": "OpenAI",
       "provider": "openai",
       "entity": "service"
     },
@@ -1644,12 +1543,6 @@
       "provider": "openai",
       "entity": "service"
     },
-    "openai": {
-      "id": "openai",
-      "display_name": "OpenAI",
-      "provider": "openai",
-      "entity": "service"
-    },
     "oppo": {
       "id": "oppo",
       "display_name": "OPPO",
@@ -1660,6 +1553,12 @@
       "id": "oracle",
       "display_name": "Oracle",
       "provider": "oracle",
+      "entity": "service"
+    },
+    "outlook": {
+      "id": "outlook",
+      "display_name": "Microsoft Outlook",
+      "provider": "microsoft",
       "entity": "service"
     },
     "palantir": {
@@ -1683,12 +1582,6 @@
     "paypal": {
       "id": "paypal",
       "display_name": "PayPal",
-      "provider": "paypal",
-      "entity": "service"
-    },
-    "venmo": {
-      "id": "venmo",
-      "display_name": "Venmo",
       "provider": "paypal",
       "entity": "service"
     },
@@ -1728,10 +1621,28 @@
       "provider": "playstation",
       "entity": "service"
     },
+    "powerbi": {
+      "id": "powerbi",
+      "display_name": "Power BI",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "pptv": {
       "id": "pptv",
       "display_name": "PPTV",
       "provider": "pptv",
+      "entity": "service"
+    },
+    "primevideo": {
+      "id": "primevideo",
+      "display_name": "Prime Video",
+      "provider": "amazon",
+      "entity": "service"
+    },
+    "private": {
+      "id": "private",
+      "display_name": "Private",
+      "provider": "special",
       "entity": "service"
     },
     "psbc": {
@@ -1746,10 +1657,46 @@
       "provider": "qihoo360",
       "entity": "service"
     },
+    "qq": {
+      "id": "qq",
+      "display_name": "QQ",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "qqbrowser": {
+      "id": "qqbrowser",
+      "display_name": "QQ Browser",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "qqdoc": {
+      "id": "qqdoc",
+      "display_name": "腾讯文档",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "qqmail": {
+      "id": "qqmail",
+      "display_name": "QQ Mail",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "qqmusic": {
+      "id": "qqmusic",
+      "display_name": "QQ Music",
+      "provider": "tencent",
+      "entity": "service"
+    },
     "qualcomm": {
       "id": "qualcomm",
       "display_name": "Qualcomm",
       "provider": "qualcomm",
+      "entity": "service"
+    },
+    "quanmin-k-ge": {
+      "id": "quanmin-k-ge",
+      "display_name": "全民K歌",
+      "provider": "tencent",
       "entity": "service"
     },
     "qunar": {
@@ -1768,6 +1715,12 @@
       "id": "reddit",
       "display_name": "Reddit",
       "provider": "reddit",
+      "entity": "service"
+    },
+    "restricted": {
+      "id": "restricted",
+      "display_name": "Restricted",
+      "provider": "special",
       "entity": "service"
     },
     "riotgames": {
@@ -1794,21 +1747,9 @@
       "provider": "rockstar",
       "entity": "service"
     },
-    "heroku": {
-      "id": "heroku",
-      "display_name": "Heroku",
-      "provider": "salesforce",
-      "entity": "service"
-    },
     "salesforce": {
       "id": "salesforce",
       "display_name": "Salesforce",
-      "provider": "salesforce",
-      "entity": "service"
-    },
-    "slack": {
-      "id": "slack",
-      "display_name": "Slack",
       "provider": "salesforce",
       "entity": "service"
     },
@@ -1836,6 +1777,12 @@
       "provider": "schneider",
       "entity": "service"
     },
+    "scholar": {
+      "id": "scholar",
+      "display_name": "Google Scholar",
+      "provider": "google",
+      "entity": "service"
+    },
     "sensetime": {
       "id": "sensetime",
       "display_name": "商汤科技",
@@ -1852,6 +1799,12 @@
       "id": "sfexpress",
       "display_name": "顺丰",
       "provider": "sfexpress",
+      "entity": "service"
+    },
+    "sharepoint": {
+      "id": "sharepoint",
+      "display_name": "SharePoint",
+      "provider": "microsoft",
       "entity": "service"
     },
     "shiji": {
@@ -1890,10 +1843,22 @@
       "provider": "signal",
       "entity": "service"
     },
+    "siri": {
+      "id": "siri",
+      "display_name": "Siri",
+      "provider": "apple",
+      "entity": "service"
+    },
     "skhynix": {
       "id": "skhynix",
       "display_name": "SK hynix",
       "provider": "skhynix",
+      "entity": "service"
+    },
+    "slack": {
+      "id": "slack",
+      "display_name": "Slack",
+      "provider": "salesforce",
       "entity": "service"
     },
     "snapchat": {
@@ -1932,34 +1897,10 @@
       "provider": "spacex",
       "entity": "service"
     },
-    "ai": {
-      "id": "ai",
-      "display_name": "AI",
-      "provider": "special",
-      "entity": "service"
-    },
-    "aisuite": {
-      "id": "aisuite",
-      "display_name": "AI Suite",
-      "provider": "special",
-      "entity": "service"
-    },
-    "private": {
-      "id": "private",
-      "display_name": "Private",
-      "provider": "special",
-      "entity": "service"
-    },
-    "restricted": {
-      "id": "restricted",
-      "display_name": "Restricted",
-      "provider": "special",
-      "entity": "service"
-    },
-    "stun": {
-      "id": "stun",
-      "display_name": "STUN",
-      "provider": "special",
+    "speedtest": {
+      "id": "speedtest",
+      "display_name": "Speedtest",
+      "provider": "ookla",
       "entity": "service"
     },
     "spotify": {
@@ -1980,16 +1921,22 @@
       "provider": "steam",
       "entity": "service"
     },
+    "stripe": {
+      "id": "stripe",
+      "display_name": "Stripe",
+      "provider": "stripe",
+      "entity": "service"
+    },
     "stripe-dashboard": {
       "id": "stripe-dashboard",
       "display_name": "Stripe Dashboard",
       "provider": "stripe",
       "entity": "service"
     },
-    "stripe": {
-      "id": "stripe",
-      "display_name": "Stripe",
-      "provider": "stripe",
+    "stun": {
+      "id": "stun",
+      "display_name": "STUN",
+      "provider": "special",
       "entity": "service"
     },
     "supermicro": {
@@ -2016,6 +1963,18 @@
       "provider": "take2",
       "entity": "service"
     },
+    "taobao": {
+      "id": "taobao",
+      "display_name": "Taobao",
+      "provider": "alibaba",
+      "entity": "service"
+    },
+    "teams": {
+      "id": "teams",
+      "display_name": "Microsoft Teams",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "telegram": {
       "id": "telegram",
       "display_name": "Telegram",
@@ -2026,54 +1985,6 @@
       "id": "temu",
       "display_name": "Temu",
       "provider": "temu",
-      "entity": "service"
-    },
-    "honorofkings_cn": {
-      "id": "honorofkings_cn",
-      "display_name": "王者荣耀（国服）",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "honorofkings_global": {
-      "id": "honorofkings_global",
-      "display_name": "Honor of Kings Global",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "qq": {
-      "id": "qq",
-      "display_name": "QQ",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "qqbrowser": {
-      "id": "qqbrowser",
-      "display_name": "QQ Browser",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "qqdoc": {
-      "id": "qqdoc",
-      "display_name": "腾讯文档",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "qqmail": {
-      "id": "qqmail",
-      "display_name": "QQ Mail",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "qqmusic": {
-      "id": "qqmusic",
-      "display_name": "QQ Music",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "quanmin-k-ge": {
-      "id": "quanmin-k-ge",
-      "display_name": "全民K歌",
-      "provider": "tencent",
       "entity": "service"
     },
     "tencentcloud": {
@@ -2100,34 +2011,22 @@
       "provider": "tencent",
       "entity": "service"
     },
-    "wechat": {
-      "id": "wechat",
-      "display_name": "WeChat",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "wecom": {
-      "id": "wecom",
-      "display_name": "WeCom",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "wegame": {
-      "id": "wegame",
-      "display_name": "WeGame",
-      "provider": "tencent",
-      "entity": "service"
-    },
-    "wetv": {
-      "id": "wetv",
-      "display_name": "WeTV",
-      "provider": "tencent",
-      "entity": "service"
-    },
     "tesla": {
       "id": "tesla",
       "display_name": "Tesla",
       "provider": "tesla",
+      "entity": "service"
+    },
+    "testflight": {
+      "id": "testflight",
+      "display_name": "TestFlight",
+      "provider": "apple",
+      "entity": "service"
+    },
+    "threads": {
+      "id": "threads",
+      "display_name": "Threads",
+      "provider": "meta",
       "entity": "service"
     },
     "ti": {
@@ -2142,6 +2041,18 @@
       "provider": "tidal",
       "entity": "service"
     },
+    "tiktok": {
+      "id": "tiktok",
+      "display_name": "TikTok",
+      "provider": "bytedance",
+      "entity": "service"
+    },
+    "tmall": {
+      "id": "tmall",
+      "display_name": "Tmall",
+      "provider": "alibaba",
+      "entity": "service"
+    },
     "tongcheng": {
       "id": "tongcheng",
       "display_name": "Tongcheng",
@@ -2154,10 +2065,22 @@
       "provider": "tonghuashun",
       "entity": "service"
     },
+    "toutiao": {
+      "id": "toutiao",
+      "display_name": "Toutiao",
+      "provider": "bytedance",
+      "entity": "service"
+    },
     "transsion": {
       "id": "transsion",
       "display_name": "传音",
       "provider": "transsion",
+      "entity": "service"
+    },
+    "trello": {
+      "id": "trello",
+      "display_name": "Trello",
+      "provider": "atlassian",
       "entity": "service"
     },
     "tsmc": {
@@ -2176,6 +2099,12 @@
       "id": "twilio",
       "display_name": "Twilio",
       "provider": "twilio",
+      "entity": "service"
+    },
+    "twitch": {
+      "id": "twitch",
+      "display_name": "Twitch",
+      "provider": "amazon",
       "entity": "service"
     },
     "twitter": {
@@ -2214,6 +2143,12 @@
       "provider": "unity",
       "entity": "service"
     },
+    "venmo": {
+      "id": "venmo",
+      "display_name": "Venmo",
+      "provider": "paypal",
+      "entity": "service"
+    },
     "vercel": {
       "id": "vercel",
       "display_name": "Vercel",
@@ -2230,6 +2165,12 @@
       "id": "vivo",
       "display_name": "vivo",
       "provider": "vivo",
+      "entity": "service"
+    },
+    "volcengine": {
+      "id": "volcengine",
+      "display_name": "火山引擎",
+      "provider": "bytedance",
       "entity": "service"
     },
     "walmart": {
@@ -2250,10 +2191,40 @@
       "provider": "wanmei",
       "entity": "service"
     },
+    "wechat": {
+      "id": "wechat",
+      "display_name": "WeChat",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "wecom": {
+      "id": "wecom",
+      "display_name": "WeCom",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "wegame": {
+      "id": "wegame",
+      "display_name": "WeGame",
+      "provider": "tencent",
+      "entity": "service"
+    },
     "weibo": {
       "id": "weibo",
       "display_name": "Weibo",
       "provider": "weibo",
+      "entity": "service"
+    },
+    "wetv": {
+      "id": "wetv",
+      "display_name": "WeTV",
+      "provider": "tencent",
+      "entity": "service"
+    },
+    "whatsapp": {
+      "id": "whatsapp",
+      "display_name": "WhatsApp",
+      "provider": "meta",
       "entity": "service"
     },
     "wikipedia": {
@@ -2280,6 +2251,12 @@
       "provider": "woyun",
       "entity": "service"
     },
+    "wps": {
+      "id": "wps",
+      "display_name": "WPS",
+      "provider": "kingsoft",
+      "entity": "service"
+    },
     "wuba": {
       "id": "wuba",
       "display_name": "58同城",
@@ -2292,10 +2269,22 @@
       "provider": "xai",
       "entity": "service"
     },
+    "xbox": {
+      "id": "xbox",
+      "display_name": "Xbox",
+      "provider": "microsoft",
+      "entity": "service"
+    },
     "xgimi": {
       "id": "xgimi",
       "display_name": "极米",
       "provider": "xgimi",
+      "entity": "service"
+    },
+    "xianyu": {
+      "id": "xianyu",
+      "display_name": "Xianyu",
+      "provider": "alibaba",
       "entity": "service"
     },
     "xiaohongshu": {
@@ -2304,22 +2293,10 @@
       "provider": "xiaohongshu",
       "entity": "service"
     },
-    "getapps": {
-      "id": "getapps",
-      "display_name": "GetApps",
-      "provider": "xiaomi",
-      "entity": "service"
-    },
-    "mi-cloud": {
-      "id": "mi-cloud",
-      "display_name": "Mi Cloud",
-      "provider": "xiaomi",
-      "entity": "service"
-    },
-    "mihome": {
-      "id": "mihome",
-      "display_name": "米家",
-      "provider": "xiaomi",
+    "xigua": {
+      "id": "xigua",
+      "display_name": "Xigua Video",
+      "provider": "bytedance",
       "entity": "service"
     },
     "ximalaya": {
@@ -2344,6 +2321,30 @@
       "id": "yonyou",
       "display_name": "用友",
       "provider": "yonyou",
+      "entity": "service"
+    },
+    "youdao": {
+      "id": "youdao",
+      "display_name": "Youdao",
+      "provider": "netease",
+      "entity": "service"
+    },
+    "youku": {
+      "id": "youku",
+      "display_name": "Youku",
+      "provider": "alibaba",
+      "entity": "service"
+    },
+    "youtube": {
+      "id": "youtube",
+      "display_name": "YouTube",
+      "provider": "google",
+      "entity": "service"
+    },
+    "youtubemusic": {
+      "id": "youtubemusic",
+      "display_name": "YouTube Music",
+      "provider": "google",
       "entity": "service"
     },
     "zhaopin": {
@@ -2383,6 +2384,6 @@
       "entity": "service"
     }
   },
-  "generated_at": "2026-10-07T12:22:30Z",
-  "note": "Pinned to exact Collection commit; do not hand-edit service map."
+  "generated_at": "2026-10-08T09:02:08.195919+00:00",
+  "note": "Refreshed 2026-10-08 audit P0-4 identity alignment"
 }
