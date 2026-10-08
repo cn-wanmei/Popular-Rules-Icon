@@ -1,9 +1,8 @@
 name: Full Icon Production Repair
 
 on:
-  push:
-    branches:
-      - repair/full-icons-20261006
+  # One-shot repair only — do not run on main pushes
+  workflow_dispatch:
 
 concurrency:
   group: full-icon-production-repair
