@@ -26,8 +26,6 @@ concurrency:
   group: icon-github-release
   cancel-in-progress: false
 
-permissions:
-  contents: read
 
 jobs:
   package-and-release:
