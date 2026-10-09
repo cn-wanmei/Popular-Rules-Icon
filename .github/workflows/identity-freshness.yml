@@ -59,7 +59,7 @@ jobs:
           raw = Path("/tmp/collection/_index.yaml").read_bytes()
           index = yaml.safe_load(raw.decode("utf-8"))
           live_sha = Path("/tmp/collection/commit.sha").read_text(encoding="utf-8").strip()
-          live_file_sha = hashlib.sha256(raw).hexdigest()
+          live_file_sha256 = hashlib.sha256(raw).hexdigest()
 
           if not isinstance(index, dict) or not isinstance(index.get("entries"), list):
               raise SystemExit("Collection index missing entries[]")
@@ -117,10 +117,12 @@ jobs:
 
           pinned_src = snap.get("source") if isinstance(snap.get("source"), dict) else {}
           pinned_ref = str((pinned_src or {}).get("ref") or "")
-          pinned_file_sha = str((pinned_src or {}).get("file_sha") or "")
+          # Prefer explicit file_sha256; fall back to file_sha (transition alias for SHA-256)
+          pinned_file_sha256 = str((pinned_src or {}).get("file_sha256") or (pinned_src or {}).get("file_sha") or "")
 
           # P1-01: drift is content-based. Collection HEAD moves without _index.yaml
           # change must NOT force refresh (docs/status/backup commits).
+          # Hash comparison uses SHA-256 of content only.
           drift = False
           drift_reasons = []
           if only_live or only_pin:
@@ -129,26 +131,26 @@ jobs:
           if field_mismatches:
               drift = True
               drift_reasons.append("display_name_or_provider")
-          if pinned_file_sha:
-              if pinned_file_sha != live_file_sha:
+          if pinned_file_sha256:
+              if pinned_file_sha256 != live_file_sha256:
                   drift = True
-                  drift_reasons.append("file_sha_mismatch")
+                  drift_reasons.append("file_sha256_mismatch")
           else:
-              # Legacy snapshot without file_sha: require one refresh to pin content
+              # Legacy snapshot without any content hash: require one refresh to pin content
               drift = True
-              drift_reasons.append("file_sha_missing_in_snapshot")
+              drift_reasons.append("file_sha256_missing_in_snapshot")
 
           head_ahead = bool(pinned_ref and pinned_ref not in ("main", live_sha))
           # Informational only when content matches
           content_match = (not only_live and not only_pin and not field_mismatches
-                           and pinned_file_sha and pinned_file_sha == live_file_sha)
+                           and pinned_file_sha256 and pinned_file_sha256 == live_file_sha256)
 
           report = {
-              "schema": "icon_identity_freshness_v3",
+              "schema": "icon_identity_freshness_v4",
               "live_collection_sha": live_sha,
-              "live_file_sha": live_file_sha,
+              "live_file_sha256": live_file_sha256,
               "pinned_ref": pinned_ref,
-              "pinned_file_sha": pinned_file_sha,
+              "pinned_file_sha256": pinned_file_sha256,
               "pinned_generated_at": snap.get("generated_at"),
               "live_service_count": len(live),
               "pinned_service_count": len(pinned),
@@ -159,7 +161,7 @@ jobs:
               "content_match": content_match,
               "drift_reasons": drift_reasons,
               "drift": drift,
-              "note": "Drift uses identity content (ids/fields/file_sha). Collection HEAD alone does not imply drift.",
+              "note": "Drift uses identity content (ids/fields/file_sha256). Collection HEAD alone does not imply drift. file_sha is treated as transition alias for file_sha256.",
           }
           Path("reports").mkdir(parents=True, exist_ok=True)
           Path("reports/identity_freshness.json").write_text(
@@ -225,7 +227,7 @@ jobs:
           git commit -m "chore(icon): refresh collection identity snapshot (freshness drift)"
           git push --set-upstream origin "$BRANCH"
 
-          BODY="Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}). Content pin Collection SHA ${COLLECTION_SHA} (file_sha based)."
+          BODY="Automated Identity Freshness reconcile (run ${GITHUB_RUN_ID}). Content pin Collection SHA ${COLLECTION_SHA} (file_sha256 based)."
           set +e
           PR_OUT=$(gh pr create --base main --head "$BRANCH" \
             --title "chore(icon): refresh collection identity snapshot" \
