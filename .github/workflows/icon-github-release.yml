@@ -3,6 +3,9 @@ name: Icon Style GitHub Release Packages
 # Manual-only packaging of 8 style icon zips + GitHub Release.
 # NEVER triggered by push / V6 Release Writer / schedule.
 # Run from Actions after a successful dist publish when you want user-facing zips.
+#
+# P1-04 (audit 2026-10-09): User release tags are IMMUTABLE.
+# Existing same-tag Release must cause the job to fail; never delete/overwrite.
 
 on:
   workflow_dispatch:
@@ -98,7 +101,7 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Delete previous same-tag release if republishing
+      - name: Fail if same-tag Release already exists (immutable)
         if: ${{ inputs.dry_run != true }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -106,10 +109,14 @@ jobs:
           set -euo pipefail
           RID="${{ inputs.release_id }}"
           if gh release view "$RID" >/dev/null 2>&1; then
-            echo "Existing release $RID found; deleting for republish"
-            gh release delete "$RID" --yes || true
-            git push origin ":refs/tags/$RID" || true
+            echo "::error::Release tag $RID already exists. User releases are immutable (P1-04). Publish a new unique release_id instead of overwriting."
+            exit 1
           fi
+          if git ls-remote --tags origin "refs/tags/$RID" | grep -q "$RID"; then
+            echo "::error::Git tag $RID already exists on origin. User releases are immutable (P1-04)."
+            exit 1
+          fi
+          echo "Tag $RID is free; proceeding to create immutable release."
 
       - name: Create GitHub Release
         if: ${{ inputs.dry_run != true }}
@@ -130,4 +137,4 @@ jobs:
             --title "Icon System V6 — ${RID}" \
             --notes-file release-packages/RELEASE_NOTES.md \
             "${ASSET_ARGS[@]}"
-          echo "Created icon release: $RID"
+          echo "Created immutable icon release: $RID"
