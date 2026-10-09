@@ -2,6 +2,11 @@
 """sync_collection_identity_snapshot.py — Refresh Icon config/collection_identity_snapshot.json
 from Collection rule/_index.yaml at an **exact commit SHA** (not floating main).
 
+Hash contract (P1-01 / audit 2026-10-09):
+  - git_blob_sha1 : Git blob SHA-1 of the exact bytes (40 hex)
+  - file_sha256   : SHA-256 of the exact file content (64 hex)
+  - file_sha      : transition alias → always set to file_sha256 (never git blob)
+
 Usage:
   python scripts/sync_collection_identity_snapshot.py
   python scripts/sync_collection_identity_snapshot.py --index-path /path/to/_index.yaml --commit-sha <sha>
@@ -71,6 +76,13 @@ def parse_entries(text: str) -> dict[str, dict]:
     raise SystemExit("Collection index has no entries[]")
 
 
+def git_blob_sha1(raw: bytes) -> str:
+    h = hashlib.sha1()
+    h.update(f"blob {len(raw)}\0".encode())
+    h.update(raw)
+    return h.hexdigest()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--index-path", type=Path, default=None)
@@ -93,7 +105,8 @@ def main() -> int:
         url = RAW_TMPL.format(ref=commit_sha)
         text, raw = load_index_text(None, url)
 
-    file_sha = hashlib.sha256(raw).hexdigest()
+    file_sha256 = hashlib.sha256(raw).hexdigest()
+    blob_sha1 = git_blob_sha1(raw)
     services = parse_entries(text)
     if not services:
         raise SystemExit("parsed zero services from Collection index")
@@ -107,12 +120,15 @@ def main() -> int:
 
     payload = {
         "schema": prev.get("schema") or "collection_identity_snapshot_v1",
-        "version": int(prev.get("version") or 1) + (0 if prev else 0),
+        "version": int(prev.get("version") or 1) + 1,
         "source": {
             "repository": "cn-wanmei/Popular-Rules-Collection",
             "ref": commit_sha,
             "path": "rule/_index.yaml",
-            "file_sha": file_sha,
+            "git_blob_sha1": blob_sha1,
+            "file_sha256": file_sha256,
+            # Transition alias: always content SHA-256. Never put git blob SHA-1 here.
+            "file_sha": file_sha256,
             "selection": {
                 "include_entity": "service",
                 "exclude_entities": [
@@ -126,11 +142,17 @@ def main() -> int:
         "service_count": len(services),
         "services": services,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "note": "Pinned to exact Collection commit; do not hand-edit service map.",
+        "note": (
+            "Pinned to exact Collection commit. Prefer file_sha256 / git_blob_sha1. "
+            "file_sha is a transition alias for file_sha256. Do not hand-edit service map."
+        ),
     }
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {args.out} services={len(services)} ref={commit_sha} file_sha={file_sha[:12]}…")
+    print(
+        f"wrote {args.out} services={len(services)} ref={commit_sha} "
+        f"file_sha256={file_sha256[:12]}… git_blob_sha1={blob_sha1[:12]}…"
+    )
     return 0
 
 
