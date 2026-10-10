@@ -192,6 +192,7 @@ jobs:
     needs: compare
     if: needs.compare.outputs.drift == 'true'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
       contents: write
       pull-requests: write
