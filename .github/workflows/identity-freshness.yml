@@ -246,14 +246,16 @@ jobs:
               exit "$STATUS"
             fi
           fi
-          # Auto-merge so daily Collection→Publish is not blocked on human review
+          # Never bypass PR CI. This repository does not rely on branch protection
+          # alone, so wait for the PR checks explicitly before merging.
           set +e
-          gh pr merge "$BRANCH" --repo "${{ github.repository }}" --squash --delete-branch 2>&1 || \
-            gh pr merge --repo "${{ github.repository }}" --squash --delete-branch $(gh pr list --repo "${{ github.repository }}" --head "$BRANCH" --json number -q '.[0].number') 2>&1
-          MERGE_STATUS=$?
+          gh pr checks "$BRANCH" --repo "${{ github.repository }}" --watch
+          CHECK_STATUS=$?
           set -e
-          if [ "$MERGE_STATUS" -ne 0 ]; then
-            echo "::warning::PR created but auto-merge failed; merge manually so Publish preflight can pass."
-          else
-            echo "Identity snapshot PR auto-merged."
+          if [ "$CHECK_STATUS" -ne 0 ]; then
+            echo "::error::Identity snapshot checks failed or did not complete. Leaving PR open for diagnosis; refusing unsafe merge."
+            exit 1
           fi
+
+          gh pr merge "$BRANCH" --repo "${{ github.repository }}" --squash --delete-branch
+          echo "Identity snapshot PR merged only after all checks passed."
