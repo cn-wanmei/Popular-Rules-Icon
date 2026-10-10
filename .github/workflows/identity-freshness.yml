@@ -4,6 +4,11 @@ on:
   schedule:
     # Every 4h so post-Collect index drift is reconciled before next Publish
     - cron: "0 */4 * * *"
+  # Smoke-test the reconciliation read path whenever this workflow itself changes.
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/identity-freshness.yml"
   workflow_dispatch:
   repository_dispatch:
     types: [collection-identity-changed]
