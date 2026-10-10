@@ -2,7 +2,8 @@ name: Identity Freshness
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    # Every 4h so post-Collect index drift is reconciled before next Publish
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   repository_dispatch:
     types: [collection-identity-changed]
@@ -238,11 +239,21 @@ jobs:
           if [ "$STATUS" -ne 0 ]; then
             if echo "$PR_OUT" | grep -qiE 'already exists'; then
               echo "PR already exists for branch"
-              exit 0
-            fi
-            if echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
+            elif echo "$PR_OUT" | grep -qiE 'not permitted to create or approve pull requests|createPullRequest'; then
               echo "::error::Branch pushed; PR blocked by policy. Open PR from $BRANCH manually."
               exit 1
+            else
+              exit "$STATUS"
             fi
-            exit "$STATUS"
+          fi
+          # Auto-merge so daily Collection→Publish is not blocked on human review
+          set +e
+          gh pr merge "$BRANCH" --repo "${{ github.repository }}" --squash --delete-branch 2>&1 || \
+            gh pr merge --repo "${{ github.repository }}" --squash --delete-branch $(gh pr list --repo "${{ github.repository }}" --head "$BRANCH" --json number -q '.[0].number') 2>&1
+          MERGE_STATUS=$?
+          set -e
+          if [ "$MERGE_STATUS" -ne 0 ]; then
+            echo "::warning::PR created but auto-merge failed; merge manually so Publish preflight can pass."
+          else
+            echo "Identity snapshot PR auto-merged."
           fi
