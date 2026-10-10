@@ -11,6 +11,12 @@ on:
 env:
   PYTHON_VERSION: "3.12"
 
+# Serialize scheduled and repository-dispatch reconciliation. Otherwise two
+# drift observations can create competing snapshot PRs for the same index.
+concurrency:
+  group: icon-identity-freshness
+  cancel-in-progress: false
+
 jobs:
   compare:
     name: Compare Collection identity vs pinned snapshot
@@ -247,16 +253,48 @@ jobs:
               exit "$STATUS"
             fi
           fi
-          # Never bypass PR CI. This repository does not rely on branch protection
-          # alone, so wait for the PR checks explicitly before merging.
+          # A newly created PR may briefly report "no checks reported" while
+          # GitHub is still creating pull_request check runs. Require both real
+          # gates to appear before watching them; never interpret an empty list as
+          # success and never merge based on only one of the two checks.
+          CHECKS_JSON=""
+          CHECKS_READY=false
+          for attempt in $(seq 1 36); do
+            set +e
+            CHECKS_JSON=$(gh pr checks "$BRANCH" --repo "${{ github.repository }}" --json name,state,link 2>/dev/null)
+            CHECKS_RC=$?
+            set -e
+            if [ "$CHECKS_RC" -eq 0 ] && printf '%s' "$CHECKS_JSON" | python -c '
+          import json, sys
+          try:
+              rows = json.load(sys.stdin)
+              names = {str(row.get("name") or "").strip().lower() for row in rows}
+              ok = {"l0-l1", "verify"}.issubset(names)
+          except Exception:
+              ok = False
+          sys.exit(0 if ok else 1)
+          '; then
+              CHECKS_READY=true
+              echo "Both PR CI (l0-l1) and V6 Manifest Verification (verify) are registered."
+              break
+            fi
+            echo "Waiting for both required check runs to register (attempt ${attempt}/36)..."
+            sleep 5
+          done
+          if [ "$CHECKS_READY" != "true" ]; then
+            echo "::error::Both required checks did not register within 180 seconds. Leaving PR open; refusing unsafe merge."
+            printf '%s\n' "$CHECKS_JSON"
+            exit 1
+          fi
+
           set +e
           gh pr checks "$BRANCH" --repo "${{ github.repository }}" --watch
           CHECK_STATUS=$?
           set -e
           if [ "$CHECK_STATUS" -ne 0 ]; then
-            echo "::error::Identity snapshot checks failed or did not complete. Leaving PR open for diagnosis; refusing unsafe merge."
+            echo "::error::One or more PR checks failed. Leaving PR open for diagnosis; refusing unsafe merge."
             exit 1
           fi
 
           gh pr merge "$BRANCH" --repo "${{ github.repository }}" --squash --delete-branch
-          echo "Identity snapshot PR merged only after all checks passed."
+          echo "Identity snapshot PR merged only after both required checks passed."
