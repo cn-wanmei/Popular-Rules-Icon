@@ -5,6 +5,9 @@ on:
     # Every 4h so post-Collect index drift is reconciled before next Publish
     - cron: "0 */4 * * *"
   # Smoke-test the reconciliation read path whenever this workflow itself changes.
+  # Also serves as an operator-controlled recovery trigger if Collection's
+  # cross-repository dispatch token is unavailable: a harmless workflow-file
+  # commit re-runs compare and the workflow opens/merges a normal CI-verified pin PR.
   push:
     branches: [main]
     paths:
