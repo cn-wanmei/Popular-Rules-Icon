@@ -227,10 +227,17 @@ jobs:
 
       - name: Create branch and PR (fail if cannot remediate)
         env:
-          GH_TOKEN: ${{ github.token }}
+          # Use a trusted repository-scoped token for bot-created PRs. GitHub
+          # now holds pull_request workflows created/updated with GITHUB_TOKEN
+          # for explicit human approval, which deadlocks this self-remediation.
+          GH_TOKEN: ${{ secrets.ICON_DISPATCH_TOKEN }}
           COLLECTION_SHA: ${{ needs.compare.outputs.collection_sha }}
         run: |
           set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error::Missing ICON_DISPATCH_TOKEN in Popular-Rules-Icon repository secrets. Configure a fine-grained token with Contents: write and Pull requests: write."
+            exit 1
+          fi
           BRANCH="automation/identity-snapshot-${GITHUB_RUN_ID}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
