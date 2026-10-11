@@ -41,11 +41,30 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p /tmp/collection
-          SHA=$(curl -fsSL -H "Accept: application/vnd.github+json" -H "User-Agent: icon-freshness" \
-            "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/commits/main" \
-            | python -c "import sys,json; print(json.load(sys.stdin)['sha'])")
+          # Resolve public Collection HEAD through Git transport instead of the
+          # unauthenticated REST API (60 requests/hour per egress IP). The
+          # previous REST lookup returned HTTP 403 before identity comparison,
+          # causing both scheduled and repository_dispatch runs to fail.
+          SHA=""
+          for attempt in 1 2 3; do
+            CANDIDATE=""
+            if CANDIDATE="$(git ls-remote --exit-code \
+              https://github.com/cn-wanmei/Popular-Rules-Collection.git refs/heads/main \
+              | awk 'NR == 1 {print $1}')"; then
+              if [[ "$CANDIDATE" =~ ^[0-9a-f]{40}$ ]]; then
+                SHA="$CANDIDATE"
+                break
+              fi
+            fi
+            echo "Could not resolve Collection main via git ls-remote (attempt ${attempt}/3)." >&2
+            sleep "$attempt"
+          done
+          if [ -z "$SHA" ]; then
+            echo "::error::Unable to resolve Collection main after three Git transport attempts."
+            exit 1
+          fi
           echo "$SHA" > /tmp/collection/commit.sha
-          curl -fsSL \
+          curl -fsSL --retry 3 --retry-all-errors --connect-timeout 10 --max-time 120 \
             "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/${SHA}/rule/_index.yaml" \
             -o /tmp/collection/_index.yaml
           wc -c /tmp/collection/_index.yaml
