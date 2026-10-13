@@ -1,13 +1,13 @@
 {
   "schema": "collection_icon_identity_snapshot_v1",
-  "version": 9,
+  "version": 10,
   "source": {
     "repository": "cn-wanmei/Popular-Rules-Collection",
-    "ref": "00f93c6097e2b307610ce6869419a93a7ccea1d0",
+    "ref": "1d3065be7c6a26ac1ea1dfcb1e640513766ab9b2",
     "path": "rule/_index.yaml",
-    "git_blob_sha1": "394d523971fb3b9232565b9057e6aab459629ac8",
-    "file_sha256": "2dda0528ca009b727b4f63a2caa53a4665bd0bf3ee08597145268ff563d6dc7d",
-    "file_sha": "2dda0528ca009b727b4f63a2caa53a4665bd0bf3ee08597145268ff563d6dc7d",
+    "git_blob_sha1": "9df31bf1ca40e213a3ee8e65c67ea5c4c242b171",
+    "file_sha256": "f0648b29fb0cab7eafe83868e65a02aeff5cccd9bbfb0405c11c05db3cb5dcc2",
+    "file_sha": "f0648b29fb0cab7eafe83868e65a02aeff5cccd9bbfb0405c11c05db3cb5dcc2",
     "selection": {
       "include_entity": "service",
       "exclude_entities": [
@@ -2385,6 +2385,6 @@
       "entity": "service"
     }
   },
-  "generated_at": "2026-10-12T01:33:30Z",
+  "generated_at": "2026-10-13T03:25:50Z",
   "note": "Pinned to exact Collection commit. Prefer file_sha256 / git_blob_sha1. file_sha is a transition alias for file_sha256. Do not hand-edit service map."
 }
