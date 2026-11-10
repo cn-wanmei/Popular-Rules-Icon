@@ -43,6 +43,21 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Icon/dist/manifests/$RELEASE.json" -o "build/$RELEASE.json"
           python scripts/v6_manifest_gate.py             --manifest "build/$RELEASE.json"             --snapshot config/collection_identity_snapshot.json             --release-id "$RELEASE"             --strict | tee build/v6-manifest-report.json
 
+      - name: Fetch immutable dist branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: dist
+          path: build/dist
+          fetch-depth: 1
+
+      - name: Production and rollback pointer closure gate
+        run: |
+          python scripts/release_pointer_closure_gate.py \
+            --pointers config/release-pointers.yaml \
+            --snapshot config/collection_identity_snapshot.json \
+            --dist-root build/dist \
+            --report build/release-pointer-closure.json
+
       - name: Production icon visual identity audit
         run: |
           set -euo pipefail
@@ -76,6 +91,7 @@ jobs:
             build/identity-boundary-report.json
             build/v6-manifest-report.json
             build/icon-visual-identity-report.json
+            build/release-pointer-closure.json
           if-no-files-found: warn
           retention-days: 30
 
