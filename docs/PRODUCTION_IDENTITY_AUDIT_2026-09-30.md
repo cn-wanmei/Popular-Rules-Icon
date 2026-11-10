@@ -34,6 +34,18 @@ Read-only verification against the immutable `dist` tree:
 The rollback release is independent of Collection V5 assets. No production or
 rollback pointer was changed during this audit.
 
+## Freeze policy and expiry controls — 2026-11-10
+Current freeze remains active through `2026-11-20T19:21:00+08:00`.
+The production pointer is not changed by this audit.
+
+- PR CI blocks production pointer changes while `frozen: true`.
+- Unfreeze requires an explicit decision record with reason, approver, timestamp,
+  and verified rollback.
+- Extending an active freeze requires a separate decision record and a window
+  no longer than `max_freeze_days`.
+- A scheduled monitor comments on Issue #43 at 7 days, 3 days, 24 hours and expiry.
+- No automatic unfreeze or pointer promotion is performed.
+
 ## Automated pointer and closure gate
 `scripts/release_pointer_closure_gate.py` validates both configured pointers
 against the immutable `dist` branch, checks all canonical identities, the full
