@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "config/release-pointers.yaml"
+      - "scripts/freeze_expiry_monitor.py"
+      - ".github/workflows/freeze-expiry-monitor.yml"
 
 permissions:
   contents: read
