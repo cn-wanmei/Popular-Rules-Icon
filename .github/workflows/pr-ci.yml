@@ -58,6 +58,15 @@ jobs:
             --dist-root build/dist \
             --report build/release-pointer-closure.json
 
+      - name: Freeze policy gate (production pointer changes)
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set -euo pipefail
+          git fetch --no-tags origin "refs/heads/$BASE_REF:refs/remotes/origin/$BASE_REF"
+          python scripts/freeze_policy_gate.py --base-ref "origin/$BASE_REF"
+
       - name: Production icon visual identity audit
         run: |
           set -euo pipefail
