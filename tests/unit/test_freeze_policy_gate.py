@@ -81,3 +81,18 @@ def test_expiry_monitor_emits_7d_3d_24h_and_expired_alerts() -> None:
 def test_expiry_monitor_skips_when_unfrozen() -> None:
     report = freeze_alert({**BASE, "frozen": False}, NOW)
     assert report["alert"] == "none"
+
+
+def test_publish_gate_blocks_when_freeze_is_active() -> None:
+    from scripts.freeze_policy_gate import evaluate_publish_policy
+
+    report = evaluate_publish_policy(BASE, NOW)
+    assert report["status"] == "fail"
+    assert any("still active" in item for item in report["errors"])
+
+
+def test_publish_gate_allows_after_explicit_unfreeze() -> None:
+    from scripts.freeze_policy_gate import evaluate_publish_policy
+
+    report = evaluate_publish_policy({**BASE, "frozen": False}, NOW)
+    assert report["status"] == "pass"
