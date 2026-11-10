@@ -103,6 +103,33 @@ def evaluate_freeze_policy(
     }
 
 
+def evaluate_publish_policy(candidate: dict[str, Any], now: datetime | None = None) -> dict[str, Any]:
+    now = now or datetime.now().astimezone()
+    frozen = candidate.get("frozen") is True
+    errors = []
+    if frozen:
+        raw_expiry = candidate.get("freeze_expires_at")
+        if raw_expiry:
+            try:
+                expires = _dt(raw_expiry, "freeze_expires_at")
+                if expires <= now:
+                    errors.append("publish blocked: freeze has expired without an explicit decision")
+                else:
+                    errors.append("publish blocked: V6 production freeze is still active")
+            except ValueError as exc:
+                errors.append(str(exc))
+        else:
+            errors.append("publish blocked: frozen=true without freeze_expires_at")
+    return {
+        "schema": "icon_freeze_publish_gate_v1",
+        "status": "fail" if errors else "pass",
+        "frozen": frozen,
+        "freeze_id": candidate.get("freeze_id"),
+        "freeze_expires_at": candidate.get("freeze_expires_at"),
+        "errors": errors,
+    }
+
+
 def _read_base(ref: str, path: str) -> dict[str, Any]:
     raw = subprocess.check_output(["git", "show", f"{ref}:{path}"], text=True)
     return yaml.safe_load(raw) or {}
@@ -110,13 +137,19 @@ def _read_base(ref: str, path: str) -> dict[str, Any]:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base-ref", required=True)
+    parser.add_argument("--base-ref")
     parser.add_argument("--candidate", type=Path, default=Path("config/release-pointers.yaml"))
     parser.add_argument("--base-path", default="config/release-pointers.yaml")
+    parser.add_argument("--require-unfrozen", action="store_true")
     args = parser.parse_args()
-    base = _read_base(args.base_ref, args.base_path)
     candidate = yaml.safe_load(args.candidate.read_text(encoding="utf-8")) or {}
-    report = evaluate_freeze_policy(base, candidate)
+    if args.require_unfrozen:
+        report = evaluate_publish_policy(candidate)
+    else:
+        if not args.base_ref:
+            parser.error("--base-ref is required unless --require-unfrozen is set")
+        base = _read_base(args.base_ref, args.base_path)
+        report = evaluate_freeze_policy(base, candidate)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0 if report["status"] == "pass" else 1
 
